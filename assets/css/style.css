@@ -497,3 +497,8 @@ img.img-missing { display: none; }
   .where { grid-template-columns: 1fr; }
   .where-card { flex-direction: row; align-items: center; }
 }
+
+/* 중앙 기지 배치도 (SVG 도면) */
+.bp-wrap { overflow-x: auto; margin: 14px 0 6px; border: 3px solid #5a4a3a; border-radius: 12px; background: #11131f; }
+.bp-wrap svg { display: block; min-width: 720px; width: 100%; height: auto; }
+.bp-legend { font-size: .8rem; color: var(--ink-dim); margin: 0 0 20px; }
