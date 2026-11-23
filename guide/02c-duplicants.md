@@ -316,6 +316,34 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 > **추천: 첫 3명은 모두 일반 복제체.** 바이오닉은 전력·윤활유·마이크로칩 공급이 갖춰져야 제대로 굴러가서 시작 단계엔 손이 많이 갑니다. 전력이 안정된 뒤 프린팅 포드에서 받으세요.
 {: .tip}
 
+### 바이오닉 복제체는 언제 받나
+
+**핵심은 전력 뱅크입니다.** 바이오닉은 하루에 전력 뱅크 1개(120 kJ)를 먹는데, 초반에 만들 수 있는 **금속 전력 뱅크(Metal Power Bank)는 일회용**이에요. 하나에 **금속 광석 200kg**이 들어서, 바이오닉 1명이 매일 금속 광석 200kg을 먹는 셈입니다. 충전해서 다시 쓰는 **에코 전력 뱅크(Eco Power Bank)**를 돌릴 수 있게 되면 그때부터 부담이 확 줄어요.
+
+| 필요한 것 | 무엇으로 | 연구 / 조건 |
+|---|---|---|
+| **전력 (초반)** | 금속 전력 뱅크: 금속 광석 200kg, 일회용 | 제작대(Crafting Station), **Employment** (1단계 연구) |
+| **전력 (정착)** | 에코 전력 뱅크: 어비살라이트 200kg, **충전해서 재사용** | 납땜 작업대(Soldering Station): **Advanced Research** (2단계 연구) + **Electrical Engineering** 스킬 가진 복제체 |
+| 전력 뱅크 충전 | 전력 뱅크 충전기(Power Bank Charger): 480 W, 반 사이클에 1개 충전. **1대로 바이오닉 2명분** | **Sound Amplifiers** (3단계 연구) |
+| **윤활유** (200kg, 하루 20kg 소모) | 기어 밤(Gear Balm, 80kg분): 아포테케리(Apothecary)에서 물 200kg + 거크 80kg | **Pharmacology** + Medicine Compounding 스킬 |
+| 윤활유 (정착) | 윤활 스테이션(Lubrication Station): 원유나 식물성 기름으로 한 번에 가득 + 사기 버프 | **Filtration** |
+| **거크(Gunk) 빼기** (하루 25%씩 참) | 거크 추출기(Gunk Extractor). 없으면 일반 화장실을 쓰는데 **화장실이 막힘** | **Sanitation** |
+| **산소** (몸속 탱크 240kg, 4사이클분) | 주변 공기를 한꺼번에 빨아들임. 방 하나의 산소를 비울 수도 있어서 가스 통(Canister Filler)이 편함 | Canister Filler: **Portable Gases** |
+
+뽑힐 때 **전력 뱅크 4개(장착) + 금속 전력 뱅크 5개 + 기어 밤 1개**가 같이 나옵니다. 그래서 받자마자 **약 9사이클은 그냥** 버팁니다. 그 뒤로는 위 표의 공급이 있어야 해요.
+
+| 시점 | 판단 |
+|---|---|
+| **사이클 1~10** | **거절.** 산소·식량·화장실 세팅이 먼저. 금속 광석 하루 200kg은 초반 건설과 겹쳐요. |
+| **금속 광석이 넉넉하고 부스터가 좋으면** | 받아도 됨. 첫 9사이클은 공짜고, 그 뒤엔 제작대에서 금속 전력 뱅크를 하루 1개씩 만들면 됩니다. 음식이 안 들어서 식량 부담은 오히려 줄어요. |
+| **추천 시점** | **Electrical Engineering 복제체 + 납땜 작업대 + Sound Amplifiers(전력 뱅크 충전기)** 가 갖춰진 뒤. 이때부터 에코 전력 뱅크를 충전해 돌려서 금속을 안 먹습니다. 보통 **전력이 안정된 중반 초입(사이클 30~50 전후)** 이에요. |
+
+> **스크린샷 3명이라면:** Marie가 Operating 관심으로 **Electrical Engineering을 사기 1에** 배울 수 있어서, Marie가 이 스킬을 찍고 Sound Amplifiers 연구가 끝나면 바이오닉을 받기 좋은 시점입니다. 바이오닉이 잘 때(조각 모음) 마이크로칩을 공짜로 만들어 주는데, 이걸로 바이오닉 부스터를 만들 수 있어요.
+{: .tip}
+
+> **바이오닉 주의점:** 물에 젖으면 스트레스 +200%/사이클(일반 복제체의 10배), 전력 뱅크는 물에 닿으면 터집니다. 음식 사기를 못 받아서 장식·오락 건물로 사기를 채워야 해요. 조각 모음할 때 빛을 내서 **일반 복제체와 같은 침실에 두면 잠을 깨웁니다.**
+{: .warn}
+
 ## 추천 시작 3인 조합
 
 | 자리 | 관심 | 있으면 좋은 특성 | 리롤할 특성 |
@@ -363,4 +391,5 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 - [Skills – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Skills) (스킬 단계, 관심 할인, 선행 스킬)
 - [Morale – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Morale) (사기 출처, 기쁨 반응), [Stress – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Stress) (스트레스 반응)
 - [Food Quality – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Food_Quality), [Atmo Suit – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Atmo_Suit), [Bionic Duplicant – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Bionic_Duplicant)
+- [Power Bank Charger](https://oxygennotincluded.wiki.gg/wiki/Power_Bank_Charger), [Metal Power Bank](https://oxygennotincluded.wiki.gg/wiki/Metal_Power_Bank), [Eco Power Bank](https://oxygennotincluded.wiki.gg/wiki/Eco_Power_Bank), [Soldering Station](https://oxygennotincluded.wiki.gg/wiki/Soldering_Station), [Gear Balm](https://oxygennotincluded.wiki.gg/wiki/Gear_Balm) (바이오닉 공급 수치)
 - 직접 찍은 시작 화면과 능력치 툴팁 스크린샷
