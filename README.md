@@ -2,16 +2,12 @@
 
 산소미포함(Oxygen Not Included) 개인 가이드 사이트입니다. 내 플레이 참고용이자 지인 공유용.
 
-배포 주소: https://zagamer95.github.io/oni/ (GitHub Pages를 켠 뒤)
+배포 주소: https://wonbo.site/oni/
 
-## 배포 켜기 (한 번만)
+## 배포
 
-1. GitHub 레포 → **Settings → Pages**
-2. **Build and deployment → Source: Deploy from a branch**
-3. **Branch: `main` / `/ (root)`** → Save
-4. 1~2분 뒤 위 주소에서 확인
-
-빌드 도구를 따로 설치할 필요 없습니다. GitHub Pages 기본 Jekyll이 마크다운을 페이지로 만들어 줍니다.
+`main`에 머지(푸시)하면 `.github/workflows/pages.yml`이 Jekyll로 빌드해서 GitHub Pages에 올립니다.
+레포 Settings → Pages → Source는 **GitHub Actions**로 두면 됩니다. 진행 상황은 Actions 탭에서 볼 수 있어요.
 
 ## 구조
 
