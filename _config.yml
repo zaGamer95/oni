@@ -1,0 +1,28 @@
+# 산소미포함(Oxygen Not Included) 개인 가이드 사이트
+# GitHub Pages 기본 Jekyll로 빌드됩니다. (Settings → Pages → Deploy from a branch → main / root)
+title: "산소미포함 생존 노트"
+description: "산소미포함(Oxygen Not Included) 초반 가이드 — 지형별 시작, 건설 순서, 바이옴 확장, 건축 규격, 장기 평형"
+lang: ko
+baseurl: "/oni"
+url: "https://zagamer95.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 2..3
+
+# 사이트에 노출하지 않을 폴더/파일
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - _sources
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
