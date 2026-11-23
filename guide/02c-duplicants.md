@@ -383,6 +383,68 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 > **결론:** 역할이 딱 나뉘어 있고 작업 불가 특성도 없어서 **그대로 시작해도 좋은 조합**입니다. 세 명 다 나쁜 특성이 "사실상 좋은 특성"이라 손해가 없어요. 위험 요소는 Devon의 Binge Eater 하나뿐이니 **식당·침실을 일찍** 짓고 Devon의 사기를 넉넉히 유지하세요.
 {: .tip}
 
+## 요리사는 어떻게 뽑나
+
+**결론: 요리는 하루에 길어야 2~3분짜리 일이라, Cooking 하나에 몰빵한 전문가보다 Cooking + 다른 관심 1개(또는 2개)가 낫습니다.**
+
+### 요리사가 실제로 하는 일의 양
+
+Cuisine은 1점당 **요리 속도 +5%** 입니다 (전기 그릴·가스 레인지·미생물 분쇄기·달걀 깨는 기계 모두). 전기 그릴과 가스 레인지는 한 번 요리에 **기본 50초**가 걸려요. **복제체 8명**(하루 8,000 kcal)을 먹이려면 하루에 이만큼 요리합니다.
+
+| 메뉴 (1번에 kcal) | 하루 횟수 | Cuisine 0 | **Cuisine 7** | **Cuisine 11** | Cuisine 31 |
+|---|---|---|---|---|---|
+| 바비큐 Barbeque (4,000) | 2번 | 100초 | 74초 | 65초 | 39초 |
+| 구운 버섯 Fried Mushroom (2,800) | 약 3번 | 143초 | 106초 | 92초 | 56초 |
+| 그리슬 베리 Gristle Berry (2,000) | 4번 | 200초 | 148초 | 129초 | 78초 |
+| 서리 빵 Frost Bun (1,200) | 약 7번 | 333초 | 247초 | 215초 | 131초 |
+
+- 한 사이클은 600초입니다. 요리는 **하루의 1/6~1/2** 정도이고, 나머지 시간엔 요리사도 다른 일을 해요.
+- **Cuisine 7(관심 2개짜리 +3 + 스킬 +4) vs 11(관심 1개짜리 +7 + 스킬 +4)의 차이는 하루 10~30초**입니다. 가스 레인지처럼 두 번 굽는 요리라도 1분 안쪽이에요.
+- 능력치는 요리할수록 **둘 다 최대 +20까지** 자라서, 나중엔 차이가 더 줄어듭니다 (Cuisine 27 vs 31이면 하루 몇 초).
+- 그래서 **Cuisine을 몇 점 더 받는 것보다, 나머지 시간에 할 일의 실력과 스킬을 받는 게** 이득입니다.
+
+### 요리 스킬과 사기
+
+| 스킬 | 단계 | 열리는 것 | 사기 (Cooking 관심 있을 때) |
+|---|---|---|---|
+| **Grilling** | 1 | 전기 그릴 사용, Cuisine +2 | 1 → **0** |
+| **Enhanced Seasoning** (Grilling II) | 2 | **가스 레인지**, 향신료 분쇄기 (DLC: 훈연기, 튀김기, 초밥 바), Cuisine +2 | 2 → **1** |
+| **Fine Dining** | 3 | Cuisine +2 | 3 → 2 |
+
+Cooking 관심이 있으면 **그릴과 가스 레인지까지 사기 1**로 열립니다. 요리사가 꼭 필요한 건 Grilling까지라서, 관심 없는 복제체도 사기 1이면 그릴을 쓸 수 있어요. Fine Dining은 Cuisine +2뿐이라 급하지 않습니다.
+
+### 두 번째 관심은 무엇으로
+
+요리사는 **기지 안쪽 작업대 근처**에서 일하니까, 같은 동선의 일이 좋습니다.
+
+| 조합 | 장점 | 추천 |
+|---|---|---|
+| **Cooking + Decorating** | 요리 없는 시간에 그림·조각. 장식도가 올라 **모든 복제체의 사기**가 오름. 미술 스킬 1단계 공짜 | ✅✅ |
+| **Cooking + Farming** | 수확 → 요리가 한 사람 동선. 농부가 바쁠 때 보조 | ✅ 농부가 1명뿐이면 |
+| **Cooking + Ranching** | 달걀·고기 → 오믈렛·바비큐. 목장과 주방을 같이 맡음 | ✅ 목장 담당이 없으면 |
+| **Cooking + Operating** | 정제기·튠업을 겸함 | ✅ 기계 담당이 없으면 |
+| **Cooking + Doctoring** | 아플 때만 바쁨. 둘 다 짬나는 일 | ➖ |
+| Cooking 하나만 | Cuisine +7 | ➖ 하루 몇십 초 빨라질 뿐 |
+
+> **특성 팁:** Cooking 관심이 있는 복제체에게는 Gourmet이 붙지 않습니다. 요리사에게 좋은 특성은 Cuisine과 상관없는 **Twinkletoes**(재료·완성품 오가는 시간 단축) 같은 것들이에요. 두 번째 관심이 미술이 아니라면 **Uncultured / Unpracticed Artist**(사기 ↑)도 좋습니다. **Gastrophobia**(요리 불가)만 피하면 돼요.
+{: .tip}
+
+### W님 콜로니(8명) 기준 추천
+
+지금 5명이 **연구 / 굴착 / 농사(+연구·기계) / 건설·목축 / 운반·특수복**을 맡고 있으니, 기계(Marie)와 목축은 이미 있습니다. 요리사는 **Cooking + Decorating**이 가장 빈 곳을 채워요.
+
+| 항목 | 추천 |
+|---|---|
+| 관심 | **Cooking + Decorating** (Cuisine +3, Creativity +3) |
+| 스킬 순서 | Grilling (0) → Art Fundamentals (0) → Enhanced Seasoning (1) → 미술 2단계 (1) |
+| 사기 요구치 | 4개 다 찍어도 **2** |
+| 우선순위 | 요리 최우선, 미술 그다음 |
+| 있으면 좋은 특성 | Twinkletoes, Buff, Diver's Lungs |
+| 피할 특성 | Gastrophobia (요리 불가), Uncultured (미술 불가), Unpracticed Artist (Creativity −3) |
+
+> 나머지 두 자리는 **Operating 또는 Tidying(배관) 전문가 1명**과, 바이오닉을 받을 생각이면 그 자리로 남겨 두세요. 굴착·건설은 이미 두 명이 맡고 있어서 더 겹치지 않는 게 좋습니다.
+{: .tip}
+
 다음 단계: [첫 5사이클 체크리스트]({{ '/guide/first-cycles/' | relative_url }})
 
 ## 출처
@@ -392,4 +454,5 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 - [Morale – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Morale) (사기 출처, 기쁨 반응), [Stress – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Stress) (스트레스 반응)
 - [Food Quality – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Food_Quality), [Atmo Suit – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Atmo_Suit), [Bionic Duplicant – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Bionic_Duplicant)
 - [Power Bank Charger](https://oxygennotincluded.wiki.gg/wiki/Power_Bank_Charger), [Metal Power Bank](https://oxygennotincluded.wiki.gg/wiki/Metal_Power_Bank), [Eco Power Bank](https://oxygennotincluded.wiki.gg/wiki/Eco_Power_Bank), [Soldering Station](https://oxygennotincluded.wiki.gg/wiki/Soldering_Station), [Gear Balm](https://oxygennotincluded.wiki.gg/wiki/Gear_Balm) (바이오닉 공급 수치)
+- [Electric Grill](https://oxygennotincluded.wiki.gg/wiki/Electric_Grill), [Gas Range](https://oxygennotincluded.wiki.gg/wiki/Gas_Range), [Cuisine](https://oxygennotincluded.wiki.gg/wiki/Cuisine) (요리 시간, 레시피 kcal)
 - 직접 찍은 시작 화면과 능력치 툴팁 스크린샷
