@@ -38,7 +38,7 @@ document.querySelectorAll('.prose table').forEach(function (t) {
     bristleKcal: 1600 / 6,   // 털열매 꽃: 6사이클마다 1600kcal
     bristleWater: 20,        // kg/사이클
     cookBonusBristle: 2000 / 1600, // 구운 털열매(Gristle Berry)
-    toiletGainWater: 6.7,    // kg/듀플/사이클 (수세식 화장실 순증 오염수)
+    toiletGainWater: 6.7,    // kg/복제체/사이클 (수세식 화장실 순증 오염수)
   };
 
   var $ = function (id) { return document.getElementById(id); };
