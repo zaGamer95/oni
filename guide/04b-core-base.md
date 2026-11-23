@@ -36,6 +36,7 @@ description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로
   <li><a href="{{ '/guide/core-base/blocks/' | relative_url }}"><b>9-4 농장·목장·산업 블록</b><span>격벽 안/밖에 둘 작물과 동물, 온실 규격, 목장 크기, 산업 블록.</span></a></li>
   <li><a href="{{ '/guide/core-base/early/' | relative_url }}"><b>9-5 초반 배치·철거·확장</b><span>사이클 1~20 임시 배치, 초반 시설을 언제 뜯고 그 자리를 어떻게 쓰는지, 뜯지 않고 늘리는 규칙.</span></a></li>
   <li><a href="{{ '/guide/core-base/shifts/' | relative_url }}"><b>9-6 교대 일정 (휴식 시간 분리)</b><span>4교대로 휴식·취침 시간을 나눠 화장실·식탁·통로 혼잡을 줄이는 법과 시설 개수 기준.</span></a></li>
+  <li><a href="{{ '/guide/core-base/power/' | relative_url }}"><b>9-7 초기 발전소 설계와 관리</b><span>석탄 발전기·배터리 배치, 와이어 등급과 회로, 스마트 배터리 자동화, 주둥가리 석탄, 업그레이드 순서.</span></a></li>
 </ul>
 
 ## 후반 완성 배치도
