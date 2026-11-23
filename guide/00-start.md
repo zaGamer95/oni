@@ -148,7 +148,8 @@ description: 새 게임을 만들 때 고르는 순서 그대로. 모르겠으�
     </ul>
     <p class="wz-note" id="wz-note"></p>
     <div class="wz-next">
-      <a class="btn primary" href="{{ '/guide/first-cycles/' | relative_url }}">다음: 복제체 고르고 첫 5사이클 →</a>
+      <a class="btn primary" href="{{ '/guide/duplicants/' | relative_url }}">다음: 복제체 3명 고르기 →</a>
+      <a class="btn ghost" href="{{ '/guide/first-cycles/' | relative_url }}">첫 5사이클 체크리스트</a>
       <a class="btn ghost" href="{{ '/guide/asteroids/' | relative_url }}">행성별 첫 행동 보기</a>
       <a class="btn ghost" href="{{ '/guide/traits/' | relative_url }}">시드 리롤 기준 (트레잇) 보기</a>
     </div>
