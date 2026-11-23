@@ -18,7 +18,7 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 
 | 항목 | 추천 | 이유 |
 |---|---|---|
-| 방 내부 높이 | **4칸** | 고급 숙소(Luxury Barracks)·개인 침실은 천장 4칸 이상이 조건. 대부분 건물이 3칸 이하라 여유 있음 |
+| 방 내부 높이 | **4칸** | 호화 막사(Luxury Barracks)·개인 침실은 천장 4칸 이상이 조건. 대부분 건물이 3칸 이하라 여유 있음 |
 | 층 간격 | 5칸 (내부 4 + 바닥 1) | 위 규격에 맞춰 반복 |
 | 방 하나 너비 | 12~16칸 | 4×16 = 64칸 → 대부분 방의 최대 크기와 딱 맞음 |
 | 중앙 통로 | 사다리 + 소방봉 나란히 | 올라갈 땐 사다리, 내려갈 땐 소방봉(Fire Pole)이 훨씬 빠름 |
@@ -27,7 +27,7 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 <div class="base-diagram" role="img" aria-label="기지 층 배치 예시: 위에서부터 침실·연구, 식당·농장, 화장실·보관함, 발전 구역, 맨 아래 CO2 구덩이. 가운데에 사다리와 소방봉 통로.">
   <div class="floor"><div class="room">침실 <small>내부 4칸</small></div><div class="shaft"><i>H</i><i>F</i></div><div class="room">연구 · 작업장</div></div>
   <div class="floor"><div class="room">식당 · 주방</div><div class="shaft"><i>H</i><i>F</i></div><div class="room food">농장</div></div>
-  <div class="floor"><div class="room water">화장실 · 세면대</div><div class="shaft"><i>H</i><i>F</i></div><div class="room">보관함</div></div>
+  <div class="floor"><div class="room water">화장실 · 세면기</div><div class="shaft"><i>H</i><i>F</i></div><div class="room">보관함</div></div>
   <div class="floor"><div class="room hot wide">발전기 · 전기분해기 <small>뜨거움, 단열 타일로 감싸기</small></div></div>
   <div class="floor"><div class="room co2 wide">CO₂ 구덩이 <small>무거운 이산화탄소가 모이는 곳</small></div></div>
   <div class="legend">H = 사다리 (Ladder) · F = 소방봉 (Fire Pole)</div>
@@ -52,19 +52,19 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 
 | 방 | 크기 | 필요한 것 | 효과 |
 |---|---|---|---|
-| 간이 화장실 (Latrine) | 12~64 | 간이 화장실 + 세면대 | 사기 +1 |
-| 화장실 (Washroom) | 12~64 | 수세식 화장실 + 물이 연결된 세면대(Sink), 간이 화장실 없음 | 사기 +2 |
-| 숙소 (Barracks) | 12~64 | 침대 1개 이상 | 사기 +1 |
-| 고급 숙소 (Luxury Barracks) | 12~64 | 편한 침대(Comfy Bed), 간이 침대 없음, 장식품 1개, **천장 4칸** | 사기 +2 |
+| 변소 (Latrine) | 12~64 | 간이 화장실 + 세면기 | 사기 +1 |
+| 세척실 (Washroom) | 12~64 | 수세식 화장실 + 물이 연결된 싱크대(Sink), 간이 화장실 없음 | 사기 +2 |
+| 막사 (Barracks) | 12~64 | 침대 1개 이상 | 사기 +1 |
+| 호화 막사 (Luxury Barracks) | 12~64 | 편한 침대(Comfy Bed), 간이 침대 없음, 장식품 1개, **천장 4칸** | 사기 +2 |
 | 개인 침실 (Private Bedroom) | 24~64 | 편한 침대 정확히 1개, 장식품 2개, 천장 4칸, 뒷벽 | 사기 +3 |
 | 식당 (Mess Hall) | 12~64 | 식탁 | 사기 +3 |
-| 대연회장 (Great Hall) | 32~120 | 식탁 + 장식(20 이상) + 오락 건물 | 사기 +4 |
+| 큰 회관 (Great Hall) | 32~120 | 식탁 + 장식(20 이상) + 오락 건물 | 사기 +4 |
 | 주방 (Kitchen) | 12~96 | 향신료 분쇄기 + 그릴/가스레인지 + 냉장고, 식탁 없음 | 향신료 분쇄기 사용 가능 |
 | 온실 (Greenhouse) | 12~96 | 농업 작업대(Farm Station) | 비료로 성장 속도 2배 (1사이클) |
 | 목장 (Stable) | 12~96 | 손질 작업대 등 목장 건물 | 동물 길들이기 가능 |
 | 연구실 (Laboratory) | 32~120 | 연구 건물 2개 | 연구 효율 +10% |
 | 공원 (Park) | 12~64 | 공원 표지판 + 야생 식물 2개 | 사기 +3 |
-| 자연 보호구역 (Nature Reserve) | 32~120 | 공원 표지판 + 야생 식물 4개 | 사기 +6 |
+| 자연보호구역 (Nature Reserve) | 32~120 | 공원 표지판 + 야생 식물 4개 | 사기 +6 |
 | 발전소 (Power Plant) | 12~96 | 대형 발전기 + 전력 건물 2개 | 마이크로칩으로 발전량 +50% |
 
 > 대부분의 방은 **산업 기계 금지(No industrial machinery)** 조건이 있습니다. 침실에 펌프나 발전기를 두면 방 보너스가 사라져요. 또 한 방이 여러 조건을 동시에 만족하면 '기타 방'이 되어 보너스가 없습니다.
@@ -72,14 +72,14 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 
 ## 화장실 동선
 
-복제체는 화장실을 쓴 뒤 **세면대(Wash Basin / Sink)를 지나가면** 손을 씻습니다. 세면대에는 방향이 있어서, 화장실에서 나오는 방향으로 놓아야 합니다.
+복제체는 화장실을 쓴 뒤 **세면기(Wash Basin / Sink)를 지나가면** 손을 씻습니다. 세면기에는 방향이 있어서, 화장실에서 나오는 방향으로 놓아야 합니다.
 
-<div class="tile-row" role="img" aria-label="화장실 배치: 화장실 3칸, 세면대 2칸, 문, 기지 쪽 순서">
+<div class="tile-row" role="img" aria-label="화장실 배치: 화장실 3칸, 세면기 2칸, 문, 기지 쪽 순서">
   <span class="t wall"></span><span class="t toilet">🚽</span><span class="t toilet">🚽</span><span class="t toilet">🚽</span><span class="t sink">→🚰</span><span class="t sink">→🚰</span><span class="t door">문</span><span class="t out">기지 쪽 →</span>
 </div>
 
-- 화장실 칸 → 세면대 → 문 순서로, **나가는 길이 세면대를 통과**하게 만드세요.
-- 첫 화장실은 **바닥 18칸에 화장실 4개 + 세면대 4개**로 지으면 복제체가 늘어도 그대로 씁니다.
+- 화장실 칸 → 세면기 → 문 순서로, **나가는 길이 세면기를 통과**하게 만드세요.
+- 첫 화장실은 **바닥 18칸에 화장실 4개 + 세면기 4개**로 지으면 복제체가 늘어도 그대로 씁니다.
 - 수세식 화장실 오염수는 파이프로 바로 물 정화기(Water Sieve)로 보내면 물 고리가 됩니다.
 
 ## 에어락 (기체 분리)
@@ -103,7 +103,7 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 | 와이어 (Wire) | 1kW | 일반 회로 |
 | 전도성 와이어 (Conductive Wire) | 2kW | 조금 큰 회로 |
 | 헤비와트 와이어 (Heavi-Watt Wire) | 20kW | 발전기 ↔ 변압기 사이 주 간선. 장식 패널티 큼 |
-| 전도성 헤비와트 와이어 (Conductive Heavi-Watt Wire) | 50kW | 후반 주 간선 |
+| 헤비와트 전도성 와이어 (Heavi-Watt Conductive Wire) | 50kW | 후반 주 간선 |
 
 **추천 구조**
 
