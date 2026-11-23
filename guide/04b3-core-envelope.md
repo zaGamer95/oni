@@ -160,6 +160,37 @@ SPOM 산소는 **70°C 이상**으로 나옵니다. 산소 가스 파이프를 �
 | **수경 재배 타일 (Hydroponic Farm)** + 갈대 씨앗 | 1×1 | 금속 광석 100 kg | 농업 (Agriculture) | 파이프로 오염수를 받는 농장 타일. 갈대는 **오염수 160 kg/사이클** |
 | 액체 파이프 | | 원료 광물 | 액체 파이프 | |
 
+### 기계실 7×3 상세
+
+화장실(16칸) 동쪽에 벽 한 칸(16번)을 두고, 17~23번 칸 × 높이 3으로 팝니다. 바닥 줄 아래는 샤워실 천장, 천장 줄은 식당 바닥입니다.
+
+<div class="bp-wrap" markdown="0">
+<svg viewBox="0 0 846 450" width="846" role="img" aria-label="기계실 7×3 확대 배치도" style="min-width:0;max-width:846px" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans KR, sans-serif"><rect width="846" height="450" fill="#11131f"/><rect x="40" y="70" width="506" height="230" fill="#5a4a3a"/><rect x="40" y="116" width="46" height="138" fill="#1c2036"/><text x="63.0" y="132" fill="#cfd3e6" font-size="11" text-anchor="middle">화장실</text><rect x="132" y="116" width="322" height="138" fill="#1c2036"/><rect x="500" y="70" width="46" height="230" fill="#24452e" fill-opacity=".6"/><text x="523.0" y="316" fill="#acffbd" font-size="11" text-anchor="middle">동쪽 통로</text><rect x="132" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="132" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="132" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="178" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="178" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="178" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="224" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="224" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="224" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="270" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="270" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="270" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="316" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="316" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="316" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="362" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="362" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="362" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="408" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="408" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="408" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><text x="155.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">17</text><text x="201.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">18</text><text x="247.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">19</text><text x="293.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">20</text><text x="339.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">21</text><text x="385.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">22</text><text x="431.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">23</text><rect x="134" y="118" width="180" height="134" rx="4" fill="#c0c8e0" fill-opacity=".9"/><text x="224.0" y="183.0" fill="#11131f" font-size="13" font-weight="700" text-anchor="middle">물 정화기</text><text x="224.0" y="199.0" fill="#11131f" font-size="10.5" text-anchor="middle">4×3 · 120 W</text><rect x="318" y="164" width="42" height="88" rx="4" fill="#a9b0d0" fill-opacity=".9"/><text x="339.0" y="206.0" fill="#11131f" font-size="13" font-weight="700" text-anchor="middle">모래</text><rect x="364" y="118" width="42" height="134" rx="4" fill="#9be36b" fill-opacity=".9"/><text x="385.0" y="183.0" fill="#11131f" font-size="13" font-weight="700" text-anchor="middle">갈대</text><rect x="362" y="254" width="46" height="46" fill="#6bbf4a" stroke="#fff" stroke-width="1.5"/><text x="385.0" y="281.0" fill="#11131f" font-size="9.5" font-weight="700" text-anchor="middle">수경</text><rect x="94" y="162" width="30" height="92" fill="#8a9bd0"/><rect x="462" y="162" width="30" height="92" fill="#8a9bd0"/><polyline points="63.0,93.0 155.0,93.0" fill="none" stroke="#c98a3a" stroke-width="5" stroke-linejoin="round"/><rect x="135" y="78" width="132" height="30" fill="#ffd34a" stroke="#11131f"/><text x="201.0" y="97.0" fill="#11131f" font-size="11" font-weight="700" text-anchor="middle">액체 다리 →</text><polyline points="247.0,93.0 247.0,139.0" fill="none" stroke="#c98a3a" stroke-width="5" stroke-linejoin="round"/><polyline points="155.0,93.0 155.0,139.0 431.0,139.0 431.0,277.0 385.0,277.0" fill="none" stroke="#7be36b" stroke-width="4" stroke-linejoin="round" stroke-dasharray="7 4"/><polyline points="293.0,231.0 63.0,231.0" fill="none" stroke="#4fa8ff" stroke-width="5" stroke-linejoin="round"/><text x="40" y="344" fill="#e9ecf8" font-size="12">17~20번: 물 정화기 · 21번: 모래 저장 상자(모래만, 우선순위 높게) · 22번: 수경 재배 타일 위 갈대 · 23번: 지나다니는 칸</text><text x="40" y="362" fill="#c98a3a" font-size="12">갈색: 오염수가 천장 줄(식당 바닥)로 와서 액체 다리 → 정화기 입력구</text><text x="40" y="380" fill="#7be36b" font-size="12">초록 점선: 다리 입구 칸에서 가지 → 23번으로 내려가 → 22번 수경 재배 타일 (넘칠 때만)</text><text x="40" y="398" fill="#4fa8ff" font-size="12">파랑: 정화기 출력구 → 서쪽 벽을 지나 화장실 아래 줄로</text><text x="40" y="416" fill="#a9b0d0" font-size="12">문: 서쪽(16번) = 화장실, 동쪽(24번) = 동쪽 통로. 모래는 동쪽 통로로 들어옴</text><text x="40" y="30" fill="#e9ecf8" font-size="16" font-weight="700">기계실 7×3 확대 (화장실 동쪽 옆)</text></svg>
+</div>
+
+| 칸 | 건물 | 크기 · 재료 | 설정 |
+|---|---|---|---|
+| 16 (벽) | 문 | 1×2 | 화장실 쪽 출입 |
+| 17~20 | **물 정화기 (Water Sieve)** | 4×3 · 금속 광석 200 kg · 120 W | 일반 와이어 OK. 높이 3이라 방 높이를 꽉 채움 |
+| 21 | **저장 상자 (Storage Bin)** | 1×2 · 원료 광물 400 kg | **모래만** 받게, 우선순위 높게. 정화기 옆이라 나르는 거리 0 |
+| 22 | **갈대 (Thimble Reed)** | 바닥 줄(15번 줄)에 **수경 재배 타일 (Hydroponic Farm)** 1×1 · 금속 광석 100 kg | 타일에 넘침 파이프 연결, 씨앗 심기. 22~37°C |
+| 23 | 비움 | – | 지나다니는 칸 + 넘침 파이프가 지나가는 세로 줄 |
+| 24 (벽) | 문 | 1×2 | 동쪽 통로. 모래는 이쪽으로 들어옴 |
+
+**짓는 순서**
+
+1. 연구: 위생 → 증류 (물 정화기), 농업 (수경 재배 타일). 액체 다리는 액체 파이프 연구라 이미 있음.
+2. 7×3 파기 → 16번·24번 벽에 문 → 바닥 22번 칸은 일반 타일 대신 수경 재배 타일.
+3. 물 정화기, 모래 상자 → 와이어 연결 (120 W, 정화기는 하루 1분 정도만 돌아서 전기는 거의 안 씀).
+4. 파이프 (아래 배관 순서 3번): 오염수 줄은 천장 줄(식당 바닥 타일 속)로 들어와 **액체 다리** → 정화기 입력구. 다리 입구 칸에서 가지를 내려 23번 줄을 타고 22번 수경 재배 타일로. 물은 정화기 출력구에서 서쪽 벽을 지나 화장실로.
+5. 갈대 씨앗 심기 → 처음 채우기(배관 순서 4번).
+
+**정화기 부산물: 오염된 흙**
+
+- 정화기는 물을 걸러낼 때 오염된 흙 (Polluted Dirt)을 0.2 kg/s 내놓습니다. 우리 루프는 하루 약 1분이라 **사이클당 약 10 kg**.
+- 오염된 흙은 **저장 상자 안에서도 오염 산소를 뿜습니다** (위키, 물에 잠겨 있지 않으면). 그래서 기계실에 쌓지 말고, 청소 우선순위를 높여 **퇴비 더미 (Compost)**로 보내세요. 퇴비 더미는 오염된 흙을 흙으로 바꿔서 끼니나무 농장 타일에 다시 씁니다.
+- 모래는 사이클당 약 52 kg (정화한 물 1 kg당 모래 0.2 kg). 암석 분쇄기 모래면 충분합니다.
+
 ### 배관 순서
 
 1. **물 줄 (파랑):** 물 정화기 출구 → 화장실층 바닥 줄을 따라 싱크대·수세식 8개를 **한 줄로 차례로** → 서쪽 끝에서 한 층 내려가 → 샤워기 8개를 한 줄로 → **마지막 샤워기 입구에서 끝**. 건물은 필요한 만큼만 빼 가요.
