@@ -375,3 +375,18 @@ a:hover { color: #9be8f5; }
   .roadmap span { flex-basis: 100%; padding-left: 54px; margin-top: 0; }
   .roadmap b { margin-top: 0; }
 }
+
+/* 게임 스크린샷 */
+.shot { margin: 16px 0 22px; }
+.shot a { display: block; border-radius: 12px; overflow: hidden; border: 3px solid var(--panel-edge); box-shadow: var(--shadow); background: #000; }
+.shot a:hover { border-color: var(--oxygen); }
+.shot img { display: block; width: 100%; height: auto; }
+.shot.half { max-width: 560px; }
+.shot figcaption { margin-top: 8px; font-size: .86rem; color: var(--ink-dim); line-height: 1.6; }
+.shot figcaption::before { content: "▲ "; color: var(--oxygen); }
+.shot-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 16px; }
+@media (max-width: 720px) { .shot-grid { grid-template-columns: 1fr; } }
+.memo { display: inline-block; font-size: .8rem; padding: 0 8px; border-radius: 6px; background: #3a3320; color: var(--power); border: 1px solid #6b5a1f; }
+.roadmap.four { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1000px) { .roadmap.four { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) { .roadmap.four { grid-template-columns: 1fr; } }
