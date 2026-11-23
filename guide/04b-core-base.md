@@ -1,7 +1,7 @@
 ---
 title: 중앙 기지 배치도
 nav_title: 중앙 기지 배치도
-nav_order: 8
+nav_order: 9
 nav_group: play
 permalink: /guide/core-base/
 description: 방마다 크기, 포드 주변 핵심 구역 배치, 단열 격벽 안/밖 구분(작물·목장 온도), 냉방, 수조, 농장·목장·산업 규격, 초반 임시 배치에서 뜯지 않고 확장하는 법, 초반 시설 철거·재활용, 휴식 시간 분리(교대 일정)까지.
