@@ -523,3 +523,32 @@ img.img-missing { display: none; }
 .sch .W { background: #f4a442; } .sch .D { background: #6fdcae; } .sch .S { background: #2b3a78; color: #e9ecf8; } .sch .B { background: #5d8fbf; color: #e9ecf8; }
 .sch-legend { margin-top: 8px; font-size: .78rem; color: var(--ink-dim); min-width: 560px; }
 .sch-legend span { display: inline-grid; place-items: center; width: 18px; height: 14px; border-radius: 3px; font-size: .6rem; font-weight: 700; margin: 0 3px 0 8px; vertical-align: middle; color: #11131f; }
+
+/* 가이드에 앞서서 (편지 느낌) */
+.prose .preface {
+  position: relative;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 2px solid var(--panel-edge);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 30px 20px;
+  margin: 8px 0 22px;
+  line-height: 1.95;
+  font-size: 1.02rem;
+}
+.prose .preface::before {
+  content: "“";
+  position: absolute; top: -18px; left: 18px;
+  font-family: var(--font-display); font-size: 4rem; line-height: 1;
+  color: var(--oxygen);
+}
+.prose .preface p { margin: 0 0 14px; }
+.prose .preface strong { color: var(--oxygen); }
+.prose .preface .preface-sign {
+  text-align: right; margin: 6px 0 0;
+  font-family: var(--font-display); font-size: 1.1rem; color: var(--accent-2);
+}
+.preface-next { display: flex; flex-wrap: wrap; gap: 10px; }
+@media (max-width: 640px) {
+  .prose .preface { padding: 24px 18px 16px; font-size: .98rem; }
+}
