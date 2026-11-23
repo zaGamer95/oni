@@ -41,7 +41,7 @@ description: 산소미포함(Oxygen Not Included) 초반 생존 가이드. 내 �
   <div class="cards2">
     <a class="card2" href="{{ '/guide/first-cycles/' | relative_url }}"><img src="{{ '/assets/img/icons/checklist.svg' | relative_url }}" alt="" width="44" height="44"><span><em>01</em><strong>시작 직후 체크리스트</strong><small>사이클 1~5. 어떤 지형이든 먼저 할 일</small></span></a>
     <a class="card2" href="{{ '/guide/asteroids/' | relative_url }}"><img src="{{ '/assets/img/icons/asteroid.svg' | relative_url }}" alt="" width="44" height="44"><span><em>02</em><strong>지형별 시작법</strong><small>테라부터 오아시스까지 9개 소행성</small></span></a>
-    <a class="card2" href="{{ '/guide/build-order/' | relative_url }}"><img src="{{ '/assets/img/icons/build.svg' | relative_url }}" alt="" width="44" height="44"><span><em>03</em><strong>단계별 건설 순서</strong><small>0단계 착륙부터 5단계 산업까지</small></span></a>
+    <a class="card2" href="{{ '/guide/build-order/' | relative_url }}"><img src="{{ '/assets/img/icons/build.svg' | relative_url }}" alt="" width="44" height="44"><span><em>03</em><strong>단계별 건설 순서</strong><small>실제 스크린샷으로 보는 극초반~후반</small></span></a>
     <a class="card2" href="{{ '/guide/biome-expansion/' | relative_url }}"><img src="{{ '/assets/img/icons/map.svg' | relative_url }}" alt="" width="44" height="44"><span><em>04</em><strong>바이옴 확장 타이밍</strong><small>늪, 툰드라, 석유층은 언제 열까</small></span></a>
     <a class="card2" href="{{ '/guide/build-specs/' | relative_url }}"><img src="{{ '/assets/img/icons/ruler.svg' | relative_url }}" alt="" width="44" height="44"><span><em>05</em><strong>건축 규격 &amp; 팁</strong><small>층 높이, 방 크기, 동선, 전선 용량</small></span></a>
     <a class="card2" href="{{ '/guide/sustainability/' | relative_url }}"><img src="{{ '/assets/img/icons/balance.svg' | relative_url }}" alt="" width="44" height="44"><span><em>06</em><strong>장기 평형 설계</strong><small>아무것도 동나지 않는 구조 + 계산기</small></span></a>
@@ -50,16 +50,14 @@ description: 산소미포함(Oxygen Not Included) 초반 생존 가이드. 내 �
 </section>
 
 <section class="home-block">
-  <h2 class="home-h2">첫 150사이클 로드맵</h2>
-  <ol class="roadmap">
-    <li><i>0</i><b>착륙</b><small>사이클 1~3</small><span>연구소, 화장실, 침대, 수동 발전기</span></li>
-    <li><i>1</i><b>정착</b><small>3~15</small><span>식사나무 농장, 산소 확산기, 식탁</span></li>
-    <li><i>2</i><b>배관</b><small>15~35</small><span>수세식 화장실, 물 정화기, 석탄 발전기</span></li>
-    <li><i>3</i><b>자립</b><small>35~70</small><span>전기분해기, 털열매 꽃, 요리, 냉장고</span></li>
-    <li><i>4</i><b>확장</b><small>70~150</small><span>천연가스, 증기 터빈 냉각, 강철</span></li>
-    <li><i>5</i><b>산업</b><small>150~</small><span>석유, 플라스틱, 로켓</span></li>
+  <h2 class="home-h2">로드맵</h2>
+  <ol class="roadmap four">
+    <li><i>1</i><b>극초반</b><small>사이클 1~20</small><span>화장실, 산소, 농장, 연구, 침실, 수조, 식당, 석탄 발전기</span></li>
+    <li><i>2</i><b>초반</b><small>20~80</small><span>수트 스킬, 금속 정제, 전기분해기, 온도 관리, 간헐천</span></li>
+    <li><i>3</i><b>중반</b><small>80~150</small><span>원유 바이옴, 지상 개통, 강철, 목장</span></li>
+    <li><i>4</i><b>후반</b><small>150~</small><span>운석 대비, 우주 탐사, 로켓, 극후반 체제</span></li>
   </ol>
-  <p class="home-more"><a href="{{ '/guide/build-order/' | relative_url }}">단계별 자세한 순서 보기 →</a></p>
+  <p class="home-more"><a href="{{ '/guide/build-order/' | relative_url }}">사진으로 보는 건설 순서 →</a></p>
 </section>
 
 <section class="home-block">
