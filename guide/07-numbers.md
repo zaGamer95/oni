@@ -1,7 +1,8 @@
 ---
 title: 수치 치트시트
 nav_title: 수치 치트시트
-nav_order: 7
+nav_order: 8
+nav_group: ref
 permalink: /guide/numbers/
 description: 자주 찾는 건물·작물 수치. 1사이클 = 600초. 패치로 바뀔 수 있으니 게임 안 툴팁으로 최종 확인하세요.
 ---
