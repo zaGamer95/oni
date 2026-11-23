@@ -502,3 +502,15 @@ img.img-missing { display: none; }
 .bp-wrap { overflow-x: auto; margin: 14px 0 6px; border: 3px solid #5a4a3a; border-radius: 12px; background: #11131f; }
 .bp-wrap svg { display: block; min-width: 720px; width: 100%; height: auto; }
 .bp-legend { font-size: .8rem; color: var(--ink-dim); margin: 0 0 20px; }
+
+/* 교대 일정 막대 */
+.sch { margin: 14px 0 20px; padding: 10px; background: #11131f; border: 3px solid #5a4a3a; border-radius: 12px; overflow-x: auto; }
+.sch-row { display: flex; align-items: center; gap: 8px; min-width: 560px; margin-bottom: 4px; }
+.sch-name { flex: none; width: 92px; font-family: var(--font-display); font-size: .95rem; line-height: 1.1; }
+.sch-name small { display: block; font-family: var(--font-body); font-size: .7rem; color: var(--ink-dim); }
+.sch-bar { flex: 1; display: grid; grid-template-columns: repeat(24, 1fr); gap: 2px; }
+.sch-bar span { height: 22px; border-radius: 3px; font-size: .68rem; display: grid; place-items: center; color: #11131f; font-weight: 700; }
+.sch-bar span.h { height: 14px; background: none; color: var(--ink-dim); font-weight: 400; }
+.sch .W { background: #f4a442; } .sch .D { background: #6fdcae; } .sch .S { background: #2b3a78; color: #e9ecf8; } .sch .B { background: #5d8fbf; color: #e9ecf8; }
+.sch-legend { margin-top: 8px; font-size: .78rem; color: var(--ink-dim); min-width: 560px; }
+.sch-legend span { display: inline-grid; place-items: center; width: 18px; height: 14px; border-radius: 3px; font-size: .6rem; font-weight: 700; margin: 0 3px 0 8px; vertical-align: middle; color: #11131f; }
