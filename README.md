@@ -13,7 +13,8 @@
 
 ```
 index.md                 홈
-guide/01-first-cycles.md 시작 직후 체크리스트
+guide/00-start.md        게임 시작 설정 (일반/Spaced Out → 모드 → DLC → 행성 마법사)
+guide/01-first-cycles.md 첫 5사이클 체크리스트
 guide/02-asteroids.md    지형별 시작법
 guide/03-build-order.md  단계별 건설 순서
 guide/04-biome-expansion.md  바이옴 확장 타이밍
@@ -22,6 +23,8 @@ guide/06-sustainability.md   장기 평형 설계 (+계산기)
 guide/07-numbers.md      수치 치트시트
 _sources/                옛 가이드 원본 보관 (사이트에 노출 안 됨)
 _layouts/default.html    공통 레이아웃 (사이드바 목차 자동 생성)
+_data/media.yml          DLC 이미지·인게임 아이콘 외부 주소 (깨지면 여기만 수정)
+_data/nav_groups.yml     사이드바 그룹 (시작하기/플레이/참고 자료)
 assets/css/style.css     ONI 분위기 테마
 assets/js/main.js        모바일 메뉴 + 계산기 (게임 수치는 여기 K 객체에)
 ```

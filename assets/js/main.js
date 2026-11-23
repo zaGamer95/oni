@@ -91,3 +91,79 @@ document.querySelectorAll('.prose table').forEach(function (t) {
   root.addEventListener('change', run);
   run();
 })();
+
+// 외부 이미지가 안 불러와지면 자리만 남기지 않고 대체 표시
+document.querySelectorAll('img[data-fallback]').forEach(function (img) {
+  function fail() { img.classList.add('img-missing'); img.removeAttribute('src'); }
+  if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) fail();
+  img.addEventListener('error', fail);
+});
+
+// 게임 시작 설정 마법사 (/start/)
+(function () {
+  var wz = document.getElementById('wizard');
+  if (!wz) return;
+  wz.classList.add('js');
+  var steps = wz.querySelectorAll('.wz-step');
+  var prog = wz.querySelectorAll('.wz-progress li');
+  var total = steps.length; // 마지막은 결과
+  var cur = 1;
+  var picks = {};
+  var notes = {
+    so: 'Spaced Out!은 시작 행성이 작아서 자원이 빨리 떨어집니다. 로켓 연구를 일반보다 일찍 시작하세요.',
+    qol: '모드를 켰다면 게임 업데이트 직후에는 Mod Updater로 먼저 갱신하세요.',
+    on: 'DLC 콘텐츠를 켰다면 처음 보는 생물·건물은 게임 안 백과사전(코덱스)에서 확인하세요.',
+    hard: '고난도 행성은 행성 고르기 페이지의 행성별 첫 행동을 꼭 먼저 읽으세요.',
+    'dlc-planet': 'DLC 전용 행성 공략은 아직 정리 중입니다.'
+  };
+
+  function show(n) {
+    cur = Math.max(1, Math.min(total, n));
+    steps.forEach(function (s) { s.classList.toggle('on', +s.dataset.step === cur); });
+    prog.forEach(function (p) {
+      var k = +p.dataset.goto;
+      p.classList.toggle('on', k === cur);
+      p.classList.toggle('done', !!(k < cur || (k < total && picks[k])));
+    });
+    wz.querySelector('[data-prev]').disabled = cur === 1;
+    wz.querySelector('.wz-nav').style.display = cur === total ? 'none' : '';
+    if (cur === total) summary();
+  }
+  function pick(stepEl, btn) {
+    stepEl.querySelectorAll('.wz-opt').forEach(function (b) { b.classList.toggle('sel', b === btn); b.setAttribute('aria-pressed', b === btn); });
+    picks[+stepEl.dataset.step] = { value: btn.dataset.value, label: btn.dataset.label };
+  }
+  function pickRec(stepEl) {
+    var r = stepEl.querySelector('.wz-opt[data-rec]');
+    if (r) pick(stepEl, r);
+  }
+  function summary() {
+    var msgs = [];
+    for (var i = 1; i < total; i++) {
+      var stepEl = wz.querySelector('.wz-step[data-step="' + i + '"]');
+      if (!picks[i]) pickRec(stepEl);
+      var el = wz.querySelector('[data-sum="' + i + '"]');
+      var isRec = stepEl.querySelector('.wz-opt[data-rec]').dataset.value === picks[i].value;
+      el.innerHTML = '';
+      el.textContent = picks[i].label + (isRec ? ' ★' : '');
+      if (notes[picks[i].value]) msgs.push(notes[picks[i].value]);
+    }
+    document.getElementById('wz-note').textContent = msgs.length ? msgs.join(' ') : '★ 추천 조합이에요. 이대로 새 게임을 만들고 다음 단계로 가세요.';
+  }
+
+  wz.addEventListener('click', function (e) {
+    var opt = e.target.closest('.wz-opt');
+    if (opt) { pick(opt.closest('.wz-step'), opt); show(cur + 1); return; }
+    if (e.target.closest('[data-next]')) { show(cur + 1); return; }
+    if (e.target.closest('[data-prev]')) { show(cur - 1); return; }
+    if (e.target.closest('[data-rec-step]')) { pickRec(steps[cur - 1]); show(cur + 1); return; }
+    if (e.target.closest('[data-allrec]')) { steps.forEach(function (s) { if (+s.dataset.step < total) pickRec(s); }); show(total); return; }
+    var g = e.target.closest('.wz-progress li');
+    if (g) show(+g.dataset.goto);
+  });
+
+  if (location.hash === '#recommended' || location.hash === '#result') {
+    steps.forEach(function (s) { if (+s.dataset.step < total) pickRec(s); });
+    show(total);
+  } else show(1);
+})();

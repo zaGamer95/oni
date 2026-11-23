@@ -1,7 +1,8 @@
 ---
-title: 지형(소행성)별 시작법
-nav_title: 지형별 시작법
+title: 행성(지형) 고르기와 시작법
+nav_title: 행성(지형) 고르기
 nav_order: 2
+nav_group: start
 permalink: /guide/asteroids/
 description: 시작 소행성마다 다른 위험과 첫 행동. 공통 체크리스트(01)는 그대로 하고, 여기 나온 차이만 더하면 됩니다.
 ---

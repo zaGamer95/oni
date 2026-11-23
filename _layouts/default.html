@@ -28,11 +28,16 @@
       <div class="panel-title">가이드 목차</div>
       <ul>
         <li><a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}><span class="num">⌂</span>홈</a></li>
-        {% assign guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
-        {% for p in guides %}
-        <li><a href="{{ p.url | relative_url }}" {% if page.url == p.url %}class="active"{% endif %}><span class="num">{{ p.nav_order }}</span>{{ p.nav_title | default: p.title }}</a></li>
-        {% endfor %}
       </ul>
+      {% assign guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+      {% for g in site.data.nav_groups %}
+      <div class="nav-group">{{ g.title }}</div>
+      <ul>
+        {% for p in guides %}{% if p.nav_group == g.id %}
+        <li><a href="{{ p.url | relative_url }}" {% if page.url == p.url %}class="active"{% endif %}><span class="num">{% if p.nav_icon %}<img src="{{ p.nav_icon | relative_url }}" alt="">{% else %}{{ p.nav_order }}{% endif %}</span>{{ p.nav_title | default: p.title }}</a></li>
+        {% endif %}{% endfor %}
+      </ul>
+      {% endfor %}
       <div class="sidebar-note">
         수치는 게임 패치에 따라 바뀔 수 있어요. 게임 안 툴팁이 항상 최종 정답입니다.
       </div>
@@ -66,7 +71,7 @@
       {% endif %}
 
       <footer class="foot">
-        개인 플레이 노트 · 팬 제작 비공식 가이드입니다. Oxygen Not Included는 Klei Entertainment의 게임입니다.
+        팬 제작 비공식 가이드입니다. Oxygen Not Included와 게임 이미지는 © Klei Entertainment. 건물 아이콘 출처: <a href="https://oxygennotincluded.wiki.gg/" target="_blank" rel="noopener">Oxygen Not Included Wiki</a>.
       </footer>
     </main>
   </div>
