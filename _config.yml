@@ -1,10 +1,10 @@
 # 산소미포함(Oxygen Not Included) 개인 가이드 사이트
-# GitHub Pages 기본 Jekyll로 빌드됩니다. (Settings → Pages → Deploy from a branch → main / root)
+# .github/workflows/pages.yml 이 main 푸시 때마다 빌드·배포합니다. (Settings → Pages → Source: GitHub Actions)
 title: "산소미포함 생존 노트"
 description: "산소미포함(Oxygen Not Included) 초반 가이드 — 지형별 시작, 건설 순서, 바이옴 확장, 건축 규격, 장기 평형"
 lang: ko
 baseurl: "/oni"
-url: "https://zagamer95.github.io"
+url: "https://wonbo.site"
 
 markdown: kramdown
 kramdown:
