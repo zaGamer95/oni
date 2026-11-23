@@ -1,7 +1,7 @@
 ---
 title: 시작 직후 체크리스트 (사이클 1~5)
 nav_title: 첫 5사이클 체크리스트
-nav_order: 4
+nav_order: 5
 nav_group: play
 permalink: /guide/first-cycles/
 description: 어떤 지형에서 시작하든 공통으로 먼저 해야 할 일. 지형별 차이는 02에서 다룹니다.
@@ -22,20 +22,10 @@ description: 어떤 지형에서 시작하든 공통으로 먼저 해야 할 일
 
 ## 게임 시작 전: 복제체 고르기
 
-첫 3명은 판 전체를 좌우합니다. 다시 뽑기(🎲)를 아끼지 마세요.
+첫 3명은 판 전체를 좌우합니다. 특성·관심·스트레스 반응 전체 목록과 추천은 [복제체 고르기]({{ '/guide/duplicants/' | relative_url }}) 페이지에 정리했어요.
 
-> **내 기본 조합: 연구 / 땅굴(굴착) / 농사·목축** 담당 1명씩. 셋이 겹치지 않게 뽑으면 초반이 가장 매끄럽습니다.
+> **내 기본 조합: 연구 / 땅굴(굴착) / 농사·목축** 담당 1명씩. 관심 분야가 겹치지 않게 뽑고, 작업 불가 특성이 담당 일과 겹치면 리롤. 스트레스 반응 Destructive·Binge Eater는 피하기.
 {: .tip}
-
-| 역할 | 원하는 특성 | 피해야 할 특성 |
-|---|---|---|
-| 연구 담당 | 학습(Learning) 높음 | 연구 불가 특성 |
-| 건설·채굴 담당 | 건설(Construction), 굴착(Excavation) 높음 | 건설·굴착 불가 특성 |
-| 농사·요리 담당 | 농사(Agriculture), 요리(Cooking) | 농사 불가 특성 |
-
-- **꼭 피할 것:** 특정 작업 불가(Can't Dig, Can't Build, Can't Research 등), 높은 칼로리 소모(Bottomless Stomach), 방광 문제 계열은 초반에 부담이 큽니다.
-- **있으면 좋은 것:** 빠른 학습, 큰 폐(Diver's Lungs, 산소 덜 씀), 소식가(Small appetite 계열).
-- **스트레스 반응:** 첫 판이라면 '울보(Ugly Crier)' 정도가 피해가 적습니다. 파괴자(Destructive)나 폭식(Binge Eater)은 피하세요.
 
 
 ## 사이클 1: 연구와 공간 확보

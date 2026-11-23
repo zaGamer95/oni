@@ -1,7 +1,7 @@
 ---
 title: 바이옴 확장 타이밍
 nav_title: 바이옴 확장 타이밍
-nav_order: 6
+nav_order: 7
 nav_group: play
 permalink: /guide/biome-expansion/
 description: 새 바이옴은 자원이지만 동시에 위험입니다. "준비가 됐을 때만" 여는 기준을 정리했습니다.

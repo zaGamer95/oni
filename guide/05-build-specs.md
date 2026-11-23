@@ -1,7 +1,7 @@
 ---
 title: 건축 규격 & 팁
 nav_title: 건축 규격 & 팁
-nav_order: 7
+nav_order: 8
 nav_group: ref
 permalink: /guide/build-specs/
 description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료 고르는 법. 나중에 뜯어고치지 않도록 처음부터 맞춰두면 좋은 규격들.
