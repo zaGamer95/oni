@@ -117,6 +117,15 @@ a:hover { color: #9be8f5; }
   background: var(--panel-2); border: 2px solid var(--panel-edge); font-family: var(--font-display); font-size: .85rem;
 }
 .sidebar li a.active .num { background: var(--oxygen); color: #0e3540; border-color: #1b5f6e; }
+.sidebar li.sub a { padding: 5px 10px 5px 26px; font-size: .86rem; color: var(--ink-dim); }
+.sidebar li.sub a.active { color: var(--ink); }
+.sidebar li.sub .num { width: auto; min-width: 30px; height: 22px; padding: 0 4px; font-size: .72rem; }
+.sub-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin: 14px 0 22px; padding: 0; list-style: none; }
+.sub-list li { margin: 0; }
+.sub-list a { display: block; height: 100%; padding: 12px 14px; border: 2px solid var(--panel-edge); border-radius: 12px; background: var(--panel-2); color: var(--ink); text-decoration: none; }
+.sub-list a:hover { outline: 2px solid var(--oxygen); }
+.sub-list b { display: block; margin-bottom: 4px; color: var(--oxygen); }
+.sub-list span { font-size: .88rem; color: var(--ink-dim); line-height: 1.5; }
 .sidebar-note { margin: 8px 14px 0; font-size: .78rem; color: var(--ink-dim); line-height: 1.55; }
 
 .content { min-width: 0; }

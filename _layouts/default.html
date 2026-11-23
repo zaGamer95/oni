@@ -33,8 +33,13 @@
       {% for g in site.data.nav_groups %}
       <div class="nav-group">{{ g.title }}</div>
       <ul>
-        {% for p in guides %}{% if p.nav_group == g.id %}
+        {% for p in guides %}{% if p.nav_group == g.id and p.nav_parent == nil %}
         <li><a href="{{ p.url | relative_url }}" {% if page.url == p.url %}class="active"{% endif %}><span class="num">{% if p.nav_icon %}<img src="{{ p.nav_icon | relative_url }}" alt="">{% else %}{{ p.nav_order }}{% endif %}</span>{{ p.nav_title | default: p.title }}</a></li>
+        {% if p.nav_key %}{% assign in_sec = false %}{% if page.url == p.url or page.nav_parent == p.nav_key %}{% assign in_sec = true %}{% endif %}{% if in_sec %}
+          {% for c in guides %}{% if c.nav_parent == p.nav_key %}
+        <li class="sub"><a href="{{ c.url | relative_url }}" {% if page.url == c.url %}class="active"{% endif %}><span class="num">{{ c.nav_num }}</span>{{ c.nav_title | default: c.title }}</a></li>
+          {% endif %}{% endfor %}
+        {% endif %}{% endif %}
         {% endif %}{% endfor %}
       </ul>
       {% endfor %}
@@ -46,7 +51,7 @@
     <main class="content">
       {% if page.url != "/" %}
       <div class="page-head">
-        {% if page.nav_order %}<div class="eyebrow">가이드 {{ page.nav_order }}</div>{% endif %}
+        {% if page.nav_order %}<div class="eyebrow">가이드 {{ page.nav_num | default: page.nav_order }}</div>{% endif %}
         <h1>{{ page.title }}</h1>
         {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
       </div>

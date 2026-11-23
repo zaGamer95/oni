@@ -3,12 +3,10 @@ title: 중앙 기지 배치도
 nav_title: 중앙 기지 배치도
 nav_order: 9
 nav_group: play
+nav_key: core-base
 permalink: /guide/core-base/
-description: 방마다 크기, 포드 주변 핵심 구역 배치, 단열 격벽 안/밖 구분(작물·목장 온도), 냉방, 수조, 농장·목장·산업 규격, 초반 임시 배치에서 뜯지 않고 확장하는 법, 초반 시설 철거·재활용, 휴식 시간 분리(교대 일정)까지.
+description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로, 단열 격벽·냉방·수조, 농장·목장·산업, 초반 전환, 교대 일정은 하위 페이지로 나눴어요.
 ---
-
-* 목차
-{:toc}
 
 ## 한 줄 요약
 
@@ -19,9 +17,9 @@ description: 방마다 크기, 포드 주변 핵심 구역 배치, 단열 격벽
 | 64 | **16 × 4** | 세척실, 호화 막사, 식당, 마사지실 |
 | 96 | **24 × 4** | 주방, 오락실, 병원, 발전소, 땅 동물 목장 |
 | 120 | **30 × 4** | 큰 회관, 연회장, 연구실 |
-| 자연보호구역 | **사다리 통로가 겸함** | 방 하나를 따로 안 쓰고, 가운데 통로 전체를 보호구역으로 만듦 (아래 참고) |
+| 자연보호구역 | **사다리 통로가 겸함** | 방 하나를 따로 안 쓰고, 가운데 통로 전체를 보호구역으로 만듦 ([9-2 통로·동선]({{ '/guide/core-base/corridor/' | relative_url }})) |
 | 개인 침실 | **6 × 4 = 24** | 최소 크기가 24라 딱 이 크기. 침대 1개짜리라 크게 지을 이유가 없음 |
-| 온실·하늘 동물 목장 | 격자 밖 | 작물·동물 높이에 맞춘 **별도 블록** (아래 단열 격벽 참고) |
+| 온실·하늘 동물 목장 | 격자 밖 | 작물·동물 높이에 맞춘 **별도 블록** ([9-4 농장·목장·산업]({{ '/guide/core-base/blocks/' | relative_url }})) |
 
 | 규격 | 값 | 이유 |
 |---|---|---|
@@ -29,33 +27,16 @@ description: 방마다 크기, 포드 주변 핵심 구역 배치, 단열 격벽
 | 중앙 통로 | **3칸 (식물 1 + 사다리 + 소방봉)** | 올라갈 땐 사다리, 내려갈 땐 소방봉(내려가는 속도 4배). 식물 칸 덕에 통로가 그대로 자연보호구역 |
 | 방 사이 벽 | 1칸 | 벽 칸은 방 크기에 안 들어감 |
 
-## 방 크기 전체 표
+## 세부 페이지
 
-공식 위키(Room Overlay) 기준입니다. 크기는 **벽 안쪽 칸 수**입니다. "배치도 크기"는 아래 도면에 실제로 그린 크기예요.
-
-| 방 | 크기 범위 | 배치도 크기 | 조건 | 효과 |
-|---|---|---|---|---|
-| 변소 (Latrine) | 12~64 | 16×4 = 64 | 간이 화장실 + 세면기 | 사기 +1 |
-| 세척실 (Washroom) | 12~64 | **16×4 = 64** (화장실 4 + 세면기 4, 각 2칸 폭) | 수세식 화장실 + 싱크대(Sink), **간이 화장실 없음** | 사기 +2 |
-| 막사 (Barracks) | 12~64 | 16×4 = 64 (초반, 나중에 호화 막사) | 침대 1개 이상 | 사기 +1 |
-| 호화 막사 (Luxury Barracks) | 12~64 | **16×4 = 64** (편한 침대 4, 4칸 폭) | 편한 침대, **간이 침대 없음**, 장식 1, 천장 4칸 | 사기 +2 |
-| 개인 침실 (Private Bedroom) | 24~64 | **6×4 = 24** (침대 4칸 + 장식 2칸) | 편한 침대 **딱 1개**, 장식 2, 천장 4칸, **뒷벽 전부** | 사기 +3 |
-| 식당 (Mess Hall) | 12~64 | 16×4 = 64 (초반) | 식탁 | 사기 +3 |
-| 큰 회관 (Great Hall) | 32~120 | **30×4 = 120** | 식탁 + 장식 20 이상 1개 + 오락 건물 | 사기 +4 |
-| 연회장 (Banquet Hall) | 32~120 | 30×4 = 120 | 공용 식탁(Communal Table), 장식, 오락 건물, 장식품 전시, **식탁 없음** | 사기 +6 |
-| 주방 (Kitchen) | 12~96 | **24×4 = 96** | 향신료 분쇄기 + 그릴/가스레인지 + 냉장고, **식탁 없음** | 향신료 사용 |
-| 연구실 (Laboratory) | 32~120 | **30×4 = 120** (포드 포함) | 연구 건물 2개 | 연구 +10%, 지오튜너·관제소 사용 |
-| 온실 (Greenhouse) | 12~96 | 15×7 = 91칸 (3칸 높이 층, 작업대 들어감). 23×5 끼니나무 농장은 작업대가 안 들어가 방 아님 | 농업 작업대 | 비료로 성장 2배 |
-| 목장 (Stable) | 12~96 | **24×4 = 96** (주둥가리·기끌이) / 12×8 = 96 (헐떡이) | 목장 건물 (손질 작업대 등) | 동물 손질 |
-| 발전소 (Power Plant) | 12~96 | **24×4 = 96** | 대형 발전기 + 전력 건물 2개 | 마이크로칩으로 발전 +50% |
-| 오락실 (Recreation Room) | 12~96 | **24×4 = 96** | 오락 건물 + 장식 | 휴식 시간 사기 보너스 |
-| 마사지실 (Massage Clinic) | 12~64 | **16×4 = 64** | 마사지 테이블 + 장식 | 스트레스 감소 2배 |
-| 병원 (Hospital) | 12~96 | 24×4 = 96 | 의료 건물 + 화장실 + 식탁 | 병 전파 감소 |
-| 공원 (Park) | 12~64 | 초반 사다리 통로 3×21 ≈ 59 | 공원 표지판 + 야생 식물 2 | 지나가면 사기 +3 |
-| 자연보호구역 (Nature Reserve) | 32~120 | **사다리 통로 3×28 ≈ 79** | 공원 표지판 + 야생 식물 4 | 지나가면 사기 +6 |
-
-> 발전소·온실·목장·주방 말고는 거의 다 **산업 기계 금지**입니다. 수동 발전기를 포함한 모든 발전기, 전기분해기, 물 정화기, 펌프, 금속 정제기가 산업 기계예요. 반대로 산소 확산기, 조류 테라리움, 보관함, 배터리, 미생물 분쇄기, 전기 그릴, 냉장고, 퇴비 더미는 산업 기계가 **아닙니다**.
-{: .warn}
+<ul class="sub-list">
+  <li><a href="{{ '/guide/core-base/rooms/' | relative_url }}"><b>9-1 방 크기와 방 배치</b><span>방 종류별 크기 범위와 배치도 크기, 층별 방 배치, 한 방에 같이 두면 안 되는 조합.</span></a></li>
+  <li><a href="{{ '/guide/core-base/corridor/' | relative_url }}"><b>9-2 사다리 통로와 하루 동선</b><span>가운데 사다리 통로를 자연보호구역으로 쓰는 법과 침실 → 화장실 → 식당 → 일 동선.</span></a></li>
+  <li><a href="{{ '/guide/core-base/envelope/' | relative_url }}"><b>9-3 단열 격벽·냉방·수조</b><span>생활 구역을 단열 격벽으로 감싸 20~25°C로 유지하는 법, 냉방 시스템, 깨끗한 물·오염수 수조.</span></a></li>
+  <li><a href="{{ '/guide/core-base/blocks/' | relative_url }}"><b>9-4 농장·목장·산업 블록</b><span>격벽 안/밖에 둘 작물과 동물, 온실 규격, 목장 크기, 산업 블록.</span></a></li>
+  <li><a href="{{ '/guide/core-base/early/' | relative_url }}"><b>9-5 초반 배치·철거·확장</b><span>사이클 1~20 임시 배치, 초반 시설을 언제 뜯고 그 자리를 어떻게 쓰는지, 뜯지 않고 늘리는 규칙.</span></a></li>
+  <li><a href="{{ '/guide/core-base/shifts/' | relative_url }}"><b>9-6 교대 일정 (휴식 시간 분리)</b><span>4교대로 휴식·취침 시간을 나눠 화장실·식탁·통로 혼잡을 줄이는 법과 시설 개수 기준.</span></a></li>
+</ul>
 
 ## 후반 완성 배치도
 
@@ -68,288 +49,6 @@ description: 방마다 크기, 포드 주변 핵심 구역 배치, 단열 격벽
 </div>
 <p class="bp-legend">초록 침실 · 민트 개인 침실 · 노랑 식사 · 청록 화장실 · 보라 연구 · 연두 농장·목장 · 주황 산업 · 파랑 물. 왼쪽이 서쪽, 오른쪽이 동쪽.</p>
 
-### 사다리 통로 = 자연보호구역
-
-자연보호구역은 **방에 들어가기만 해도** 사기 +6이 붙고, 복제체가 그 안에 머물 필요가 없습니다 (위키에도 "가운데 사다리·소방봉 통로에 붙이면 지나갈 때마다 받는다"는 팁이 있어요). 그래서 30칸 방을 따로 두지 않고 **가운데 통로 자체를 보호구역**으로 만듭니다. 모든 복제체가 하루에도 몇 번씩 통로를 타니 따로 들르게 할 필요도 없어요.
-
-<div class="bp-wrap" markdown="0">
-<svg viewBox="0 0 594 304" width="594" role="img" aria-label="사다리 통로 자연보호구역 단면도" style="min-width:0;max-width:600px" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans KR, sans-serif"><rect width="594" height="304" fill="#3a3128"/><rect x="1" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="25" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="49" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="73" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="97" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="31" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="31" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="31" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="241" y="31" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="1" y="55" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="55" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="55" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="55" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="55" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="55" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="55" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="55" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="55" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="55" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="55" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="79" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="79" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="79" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="79" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="79" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="79" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="79" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="79" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="79" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="79" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="79" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="103" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="103" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="103" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="103" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="103" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="103" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="103" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="103" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="103" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="103" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="103" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="127" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="127" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="127" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="127" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="127" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="127" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="127" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="127" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="127" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="127" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="127" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="25" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="49" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="73" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="97" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="151" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="151" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="151" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="241" y="151" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="1" y="175" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="175" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="175" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="175" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="175" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="175" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="175" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="175" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="175" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="175" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="175" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="199" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="199" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="199" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="199" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="199" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="199" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="199" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="199" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="199" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="199" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="199" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="223" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="223" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="223" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="223" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="223" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="223" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="223" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="223" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="223" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="223" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="223" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="247" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="25" y="247" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="49" y="247" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="73" y="247" width="22" height="22" rx="0" fill="#2c4a2a" fill-opacity="0.9"/><rect x="97" y="247" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="247" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="247" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="247" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="247" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="247" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="241" y="247" width="22" height="22" rx="0" fill="#20434a" fill-opacity="0.9"/><rect x="1" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="25" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="49" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="73" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="97" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="271" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="145" y="271" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="169" y="271" width="22" height="22" rx="0" fill="#24452e" fill-opacity="1"/><rect x="193" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="217" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="241" y="271" width="22" height="22" rx="0" fill="#6b6f80" fill-opacity="1"/><rect x="121" y="151" width="22" height="22" rx="0" fill="#8a6a48" fill-opacity="1"/><rect x="121" y="103" width="22" height="46" rx="4" fill="#9be36b" fill-opacity="0.9"/><rect x="121" y="271" width="22" height="22" rx="0" fill="#8a6a48" fill-opacity="1"/><rect x="121" y="223" width="22" height="46" rx="4" fill="#9be36b" fill-opacity="0.9"/><rect x="121" y="175" width="22" height="22" rx="4" fill="#ffd36b" fill-opacity="0.9"/><line x1="147" y1="66" x2="165" y2="66" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="90" x2="165" y2="90" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="114" x2="165" y2="114" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="138" x2="165" y2="138" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="162" x2="165" y2="162" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="186" x2="165" y2="186" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="210" x2="165" y2="210" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="234" x2="165" y2="234" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="258" x2="165" y2="258" stroke="#f6c445" stroke-width="2"/><line x1="147" y1="282" x2="165" y2="282" stroke="#f6c445" stroke-width="2"/><line x1="180.0" y1="54" x2="180.0" y2="294" stroke="#ff8a4c" stroke-width="3"/><rect x="97" y="103" width="22" height="46" rx="0" fill="#8a9bd0" fill-opacity="1"/><rect x="193" y="103" width="22" height="46" rx="0" fill="#8a9bd0" fill-opacity="1"/><rect x="97" y="223" width="22" height="46" rx="0" fill="#8a9bd0" fill-opacity="1"/><rect x="193" y="223" width="22" height="46" rx="0" fill="#8a9bd0" fill-opacity="1"/><rect x="121" y="55" width="22" height="22" rx="3" fill="#e8d080" fill-opacity="1"/><rect x="120" y="54" width="72" height="240" fill="none" stroke="#acffbd" stroke-width="2.5"/><text x="132.0" y="13" fill="#acffbd" font-size="10" text-anchor="middle" font-weight="700" stroke="#11131f" stroke-width="3" paint-order="stroke">식물</text><text x="156.0" y="27" fill="#acffbd" font-size="10" text-anchor="middle" font-weight="700" stroke="#11131f" stroke-width="3" paint-order="stroke">사다리</text><text x="180.0" y="13" fill="#acffbd" font-size="10" text-anchor="middle" font-weight="700" stroke="#11131f" stroke-width="3" paint-order="stroke">소방봉</text><text x="48" y="102" fill="#a3ff84" font-size="12" text-anchor="middle" font-weight="700" stroke="#11131f" stroke-width="3" paint-order="stroke">서쪽 방</text><text x="240" y="102" fill="#84fff4" font-size="11" text-anchor="middle" font-weight="700" stroke="#11131f" stroke-width="3" paint-order="stroke">동쪽</text><rect x="280" y="44" width="14" height="14" rx="3" fill="#acffbd"/><text x="302" y="56" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">초록 테두리 = 통로 전체가 방 1개 (자연보호구역)</text><rect x="280" y="74" width="14" height="14" rx="3" fill="#8a6a48"/><text x="302" y="86" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">갈색 = 파지 않고 남긴 자연 타일 (층 바닥 줄)</text><rect x="280" y="104" width="14" height="14" rx="3" fill="#9be36b"/><text x="302" y="116" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">연두 = 그 위 야생 식물 (잎람쥐가 심음)</text><rect x="280" y="134" width="14" height="14" rx="3" fill="#ffd36b"/><text x="302" y="146" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">노랑 = 자연 타일 아래 매달린 식물</text><rect x="280" y="164" width="14" height="14" rx="3" fill="#e8d080"/><text x="302" y="176" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">표지판 = 공원 표지판 1개면 충분</text><rect x="280" y="194" width="14" height="14" rx="3" fill="#8a9bd0"/><text x="302" y="206" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">하늘 = 층마다 양쪽 문 (방 경계)</text><rect x="280" y="224" width="14" height="14" rx="3" fill="#6b6f80"/><text x="302" y="236" fill="#e2e6f5" font-size="12" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">회색 = 벽·바닥 타일</text></svg>
-</div>
-<p class="bp-legend">통로 단면 두 층. 왼쪽 1칸이 식물 칸, 가운데 사다리, 오른쪽 소방봉.</p>
-
-| 항목 | 값 | 설명 |
-|---|---|---|
-| 통로 폭 | **3칸** = 식물 1 + 사다리 1 + 소방봉 1 | 사다리·소방봉 칸에는 식물을 못 심어서 식물 칸을 하나 더 팜 |
-| 방 경계 | 층마다 **양쪽 문** + 아래 끝 **가로 에어락** | 문도 방 경계라, 통로가 층 방들과 섞이지 않고 혼자 방 1개가 됨 |
-| 크기 | 초반 3 × 21 ≈ **59칸** → 후반 3 × 28 ≈ **79칸** | 보호구역 32~120 안. 자연 타일 칸은 크기에서 빠짐 |
-| 야생 식물 | 층 바닥 줄마다 1개 → **5개** (+ 매달린 식물) | 보호구역 조건 4개 이상 |
-| 공원 표지판 | 1개 | 통로 어디든 |
-| 금지 | 산업 기계 | 통로에 펌프·발전기·전기분해기 두지 않기 |
-
-**야생 식물 만드는 법.** 화분·농장 타일에 심은 건 야생이 아닙니다. 자연 타일에서 자라야 해요.
-
-1. 통로를 팔 때 **식물 칸의 층 바닥 줄(5칸 간격)은 파지 말고** 원래 흙·사암을 남깁니다. 이게 자연 타일이에요. 그 위 칸은 비웁니다.
-2. **잎람쥐(Pip)**를 통로에 데려옵니다. 잎람쥐는 근처에 떨어진 씨앗을 주워 자연 타일 위(또는 아래에 매달리는 식물)에 심어줍니다. 씨앗을 통로 바닥에 몇 개 떨궈 두고, 심을 동안만 통로 문을 잠가 잎람쥐가 못 나가게 하세요.
-3. 한곳에 3개 넘게 몰아 심지 않으니, 층마다 1개씩 떨어져 있는 이 배치가 딱 맞습니다.
-4. 실내가 20~25°C라 끼니나무·센털꽃 씨앗이면 충분합니다. 야생이라 느리게 자라도 열매가 열리니 덤으로 수확도 됩니다.
-
-> **초반엔 공원, 나중에 보호구역.** 공원은 12~64칸, 보호구역은 32~120칸입니다. 초반 통로(약 59칸)는 야생 식물 2개만 있어도 공원(+3), 4개면 보호구역(+6)이에요. 통로를 아래로 늘려 64칸을 넘기면 **공원 조건이 깨지니** 그 전에 식물을 4개 채우세요.
-{: .tip}
-
-> 잎람쥐가 근처에 없으면, 그동안은 원래 맵에 있던 야생 식물 옆에 작은 공원을 두는 게 차선입니다. 통로 식물 칸과 표지판은 미리 만들어 두면 잎람쥐가 생기는 날 바로 보호구역이 됩니다.
-{: .warn}
-
-### 하루 동선: 침실 → 화장실 → 식당 → 일
-
-1. **1층 호화 막사**에서 일어나서
-2. 문을 열고 바로 **사다리 통로(자연보호구역)**에 들어서는 순간 사기 +6. 매일 저절로 받습니다.
-3. 통로 건너 **세척실**에서 볼일 보고, 나가는 길에 세면기에서 손 씻고
-4. 소방봉으로 한 층 내려가 **큰 회관**에서 밥 먹고
-5. 같은 층 **연구실**이나, 통로를 타고 내려가 실내 온실·목장, 또는 에어락 너머 산업층으로 출근합니다.
-
-어느 방에서 어디를 가든 **통로를 반드시 지나니**, 보호구역 효과를 놓치는 복제체가 없습니다. 방 하나 크기(30칸)를 아낀 자리는 1층 서쪽 개인 침실 5개가 됐어요.
-
-### 생활 구역 방 크기
-
-| 층 | 서쪽 (바깥 ← 안쪽) | 동쪽 (안쪽 → 바깥) |
-|---|---|---|
-| 2층 | 개인 침실 6칸 × 6개 | 오락실 24 → 마사지실 16 |
-| 1층 | 개인 침실 6칸 × 5개 ← 호화 막사 16 | 세척실 16 → 개인 침실 6칸 × 3개 |
-| 포드층 | 주방 24 ← 큰 회관 30 | **연구실 30 (포드 포함)** → 작업장 16 (방 아님) |
-
-- **개인 침실**은 6칸짜리 방을 벽 1칸씩 사이에 두고 줄지어 놓습니다. 침대(4칸) 옆 2칸에 장식 2개, 방 전체에 뒷벽을 칠하세요. 2층 6개 + 1층 서쪽 5개 + 1층 동쪽 3개 = 14명분이고, 호화 막사 4명까지 합치면 18명입니다.
-- 복제체가 더 늘면 개인 침실 줄을 3층으로 올리거나 1층 동쪽 바깥으로 이어 붙입니다.
-
-## 단열 격벽: 안과 밖 나누기
-
-생활 구역과 바깥을 **단열 타일 격벽**으로 완전히 나누고, 안쪽만 냉방해서 **20~25°C**로 유지합니다. 복제체는 0~45°C 사이면 춥거나 덥다는 상태가 안 붙지만, 실내 작물(끼니나무·센털꽃 등)이 대부분 30°C를 넘으면 자라지 않아서 기준은 작물에 맞춥니다.
-
-| | 격벽 **안** (20~25°C) | 격벽 **밖** |
-|---|---|---|
-| 들어가는 것 | 생활 구역 3층, 실내 온실 A·B, 실내 목장 2개, **깨끗한 물 수조·물 처리** | 산업(발전·SPOM·정제), 냉방실, **오염수 수조**, 외부 온실·외부 목장, CO₂ 구덩이 |
-| 연결 | 가운데 통로 하나. 통로 아래쪽 끝에 **가로로 돌린 기계식 에어락** | 동쪽 산업층은 통로 옆 **에어락 문**으로 드나듦 |
-
-- 격벽은 **열전도율이 가장 낮은 재료**로 만든 단열 타일로 두릅니다 (초반엔 화성암·세라믹, 후반엔 인슐라이트).
-- 격벽을 지나는 문은 전부 기계식 에어락. 문은 가로로 돌려 지을 수 있어서 세로 통로에도 씁니다.
-- **SPOM 산소는 최소 70°C**로 나옵니다. 산소 파이프가 격벽 안으로 들어가기 전에 냉각 루프나 수조를 지나게 해서 식힌 뒤 배출하세요. 안 그러면 실내 열의 대부분이 여기서 들어옵니다.
-
-### 냉방 시스템
-
-| 단계 | 장치 | 위치 | 메모 |
-|---|---|---|---|
-| 초반 | 씨근풀 (Wheezewort) | 실내 통로·온실 | 주변 기체를 식혀 주는 식물. 비료를 주면 더 셈 |
-| 중반 | **수냉 조절기 (Thermo Aquatuner)** + 냉각 루프 | 냉방실 (격벽 밖, 산업층) | 지나가는 액체를 한 번에 14°C 식히고, 그 열은 장치 자체로 옮김. 전력 1.2 kW. 액체는 10 kg씩 꽉 채워 보내야 효율이 좋음 |
-| 후반 | 수냉 조절기 + **증기 터빈** | 냉방실 위 | 조절기 열로 125°C 이상 증기를 만들어 터빈이 열을 지우고 전기도 생산 |
-
-- 냉각 루프(도면의 하늘색 점선)는 **격벽 안 바닥 줄**을 따라 한 바퀴 돌고 다시 냉방실로 나갑니다. 실내 온실 바닥 밑을 꼭 지나가게 하세요.
-- 조절기 자체는 뜨거워지니 **반드시 격벽 밖** 냉방실에 둡니다.
-
-### 수조
-
-물은 두 수조로 나누고, **깨끗한 물은 격벽 안**, **오염수는 격벽 밖**에 둡니다.
-
-| 수조 | 위치 | 크기 | 쓰는 곳 |
-|---|---|---|---|
-| **깨끗한 물 수조** | 포드층 바로 아래 동쪽 (원래 오른쪽 아래 웅덩이를 넓힘), **격벽 안** | 30×4 = 120칸 ≈ 120톤 (칸당 최대 약 1톤) | 실내 온실 관개, 전기분해기, 세척실 보충 |
-| **오염수 수조** | 산업층 동쪽, **격벽 밖** | 17×4 = 68칸 ≈ 68톤 | 세척실에서 나온 오염수를 모았다가 물 정화기로 |
-| 왼쪽 아래 웅덩이 | 그대로 둠, 격벽 밖 | 자연 크기 | 예비 물, 외부 온실 관개 |
-
-- **깨끗한 물을 격벽 안에 두는 이유:** 물은 열을 많이 머금어서 120톤짜리 수조가 실내 온도를 잡아 주는 완충 역할을 합니다. 관개수도 실내 온도 그대로 들어가요. 수조 바닥은 아래 발전소 열이 안 올라오게 **단열 타일**로 깝니다.
-- **오염수 수조는 위를 막으세요.** 오염수는 공기와 닿으면 오염 산소를 뿜는데, 위 칸 기압이 1.8 kg 이상이면 멈춥니다 (공식 위키). 꽉 채우거나 위를 액체·타일로 막으면 됩니다.
-- **세척실은 닫힌 고리로 돌립니다.** 세척실 오염수 → 오염수 수조 → 물 정화기(5 kg/s) → 세척실. 물 정화기는 세균을 못 죽여서 정화한 물에도 세균이 그대로 남으니, 이 물은 세척실 전용으로만 쓰고 온실·전기분해기는 깨끗한 물 수조에서 끌어옵니다.
-- 펌프는 수조 **맨 바닥**에 둡니다 (액체 펌프 2×2, 초당 10 kg, 잠겨 있어야 작동). 초반엔 수동 펌프나 소형 액체 펌프(1 kg/s)로 시작해요.
-
-#### 물 수지 (1사이클 = 600초 기준)
-
-| 항목 | 물 | 메모 |
-|---|---|---|
-| 수세식 화장실 1회 | 물 5 kg 쓰고 오염수 11.7 kg 나옴 | **오히려 늘어남** (+6.7 kg) |
-| 싱크대(Sink) 1회 | 물 5 kg → 오염수 5 kg | 그대로 |
-| 전기분해기 1대 | **−600 kg / 사이클** (초당 1 kg) | 제일 큰 소비처. 1대 ≈ 복제체 8명 산소 |
-| 센털꽃 1그루 | −20 kg / 사이클 | 온실 하나(40그루)면 −800 kg |
-| 끼니나무 | 물 대신 흙 | 물 안 씀 |
-
-> 깨끗한 물 수조 120톤은 전기분해기 1대만 돌려도 **약 200사이클**, 센털꽃 온실까지 같이 쓰면 약 85사이클이면 바닥납니다. 그 전에 **물 분출구·증기 분출구 같은 간헐천**을 찾아 깨끗한 물 수조로 연결하세요. 세척실 고리는 물이 오히려 늘어나니, 넘치는 오염수는 정화해서 깨끗한 물 수조로 보내도 됩니다 (세균 주의).
-{: .tip}
-
-### 작물: 안에서 키울 것 / 밖에서 키울 것
-
-온도는 공식 위키의 생장 온도 범위입니다. 이 범위를 벗어나면 자라지 않아요.
-
-| 작물 | 생장 온도 | 기체 / 빛 | 어디서 |
-|---|---|---|---|
-| 끼니나무 (Mealwood) | 10~30°C | 산소·오염 산소·CO₂ | **안** |
-| 센털꽃 (Bristle Blossom) | 5~30°C | 빛 200 lux 이상 | **안** (조명) |
-| 수렁박 (Bog Bucket) | 10~30°C | 어둠 필요 | **안** |
-| 어스름 갓 (Dusk Cap) | 5~35°C | CO₂, 어둠 | **안** (CO₂를 따로 채운 칸) |
-| 골무갈대 (Thimble Reed) | 22~37°C | 물·오염수 안도 가능 | 안 (22°C 아래로 내려가지 않게 주의) |
-| 벵이과실 (Grubfruit) | 15~50°C | | 안·밖 모두 |
-| 진눈깨비밀 (Sleet Wheat) | −55~5°C | | **밖** (추운 쪽) |
-| 오물오물 싹 (Nosh Sprout) | −25~0°C | CO₂ | **밖** (추운 쪽) |
-| 아물나리 (Balm Lily) | 35~85°C | 염소 | **밖** (염소 온실) |
-| 뿌림 소금덩굴 (Dasha Saltvine) | −25~50°C | 염소 | **밖** (염소 온실) |
-| 가스풀 (Gas Grass) | 거의 제한 없음 | 빛 10,000 lux 이상 | **밖** (강한 조명, 가스질 음메 먹이) |
-
-> 추운 작물은 격벽 밖이라도 그냥 두면 산업 열 때문에 데워집니다. 외부 온실(추운 작물)은 **산업 블록 반대쪽**에 두고, 원래 추운 바이옴에 붙이거나 냉각 루프 끝을 한 번 더 지나게 하세요.
-{: .heat}
-
-### 농장 규격
-
-실내 온실 A(끼니나무 23×5)와 B(센털꽃 15×7)의 칸별 배치, 복제체당 작물 수, 초반 농장 타일 한 줄 단계는 [식당·실내 온실 상세]({{ '/guide/food-early/' | relative_url }})에 따로 정리했습니다.
-
-작물은 대부분 **다 자라면 2칸**, 골무갈대·가스풀은 **3칸**입니다. 농장 타일 1칸 + 작물 칸을 반복해 쌓으면 3칸·4칸 간격이라 생활 구역의 5칸 간격 격자와 안 맞아요. 농업 작업대(2×3)도 2칸 틈에는 안 들어갑니다.
-
-| 온실 | 크기 | 구조 | 방 크기 | 작물 수 |
-|---|---|---|---|---|
-| 2칸 작물용 | **가로 23 × 높이 5** | 작물 2칸 / 농장 타일 줄 / 작물 2칸. 통로 쪽 끝 3칸 = 사다리 1 + 가운데 줄 일반 타일 2(위층 발판). **층이 2칸이라 작업대(2×3)가 안 들어감** → 비료가 필요 없는 끼니나무 전용 | 20×4 + 3×5 − 2 = **93** | 20 × 2줄 = **40** |
-| 3칸 작물용 | **가로 15 × 높이 7** | 작물 3칸 / 농장 타일 줄 / 작물 3칸. 끝 3칸 = 사다리 + 발판 타일 2 + 아래층에 작업대 2×3 | 12×6 + 3×7 − 2 = **91** | 12 × 2줄 = **24** |
-| 빛 필요한 2칸 작물 (센털꽃) | **가로 15 × 높이 7** | 조명 줄 / 작물 2칸 / 농장 타일 줄 / 조명 줄 / 작물 2칸. 끝 3칸은 위와 같음 | 12×6 + 3×7 − 2 = **91** | 12 × 2줄 = **24** |
-
-- 농장 타일은 막힌 칸이라 방 크기에 안 들어갑니다. 그래서 2줄까지는 96 이하, 3줄을 쌓으면 넘어요.
-- 블록 높이가 생활 구역 격자와 안 맞아도 **가운데 사다리에 문만 내면** 연결됩니다.
-
-### 목장: 안 / 밖
-
-목장 크기는 동물마다 필요한 칸 수로 정합니다 (공식 위키 Stable 기준, 넘으면 '과밀'). 손질 작업대 2×3, 부화기 2×3, 착유기 2×4라 땅 동물 목장은 **높이 4**면 됩니다.
-
-| 동물 | 쾌적 온도 | 1마리당 칸 | 목장 | 어디서 |
-|---|---|---|---|---|
-| 주둥가리 (Hatch) | 10~40°C | 12 | 24×4 = 96 → 8마리 | **안** |
-| 잎람쥐 (Pip) | 10~40°C | 12 | 24×4 → 8마리 | **안** |
-| 기끌이 (Drecko) | 10~60°C | 12 | 24×4 → 8마리 | **안** |
-| 헐떡이 (Puft) | 15~55°C | 16 | 12×8 = 96 → 6마리 | **밖** (오염 산소를 먹으니 격벽 안에 두지 않음) |
-| 미끌이 (Slickster) | 50~140°C | 12 | 24×4 → 8마리 | **밖** (산업 열 근처, CO₂ 구덩이 옆) |
-| 가스질 음메 (Gassy Moo) | −50~50°C | 16 | 22×4 = 88 → 5마리 | **밖** (가스풀 먹이) |
-| 플록스 (Flox) | −30~10°C | 12 | 16×4 = 64 → 5마리 | **밖** (추운 쪽) |
-| 빛벌레 (Shine Bug) | −70~40°C | 6 | 12×8 → 16마리 | 안·밖 모두 |
-
-- 실내 목장은 농장 옆 **보조 사다리**로 연결하고, 동물이 문틈에 끼지 않게 문은 닫히는 문으로 둡니다.
-
-### 산업 블록 (격벽 밖, 동쪽)
-
-| 시설 | 크기 | 메모 |
-|---|---|---|
-| 발전소 | 24×4 = 96 | 석탄 발전기 3×3, 수소 발전기 4×3, 전력 제어소 2×4. 높이 4에 딱 맞음 |
-| SPOM | 12×4, 단열 | 전기분해기 2×2 + 기체 펌프 2×2. 1대 = 물 1 kg/s → 산소 888 g/s ≈ 복제체 8명분 |
-| 수소 발전기 | 9×4, 단열 | SPOM 수소를 바로 태움 |
-| 냉방실 | 14×4, 단열 | 수냉 조절기, 나중에 위에 증기 터빈(5×3) |
-| 정제·제련 | 14×4, 단열 | 금속 정제기 3×4, 암석 분쇄기 4×4가 딱 4칸이라 들어감 |
-| CO₂ 구덩이 | 가로 전체 × 3 | 맨 아래. 미끌이 목장 바로 옆 |
-
-## 초반 임시 배치 (사이클 1~20 정도)
-
-벽과 바닥 줄은 **처음부터 후반 도면 위치**에 놓습니다. 다른 점은 포드층 서쪽 30칸 자리에 **임시 벽**을 하나 세워 16칸 + 13칸으로 나눠 쓰는 것뿐이에요 (16 + 벽 1 + 13 = 30).
-
-<div class="bp-wrap" markdown="0">
-<svg viewBox="0 0 1008 423" width="1008" role="img" aria-label="초반 임시 배치도" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans KR, sans-serif"><defs><pattern id="g" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M9 0V9H0" fill="none" stroke="#fff" stroke-opacity=".07"/></pattern></defs><rect width="1008" height="423" fill="#3a3128"/><rect x="459" y="9" width="54" height="36" fill="#1a1c28"/><rect x="459" y="9" width="54" height="36" fill="url(#g)"/><rect x="459.75" y="9.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="486.0" y="22" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="396" y="9" width="54" height="36" fill="#1a1c28"/><rect x="396" y="9" width="54" height="36" fill="url(#g)"/><rect x="396.75" y="9.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="423.0" y="22" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="333" y="9" width="54" height="36" fill="#1a1c28"/><rect x="333" y="9" width="54" height="36" fill="url(#g)"/><rect x="333.75" y="9.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="360.0" y="22" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="270" y="9" width="54" height="36" fill="#1a1c28"/><rect x="270" y="9" width="54" height="36" fill="url(#g)"/><rect x="270.75" y="9.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="297.0" y="22" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="207" y="9" width="54" height="36" fill="#1a1c28"/><rect x="207" y="9" width="54" height="36" fill="url(#g)"/><rect x="207.75" y="9.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="234.0" y="22" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="144" y="9" width="54" height="36" fill="#1a1c28"/><rect x="144" y="9" width="54" height="36" fill="url(#g)"/><rect x="144.75" y="9.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="171.0" y="22" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="558" y="9" width="216" height="36" fill="#1a1c28"/><rect x="558" y="9" width="216" height="36" fill="url(#g)"/><rect x="558.75" y="9.75" width="214.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="666.0" y="23" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">오락실 자리</text><rect x="783" y="9" width="144" height="36" fill="#1a1c28"/><rect x="783" y="9" width="144" height="36" fill="url(#g)"/><rect x="783.75" y="9.75" width="142.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="855.0" y="23" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">마사지실 자리</text><rect x="369" y="54" width="144" height="36" fill="#2c4a2a"/><rect x="369" y="54" width="144" height="36" fill="url(#g)"/><rect x="370" y="73" width="16" height="16" rx="2" fill="#d9c8a0" fill-opacity=".5"/><rect x="388" y="73" width="16" height="16" rx="2" fill="#d9c8a0" fill-opacity=".5"/><rect x="406" y="73" width="16" height="16" rx="2" fill="#d9c8a0" fill-opacity=".5"/><rect x="369.75" y="54.75" width="142.5" height="34.5" fill="none" stroke="#a3ff84" stroke-width="1.5"/><text x="441.0" y="68" fill="#a3ff84" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">막사 → 호화 막사</text><text x="441.0" y="81" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">16×4 · 간이 침대 3</text><rect x="306" y="54" width="54" height="36" fill="#1a1c28"/><rect x="306" y="54" width="54" height="36" fill="url(#g)"/><rect x="306.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="333.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="243" y="54" width="54" height="36" fill="#1a1c28"/><rect x="243" y="54" width="54" height="36" fill="url(#g)"/><rect x="243.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="270.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="180" y="54" width="54" height="36" fill="#1a1c28"/><rect x="180" y="54" width="54" height="36" fill="url(#g)"/><rect x="180.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="207.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="117" y="54" width="54" height="36" fill="#1a1c28"/><rect x="117" y="54" width="54" height="36" fill="url(#g)"/><rect x="117.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="144.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="54" y="54" width="54" height="36" fill="#1a1c28"/><rect x="54" y="54" width="54" height="36" fill="url(#g)"/><rect x="54.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="81.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="558" y="54" width="144" height="36" fill="#20434a"/><rect x="558" y="54" width="144" height="36" fill="url(#g)"/><rect x="559" y="64" width="16" height="25" rx="2" fill="#ffffff" fill-opacity=".5"/><rect x="577" y="64" width="16" height="25" rx="2" fill="#ffffff" fill-opacity=".5"/><rect x="595" y="64" width="16" height="25" rx="2" fill="#c8a070" fill-opacity=".5"/><rect x="613" y="64" width="16" height="25" rx="2" fill="#c8a070" fill-opacity=".5"/><rect x="558.75" y="54.75" width="142.5" height="34.5" fill="none" stroke="#84fff4" stroke-width="1.5"/><text x="630.0" y="68" fill="#84fff4" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">간이 화장실 방</text><text x="630.0" y="81" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">세면기 2 + 간이 화장실 2</text><rect x="711" y="54" width="54" height="36" fill="#1a1c28"/><rect x="711" y="54" width="54" height="36" fill="url(#g)"/><rect x="711.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="738.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="774" y="54" width="54" height="36" fill="#1a1c28"/><rect x="774" y="54" width="54" height="36" fill="url(#g)"/><rect x="774.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="801.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="837" y="54" width="54" height="36" fill="#1a1c28"/><rect x="837" y="54" width="54" height="36" fill="url(#g)"/><rect x="837.75" y="54.75" width="52.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="864.0" y="67" fill="#4a5070" font-size="9" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">개인</text><rect x="369" y="99" width="144" height="36" fill="#4a4226"/><rect x="369" y="99" width="144" height="36" fill="url(#g)"/><rect x="369.75" y="99.75" width="142.5" height="34.5" fill="none" stroke="#ffe284" stroke-width="1.5"/><text x="441.0" y="113" fill="#ffe284" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">식당</text><text x="441.0" y="126" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">16×4=64 · 분쇄기 + 식탁</text><rect x="243" y="99" width="117" height="36" fill="#30344a"/><rect x="243" y="99" width="117" height="36" fill="url(#g)"/><rect x="243.75" y="99.75" width="115.5" height="34.5" fill="none" stroke="#a9b0d0" stroke-width="1.5"/><text x="301.5" y="113" fill="#a9b0d0" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">보관함·작업대</text><text x="301.5" y="126" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">임시</text><rect x="18" y="99" width="216" height="36" fill="#1a1c28"/><rect x="18" y="99" width="216" height="36" fill="url(#g)"/><rect x="18.75" y="99.75" width="214.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="126.0" y="113" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">주방 자리</text><rect x="558" y="99" width="270" height="36" fill="#30344a"/><rect x="558" y="99" width="270" height="36" fill="url(#g)"/><rect x="559" y="100" width="34" height="34" rx="2" fill="#c0c8e0" fill-opacity=".5"/><rect x="604" y="118" width="16" height="16" rx="2" fill="#e0a0ff" fill-opacity=".5"/><rect x="631" y="118" width="16" height="16" rx="2" fill="#f4a442" fill-opacity=".5"/><rect x="558.75" y="99.75" width="268.5" height="34.5" fill="none" stroke="#a9b0d0" stroke-width="1.5"/><text x="693.0" y="113" fill="#a9b0d0" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">포드 + 연구소 + 수동 발전기</text><text x="693.0" y="126" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">아직 방 아님</text><rect x="837" y="99" width="144" height="36" fill="#1a1c28"/><rect x="837" y="99" width="144" height="36" fill="url(#g)"/><rect x="837.75" y="99.75" width="142.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="909.0" y="113" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">작업장 자리</text><rect x="558" y="144" width="144" height="36" fill="#30344a"/><rect x="558" y="144" width="144" height="36" fill="url(#g)"/><rect x="558.75" y="144.75" width="142.5" height="34.5" fill="none" stroke="#a9b0d0" stroke-width="1.5"/><text x="630.0" y="158" fill="#a9b0d0" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">수동 펌프 · 산소 확산기</text><text x="630.0" y="171" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">임시</text><rect x="711" y="144" width="270" height="36" fill="#1d3358"/><rect x="711" y="144" width="270" height="36" fill="url(#g)"/><rect x="711.75" y="144.75" width="268.5" height="34.5" fill="none" stroke="#6aa8ff" stroke-width="1.5"/><text x="846.0" y="158" fill="#6aa8ff" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">웅덩이 → 깨끗한 물 수조</text><text x="846.0" y="171" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">수동 펌프</text><rect x="558" y="189" width="216" height="36" fill="#1a1c28"/><rect x="558" y="189" width="216" height="36" fill="url(#g)"/><rect x="558.75" y="189.75" width="214.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="666.0" y="203" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">발전소 자리</text><rect x="783" y="189" width="198" height="36" fill="#1a1c28"/><rect x="783" y="189" width="198" height="36" fill="url(#g)"/><rect x="783.75" y="189.75" width="196.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="882.0" y="203" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">SPOM·수소 발전기 자리</text><rect x="558" y="234" width="126" height="36" fill="#1a1c28"/><rect x="558" y="234" width="126" height="36" fill="url(#g)"/><rect x="558.75" y="234.75" width="124.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="621.0" y="248" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">냉방실 자리</text><rect x="693" y="234" width="126" height="36" fill="#1a1c28"/><rect x="693" y="234" width="126" height="36" fill="url(#g)"/><rect x="693.75" y="234.75" width="124.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="756.0" y="248" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">정제 자리</text><rect x="828" y="234" width="153" height="36" fill="#1a1c28"/><rect x="828" y="234" width="153" height="36" fill="url(#g)"/><rect x="828.75" y="234.75" width="151.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="904.5" y="248" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">오염수 수조 자리</text><rect x="558" y="279" width="216" height="36" fill="#1a1c28"/><rect x="558" y="279" width="216" height="36" fill="url(#g)"/><rect x="558.75" y="279.75" width="214.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="666.0" y="293" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">외부 목장 자리</text><rect x="783" y="279" width="198" height="36" fill="#1a1c28"/><rect x="783" y="279" width="198" height="36" fill="url(#g)"/><rect x="783.75" y="279.75" width="196.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="882.0" y="293" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">외부 목장 자리</text><rect x="9" y="360" width="972" height="27" fill="#1a1c28"/><rect x="9" y="360" width="972" height="27" fill="url(#g)"/><rect x="9.75" y="360.75" width="970.5" height="25.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="495.0" y="374" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">CO₂ 구덩이 자리</text><rect x="306" y="144" width="207" height="45" fill="#3b4720"/><rect x="306" y="144" width="207" height="45" fill="url(#g)"/><rect x="306.75" y="144.75" width="205.5" height="43.5" fill="none" stroke="#cdf248" stroke-width="1.5"/><text x="409.5" y="158" fill="#cdf248" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">농장 타일 한 줄</text><text x="409.5" y="171" fill="#e2e6f5" font-size="9" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">실내 온실 A 자리 · 바닥 줄 농장 타일 20</text><rect x="378" y="198" width="135" height="63" fill="#1a1c28"/><rect x="378" y="198" width="135" height="63" fill="url(#g)"/><rect x="378.75" y="198.75" width="133.5" height="61.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="445.5" y="212" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">실내 온실 B 자리</text><rect x="63" y="144" width="216" height="36" fill="#1a1c28"/><rect x="63" y="144" width="216" height="36" fill="url(#g)"/><rect x="63.75" y="144.75" width="214.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="171.0" y="158" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">실내 목장 자리</text><rect x="63" y="189" width="216" height="36" fill="#1a1c28"/><rect x="63" y="189" width="216" height="36" fill="url(#g)"/><rect x="63.75" y="189.75" width="214.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="171.0" y="203" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">실내 목장 자리</text><rect x="378" y="279" width="135" height="63" fill="#1a1c28"/><rect x="378" y="279" width="135" height="63" fill="url(#g)"/><rect x="378.75" y="279.75" width="133.5" height="61.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="445.5" y="293" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">외부 온실 자리</text><rect x="171" y="279" width="108" height="72" fill="#1a1c28"/><rect x="171" y="279" width="108" height="72" fill="url(#g)"/><rect x="171.75" y="279.75" width="106.5" height="70.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="225.0" y="293" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">외부 목장 자리</text><rect x="18" y="279" width="144" height="36" fill="#1a1c28"/><rect x="18" y="279" width="144" height="36" fill="url(#g)"/><rect x="18.75" y="279.75" width="142.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="90.0" y="293" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">염소 온실 자리</text><rect x="18" y="324" width="144" height="36" fill="#1a1c28"/><rect x="18" y="324" width="144" height="36" fill="url(#g)"/><rect x="18.75" y="324.75" width="142.5" height="34.5" fill="none" stroke="#4a5070" stroke-width="1.5" stroke-dasharray="4 3"/><text x="90.0" y="338" fill="#4a5070" font-size="11" font-weight="700" text-anchor="middle" stroke="#11131f" stroke-width="3" paint-order="stroke">외부 목장 자리</text><path d="M3.6000000000000227 -3.6 L993.5999999999999 -3.6 L993.5999999999999 183.6 L554.4 183.6 L554.4 264.59999999999997 L3.6000000000000227 264.59999999999997 Z" fill="none" stroke="#e0b060" stroke-width="5" stroke-dasharray="10 4" stroke-opacity=".9"/><rect x="522" y="0" width="27" height="198" fill="#24452e"/><rect x="522" y="45" width="9" height="9" fill="#8a6a48"/><rect x="524" y="29" width="5" height="16" rx="2" fill="#9be36b" fill-opacity=".8"/><rect x="522" y="90" width="9" height="9" fill="#8a6a48"/><rect x="524" y="74" width="5" height="16" rx="2" fill="#9be36b" fill-opacity=".8"/><rect x="522" y="135" width="9" height="9" fill="#8a6a48"/><rect x="524" y="119" width="5" height="16" rx="2" fill="#9be36b" fill-opacity=".8"/><rect x="522" y="180" width="9" height="9" fill="#8a6a48"/><rect x="524" y="164" width="5" height="16" rx="2" fill="#9be36b" fill-opacity=".8"/><rect x="522.75" y="0.75" width="25.5" height="196.5" fill="none" stroke="#acffbd" stroke-width="2"/><rect x="531" y="0" width="18" height="198" fill="#2a2618"/><line x1="532" y1="4.5" x2="539" y2="4.5" stroke="#f6c445"/><line x1="532" y1="13.5" x2="539" y2="13.5" stroke="#f6c445"/><line x1="532" y1="22.5" x2="539" y2="22.5" stroke="#f6c445"/><line x1="532" y1="31.5" x2="539" y2="31.5" stroke="#f6c445"/><line x1="532" y1="40.5" x2="539" y2="40.5" stroke="#f6c445"/><line x1="532" y1="49.5" x2="539" y2="49.5" stroke="#f6c445"/><line x1="532" y1="58.5" x2="539" y2="58.5" stroke="#f6c445"/><line x1="532" y1="67.5" x2="539" y2="67.5" stroke="#f6c445"/><line x1="532" y1="76.5" x2="539" y2="76.5" stroke="#f6c445"/><line x1="532" y1="85.5" x2="539" y2="85.5" stroke="#f6c445"/><line x1="532" y1="94.5" x2="539" y2="94.5" stroke="#f6c445"/><line x1="532" y1="103.5" x2="539" y2="103.5" stroke="#f6c445"/><line x1="532" y1="112.5" x2="539" y2="112.5" stroke="#f6c445"/><line x1="532" y1="121.5" x2="539" y2="121.5" stroke="#f6c445"/><line x1="532" y1="130.5" x2="539" y2="130.5" stroke="#f6c445"/><line x1="532" y1="139.5" x2="539" y2="139.5" stroke="#f6c445"/><line x1="532" y1="148.5" x2="539" y2="148.5" stroke="#f6c445"/><line x1="532" y1="157.5" x2="539" y2="157.5" stroke="#f6c445"/><line x1="532" y1="166.5" x2="539" y2="166.5" stroke="#f6c445"/><line x1="532" y1="175.5" x2="539" y2="175.5" stroke="#f6c445"/><line x1="532" y1="184.5" x2="539" y2="184.5" stroke="#f6c445"/><line x1="532" y1="193.5" x2="539" y2="193.5" stroke="#f6c445"/><line x1="544.5" y1="0" x2="544.5" y2="198" stroke="#ff8a4c" stroke-width="2"/><rect x="515" y="72" width="5" height="18" fill="#8a9bd0"/><rect x="515" y="117" width="5" height="18" fill="#8a9bd0"/><rect x="515" y="171" width="5" height="18" fill="#8a9bd0"/><rect x="551" y="72" width="5" height="18" fill="#8a9bd0"/><rect x="551" y="117" width="5" height="18" fill="#8a9bd0"/><rect x="551" y="162" width="5" height="18" fill="#8a9bd0"/><rect x="362" y="117" width="5" height="18" fill="#8a9bd0"/><text x="0" y="405" fill="#a9b0d0" font-size="11" font-weight="700" text-anchor="start" stroke="#11131f" stroke-width="3" paint-order="stroke">회색 점선 = 아직 안 판 곳 · 노란 점선 = 나중에 단열 격벽을 두를 선 (초반엔 그냥 벽)</text></svg>
-</div>
-<p class="bp-legend">점선 = 아직 안 판 곳(후반 용도 표시). 포드층 서쪽의 16칸과 13칸 사이 벽이 나중에 허물 임시 벽입니다. 가운데 초록 테두리가 사다리 통로(공원 → 자연보호구역).</p>
-
-| 자리 | 크기 | 초반에 둘 것 | 방 |
-|---|---|---|---|
-| 사다리 통로 | 3칸 폭 | 사다리 + 소방봉 + 식물 칸 (층 바닥 줄은 자연 타일로 남김) | 공원 (+3) → 자연보호구역 (+6) |
-| 1층 서쪽, 통로 쪽 | 16×4 = 64 | 간이 침대 3 | 막사 (+1) → 나중에 호화 막사 |
-| 1층 동쪽, 통로 쪽 | 16×4 = 64 | 세면기 2 (문 쪽) + 간이 화장실 2 (안쪽) + 퇴비 더미 | 간이 화장실 (+1) |
-| 포드층 서쪽, 통로 쪽 | 16×4 = 64 | 미생물 분쇄기 + 식탁 | 식당 (+3) |
-| 포드층 서쪽, 그 바깥 | 13×4 = 52 | 보관함, 작업대 | 없음 |
-| 포드층 동쪽 | 30×4 | 포드 + 연구소 + 수동 발전기 + 배터리 | 없음 (발전기가 산업 기계) |
-| 실내 온실 A 자리 | 23×5 | 바닥 줄 농장 타일 20 (끼니나무). 화분은 장식 −10이고 나중에 뜯어야 해서 안 씀 | 없음 |
-| 포드층 아래 동쪽 | 16×4 / 웅덩이 | 수동 펌프, 산소 확산기 | 없음 |
-
-> 처음 파는 순서: 포드층 좌우 → 가운데 통로(사다리) → 1층(침실·화장실) → 실내 온실 A 자리 · 수조 쪽. 위층부터 파면 물이 새는 일이 줄어듭니다.
-{: .tip}
-
-## 한 방에 같이 두면 안 되는 것 (중첩 불가)
-
-방 조건끼리 부딪혀서, 업그레이드하려면 **초반 건물을 꼭 철거해야** 하는 조합입니다.
-
-| 같이 두면 | 결과 |
-|---|---|
-| 간이 화장실 + 수세식 화장실 | 세척실 안 됨 (간이 화장실 방으로 남음) |
-| 간이 침대 + 편한 침대 | 호화 막사 안 됨 (막사로 남음) |
-| 편한 침대 2개 이상 | 개인 침실 안 됨 (호화 막사가 됨) |
-| 식탁 + 주방 설비 | 주방 안 됨. 주방은 **식탁 없는 별도 방** |
-| 식탁 + 공용 식탁 | 연회장 안 됨 |
-| 식탁 + 침대 (한 방) | 두 조건을 같이 만족 → **기타 방**, 보너스 0 |
-| 수동 발전기·펌프·전기분해기 등 + 생활 방 | 산업 기계라 방 보너스 사라짐 |
-| 공원 + 자연보호구역 | 겹쳐서 받지 않음, +6이 +3을 덮어씀 |
-
-## 초반 시설 철거 시점과 그 자리 재활용
-
-| 초반 시설 | 자리 | 철거 시점 | 그 자리 재활용 |
-|---|---|---|---|
-| 간이 화장실 ×2 + 세면기 | 1층 동쪽 16칸 | 물 정화기가 돌고 수세식 화장실 연구 후 | 같은 방에 **싱크대(Sink) 4 (문 쪽) + 수세식 화장실 4 (안쪽)**. 2칸 폭 × 8개 = 16칸 딱. 세척실 +2. 퇴비 더미는 실내 온실 쪽으로 |
-| 간이 침대 ×3 | 1층 서쪽 16칸 | 편한 침대 연구 후 | 같은 방에서 하나씩 교체. **간이 침대가 하나라도 남으면 호화 막사가 안 되니** 마지막 하나까지 철거 → 편한 침대 4 = 호화 막사 +2. 바깥쪽엔 개인 침실 5개를 차례로 팜 |
-| 수동 발전기 | 포드층 동쪽 | 격벽 밖 발전소에 석탄 발전기가 돈 뒤 | 그 자리에 **슈퍼컴퓨터** → 연구소와 합쳐 30칸 연구실(+10%). 포드 불빛 범위라 작업 속도도 빠름 |
-| 미생물 분쇄기 | 포드층 서쪽 16칸 | 주방(전기 그릴) 완성 후 | 워터 쿨러 + 장식 20 이상을 **먼저** 넣고 → **임시 벽 허물기** → 30칸 큰 회관 +4. (식당은 최대 64라, 조건 없이 벽만 허물면 보너스가 사라짐) |
-| 보관함·작업대 | 포드층 서쪽 13칸 | 위 임시 벽 허물 때 | 큰 회관의 일부가 됨. 보관함은 동쪽 작업장으로 |
-| 배급 상자 | 식당 근처 | 냉장고 지은 뒤 | 철거. 냉장고는 바깥쪽 24칸 **주방**에 (그릴 + 향신료 분쇄기 + 냉장고, 식탁 없이) |
-| (화분 안 씀) | 온실 A 자리 | – | 처음부터 바닥 줄을 농장 타일로 깔아서 철거할 게 없음. 식량이 더 필요해지면 가운데에 농장 타일 한 줄 추가 → 2줄 실내 온실 A (작물 40). 아래에 실내 온실 B, 격벽 밖에 외부 온실 (작업대 각 1개) |
-| 수동 펌프, 산소 확산기 | 포드층 아래 동쪽 16칸 | 액체 펌프·전기분해기 가동 후 | 물 처리 구역 (물 정화기, 액체 펌프). 산업 기계라 방으로 묶지 않음 |
-| 공원 (사다리 통로) | 가운데 통로 | 통로를 아래로 늘리기 전 | 야생 식물 4개 이상이면 그대로 자연보호구역 +6. 철거할 건 없음 |
-
-> 야생 식물 만드는 법은 위 [사다리 통로 = 자연보호구역](#사다리-통로--자연-보호구역)에 있습니다.
-{: .tip}
-
-## 확장 규칙 (뜯지 않고 늘리기)
-
-- **가운데 통로는 위아래로만** 늘립니다. 통로 위치는 절대 안 옮깁니다.
-- 새 방은 **바깥쪽에** 붙이고, 가로는 그 방 최대 크기에 맞춥니다: 64짜리는 16칸, 96짜리는 24칸, 120짜리는 30칸, 개인 침실은 6칸.
-- **위로는 주거**(개인 침실, 오락실). 아래는 블록별로: 농장은 온실을 아래로 더 쌓고, 목장은 서쪽 바깥으로, 산업은 동쪽 아래로 늘립니다.
-- 생활 구역만 높이 4 격자를 지키고, 농장·목장·산업은 자기 높이로 짓되 **가운데 통로에 문만 내서** 연결합니다.
-- 격벽 안을 늘릴 땐 격벽을 바깥으로 한 칸씩 옮기는 게 아니라, **새 칸을 먼저 단열로 감싼 뒤** 옛 격벽을 헙니다.
-- 작은 방으로 시작해 큰 방이 될 자리는 **임시 벽**으로 나눠 두고, 큰 방 조건을 먼저 채운 다음 벽을 허뭅니다.
-- 바닥 줄(5칸 간격)에 맞춰 파이프·와이어를 깔면, 방을 바꿔도 배관을 다시 안 뜯습니다.
-- 기지가 가로로 100칸 가까이 되니, 중반부터는 운송관(Transit Tube)을 통로 옆에 추가하세요.
-
-## 휴식 시간 분리 (교대 일정)
-
-복제체 전원이 같은 일정이면 휴식·취침·목욕 시간에 **모두 한꺼번에** 화장실·식탁·통로로 몰립니다. 일정을 조별로 나눠 **6칸씩 밀어두면** 한 번에 몰리는 인원이 1/4로 줄어요.
-
-### 실제 일정 예시 (4교대)
-
-<div class="sch" role="img" aria-label="4개 조 일정: 각 조의 휴식 2칸, 취침 3칸, 목욕 1칸이 6칸씩 밀려 있음"><div class="sch-row"><span class="sch-name"></span><div class="sch-bar"><span class="h">0</span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h">6</span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h">12</span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h">18</span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span></div></div><div class="sch-row"><span class="sch-name">오전조<small>양자역학싫어요</small></span><div class="sch-bar"><span class="B">목</span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="D">휴</span><span class="D">휴</span><span class="S">잠</span><span class="S">잠</span><span class="S">잠</span></div></div><div class="sch-row"><span class="sch-name">낮조<small>말랑</small></span><div class="sch-bar"><span class="W"></span><span class="D">휴</span><span class="D">휴</span><span class="S">잠</span><span class="S">잠</span><span class="S">잠</span><span class="B">목</span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span></div></div><div class="sch-row"><span class="sch-name">저녁조<small>감자</small></span><div class="sch-bar"><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="D">휴</span><span class="D">휴</span><span class="S">잠</span><span class="S">잠</span><span class="S">잠</span><span class="B">목</span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span></div></div><div class="sch-row"><span class="sch-name">새벽조<small>(비어 있음)</small></span><div class="sch-bar"><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="D">휴</span><span class="D">휴</span><span class="S">잠</span><span class="S">잠</span><span class="S">잠</span><span class="B">목</span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span><span class="W"></span></div></div><div class="sch-legend"><span class="W"></span>일 <span class="D">휴</span>휴식 <span class="S">잠</span>취침 <span class="B">목</span>목욕 · 1칸 = 25초, 하루 24칸 · 맨 왼쪽 5칸 = 아침(아침형 보너스), 맨 오른쪽 3칸 = 밤(올빼미족 보너스)</div></div>
-
-네 조 모두 **일 18칸 · 휴식 2칸 · 취침 3칸 · 목욕 1칸**으로 기본 일정과 같은 구성이고, 시작 위치만 6칸씩 다릅니다.
-
-| 조 | 휴식 | 취침 | 목욕 | 일 |
-|---|---|---|---|---|
-| 오전조 | 19~20 | 21~23 | 0 | 1~18 |
-| 낮조 | 1~2 | 3~5 | 6 | 7~23, 0 |
-| 저녁조 | 7~8 | 9~11 | 12 | 13~23, 0~6 |
-| 새벽조 | 13~14 | 15~17 | 18 | 19~23, 0~12 |
-
-### 왜 좋은가
-
-- **화장실 줄이 없어짐.** 복제체는 하루에 최소 한 번 화장실을 갑니다. 목욕 시간이 조마다 다르니 같은 화장실을 돌아가며 씁니다. 공식 위키도 "화장실은 공용이라 목욕 시간이 일정 분리에 가장 좋은 칸"이라고 설명해요.
-- **식탁이 덜 필요함.** 배고픈 복제체는 휴식 시간에 밥을 먹습니다. 휴식 시간이 겹치지 않으니 식탁은 **가장 큰 조 인원수만큼**이면 충분해요.
-- **통로가 안 막힘.** 출퇴근 시간이 분산되어 사다리·소방봉에서 서로 비켜 기다리는 시간이 줄어요.
-- **잠 깨우는 사고가 줄어듦.** 시끄럽게 잠(Loud Sleeper)·헛배부름(Flatulent)는 같이 자는 복제체를 깨웁니다. 같은 시간에 자는 인원이 적을수록 피해가 작아요.
-- **일이 24시간 돌아감.** 항상 3개 조가 일하고 있어서 연구소·작업대가 쉬지 않습니다.
-
-### 시설 개수 기준
-
-| 시설 | 일정 하나일 때 | 4교대일 때 |
-|---|---|---|
-| 침대 | 인원수 | **인원수 그대로** (침대는 복제체마다 하나씩 배정되어 나눠 쓰지 않음) |
-| 식탁 | 인원수 | 가장 큰 조 인원수 |
-| 화장실 | 인원 ÷ 2 정도 | 조마다 1~2개면 충분 (경험치. 한 조 4명까지 화장실 2개) |
-| 세면기 | 화장실과 같은 수 | 화장실과 같은 수 |
-
-> 조를 나눠도 **침대 수는 안 줄어요.** 그래서 침실 면적은 그대로고, 줄어드는 건 화장실·식탁·통로 혼잡입니다. 위 배치도의 세척실(화장실 4 + 세면기 4)이면, 4교대에 조당 4명(총 16명)이어도 목욕 시간마다 한 조가 화장실 4개를 나눠 쓰는 셈이라 여유롭습니다.
-{: .warn}
-
-### 주의할 점
-
-- **침실은 어둡게.** 빛은 수면 방해(Interrupted Sleep) 원인입니다. 다른 조가 깨어 있는 동안에도 자는 조가 있으니, 침실에 조명을 두지 말고 햇빛이 드는 지표 근처에 침실을 만들지 마세요.
-- **배고픔·꽉 찬 방광도 잠을 깨웁니다.** 휴식(밥) → 취침 → 목욕 순서를 그대로 두면 자기 전에 먹고, 일어나서 볼일을 봐서 안전해요.
-- **올빼미족(Night Owl)** 은 하루 맨 오른쪽 3칸(21~23)에 모든 능력치 +3입니다. 오전조는 그 시간에 자니까 보너스를 버려요. **낮조·저녁조·새벽조**에 넣으세요.
-- **아침형 복제체(Early Bird)** 은 맨 왼쪽 5칸(0~4)에 모든 능력치 +2입니다. 낮조는 그 시간에 쉬고 자니까 손해예요. **오전조·저녁조·새벽조**에 넣으세요.
-- **휴식 칸을 늘리면 사기가 오릅니다.** 첫 칸을 뺀 휴식 칸 하나당 사기 +1, 최대 +4. 지금은 2칸이라 +1이에요. 사기가 모자라면 일 칸을 휴식으로 바꾸세요.
-- 목욕과 휴식 사이가 **10칸 넘게 벌어지면** 하루에 화장실을 두 번 갑니다. 지금 일정처럼 붙여 두는 게 좋아요.
-- 자는 동안 스태미나가 100%가 안 되면, 취침이 끝난 뒤 이어지는 일·목욕 칸까지 계속 잡니다 (휴식 칸에서는 깸). 그래서 취침 3칸이면 보통 충분해요.
-- 복제체 3~4명일 땐 효과가 작습니다. **6명 이상**부터 확실히 체감돼요.
-
 ## 테라니아 적용 메모
 
 - 포드가 맵 가운데라 **포드 바로 옆(서쪽)에 통로**를 세우고, 포드는 연구실 칸에 넣습니다.
@@ -357,3 +56,7 @@ description: 방마다 크기, 포드 주변 핵심 구역 배치, 단열 격벽
 - **왼쪽 아래 웅덩이**는 격벽 밖 예비 물로 두고, 외부 온실 관개에 씁니다.
 - 연구 전담 복제체는 포드층 연구실, 농사 담당은 실내 온실, 굴착 담당은 위 "처음 파는 순서"대로 파면 됩니다.
 - 복제체 8명으로 굴릴 때의 산소·식량·물·전력 예산, 역할 분배, 기름 늪·방사능 숲 진출 시점은 [8명 중반 설계·행성 진출]({{ '/guide/midgame-8/' | relative_url }})에 정리했어요.
+
+<script>
+(function(){var m={"방-크기-전체-표":"rooms","생활-구역-방-크기":"rooms","한-방에-같이-두면-안-되는-것-중첩-불가":"rooms","사다리-통로--자연보호구역":"corridor","하루-동선-침실--화장실--식당--일":"corridor","단열-격벽-안과-밖-나누기":"envelope","냉방-시스템":"envelope","수조":"envelope","작물-안에서-키울-것--밖에서-키울-것":"blocks","농장-규격":"blocks","목장-안--밖":"blocks","산업-블록-격벽-밖-동쪽":"blocks","초반-임시-배치-사이클-120-정도":"early","초반-시설-철거-시점과-그-자리-재활용":"early","확장-규칙-뜯지-않고-늘리기":"early","휴식-시간-분리-교대-일정":"shifts","실제-일정-예시-4교대":"shifts","왜-좋은가":"shifts","시설-개수-기준":"shifts","주의할-점":"shifts"};var h=decodeURIComponent(location.hash.slice(1));if(m[h]){location.replace("{{ '/guide/core-base/' | relative_url }}"+m[h]+"/#"+encodeURIComponent(h));}})();
+</script>
