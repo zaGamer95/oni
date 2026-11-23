@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'ko' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%2360d4e8'/><circle cx='38' cy='40' r='10' fill='white' opacity='.7'/></svg>">
+</head>
+<body>
+  <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+  <header class="topbar">
+    <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true"><i></i></span>
+      <span class="brand-text">{{ site.title }}</span>
+    </a>
+    <span class="cycle-chip" title="이 가이드 기준 버전">기준: 본편 + 우주 탐사(Spaced Out!) 이후 최신 패치</span>
+  </header>
+
+  <div class="shell">
+    <nav class="sidebar" aria-label="가이드 목차">
+      <div class="panel-title">가이드 목차</div>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}><span class="num">⌂</span>홈</a></li>
+        {% assign guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+        {% for p in guides %}
+        <li><a href="{{ p.url | relative_url }}" {% if page.url == p.url %}class="active"{% endif %}><span class="num">{{ p.nav_order }}</span>{{ p.nav_title | default: p.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="sidebar-note">
+        수치는 게임 패치에 따라 바뀔 수 있어요. 게임 안 툴팁이 항상 최종 정답입니다.
+      </div>
+    </nav>
+
+    <main class="content">
+      {% if page.url != "/" %}
+      <div class="page-head">
+        {% if page.nav_order %}<div class="eyebrow">가이드 {{ page.nav_order }}</div>{% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+      </div>
+      {% endif %}
+
+      <article class="prose">
+        {{ content }}
+      </article>
+
+      {% if page.nav_order %}
+      {% assign guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+      <nav class="pager">
+        {% for p in guides %}
+          {% if p.url == page.url %}
+            {% assign prev_i = forloop.index0 | minus: 1 %}
+            {% assign next_i = forloop.index0 | plus: 1 %}
+            {% if prev_i >= 0 %}{% assign prev = guides[prev_i] %}<a class="prev" href="{{ prev.url | relative_url }}">← {{ prev.nav_title | default: prev.title }}</a>{% endif %}
+            {% if next_i < guides.size %}{% assign next = guides[next_i] %}<a class="next" href="{{ next.url | relative_url }}">{{ next.nav_title | default: next.title }} →</a>{% endif %}
+          {% endif %}
+        {% endfor %}
+      </nav>
+      {% endif %}
+
+      <footer class="foot">
+        개인 플레이 노트 · 팬 제작 비공식 가이드입니다. Oxygen Not Included는 Klei Entertainment의 게임입니다.
+      </footer>
+    </main>
+  </div>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
