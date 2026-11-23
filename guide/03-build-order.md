@@ -31,10 +31,10 @@ description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반
 **바닥 타일 18칸이 가장 효율적입니다.** 그 위에 아래를 놓습니다.
 
 - 간이 화장실 (Outhouse) 4개
-- 세면대 (Wash Basin) 4개 — 화장실에서 나오는 방향으로
+- 세면기 (Wash Basin) 4개 — 화장실에서 나오는 방향으로
 - 수동 펌프 (Pitcher Pump) 1개 — 아래 물웅덩이에서 물을 뜸
 
-{% include shot.html src="bathroom-first.jpg" caption="맨 윗층 18칸에 세면대 4개(초록 화살표 방향)와 간이 화장실 4개. 아래층이 포드와 작업 공간, 왼쪽 아래 물웅덩이에 수동 펌프." %}
+{% include shot.html src="bathroom-first.jpg" caption="맨 윗층 18칸에 세면기 4개(초록 화살표 방향)와 간이 화장실 4개. 아래층이 포드와 작업 공간, 왼쪽 아래 물웅덩이에 수동 펌프." %}
 
 ### 2. 산소 생성기 만들기
 
@@ -44,7 +44,7 @@ description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반
 
 ### 3. 식량 해결용 농장 만들기
 
-- **복제체 1명당 4그루**를 심고, 수확한 걸로 **이 빵 (Liceloaf)** 을 자동 제작하게 해두면 식량이 해결됩니다.
+- **복제체 1명당 4그루**를 심고, 수확한 걸로 **이빵 (Liceloaf)** 을 자동 제작하게 해두면 식량이 해결됩니다.
 - 농장 타일 (Farm Tile)을 한 줄로 깔면 관리가 쉽습니다.
 
 {% include shot.html src="farm-liceloaf.jpg" size="half" caption="농장 타일 9칸을 한 줄로. 바로 아래층에 이동 통로." %}
@@ -58,7 +58,7 @@ description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반
 
 ### 5. 침실 만들기
 
-간이 침대 (Cot)를 복제체 수만큼. 방 안에 산업 기계를 두지 않아야 숙소 보너스가 붙습니다. 방 규격은 [건축 규격 & 팁]({{ '/guide/build-specs/#방room-규격' | relative_url }})을 보세요.
+간이 침대 (Cot)를 복제체 수만큼. 방 안에 산업 기계를 두지 않아야 막사 보너스가 붙습니다. 방 규격은 [건축 규격 & 팁]({{ '/guide/build-specs/#방room-규격' | relative_url }})을 보세요.
 
 ### 6. 수조 만들기
 
@@ -68,7 +68,7 @@ description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반
 
 ### 7. 식당 만들기
 
-식탁 (Mess Table)을 여러 개 놓고 방으로 감싸면 식당 보너스(사기 +3)가 붙습니다. 나중엔 장식품을 더해 대연회장 (Great Hall)으로 키웁니다.
+식탁 (Mess Table)을 여러 개 놓고 방으로 감싸면 식당 보너스(사기 +3)가 붙습니다. 나중엔 장식품을 더해 큰 회관 (Great Hall)으로 키웁니다.
 
 <div class="shot-grid">
 {% include shot.html src="mess-hall-early.jpg" caption="초반 식당. 긴 방에 식탁을 쭉 놓고 양 끝에 문." %}
@@ -126,7 +126,7 @@ description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반
 
 ### 발전소 자동화
 
-{% include shot.html src="power-plant-smartbattery.jpg" caption="왼쪽 대형 배터리 3개, 가운데 발전기 3대. 스마트 배터리 신호(초록 자동화 선)로 발전기를 켜고 끔." %}
+{% include shot.html src="power-plant-smartbattery.jpg" caption="왼쪽 점보 배터리 3개, 가운데 발전기 3대. 스마트 배터리 신호(초록 자동화 선)로 발전기를 켜고 끔." %}
 
 ### 9. 온도 관리 시설 만들기
 
@@ -172,7 +172,7 @@ description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반
 1. **원유 바이옴 뚫기** — 석유층은 뜨거우니 단열·내열 재료를 준비하고 들어갑니다. ([바이옴 확장 타이밍]({{ '/guide/biome-expansion/' | relative_url }}) 참고)
 2. **지상까지 길 뚫기** — 표면을 열면 운석이 떨어지기 시작합니다.
 3. **강철 양산하기** — 금속 정제기로 강철을 만들어 고온용 건물에 씁니다.
-4. **목장** — 해치(Hatch) 목장 자동화. 참고: [Reddit: Automated Hatch Farm revisited](https://www.reddit.com/r/Oxygennotincluded/comments/14yyrl0/automated_hatch_farm_revisited/)
+4. **목장** — 주둥가리(Hatch) 목장 자동화. 참고: [Reddit: Automated Hatch Farm revisited](https://www.reddit.com/r/Oxygennotincluded/comments/14yyrl0/automated_hatch_farm_revisited/)
 
 ## 후반 작업 목록
 

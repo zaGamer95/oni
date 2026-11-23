@@ -74,7 +74,7 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 |---|---|---|---|
 | 1 | **기본 농업** (Basic Farming) | 1 | 화분 (Planter Box), 조류 테라리움 (Algae Terrarium), 퇴비 더미 (Compost) |
 | 2 | **식사 준비** (Meal Preparation) | 2 | **농장 타일 (Farm Tile)**, 식탁 (Mess Table), 전기 그릴 (Electric Grill) |
-| 3 | **전력 조절** (Power Regulation) | 1 | 대형 배터리 (Jumbo Battery), 스위치, 와이어 다리 |
+| 3 | **전력 조절** (Power Regulation) | 1 | 점보 배터리 (Jumbo Battery), 스위치, 와이어 다리 |
 | 4 | **내연 기관** (Internal Combustion) | 2 | **석탄 발전기 (Coal Generator)**, 나무 발전기 |
 | 5 | **고용** (Employment) | 1 | 급수기 (Water Cooler), 제작대. 다음 두 기술의 선행 |
 | 6 | **고급 연구** (Advanced Research) | 2 | **슈퍼컴퓨터**, **망원경 (Telescope)**, 미니 포드 (Mini-Pod), 스킬 초기화기 |
@@ -87,7 +87,7 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 | 순서 | 기술 | 단계 | 이걸로 짓는 것 |
 |---|---|---|---|
 | 7 | **액체 파이프** (Plumbing) | 1 | 액체 파이프, 액체 펌프, 액체 배출구 |
-| 8 | **위생** (Sanitation) | 2 | **수세식 화장실 (Lavatory)**, 세면대 (Sink), 샤워기 |
+| 8 | **위생** (Sanitation) | 2 | **수세식 화장실 (Lavatory)**, 싱크대 (Sink), 샤워기 |
 | 9 | **환기** (Ventilation) | 1 | 기체 파이프, 기체 펌프, 기체 배출구 |
 | 10 | **공기 시스템** (Air Systems) | 2 | **전기분해기 (Electrolyzer)**, 녹 탈산소기 |
 | 11 | **압력 관리** (Pressure Management) | 2 | 밸브, 공기 투과 타일, 수동 에어록. 냉방·환기 3단계의 선행 |
@@ -114,7 +114,7 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 | 23 | **화석 연료** (Fossil Fuels) | 천연가스 발전기, 정유기, 석유 발전기 | 천연가스 간헐천 쓰기 |
 | 24 | **정화** (Decontamination) | 탈취기 (Deodorizer), **탄소 흡수기 (Carbon Skimmer)**, 기계식 에어록 | 이산화탄소 처리 |
 | 25 | **액체 정제 공정** (Liquid-Based Refinement Processes) | 담수화기 (Desalinator), 광석 세척기 | 소금물 활용 |
-| 26 | **목축** (Ranching) | 목장 작업대, 사료 공급기 | 매끈 드레코(Glossy Drecko)로 플라스틱 |
+| 26 | **목축** (Ranching) | 목장 작업대, 사료 공급기 | 매끈 기끌이(Glossy Drecko)로 플라스틱 |
 | 27 | **일반 센서** (Generic Sensors) | 시간 센서, 원소 센서, NOT 게이트 | 자동화 |
 
 > **SPOM은 3단계에서 완성됩니다.** 전기분해기 (공기 시스템) + 기체 펌프 (환기) + 기체 필터 (여과) + 수소 발전기 (고급 전력 조절)이면 됩니다. 소형 기체 펌프가 들어간 깔끔한 SPOM은 5단계 밸브 소형화 (Valve Miniaturization)에서 플라스틱이 생긴 뒤에 바꿔도 돼요.
@@ -147,7 +147,7 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 
 | 우선 | 기술 | 이걸로 짓는 것 |
 |---|---|---|
-| ★ | **재생 에너지** (Renewable Energy) | **증기 터빈 (Steam Turbine)**, 태양광 패널, 증기 엔진 (로켓). 수냉 조절기 열을 전기로 회수 |
+| ★ | **재생 에너지** (Renewable Energy) | **증기 터빈 (Steam Turbine)**, 솔라 패널, 증기 엔진 (로켓). 수냉 조절기 열을 전기로 회수 |
 | ★ | **과열 단조** (Superheated Forging) | 유리 용광로, **지열 조정기 (Geotuner)**, 벙커 타일 |
 | ★ | **밸브 소형화** (Valve Miniaturization) | 소형 기체·액체 펌프 |
 | ★ | **지속 생명 유지** (Durable Life Support) | 기본 노즈콘, **우주인 모듈 (Spacefarer Module)**, 유물 분석기 |
@@ -181,7 +181,7 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 | ★ | **고체 관리** (Solid Management) | 6 | 고체 필터, 대형 화물칸 |
 | | 개인 비행 (Personal Flight) | 6 | 제트 특수복 |
 | | 가압 단조 (Pressurized Forging) | 6 | 다이아몬드 압착기 |
-| | 브래킨 흐름 (Brackene Flow) | 6 | 착유 설비 (가스 무 목장) |
+| | 브래킨 흐름 (Brackene Flow) | 6 | 착유 설비 (가스질 음메 목장) |
 | ★ | **개선된 탄화수소 추진** (Improved Hydrocarbon Propulsion) | 7 | **석유 엔진**, 바이오디젤 엔진 |
 | | 고속 파괴 (High Velocity Destruction) | 7 | 드릴 노즈콘 |
 | | 래드볼트 추진 (Radbolt Propulsion) | 7 | 래드볼트 엔진 |

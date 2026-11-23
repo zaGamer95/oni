@@ -33,9 +33,9 @@ document.querySelectorAll('.prose table').forEach(function (t) {
     electrolyzerWater: 1000, // g/s
     diffuserO2: 500,         // g/s (조류 550 g/s 소모)
     diffuserAlgae: 550,
-    mealwoodKcal: 600 / 3,   // 식사나무: 3사이클마다 600kcal
+    mealwoodKcal: 600 / 3,   // 끼니나무: 3사이클마다 600kcal
     mealwoodDirt: 10,        // kg/사이클
-    bristleKcal: 1600 / 6,   // 털열매 꽃: 6사이클마다 1600kcal
+    bristleKcal: 1600 / 6,   // 센털꽃: 6사이클마다 1600kcal
     bristleWater: 20,        // kg/사이클
     cookBonusBristle: 2000 / 1600, // 구운 털열매(Gristle Berry)
     toiletGainWater: 6.7,    // kg/복제체/사이클 (수세식 화장실 순증 오염수)
@@ -70,12 +70,12 @@ document.querySelectorAll('.prose table').forEach(function (t) {
     if (food === 'mealwood') {
       plants = Math.ceil(kcal / K.mealwoodKcal);
       plantSub = '흙 ' + fmt(plants * K.mealwoodDirt, 0) + ' kg/사이클';
-      $('cc-plant-label').textContent = '식사나무 화분';
+      $('cc-plant-label').textContent = '끼니나무 화분';
     } else {
       var per = K.bristleKcal * ($('cc-cook').checked ? K.cookBonusBristle : 1);
       plants = Math.ceil(kcal / per);
       plantSub = '물 ' + fmt(plants * K.bristleWater, 0) + ' kg/사이클 · 빛 필요';
-      $('cc-plant-label').textContent = '털열매 꽃 화분';
+      $('cc-plant-label').textContent = '센털꽃 화분';
     }
 
     $('cc-out-o2').textContent = fmt(o2need, 0) + ' g/s';
