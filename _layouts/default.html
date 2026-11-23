@@ -47,7 +47,7 @@
       </div>
       {% endif %}
 
-      <article class="prose">
+      <article class="prose{% if page.url == "/" %} home{% endif %}">
         {{ content }}
       </article>
 
