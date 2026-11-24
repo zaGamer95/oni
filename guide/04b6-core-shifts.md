@@ -1,9 +1,9 @@
 ---
 title: 교대 일정 (휴식 시간 분리)
 nav_title: 교대 일정
-nav_order: 9.6
-nav_num: "9-6"
-nav_group: play
+nav_order: 7.4
+nav_num: "7-4"
+nav_group: early
 nav_parent: core-base
 permalink: /guide/core-base/shifts/
 description: 4교대로 휴식·취침 시간을 나눠 화장실·식탁·통로 혼잡을 줄이는 법과 시설 개수 기준.

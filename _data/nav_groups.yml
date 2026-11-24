@@ -1,6 +1,10 @@
 - id: start
   title: 시작하기
-- id: play
-  title: 플레이
+- id: early
+  title: "초반: 기지 세우기"
+- id: mid
+  title: "중반: 금속·냉방·연구"
+- id: late
+  title: "후반: 8명·행성 진출"
 - id: ref
   title: 참고 자료

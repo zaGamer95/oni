@@ -1,8 +1,8 @@
 ---
 title: 플레이 팁
 nav_title: 플레이 팁
-nav_order: 12
-nav_group: play
+nav_order: 17
+nav_group: ref
 permalink: /guide/tips/
 description: 몰라도 게임은 굴러가지만, 알면 복제체 손이 덜 가는 작은 팁 모음.
 ---

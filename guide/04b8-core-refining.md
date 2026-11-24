@@ -1,10 +1,8 @@
 ---
 title: 정제 금속 시작하기 (암석 분쇄기 → 금속 정제기)
 nav_title: 정제 금속
-nav_order: 9.8
-nav_num: "9-8"
-nav_group: play
-nav_parent: core-base
+nav_order: 11
+nav_group: mid
 permalink: /guide/core-base/refining/
 description: 암석 분쇄기로 꼭 필요한 정제 금속만 뽑고, 금속 정제기로 넘어가는 법. 지금 필요한 양, 분쇄할 광석량, 정제기 연구·전력·냉각수·열 계산과 위치.
 ---
@@ -24,7 +22,7 @@ description: 암석 분쇄기로 꼭 필요한 정제 금속만 뽑고, 금속 �
 - [ ] 연구: **분쇄 정제** (Brute-Force Refinement, 2단계) → 암석 분쇄기
 - [ ] 발전소 동쪽 정제·제련 칸에 **암석 분쇄기 (Rock Crusher)** 4×4 (금속 광석 800 kg)
 - [ ] **금속 광석 1,000 kg**만 분쇄 주문 (100 kg × 10회) → 정제 금속 500 kg + 모래 500 kg
-- [ ] 정제 금속으로 **스마트 배터리 2개** (400 kg) + **자동화 와이어** 약 20칸 (100 kg) → [9-7 스마트 배터리 자동화]({{ '/guide/core-base/power/' | relative_url }}#스마트-배터리-자동화)
+- [ ] 정제 금속으로 **스마트 배터리 2개** (400 kg) + **자동화 와이어** 약 20칸 (100 kg) → [9 스마트 배터리 자동화]({{ '/guide/core-base/power/' | relative_url }}#스마트-배터리-자동화)
 - [ ] 정제 금속이 더 필요하면 **분쇄기로 더 갈기** (모래도 같이 쌓임). 금속 정제기는 냉방실이 생긴 뒤 (터빈 전에도 조건부로 가능)
 
 ## 정제 금속이 드는 건물

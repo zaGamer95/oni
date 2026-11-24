@@ -3,8 +3,8 @@ title: 가이드에 앞서서
 nav_title: 가이드에 앞서서
 nav_order: 4.9
 nav_num: "✎"
+nav_group: early
 eyebrow: 플레이를 시작하기 전에
-nav_group: play
 permalink: /guide/preface/
 description: 이 가이드를 어떻게 읽으면 좋을지, 짧은 당부.
 ---

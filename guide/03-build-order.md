@@ -2,7 +2,7 @@
 title: 단계별 건설 순서
 nav_title: 단계별 건설 순서
 nav_order: 6
-nav_group: play
+nav_group: early
 permalink: /guide/build-order/
 description: 실제 플레이 스크린샷으로 보는 건설 순서. 극초반 8단계만 잘 해도 복제체는 죽지 않습니다.
 ---
