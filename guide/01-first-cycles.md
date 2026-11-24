@@ -2,7 +2,7 @@
 title: 시작 직후 체크리스트 (사이클 1~5)
 nav_title: 첫 5사이클 체크리스트
 nav_order: 5
-nav_group: play
+nav_group: early
 permalink: /guide/first-cycles/
 description: 어떤 지형에서 시작하든 공통으로 먼저 해야 할 일. 지형별 차이는 02에서 다룹니다.
 ---

@@ -1,9 +1,9 @@
 ---
 title: 후반 테크 (5단계~, 래드볼트·데이터 뱅크)
 nav_title: 후반 테크 (5단계~)
-nav_order: 7.2
-nav_num: "7-2"
-nav_group: play
+nav_order: 15.2
+nav_num: "15-2"
+nav_group: mid
 nav_parent: research
 dlc: spaced-out
 permalink: /guide/research/late/
@@ -13,7 +13,7 @@ description: 5단계부터 필요한 래드볼트(응용 과학)와 6단계부�
 * 목차
 {:toc}
 
-> 4단계까지는 [7-1 초반 테크]({{ '/guide/research/early/' | relative_url }}). 증기 터빈 없이 버티는 법도 거기 있어요.
+> 4단계까지는 [15-1 초반 테크]({{ '/guide/research/early/' | relative_url }}). 증기 터빈 없이 버티는 법도 거기 있어요.
 {: .tip}
 
 ## 5구간: 사이클 80~150, 래드볼트가 필요한 5단계

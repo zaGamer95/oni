@@ -1,7 +1,7 @@
 ---
 title: 장기 평형 설계 (산소·식량·물·전력·열)
 nav_title: 장기 평형 설계
-nav_order: 14
+nav_order: 19
 nav_group: ref
 permalink: /guide/sustainability/
 description: 오래 켜둬도 아무것도 동나지 않는 기지 만들기. "재생 가능한 입력"으로 모든 시스템을 바꾸는 게 목표입니다.
@@ -176,7 +176,7 @@ description: 오래 켜둬도 아무것도 동나지 않는 기지 만들기. "�
 
 ### 표준 냉각 장치: 수냉 조절기 + 증기 터빈
 
-> 중앙 기지에 실제로 설치하는 순서와 도면은 [9-9 에어컨 설치]({{ '/guide/core-base/aircon/' | relative_url }})에 있습니다.
+> 중앙 기지에 실제로 설치하는 순서와 도면은 [14 에어컨 설치]({{ '/guide/core-base/aircon/' | relative_url }})에 있습니다.
 {: .tip}
 
 1. **냉각수 고리**: 차가운 액체(물 등)를 파이프로 기지·농장 곳곳에 돌립니다. 파이프가 지나가는 곳의 열을 흡수합니다.

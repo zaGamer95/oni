@@ -1,8 +1,8 @@
 ---
 title: 연구 순서와 타이밍
 nav_title: 연구 순서와 타이밍
-nav_order: 7
-nav_group: play
+nav_order: 15
+nav_group: mid
 nav_key: research
 dlc: spaced-out
 permalink: /guide/research/
@@ -72,8 +72,8 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 
 | 페이지 | 단계 | 사이클 | 연구 포인트 | 핵심 |
 |---|---|---|---|---|
-| [7-1 초반 테크]({{ '/guide/research/early/' | relative_url }}) | 1~4단계 | 1~80 (터빈 없이 길게는 ~100) | 초급 + 고급 | 생존 → SPOM → 단열 → 냉방 → 특수복 → 첫 로켓. **증기 터빈 없이 버티는 법** |
-| [7-2 후반 테크]({{ '/guide/research/late/' | relative_url }}) | 5~8단계 | 80~ | + 응용 과학(래드볼트), 데이터 분석(데이터 뱅크) | 증기 터빈, 지열 조정기, 납 방호복, 석유 엔진, 원자로 |
+| [15-1 초반 테크]({{ '/guide/research/early/' | relative_url }}) | 1~4단계 | 1~80 (터빈 없이 길게는 ~100) | 초급 + 고급 | 생존 → SPOM → 단열 → 냉방 → 특수복 → 첫 로켓. **증기 터빈 없이 버티는 법** |
+| [15-2 후반 테크]({{ '/guide/research/late/' | relative_url }}) | 5~8단계 | 80~ | + 응용 과학(래드볼트), 데이터 분석(데이터 뱅크) | 증기 터빈, 지열 조정기, 납 방호복, 석유 엔진, 원자로 |
 
 ---
 

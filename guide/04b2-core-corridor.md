@@ -1,9 +1,9 @@
 ---
 title: 사다리 통로와 하루 동선
 nav_title: 통로·동선
-nav_order: 9.2
-nav_num: "9-2"
-nav_group: play
+nav_order: 7.2
+nav_num: "7-2"
+nav_group: early
 nav_parent: core-base
 permalink: /guide/core-base/corridor/
 description: 침실과 코어 사이 사다리 통로를 자연보호구역으로 쓰는 법과 침실 → 화장실 → 식당 → 샤워 동선.

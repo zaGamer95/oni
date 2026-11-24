@@ -1,9 +1,9 @@
 ---
 title: 방 크기와 방 배치
 nav_title: 방 크기
-nav_order: 9.1
-nav_num: "9-1"
-nav_group: play
+nav_order: 7.1
+nav_num: "7-1"
+nav_group: early
 nav_parent: core-base
 permalink: /guide/core-base/rooms/
 description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치, 한 방에 같이 두면 안 되는 조합.
