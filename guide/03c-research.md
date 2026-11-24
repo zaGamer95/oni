@@ -106,7 +106,7 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 |---|---|---|---|
 | 16 | **고급 전력 조절** (Advanced Power Regulation) | **수소 발전기 (Hydrogen Generator)**, **헤비와트 와이어 (Heavi-Watt Wire)**, 변압기 | SPOM 완성, 발전소 분리 |
 | 17 | **온도 조절** (Temperature Modulation) | **단열 타일 (Insulated Tile)**, 단열 문, 얼음 선풍기, 히터 | [단열 격벽]({{ '/guide/core-base/' | relative_url }}) 공사 시작 |
-| 18 | **개선된 파이프** (Improved Plumbing) | **단열 액체 파이프**, **액체 저장고 (Liquid Reservoir)**, 오버플로·우선 흐름 밸브 | 수조 → 저장고, 냉방 루프 준비 |
+| 18 | **개선된 파이프** (Improved Plumbing) | **절연 액체 파이프**, **액체 저장고 (Liquid Reservoir)**, 오버플로·우선 흐름 밸브 | 수조 → 저장고, 냉방 루프 준비 |
 | 19 | **증류** (Distillation) | **물 정화기 (Water Sieve)** | 오염수 재활용. 슈퍼컴퓨터 물 공급원 |
 | 20 | **정제 개조** (Refined Renovations) | **소방봉 (Fire Pole)**, 온도 블록 (Tempshift Plate) | 중앙 통로 사다리+소방봉 |
 | 21 | **농업** (Agriculture) | 농업 작업대 (Farm Station), 냉장고, 비료 합성기, 수경 재배 타일 | 온실 방, 식량 보관 |

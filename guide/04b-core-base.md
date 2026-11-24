@@ -42,6 +42,7 @@ description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로
   <li><a href="{{ '/guide/core-base/shifts/' | relative_url }}"><b>9-6 교대 일정 (휴식 시간 분리)</b><span>4교대로 휴식·취침 시간을 나눠 화장실·식탁·통로 혼잡을 줄이는 법과 시설 개수 기준.</span></a></li>
   <li><a href="{{ '/guide/core-base/power/' | relative_url }}"><b>9-7 초기 발전소 설계와 관리</b><span>석탄 발전기·배터리 배치, 와이어 등급과 회로, 스마트 배터리 자동화, 주둥가리 석탄, 업그레이드 순서.</span></a></li>
   <li><a href="{{ '/guide/core-base/refining/' | relative_url }}"><b>9-8 정제 금속 시작하기</b><span>암석 분쇄기로 필요한 500 kg만 뽑기, 금속 정제기 연구·전력·냉각수·열 계산과 위치.</span></a></li>
+  <li><a href="{{ '/guide/core-base/aircon/' | relative_url }}"><b>9-9 에어컨 설치</b><span>냉방실 14×4 도면, 수냉 조절기·냉각 루프·18°C 온도 센서 설치 순서, 열 계산, 증기 터빈으로 열 지우기, 문제 해결.</span></a></li>
 </ul>
 
 ## 후반 완성 배치도
