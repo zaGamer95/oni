@@ -1,8 +1,8 @@
 ---
 title: 방 크기와 방 배치
 nav_title: 방 크기
-nav_order: 7.1
-nav_num: "7-1"
+nav_order: 8.1
+nav_num: "8-1"
 nav_group: early
 nav_parent: core-base
 permalink: /guide/core-base/rooms/

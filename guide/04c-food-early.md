@@ -1,7 +1,7 @@
 ---
 title: 초반 식당·실내 온실 설계
 nav_title: 식당·실내 온실 상세
-nav_order: 8
+nav_order: 9
 nav_group: early
 permalink: /guide/food-early/
 description: 중앙 기지 배치도의 식당과 실내 온실을 칸 단위로. 복제체당 작물 수, 초반 임시 배치, 큰 회관·2줄 온실·센털꽃 조명 온실로 넘어가는 순서.

@@ -1,8 +1,8 @@
 ---
 title: 교대 일정 (휴식 시간 분리)
 nav_title: 교대 일정
-nav_order: 7.4
-nav_num: "7-4"
+nav_order: 8.4
+nav_num: "8-4"
 nav_group: early
 nav_parent: core-base
 permalink: /guide/core-base/shifts/

@@ -1,8 +1,8 @@
 ---
 title: 복제체 8명 중반 설계와 행성 진출 (사이클 30~150)
 nav_title: 8명 중반 설계·행성 진출
-nav_order: 16
-nav_group: late
+nav_order: 17
+nav_group: mid
 permalink: /guide/midgame-8/
 description: 복제체를 딱 8명으로 운영할 때의 중반 설계. 8명분 산소·식량·물·전력·열 예산, 남은 4명을 어떤 역할로 받을지, 4교대 조 편성, 그리고 Terrania 클러스터에서 어느 소행성에 언제 가고 8명을 어떻게 나눌지.
 ---

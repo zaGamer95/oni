@@ -1,11 +1,11 @@
 ---
 title: 중앙 기지 배치도
 nav_title: 중앙 기지 배치도
-nav_order: 7
+nav_order: 8
 nav_group: early
-nav_key: core-base
 permalink: /guide/core-base/
 description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로, 단열 격벽·냉방·수조, 농장·목장·산업, 초반 전환, 교대 일정은 하위 페이지로 나눴어요.
+nav_key: core-base
 ---
 
 ## 설계 목표
@@ -21,9 +21,9 @@ description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로
 | 64 | **16 × 4** | 화장실(세척실), 샤워실, 호화 막사, 식당, 마사지실 |
 | 96 | **24 × 4** | 주방, 오락실, 병원, 발전소, 땅 동물 목장 |
 | 120 | **30 × 4** 또는 **24 × 5** | 큰 회관(이 도면은 24×5 복층), 연회장, 연구실 |
-| 자연보호구역 | **사다리 통로가 겸함** | 방 하나를 따로 안 쓰고, 침실과 코어 사이 서쪽 통로 전체를 보호구역으로 만듦 ([7-2 통로·동선]({{ '/guide/core-base/corridor/' | relative_url }})) |
+| 자연보호구역 | **사다리 통로가 겸함** | 방 하나를 따로 안 쓰고, 침실과 코어 사이 서쪽 통로 전체를 보호구역으로 만듦 ([8-2 통로·동선]({{ '/guide/core-base/corridor/' | relative_url }})) |
 | 개인 침실 | **6 × 4 = 24** | 최소 크기가 24라 딱 이 크기. 침대 1개짜리라 크게 지을 이유가 없음 |
-| 온실·하늘 동물 목장 | 격자 밖 | 작물·동물 높이에 맞춘 **별도 블록** ([10 농장·목장·산업]({{ '/guide/core-base/blocks/' | relative_url }})) |
+| 온실·하늘 동물 목장 | 격자 밖 | 작물·동물 높이에 맞춘 **별도 블록** ([11 농장·목장·산업]({{ '/guide/core-base/blocks/' | relative_url }})) |
 
 | 규격 | 값 | 이유 |
 |---|---|---|
@@ -34,26 +34,21 @@ description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로
 ## 세부 페이지
 
 <ul class="sub-list">
-  <li><a href="{{ '/guide/core-base/rooms/' | relative_url }}"><b>7-1 방 크기와 방 배치</b><span>방 종류별 크기 범위와 배치도 크기, 층별 방 배치, 한 방에 같이 두면 안 되는 조합.</span></a></li>
-  <li><a href="{{ '/guide/core-base/corridor/' | relative_url }}"><b>7-2 사다리 통로와 하루 동선</b><span>가운데 사다리 통로를 자연보호구역으로 쓰는 법과 침실 → 화장실 → 식당 → 일 동선.</span></a></li>
-  <li><a href="{{ '/guide/core-base/early/' | relative_url }}"><b>7-3 초반 배치·철거·확장</b><span>사이클 1~20 임시 배치, 초반 시설을 언제 뜯고 그 자리를 어떻게 쓰는지, 뜯지 않고 늘리는 규칙.</span></a></li>
-  <li><a href="{{ '/guide/core-base/shifts/' | relative_url }}"><b>7-4 교대 일정 (휴식 시간 분리)</b><span>4교대로 휴식·취침 시간을 나눠 화장실·식탁·통로 혼잡을 줄이는 법과 시설 개수 기준.</span></a></li>
+  <li><a href="{{ '/guide/core-base/rooms/' | relative_url }}"><b>8-1 방 크기와 방 배치</b><span>방 종류별 크기 범위와 배치도 크기, 층별 방 배치, 한 방에 같이 두면 안 되는 조합.</span></a></li>
+  <li><a href="{{ '/guide/core-base/corridor/' | relative_url }}"><b>8-2 사다리 통로와 하루 동선</b><span>가운데 사다리 통로를 자연보호구역으로 쓰는 법과 침실 → 화장실 → 식당 → 일 동선.</span></a></li>
+  <li><a href="{{ '/guide/core-base/early/' | relative_url }}"><b>8-3 초반 배치·철거·확장</b><span>사이클 1~20 임시 배치, 초반 시설을 언제 뜯고 그 자리를 어떻게 쓰는지, 뜯지 않고 늘리는 규칙.</span></a></li>
+  <li><a href="{{ '/guide/core-base/shifts/' | relative_url }}"><b>8-4 교대 일정 (휴식 시간 분리)</b><span>4교대로 휴식·취침 시간을 나눠 화장실·식탁·통로 혼잡을 줄이는 법과 시설 개수 기준.</span></a></li>
 </ul>
 
-이 배치도에 붙여 짓는 시설은 플레이 순서대로 따로 번호를 붙였어요. 초반:
+이 배치도에 붙여 짓는 시설은 플레이 순서대로 따로 번호를 붙였어요.
 
 <ul class="sub-list">
-  <li><a href="{{ '/guide/food-early/' | relative_url }}"><b>8 식당·실내 온실</b><span>끼니나무 농장과 초반 식당, 실내 온실 규격.</span></a></li>
-  <li><a href="{{ '/guide/core-base/power/' | relative_url }}"><b>9 초기 발전소 설계와 관리</b><span>석탄 발전기·배터리 배치, 와이어 등급과 회로, 스마트 배터리 자동화, 주둥가리 석탄, 업그레이드 순서.</span></a></li>
-  <li><a href="{{ '/guide/core-base/blocks/' | relative_url }}"><b>10 농장·목장·산업 블록</b><span>격벽 안/밖에 둘 작물과 동물, 온실 규격, 목장 크기, 산업 블록.</span></a></li>
-</ul>
-
-중반 (금속·냉방):
-
-<ul class="sub-list">
-  <li><a href="{{ '/guide/core-base/refining/' | relative_url }}"><b>11 정제 금속 시작하기</b><span>암석 분쇄기로 필요한 500 kg만 뽑기, 금속 정제기 연구·전력·냉각수·열 계산과 위치.</span></a></li>
-  <li><a href="{{ '/guide/core-base/envelope/' | relative_url }}"><b>13 단열 격벽·냉방·수조</b><span>생활 구역을 단열 격벽으로 감싸 20~25°C로 유지하는 법, 냉방 시스템, 깨끗한 물·오염수 수조.</span></a></li>
-  <li><a href="{{ '/guide/core-base/aircon/' | relative_url }}"><b>14 에어컨 설치</b><span>냉방실 14×4 도면, 수냉 조절기·냉각 루프·18°C 온도 센서 설치 순서, 열 계산, 증기 터빈으로 열 지우기, 문제 해결.</span></a></li>
+  <li><a href="{{ '/guide/food-early/' | relative_url }}"><b>9 식당·실내 온실</b><span>끼니나무 농장과 초반 식당, 실내 온실 규격.</span></a></li>
+  <li><a href="{{ '/guide/core-base/power/' | relative_url }}"><b>10 초기 발전소 설계와 관리</b><span>석탄 발전기·배터리 배치, 와이어 등급과 회로, 스마트 배터리 자동화, 주둥가리 석탄, 업그레이드 순서.</span></a></li>
+  <li><a href="{{ '/guide/core-base/blocks/' | relative_url }}"><b>11 농장·목장·산업 블록</b><span>격벽 안/밖에 둘 작물과 동물, 온실 규격, 목장 크기, 산업 블록.</span></a></li>
+  <li><a href="{{ '/guide/core-base/refining/' | relative_url }}"><b>12 정제 금속 시작하기</b><span>암석 분쇄기로 필요한 500 kg만 뽑기, 금속 정제기 연구·전력·냉각수·열 계산과 위치.</span></a></li>
+  <li><a href="{{ '/guide/core-base/envelope/' | relative_url }}"><b>14 단열 격벽·냉방·수조</b><span>생활 구역을 단열 격벽으로 감싸 20~25°C로 유지하는 법, 냉방 시스템, 깨끗한 물·오염수 수조.</span></a></li>
+  <li><a href="{{ '/guide/core-base/aircon/' | relative_url }}"><b>15 에어컨 설치</b><span>냉방실 14×4 도면, 수냉 조절기·냉각 루프·18°C 온도 센서 설치 순서, 열 계산, 증기 터빈으로 열 지우기, 문제 해결.</span></a></li>
 </ul>
 
 ## 후반 완성 배치도
@@ -88,9 +83,9 @@ description: 한눈에 보는 전체 도면과 핵심 규칙. 방 크기, 통로
 
 - 포드가 맵 가운데라 **포드층이 코어 맨 아래**, 그 바로 위가 샤워실, 그 위가 화장실입니다. 포드 서쪽에 3칸 통로(자연보호구역), 동쪽에 2칸 통로를 세웁니다.
 - 포드 **오른쪽 아래 웅덩이**가 가장 가까우니 동쪽 아래(30칸)를 깨끗한 물 수조로 넓혀 격벽 안에 넣습니다. 포드층 바로 아래는 예비 층(병원 등)입니다.
-- 발전소는 예비 층 바로 아래, **격벽 밖**입니다. 열이 생활 구역으로 올라오지 않게 사이에 단열 바닥을 깝니다 ([9 발전소]({{ '/guide/core-base/power/' | relative_url }})).
+- 발전소는 예비 층 바로 아래, **격벽 밖**입니다. 열이 생활 구역으로 올라오지 않게 사이에 단열 바닥을 깝니다 ([10 발전소]({{ '/guide/core-base/power/' | relative_url }})).
 - **왼쪽 아래 웅덩이**는 격벽 밖 오염수 수조로 쓰고, 외부 온실 관개에 씁니다.
-- 연구 전담 복제체는 포드층 연구실, 농사 담당은 실내 온실, 굴착 담당은 [7-3 초반 배치]({{ '/guide/core-base/early/' | relative_url }})의 "처음 파는 순서"대로 파면 됩니다.
+- 연구 전담 복제체는 포드층 연구실, 농사 담당은 실내 온실, 굴착 담당은 [8-3 초반 배치]({{ '/guide/core-base/early/' | relative_url }})의 "처음 파는 순서"대로 파면 됩니다.
 - 복제체 8명으로 굴릴 때의 산소·식량·물·전력 예산, 역할 분배, 기름 늪·방사능 숲 진출 시점은 [8명 중반 설계·행성 진출]({{ '/guide/midgame-8/' | relative_url }})에 정리했어요.
 
 <script>

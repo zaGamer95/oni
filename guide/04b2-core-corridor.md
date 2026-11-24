@@ -1,8 +1,8 @@
 ---
 title: 사다리 통로와 하루 동선
 nav_title: 통로·동선
-nav_order: 7.2
-nav_num: "7-2"
+nav_order: 8.2
+nav_num: "8-2"
 nav_group: early
 nav_parent: core-base
 permalink: /guide/core-base/corridor/
