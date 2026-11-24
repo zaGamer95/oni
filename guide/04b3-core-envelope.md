@@ -6,7 +6,7 @@ nav_num: "9-3"
 nav_group: play
 nav_parent: core-base
 permalink: /guide/core-base/envelope/
-description: 단열·냉방을 시작하는 단계별 순서, 냉방 시스템, 깨끗한 물·오염수 수조, 화장실·샤워실 배관 세팅.
+description: 단열·냉방을 시작하는 단계별 순서, 냉방 시스템, 깨끗한 물·오염수 수조, 화장실·샤워실 폐쇄 루프(물 정화기 + 갈대 넘침).
 ---
 
 * 목차
@@ -81,7 +81,7 @@ SPOM 산소는 **70°C 이상**으로 나옵니다. 산소 가스 파이프를 �
 
 | | 격벽 **안** (20~25°C) | 격벽 **밖** |
 |---|---|---|
-| 들어가는 것 | 생활 구역 코어·침실 블록, 실내 온실 A·B, 실내 목장 2개, **깨끗한 물 수조·물 처리** | 산업(발전·SPOM·정제), 냉방실, **오염수 수조**, 외부 온실·외부 목장, CO₂ 구덩이 |
+| 들어가는 것 | 생활 구역 코어·침실 블록, 실내 온실 A·B, 실내 목장 2개, **깨끗한 물 수조** | 산업(발전·SPOM·정제), 냉방실, **오염수 수조**, 외부 온실·외부 목장, CO₂ 구덩이 |
 | 연결 | 서쪽·동쪽 사다리 통로. 두 통로 아래 끝(격벽 줄)에 **가로로 돌린 기계식 에어락** | 아래 발전소·산업층은 통로를 타고 에어락을 지나 내려감. 침실 블록 특수복 거치대에서 환경 특수복을 입고 나감 |
 
 - 격벽은 **열전도율이 가장 낮은 재료**로 만든 단열 타일로 두릅니다 (초반엔 화성암·세라믹, 후반엔 인슐라이트).
@@ -105,13 +105,13 @@ SPOM 산소는 **70°C 이상**으로 나옵니다. 산소 가스 파이프를 �
 
 | 수조 | 위치 | 크기 | 쓰는 곳 |
 |---|---|---|---|
-| **깨끗한 물 수조** | 격벽 안 맨 아래 동쪽, 물 처리 옆 (원래 오른쪽 아래 웅덩이를 넓힘) | 30×4 = 120칸 ≈ 120톤 (칸당 최대 약 1톤) | 실내 온실 관개, 전기분해기, 샤워실, 화장실 보충 |
-| **오염수 수조** | 격벽 바로 아래 서쪽, **격벽 밖** | 17×4 = 68칸 ≈ 68톤 | 화장실(세척실)·샤워실에서 나온 오염수를 모았다가 물 정화기로 |
+| **깨끗한 물 수조** | 격벽 안 맨 아래 동쪽 (원래 오른쪽 아래 웅덩이를 넓힘) | 30×4 = 120칸 ≈ 120톤 (칸당 최대 약 1톤) | 실내 온실 관개, 전기분해기. 화장실·샤워실 루프는 처음 한 번 채울 때만 |
+| **오염수 수조** | 격벽 바로 아래 서쪽, **격벽 밖** | 17×4 = 68칸 ≈ 68톤 | 공장·냉방용 오염수. 화장실·샤워실은 자체 폐쇄 루프라 여기로 안 옴 |
 | 왼쪽 아래 웅덩이 | 그대로 둠, 격벽 밖 | 자연 크기 | 예비 물, 외부 온실 관개 |
 
 - **깨끗한 물을 격벽 안에 두는 이유:** 물은 열을 많이 머금어서 120톤짜리 수조가 실내 온도를 잡아 주는 완충 역할을 합니다. 관개수도 실내 온도 그대로 들어가요. 수조 바닥은 아래 발전소 열이 안 올라오게 **단열 타일**로 깝니다.
 - **오염수 수조는 위를 막으세요.** 오염수는 공기와 닿으면 오염 산소를 뿜는데, 위 칸 기압이 1.8 kg 이상이면 멈춥니다 (공식 위키). 꽉 채우거나 위를 액체·타일로 막으면 됩니다.
-- **화장실(세척실)은 닫힌 고리로 돌립니다.** 화장실 오염수 → 오염수 수조 → 물 정화기(5 kg/s) → 화장실. 물 정화기는 세균을 못 죽여서 정화한 물에도 세균이 그대로 남으니, 이 물은 화장실 전용으로만 쓰고 온실·전기분해기는 깨끗한 물 수조에서 끌어옵니다.
+- **화장실·샤워실은 따로 폐쇄 루프**로 돌립니다 (아래 [화장실·샤워실 폐쇄 루프](#화장실샤워실-폐쇄-루프)). 수조 물은 처음 채울 때만 씁니다.
 - 펌프는 수조 **맨 바닥**에 둡니다 (액체 펌프 2×2, 초당 10 kg, 잠겨 있어야 작동). 소형 액체 펌프는 5단계 연구라 초반엔 일반 액체 펌프를 씁니다.
 
 #### 물 수지 (1사이클 = 600초 기준)
@@ -120,62 +120,124 @@ SPOM 산소는 **70°C 이상**으로 나옵니다. 산소 가스 파이프를 �
 |---|---|---|
 | 수세식 화장실 1회 | 물 5 kg 쓰고 오염수 11.7 kg 나옴 | **오히려 늘어남** (+6.7 kg) |
 | 싱크대(Sink) 1회 | 물 5 kg → 오염수 5 kg | 그대로 |
-| 샤워기(Shower) 1회 | 물 16 kg → 오염수 16 kg | 그대로. 8명이면 하루 128 kg. 샤워 물은 깨끗한 물에서 |
+| 샤워기(Shower) 1회 | 물 16 kg → 오염수 16 kg | 그대로. 8명이면 하루 128 kg. 폐쇄 루프 안에서 돎 |
 | 전기분해기 1대 | **−600 kg / 사이클** (초당 1 kg) | 제일 큰 소비처. 1대 ≈ 복제체 8명 산소 |
 | 센털꽃 1그루 | −20 kg / 사이클 | 온실 하나(40그루)면 −800 kg |
 | 끼니나무 | 물 대신 흙 | 물 안 씀 |
 
-> 깨끗한 물 수조 120톤은 전기분해기 1대만 돌려도 **약 200사이클**, 센털꽃 온실까지 같이 쓰면 약 85사이클이면 바닥납니다. 그 전에 **물 분출구·증기 분출구 같은 간헐천**을 찾아 깨끗한 물 수조로 연결하세요. 화장실 고리는 물이 오히려 늘어나니, 넘치는 오염수는 정화해서 깨끗한 물 수조로 보내도 됩니다 (세균 주의).
+> 깨끗한 물 수조 120톤은 전기분해기 1대만 돌려도 **약 200사이클**, 센털꽃 온실까지 같이 쓰면 약 85사이클이면 바닥납니다. 그 전에 **물 분출구·증기 분출구 같은 간헐천**을 찾아 깨끗한 물 수조로 연결하세요. 화장실 루프에서 넘치는 오염수는 세균이 있어 수조로 보내지 않고 갈대에 줍니다.
 {: .tip}
 
-## 화장실·샤워실 세팅: 단계별
+## 화장실·샤워실 폐쇄 루프
 
-물은 **두 줄**로 나눕니다. 화장실(수세식 + 싱크대)은 오염수를 걸러 다시 쓰는 **닫힌 고리**, 샤워실은 **깨끗한 물 수조**에서 받습니다. 나온 오염수는 전부 격벽 밖 오염수 수조로 모입니다.
+화장실(수세식 + 싱크대)과 샤워실을 **물 정화기 하나로 묶은 폐쇄 루프**로 돌립니다. 처음 한 번 물을 채우면 깨끗한 물이 더 들지 않고, 수세식 화장실 때문에 물이 오히려 늘어나니 **넘치는 오염수는 갈대가 받습니다.** 공식 위키의 자급 화장실(Self Sustainable Bathrooms) 가이드와 같은 구조예요.
+
+### 위치: 샤워실을 화장실 바로 아래에
+
+| 층 | 크기 | 들어가는 것 |
+|---|---|---|
+| 식당층 (맨 위) | 복층 큰 회관 24×5 | 루프와 상관없음. 화장실과 높이를 맞춘 짝 (3 + 1 + 5 = 보통 두 층) |
+| 화장실층 | **화장실(세척실) 16×3** + 벽 + **기계실 7×3** | 싱크대 2 · 수세식 4 · 싱크대 2 / 물 정화기 4×3 · 모래 저장 상자 · 갈대 |
+| 샤워실층 (포드 바로 위) | **샤워실 16×4** + 벽 + 여유 7×4 | 샤워기 2×4 × 8 |
+
+- 화장실과 샤워실이 바닥 한 줄만 사이에 둬서 세로 배관이 몇 칸이면 끝납니다. 식당은 화장실 바로 위라 식당·화장실 높이 짝도 그대로예요.
+- 물 정화기는 **세척실 안에 두면 안 되니**(산업 기계) 벽 하나 건너 기계실에 둡니다. 위키 가이드도 "정화기와 모래 상자는 화장실 옆 별도 방"을 권해요. 모래를 정화기 옆에 쌓아 두면 나르는 거리가 짧습니다.
+- 특수복 거치대·보관함은 여기 안 둡니다.
+
+<div class="bp-wrap" markdown="0">
+<svg viewBox="0 0 704 403" width="704" role="img" aria-label="화장실과 샤워실 폐쇄 루프 배관도" style="min-width:0;max-width:704px" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans KR, sans-serif"><rect width="704" height="403" fill="#11131f"/><rect x="24" y="60" width="660" height="242" fill="#5a4a3a"/><rect x="90" y="82" width="352" height="66" fill="#1c2036"/><text x="116" y="163.4" fill="#e9ecf8" font-size="10.5" font-weight="700">화장실 (세척실) 16×3</text><rect x="464" y="82" width="154" height="66" fill="#1c2036"/><text x="490" y="163.4" fill="#e9ecf8" font-size="10.5" font-weight="700">기계실 7×3</text><rect x="90" y="170" width="352" height="88" fill="#1c2036"/><text x="116" y="273" fill="#e9ecf8" font-size="10.5" font-weight="700">샤워실 16×4</text><rect x="464" y="170" width="154" height="88" fill="#1c2036"/><text x="490" y="273" fill="#e9ecf8" font-size="10.5" font-weight="700">여유 7×4</text><rect x="24" y="60" width="66" height="242" fill="#24452e"/><text x="57.0" y="316" fill="#acffbd" font-size="10" text-anchor="middle">서쪽 통로</text><rect x="618" y="60" width="44" height="242" fill="#24452e" fill-opacity=".5"/><rect x="91.5" y="83.5" width="41" height="63" rx="3" fill="#9fe8ff" fill-opacity=".9"/><text x="112.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">싱크</text><rect x="135.5" y="83.5" width="41" height="63" rx="3" fill="#9fe8ff" fill-opacity=".9"/><text x="156.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">싱크</text><rect x="355.5" y="83.5" width="41" height="63" rx="3" fill="#9fe8ff" fill-opacity=".9"/><text x="376.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">싱크</text><rect x="399.5" y="83.5" width="41" height="63" rx="3" fill="#9fe8ff" fill-opacity=".9"/><text x="420.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">싱크</text><rect x="179.5" y="83.5" width="41" height="63" rx="3" fill="#ffffff" fill-opacity=".9"/><text x="200.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">수세식</text><rect x="223.5" y="83.5" width="41" height="63" rx="3" fill="#ffffff" fill-opacity=".9"/><text x="244.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">수세식</text><rect x="267.5" y="83.5" width="41" height="63" rx="3" fill="#ffffff" fill-opacity=".9"/><text x="288.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">수세식</text><rect x="311.5" y="83.5" width="41" height="63" rx="3" fill="#ffffff" fill-opacity=".9"/><text x="332.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">수세식</text><rect x="465.5" y="83.5" width="85" height="63" rx="3" fill="#c0c8e0" fill-opacity=".9"/><text x="508.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">물 정화기</text><rect x="553.5" y="105.5" width="19" height="41" rx="3" fill="#a9b0d0" fill-opacity=".9"/><text x="563.0" y="130.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">모래</text><rect x="575.5" y="83.5" width="19" height="63" rx="3" fill="#9be36b" fill-opacity=".9"/><text x="585.0" y="119.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">갈대</text><rect x="574" y="148" width="22" height="22" fill="#6bbf4a" stroke="#fff" stroke-width="1"/><rect x="91.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="112.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="135.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="156.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="179.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="200.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="223.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="244.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="267.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="288.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="311.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="332.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="355.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="376.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><rect x="399.5" y="171.5" width="41" height="85" rx="3" fill="#bfe6ff" fill-opacity=".9"/><text x="420.0" y="218.0" fill="#11131f" font-size="10" font-weight="700" text-anchor="middle">샤워</text><polyline points="541.0,137.0 101.0,137.0 101.0,247.0 431.0,247.0" fill="none" stroke="#4fa8ff" stroke-width="4" stroke-linejoin="round" stroke-opacity=".95"/><polyline points="112.0,71.0 453.0,71.0 475.0,71.0" fill="none" stroke="#c98a3a" stroke-width="4" stroke-linejoin="round" stroke-opacity=".95"/><polyline points="112.0,181.0 453.0,181.0 453.0,71.0" fill="none" stroke="#c98a3a" stroke-width="4" stroke-linejoin="round" stroke-opacity=".95"/><polyline points="475.0,71.0 475.0,93.0 607.0,93.0 607.0,159.0 585.0,159.0" fill="none" stroke="#7be36b" stroke-width="3" stroke-linejoin="round" stroke-opacity=".95" stroke-dasharray="5 3"/><polyline points="519.0,71.0 519.0,93.0" fill="none" stroke="#c98a3a" stroke-width="4" stroke-linejoin="round" stroke-opacity=".95"/><rect x="466" y="64" width="62" height="14" fill="#ffd34a" stroke="#11131f"/><text x="497.0" y="55" fill="#ffd34a" font-size="10.5" font-weight="700" text-anchor="middle">액체 다리 →</text><text x="24" y="336" fill="#4fa8ff" font-size="11.5">파랑 = 물 (정화기 → 싱크·수세식 8 → 서쪽 끝에서 아래로 → 샤워기 8, 마지막 샤워기에서 끝)</text><text x="24" y="353" fill="#c98a3a" font-size="11.5">갈색 = 오염수 (출구마다 짧게 위로 빼서 천장 줄에 모음, 출구끼리 한 줄로 잇지 않기) → 액체 다리 → 물 정화기</text><text x="24" y="370" fill="#7be36b" font-size="11.5">초록 점선 = 넘침: 액체 다리 입구에서 가지 → 수경 재배 타일의 갈대 (다리 쪽이 먼저, 꽉 차면 갈대로)</text><text x="24" y="32" fill="#e9ecf8" font-size="15" font-weight="700">화장실·샤워실 폐쇄 루프 (샤워실이 화장실 바로 아래)</text></svg>
+</div>
 
 ### 필요한 것
 
 | 건물 | 크기 | 재료 | 연구 | 물 |
 |---|---|---|---|---|
-| **수세식 화장실 (Lavatory)** | 2×3 | 금속 광석 400 kg | 위생 (Sanitation, 2단계) | 물 5 kg 들어가고 **오염수 11.7 kg** 나옴 (37°C, 식중독 세균) |
-| **싱크대 (Sink)** | 2×3 | 금속 광석 400 kg | 위생 | 물 5 kg → 오염수 5 kg. 손의 세균 제거 |
-| **샤워기 (Shower)** | 2×4 | 금속 광석 400 kg | 위생 | 물 16 kg → 오염수 16 kg. 사기 +3 |
-| **액체 펌프 (Liquid Pump)** ×2 | 2×2 | 금속 광석 400 kg | 액체 파이프 (Plumbing, 1단계) | 10 kg/s, 240 W. 액체에 잠겨야 작동 |
-| **물 정화기 (Water Sieve)** | 4×3 | 금속 광석 200 kg | 증류 (Distillation, 3단계) | 오염수 5 kg/s → 물 5 kg/s. 모래 1 kg/s, 120 W. **세균은 못 없앰** |
-| 액체 파이프·액체 다리·액체 배출구 | | 원료 광물 | 액체 파이프 | |
+| **수세식 화장실 (Lavatory)** ×4 | 2×3 | 금속 광석 400 kg | 위생 (Sanitation, 2단계) | 물 5 kg 들어가고 **오염수 11.7 kg** 나옴 (식중독 세균) |
+| **싱크대 (Sink)** ×4 | 2×3 | 금속 광석 400 kg | 위생 | 물 5 kg → 오염수 5 kg |
+| **샤워기 (Shower)** ×8 | 2×4 | 금속 광석 400 kg | 위생 | 물 16 kg → 오염수 16 kg. 사기 +3 |
+| **물 정화기 (Water Sieve)** | 4×3 | 금속 광석 200 kg | 증류 (Distillation, 3단계) | 오염수 5 kg/s → 물. 모래 1 kg/s, 120 W. **세균은 못 없앰** |
+| **액체 다리 (Liquid Bridge)** | 3×1 | 원료 광물 100 kg | 액체 파이프 (Plumbing) | 우선순위 밸브 역할 |
+| **수경 재배 타일 (Hydroponic Farm)** + 갈대 씨앗 | 1×1 | 금속 광석 100 kg | 농업 (Agriculture) | 파이프로 오염수를 받는 농장 타일. 갈대는 **오염수 160 kg/사이클** |
+| 액체 파이프 | | 원료 광물 | 액체 파이프 | |
 
-### 1단계: 화장실(세척실) 18×3 배치
+### 기계실 7×3 상세
 
-W 가이드 그대로 포드 바로 위, 높이 3. 양쪽 끝에 통로 문이 있으니 **싱크대를 양쪽 문 쪽에, 수세식은 가운데**에 둡니다.
+화장실(16칸) 동쪽에 벽 한 칸(16번)을 두고, 17~23번 칸 × 높이 3으로 팝니다. 바닥 줄 아래는 샤워실 천장, 천장 줄은 식당 바닥입니다.
 
-| 칸 | 1~2 | 3~4 | 5~6 | 7~8 | 9~10 | 11~12 | 13~14 | 15~16 | 17~18 |
-|---|---|---|---|---|---|---|---|---|---|
-| 건물 | 싱크대 | 싱크대 | 수세식 | 수세식 | 수세식 | 수세식 | 싱크대 | 싱크대 | 수동 펌프 자리 (W 가이드) |
+<div class="bp-wrap" markdown="0">
+<svg viewBox="0 0 846 450" width="846" role="img" aria-label="기계실 7×3 확대 배치도" style="min-width:0;max-width:846px" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans KR, sans-serif"><rect width="846" height="450" fill="#11131f"/><rect x="40" y="70" width="506" height="230" fill="#5a4a3a"/><rect x="40" y="116" width="46" height="138" fill="#1c2036"/><text x="63.0" y="132" fill="#cfd3e6" font-size="11" text-anchor="middle">화장실</text><rect x="132" y="116" width="322" height="138" fill="#1c2036"/><rect x="500" y="70" width="46" height="230" fill="#24452e" fill-opacity=".6"/><text x="523.0" y="316" fill="#acffbd" font-size="11" text-anchor="middle">동쪽 통로</text><rect x="132" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="132" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="132" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="178" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="178" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="178" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="224" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="224" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="224" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="270" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="270" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="270" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="316" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="316" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="316" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="362" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="362" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="362" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="408" y="116" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="408" y="162" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><rect x="408" y="208" width="46" height="46" fill="none" stroke="#fff" stroke-opacity=".07"/><text x="155.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">17</text><text x="201.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">18</text><text x="247.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">19</text><text x="293.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">20</text><text x="339.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">21</text><text x="385.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">22</text><text x="431.0" y="62" fill="#cfd3e6" font-size="11" text-anchor="middle">23</text><rect x="134" y="118" width="180" height="134" rx="4" fill="#c0c8e0" fill-opacity=".9"/><text x="224.0" y="183.0" fill="#11131f" font-size="13" font-weight="700" text-anchor="middle">물 정화기</text><text x="224.0" y="199.0" fill="#11131f" font-size="10.5" text-anchor="middle">4×3 · 120 W</text><rect x="318" y="164" width="42" height="88" rx="4" fill="#a9b0d0" fill-opacity=".9"/><text x="339.0" y="206.0" fill="#11131f" font-size="13" font-weight="700" text-anchor="middle">모래</text><rect x="364" y="118" width="42" height="134" rx="4" fill="#9be36b" fill-opacity=".9"/><text x="385.0" y="183.0" fill="#11131f" font-size="13" font-weight="700" text-anchor="middle">갈대</text><rect x="362" y="254" width="46" height="46" fill="#6bbf4a" stroke="#fff" stroke-width="1.5"/><text x="385.0" y="281.0" fill="#11131f" font-size="9.5" font-weight="700" text-anchor="middle">수경</text><rect x="94" y="162" width="30" height="92" fill="#8a9bd0"/><rect x="462" y="162" width="30" height="92" fill="#8a9bd0"/><polyline points="63.0,93.0 155.0,93.0" fill="none" stroke="#c98a3a" stroke-width="5" stroke-linejoin="round"/><rect x="135" y="78" width="132" height="30" fill="#ffd34a" stroke="#11131f"/><text x="201.0" y="97.0" fill="#11131f" font-size="11" font-weight="700" text-anchor="middle">액체 다리 →</text><polyline points="247.0,93.0 247.0,139.0" fill="none" stroke="#c98a3a" stroke-width="5" stroke-linejoin="round"/><polyline points="155.0,93.0 155.0,139.0 431.0,139.0 431.0,277.0 385.0,277.0" fill="none" stroke="#7be36b" stroke-width="4" stroke-linejoin="round" stroke-dasharray="7 4"/><polyline points="293.0,231.0 63.0,231.0" fill="none" stroke="#4fa8ff" stroke-width="5" stroke-linejoin="round"/><text x="40" y="344" fill="#e9ecf8" font-size="12">17~20번: 물 정화기 · 21번: 모래 저장 상자(모래만, 우선순위 높게) · 22번: 수경 재배 타일 위 갈대 · 23번: 지나다니는 칸</text><text x="40" y="362" fill="#c98a3a" font-size="12">갈색: 오염수가 천장 줄(식당 바닥)로 와서 액체 다리 → 정화기 입력구</text><text x="40" y="380" fill="#7be36b" font-size="12">초록 점선: 다리 입구 칸에서 가지 → 23번으로 내려가 → 22번 수경 재배 타일 (넘칠 때만)</text><text x="40" y="398" fill="#4fa8ff" font-size="12">파랑: 정화기 출력구 → 서쪽 벽을 지나 화장실 아래 줄로</text><text x="40" y="416" fill="#a9b0d0" font-size="12">문: 서쪽(16번) = 화장실, 동쪽(24번) = 동쪽 통로. 모래는 동쪽 통로로 들어옴</text><text x="40" y="30" fill="#e9ecf8" font-size="16" font-weight="700">기계실 7×3 확대 (화장실 동쪽 옆)</text></svg>
+</div>
 
-- 싱크대는 **방향**을 정할 수 있어요 (화장실을 쓰고 그 방향으로 지나갈 때 손을 씻음). 서쪽 2개는 ←, 동쪽 2개는 →로 두면 어느 문으로 나가든 씻습니다.
-- 방 조건: 수세식 + 배관 연결된 씻는 곳 + 간이 화장실 없음 + 산업 기계 없음, 12~64칸 → **세척실, 사기 +2**. 간이 화장실이 하나라도 남아 있으면 세척실이 안 되니 다 지은 뒤 철거하세요.
-- 8명이면 수세식 4개로 충분합니다 (교대 근무라 동시에 몰리지 않음).
+| 칸 | 건물 | 크기 · 재료 | 설정 |
+|---|---|---|---|
+| 16 (벽) | 문 | 1×2 | 화장실 쪽 출입 |
+| 17~20 | **물 정화기 (Water Sieve)** | 4×3 · 금속 광석 200 kg · 120 W | 일반 와이어 OK. 높이 3이라 방 높이를 꽉 채움 |
+| 21 | **저장 상자 (Storage Bin)** | 1×2 · 원료 광물 400 kg | **모래만** 받게, 우선순위 높게. 정화기 옆이라 나르는 거리 0 |
+| 22 | **갈대 (Thimble Reed)** | 바닥 줄(15번 줄)에 **수경 재배 타일 (Hydroponic Farm)** 1×1 · 금속 광석 100 kg | 타일에 넘침 파이프 연결, 씨앗 심기. 22~37°C |
+| 23 | 비움 | – | 지나다니는 칸 + 넘침 파이프가 지나가는 세로 줄 |
+| 24 (벽) | 문 | 1×2 | 동쪽 통로. 모래는 이쪽으로 들어옴 |
 
-### 2단계: 화장실 닫힌 고리 배관
+**짓는 순서**
+
+1. 연구: 위생 → 증류 (물 정화기), 농업 (수경 재배 타일). 액체 다리는 액체 파이프 연구라 이미 있음.
+2. 7×3 파기 → 16번·24번 벽에 문 → 바닥 22번 칸은 일반 타일 대신 수경 재배 타일.
+3. 물 정화기, 모래 상자 → 와이어 연결 (120 W, 정화기는 하루 1분 정도만 돌아서 전기는 거의 안 씀).
+4. 파이프 (아래 배관 순서 3번): 오염수 줄은 천장 줄(식당 바닥 타일 속)로 들어와 **액체 다리** → 정화기 입력구. 다리 입구 칸에서 가지를 내려 23번 줄을 타고 22번 수경 재배 타일로. 물은 정화기 출력구에서 서쪽 벽을 지나 화장실로.
+5. 갈대 씨앗 심기 → 처음 채우기(배관 순서 4번).
+
+**정화기 부산물: 오염된 흙**
+
+- 정화기는 물을 걸러낼 때 오염된 흙 (Polluted Dirt)을 0.2 kg/s 내놓습니다. 우리 루프는 하루 약 1분이라 **사이클당 약 10 kg**.
+- 오염된 흙은 **저장 상자 안에서도 오염 산소를 뿜습니다** (위키, 물에 잠겨 있지 않으면). 그래서 기계실에 쌓지 말고, 청소 우선순위를 높여 **퇴비 더미 (Compost)**로 보내세요. 퇴비 더미는 오염된 흙을 흙으로 바꿔서 끼니나무 농장 타일에 다시 씁니다.
+- 모래는 사이클당 약 52 kg (정화한 물 1 kg당 모래 0.2 kg). 암석 분쇄기 모래면 충분합니다.
+
+### 배관 순서
+
+1. **물 줄 (파랑):** 물 정화기 출구 → 화장실층 바닥 줄을 따라 싱크대·수세식 8개를 **한 줄로 차례로** → 서쪽 끝에서 한 층 내려가 → 샤워기 8개를 한 줄로 → **마지막 샤워기 입구에서 끝**. 건물은 필요한 만큼만 빼 가요.
+2. **오염수 줄 (갈색):** 각 건물 출구에서 **짧게 위로 빼서** 천장 줄에 모읍니다. 위키 경고: 출구는 연결된 파이프 칸이 완전히 비어 있어야 나오기 때문에, **출구끼리 한 줄로 곧게 이으면 막힙니다.** 샤워기 쪽 모음 줄은 샤워실 천장을 지나 16번 칸 벽을 타고 올라와 화장실 쪽 줄과 만납니다.
+3. **액체 다리로 우선순위** ([자세히](#우선순위-액체-다리-자세히)): 모인 오염수 → **액체 다리** → 물 정화기 입구. 그리고 **액체 다리 입구 칸에서 가지**를 하나 빼서 갈대 수경 재배 타일로 보냅니다. 위키 규칙: 다리 입구에 다른 파이프가 붙어 있으면 **다리가 꽉 찰 때까지 다리로만** 흐릅니다. 그래서 정화기가 먼저 받고, 루프가 꽉 차서 넘칠 때만 갈대로 갑니다.
+4. **처음 채우기:** 깨끗한 물 수조 펌프(또는 수동 펌프·병 비우개)를 물 줄에 잠깐 이어서 파이프를 꽉 채운 뒤 **연결을 끊습니다.** 이후엔 수조 물을 안 씁니다.
+
+### 우선순위 액체 다리 자세히
+
+**왜 필요한가.** 파이프가 두 갈래로 나뉘면 액체 덩어리(패킷)가 **번갈아 반씩** 갈라져 갑니다 (위키: round-robin). 그냥 가지를 치면 오염수 절반이 갈대로 새서 정화기 쪽 물이 모자라요. 그래서 "정화기 먼저, 남을 때만 갈대"로 순서를 정해 줘야 합니다.
+
+**액체 다리의 성질 (위키 Bridge Tricks).** 액체 다리 입구가 파이프에 붙어 있으면, **다리 출구 쪽 파이프에 자리가 있는 한 다리가 패킷을 항상 먼저 가져갑니다.** 다리가 못 받을 때만 패킷이 원래 파이프를 따라 계속 갑니다. 즉 다리 출구 쪽 = 1순위, 다리 입구 칸에서 이어지는 파이프 = 넘침 길.
 
 ```
-오염수 수조(격벽 밖) ─펌프→ 물 정화기 ─물→ 싱크대·수세식 (한 줄로 직렬)
-      ↑                                         │
-      └──────────── 오염수 파이프 ────────────────┘
+오염수 모음 줄 ─→ [다리 입구]══액체 다리══[다리 출구] ─→ 물 정화기   (1순위)
+                      │
+                      └─→ 23번 줄 아래로 ─→ 갈대 수경 재배 타일        (넘칠 때만)
 ```
 
-- **들어가는 줄 하나:** 정화기에서 나온 물을 한 파이프로 싱크대 4 + 수세식 4에 차례로 지나가게 합니다. 건물은 필요한 만큼만 빼 가고 나머지는 다음 건물로 넘어가요. 줄 끝은 **마지막 건물 입구**에서 끝내세요.
-- **나가는 줄 하나:** 8개 건물의 출구를 한 파이프로 모아 **오염수 수조**의 액체 배출구로. 두 줄이 엇갈리는 곳은 **액체 다리 (Liquid Bridge)**로 넘깁니다.
-- 물 정화기와 펌프는 **격벽 밖**, 오염수 수조 옆에 둡니다. 정화기 모래는 [암석 분쇄기]({{ '/guide/core-base/refining/' | relative_url }}) 부산물로 충분해요.
-- 정화한 물에도 식중독 세균이 남으니 **이 물은 화장실 전용**입니다. 온실·전기분해기·샤워기에는 쓰지 않아요.
-- **처음 시작:** 오염수 수조가 비어 있으면 정화기가 물을 못 만듭니다. 근처 오염수 웅덩이에서 한 번 채우거나, 처음 며칠은 정화기 출구 대신 깨끗한 물 수조 펌프로 화장실 줄을 채우세요.
+**짓는 법 (기계실 천장 줄)**
 
-### 3단계: 샤워실 24×4
+1. 오염수 모음 줄을 정화기 입력구까지 먼저 다 깝니다.
+2. 정화기 입력구 바로 앞 파이프 **3칸을 철거**하고 그 자리에 **액체 다리 (3×1)**를 놓습니다. 다리 가운데 화살표가 **정화기 쪽**을 향해야 해요 (흰색 = 입구, 초록 = 출구, 놓기 전에 O 키로 회전). 다리는 벽·바닥 타일 속에도 놓을 수 있어서 식당 바닥 줄에 그대로 묻힙니다.
+3. 넘침 파이프는 **다리 입구 칸에서 바로** 끌어냅니다. 입구보다 한 칸이라도 앞에서 가지를 치면 보통 갈림길이 돼서 반반 나뉘어요.
+4. 넘침 파이프를 23번 줄로 내려 22번 수경 재배 타일 입구에 연결합니다.
 
-- 샤워기 2×4 **8개**를 한 줄로 (16칸). 남는 8칸은 문 앞 통로.
-- **깨끗한 물 수조** 바닥의 액체 펌프 → 파이프 한 줄로 샤워기 8개 직렬 → 출구는 한 줄로 모아 **오염수 수조**로.
-- 하루 1번(스케줄의 위생 시간)이라 8명 × 16 kg = **128 kg/사이클**만 씁니다.
+**실제로 어떻게 흐르나**
 
-### 4단계: 물 수지 (8명, 1사이클)
+| 상황 | 흐름 |
+|---|---|
+| 평소 (누가 화장실·샤워를 씀) | 물 줄이 비면 정화기가 돌고 → 정화기 입력 쪽이 비고 → 오염수는 **전부 다리로** 정화기에 |
+| 물 줄이 꽉 참 (아무도 안 씀) | 정화기 출력이 막혀 정화기가 멈춤 → 다리 출구 파이프가 참 → 다리가 못 받음 → 오염수가 **넘침 줄로** 갈대에 |
+| 하루 동안 | 수세식이 넣은 물보다 6.7 kg씩 더 내놔서, 사이클당 약 54 kg이 이렇게 갈대로 빠짐 |
+
+**흔한 실수**
+
+- 다리 방향을 반대로 놓음 → 정화기에 아무것도 안 감. 화살표 확인.
+- 다리 입구가 아니라 그 앞 파이프에서 가지를 침 → 반반 갈라져 정화기 물이 모자람.
+- 넘침 줄 끝이 막힘 (갈대를 안 심었거나, 22°C 아래로 식어 갈대가 멈춤) → 넘침이 갈 곳이 없어 **오염수가 거꾸로 차서 화장실 출구가 막힙니다.** 갈대 상태를 먼저 보세요.
+
+> **안전장치 (선택):** 넘침 줄에 같은 방법으로 **액체 다리를 하나 더** 둡니다. 다리 출구 → 갈대 (1순위), 다리 입구 칸에서 가지 → 격벽 밖 오염수 수조의 **액체 배출구**. 갈대가 멈춰도 넘침이 수조로 빠져서 화장실이 안 막혀요.
+{: .tip}
+
+> **반대로 쓰는 법:** 다리 **출구**를 파이프 중간에 붙이면, 그 파이프에 자리가 있을 때만 다리 쪽 물이 들어갑니다 (2순위 공급). 나중에 루프 물이 모자랄 일이 생기면, 깨끗한 물 수조 펌프를 이렇게 물 줄에 붙여 두면 정화기 물이 우선이고 모자랄 때만 수조 물이 들어가요. 지금 루프는 물이 늘기만 해서 필요 없어요.
+{: .tip}
+
+### 물 수지 (8명, 1사이클)
 
 | 건물 | 들어가는 물 | 나오는 오염수 |
 |---|---|---|
@@ -184,10 +246,12 @@ W 가이드 그대로 포드 바로 위, 높이 3. 양쪽 끝에 통로 문이 �
 | 샤워기 (8회) | 128 kg | 128 kg |
 | **합계** | **208 kg** | **262 kg** |
 
-- 수세식은 넣은 물보다 오염수가 **6.7 kg 더** 나와서, 화장실 고리는 저절로 물이 늘어납니다. 깨끗한 물 수조에서 나가는 건 샤워 128 kg뿐이에요.
-- 오염수 수조에는 사이클당 약 **180 kg**(샤워 128 + 화장실 남는 54)씩 쌓입니다. 정화기는 사이클당 1분 정도만 돌면 됩니다.
-- 남는 오염수는 [냉방실]({{ '/guide/core-base/envelope/' | relative_url }}#4단계-냉방실--수냉-조절기) 열 받는 물(약 20톤)이나 나중에 금속 정제기 냉각수로 씁니다.
+- 루프가 사이클마다 **약 54 kg 늘어납니다** (수세식 1회 +6.7 kg). 이게 넘침이고, 갈대 1그루가 하루 160 kg까지 받으니 **갈대 하나로 충분**합니다. 넘침이 160 kg보다 적어서 갈대는 물이 끊기는 동안 쉬며 천천히 자라요. 갈대 섬유는 환경 특수복·생물 콘도 재료입니다.
+- 위키 기준 갈대 1그루 = 수세식 약 24회분 넘침. 복제체가 20명 넘게 늘면 갈대를 하나 더.
+- 물 정화기는 사이클당 1분 정도만 돌고 모래를 약 52 kg 씁니다 (암석 분쇄기 부산물로 충분).
 
-> **오염수 수조는 위를 막으세요.** 오염수가 공기에 닿으면 오염 산소가 나옵니다. 그리고 화장실 오염수는 37°C로 나오니 **수조는 꼭 격벽 밖**에 둡니다.
+> **루프 물은 세균이 있습니다.** 정화기는 식중독 세균을 못 없애요. 이 물은 화장실·샤워실 전용이고, 넘친 오염수도 갈대에만 줍니다. 미생물 분쇄기·워터 쿨러·온실·전기분해기에는 절대 잇지 마세요 (위키 경고).
 {: .warn}
 
+> **갈대는 22~37°C에서만 자랍니다.** 기지를 20°C 아래로 식히면 갈대가 멈추니, 냉방 루프는 기계실 바닥 밑으로 지나가지 않게 하세요.
+{: .tip}

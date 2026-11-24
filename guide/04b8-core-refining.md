@@ -48,7 +48,7 @@ description: 암석 분쇄기로 꼭 필요한 정제 금속만 뽑고, 금속 �
 | 전도성 와이어 (Conductive Wire) | 칸당 25 kg | 저저항 도체 (Low-Resistance Conductors) | 회로가 1 kW를 넘을 때 |
 | 대형 변압기 (Large Power Transformer) 3×2 | 200 kg | 저저항 도체 | 4 kW 회로 |
 | 환경 특수복 단조기 (Exosuit Forge) | 400 kg | 위험 보호 (Hazard Protection) | 기름 늪·방사능 숲 진출 |
-| 특수복 거치대 (Atmo Suit Dock) | 개당 100 kg | 위험 보호 | 침실 블록 앞 |
+| 특수복 거치대 (Atmo Suit Dock) | 개당 100 kg | 위험 보호 | 위험 지역 출구 (텔레포터 앞) |
 | 특수복 체크포인트 (Atmo Suit Checkpoint) | 100 kg | 위험 보호 | 격벽 에어락 앞 |
 | 환경 특수복 (Atmo Suit) 1벌 | 300 kg + 섬유 2 | 위험 보호 | 단조기에서 제작 |
 | 증기 터빈 (Steam Turbine) | 800 kg + 개스킷 | 재생 에너지 | 냉방 후반 |
