@@ -27,3 +27,6 @@ defaults:
       path: ""
     values:
       layout: default
+
+# 상단 바 버전 배지의 기본값 (_data/versions.yml 의 키). 페이지마다 game_version 으로 덮어쓸 수 있음.
+game_version: u60-2026-11-20

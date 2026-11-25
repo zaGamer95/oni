@@ -12,6 +12,12 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%2360d4e8'/><circle cx='38' cy='40' r='10' fill='white' opacity='.7'/></svg>">
 </head>
 <body>
+  {%- assign cur_group = site.data.nav_groups | where: "id", page.nav_group | first -%}
+  {%- assign section = page.section | default: cur_group.section | default: "guide" -%}
+  {%- assign sec_groups = site.data.nav_groups | where: "section", section -%}
+  {%- assign sec_ids = sec_groups | map: "id" -%}
+  {%- assign all_guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" -%}
+  {%- assign guides = all_guides | where_exp: "p", "sec_ids contains p.nav_group" -%}
   <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
 
   <header class="topbar">
@@ -20,24 +26,31 @@
       <span class="brand-mark" aria-hidden="true"><i></i></span>
       <span class="brand-text">{{ site.title }}</span>
     </a>
-    <span class="cycle-chip" title="이 가이드 기준 버전">기준: Spaced Out! (우주 탐사 DLC) · 최신 패치</span>
+    <nav class="top-tabs" aria-label="구역">
+      <a href="{{ '/' | relative_url }}" {% if section == "guide" %}class="on" aria-current="true"{% endif %}>가이드</a>
+      <a href="{{ '/guide/case/' | relative_url }}" {% if section == "case" %}class="on" aria-current="true"{% endif %}>사례</a>
+    </nav>
+    <div class="ver-slot">{% include version-badge.html %}</div>
   </header>
 
   <div class="shell">
-    <nav class="sidebar" aria-label="가이드 목차">
-      <div class="panel-title">가이드 목차</div>
+    <nav class="sidebar" aria-label="{% if section == 'case' %}사례{% else %}가이드{% endif %} 목차">
+      <div class="panel-title">{% if section == "case" %}사례 목차{% else %}가이드 목차{% endif %}</div>
       <ul>
+        {% if section == "case" %}
+        <li><a href="{{ '/guide/case/' | relative_url }}" {% if page.url == "/guide/case/" %}class="active"{% endif %}><span class="num">☰</span>사례 목록</a></li>
+        {% else %}
         <li><a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}><span class="num">⌂</span>홈</a></li>
+        {% endif %}
       </ul>
-      {% assign guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
-      {% for g in site.data.nav_groups %}
+      {% for g in sec_groups %}
       <div class="nav-group">{{ g.title }}</div>
       <ul>
         {% for p in guides %}{% if p.nav_group == g.id and p.nav_parent == nil %}
-        <li><a href="{{ p.url | relative_url }}" {% if page.url == p.url %}class="active"{% endif %}><span class="num">{% if p.nav_icon %}<img src="{{ p.nav_icon | relative_url }}" alt="">{% else %}{{ p.nav_num | default: p.nav_order }}{% endif %}</span>{{ p.nav_title | default: p.title }}{% if p.dlc == "spaced-out" %}<span class="dlc-mark" title="Spaced Out!">SO</span>{% endif %}</a></li>
-        {% if p.nav_key %}{% assign in_sec = false %}{% if page.url == p.url or page.nav_parent == p.nav_key %}{% assign in_sec = true %}{% endif %}{% if in_sec %}
+        <li><a href="{{ p.url | relative_url }}" {% if page.url == p.url %}class="active"{% endif %}><span class="num">{% if p.nav_icon %}<img src="{{ p.nav_icon | relative_url }}" alt="">{% else %}{{ p.nav_num | default: p.nav_order }}{% endif %}</span>{{ p.nav_title | default: p.title }}{% if p.dlc == "spaced-out" and section != "case" %}<span class="dlc-mark" title="Spaced Out!">SO</span>{% endif %}</a></li>
+        {% if p.nav_key %}{% assign in_sec = false %}{% if section == "case" or page.url == p.url or page.nav_parent == p.nav_key %}{% assign in_sec = true %}{% endif %}{% if in_sec %}
           {% for c in guides %}{% if c.nav_parent == p.nav_key %}
-        <li class="sub"><a href="{{ c.url | relative_url }}" {% if page.url == c.url %}class="active"{% endif %}><span class="num">{{ c.nav_num }}</span>{{ c.nav_title | default: c.title }}{% if c.dlc == "spaced-out" %}<span class="dlc-mark" title="Spaced Out!">SO</span>{% endif %}</a></li>
+        <li class="sub"><a href="{{ c.url | relative_url }}" {% if page.url == c.url %}class="active"{% endif %}><span class="num">{{ c.nav_num }}</span>{{ c.nav_title | default: c.title }}{% if c.dlc == "spaced-out" and section != "case" %}<span class="dlc-mark" title="Spaced Out!">SO</span>{% endif %}</a></li>
           {% endif %}{% endfor %}
         {% endif %}{% endif %}
         {% endif %}{% endfor %}
@@ -63,7 +76,6 @@
       </article>
 
       {% if page.nav_order %}
-      {% assign guides = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
       <nav class="pager">
         {% for p in guides %}
           {% if p.url == page.url %}

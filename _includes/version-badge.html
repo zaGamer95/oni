@@ -1,0 +1,11 @@
+{%- comment -%}
+  게임 버전 배지. 우선순위: include.key → page.game_version → site.game_version.
+  항목은 _data/versions.yml.
+{%- endcomment -%}
+{%- assign vkey = include.key | default: page.game_version | default: site.game_version -%}
+{%- assign v = site.data.versions[vkey] -%}
+{%- if v -%}
+<span class="ver-badge{% if include.class %} {{ include.class }}{% endif %}" title="기준 버전: {{ v.dlc }} ({{ v.dlc_ko }}) · {{ v.patch }} · {{ v.build }}">
+  <span class="ver-dlc"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4.2"/><ellipse cx="8" cy="8" rx="7.4" ry="2.4" transform="rotate(-20 8 8)"/></svg>{{ v.dlc }}</span><span class="ver-patch">{{ v.patch }}</span>
+</span>
+{%- endif -%}
