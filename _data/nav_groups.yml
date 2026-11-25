@@ -6,5 +6,7 @@
   title: "중반: 재료 과학 연구부터"
 - id: late
   title: "후반: 데이터 분석부터"
+- id: case
+  title: 실제 플레이 사례
 - id: ref
   title: 참고 자료
