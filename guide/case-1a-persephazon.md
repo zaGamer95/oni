@@ -42,3 +42,7 @@ description: 시작 행성 Persephazon(Terrania)을 가이드 격자로 세우�
 4. 출장소: 침대, 간이 화장실, 식량 보관함 → 산소·식량 자립
 5. 공급 텔레포터 양쪽 가동 (Field Research 스킬 복제체가 한 번씩, 사이클 108엔 아직 안 켬)
 6. Oozato → Persephazon: 원유, 황, 금속 광석 / Persephazon → Oozato: 정제 금속, 씨앗, 음식
+
+## 사이클 160: 본진 재개
+
+기지 안 염수 수조(Beakon·Flue Coral·Starnacle)와 전기분해기 3대짜리 무한 SPOM 점검은 [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }})에 정리했습니다.
