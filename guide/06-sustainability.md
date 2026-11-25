@@ -1,7 +1,7 @@
 ---
 title: 장기 평형 설계 (산소·식량·물·전력·열)
 nav_title: 장기 평형 설계
-nav_order: 22
+nav_order: 23
 nav_group: ref
 permalink: /guide/sustainability/
 description: 오래 켜둬도 아무것도 동나지 않는 기지 만들기. "재생 가능한 입력"으로 모든 시스템을 바꾸는 게 목표입니다.
