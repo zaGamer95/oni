@@ -84,10 +84,27 @@ a:hover { color: #9be8f5; }
   border: 3px solid #1b5f6e; box-shadow: var(--shadow);
 }
 .brand-mark i { position: absolute; width: 9px; height: 9px; border-radius: 50%; background: #fff; opacity: .75; top: 6px; left: 7px; }
-.cycle-chip {
-  margin-left: auto; font-size: .78rem; color: var(--ink-dim);
-  padding: 4px 12px; border-radius: 999px; border: 2px solid var(--panel-edge); background: var(--bg);
+/* 상단 탭: 가이드 / 사례 */
+.top-tabs { display: flex; gap: 4px; margin-left: 18px; }
+.top-tabs a {
+  font-family: var(--font-display); font-size: 1.02rem; color: var(--ink-dim); text-decoration: none;
+  padding: 6px 14px 5px; border-radius: 10px 10px 0 0; border-bottom: 3px solid transparent;
 }
+.top-tabs a:hover { color: var(--ink); background: rgba(255,255,255,.05); }
+.top-tabs a.on { color: #fff; border-bottom-color: var(--accent); background: rgba(224,69,123,.14); }
+
+/* 게임 버전 배지 (_includes/version-badge.html). 입력창처럼 안 보이게 꽉 찬 두 칸 라벨로 */
+.ver-slot { margin-left: auto; }
+.ver-badge {
+  display: inline-flex; align-items: stretch; border-radius: 6px; overflow: hidden;
+  font-size: .76rem; line-height: 1; white-space: nowrap; box-shadow: 0 2px 0 rgba(0,0,0,.35); cursor: default;
+}
+.ver-badge > span { display: inline-flex; align-items: center; gap: 5px; padding: 6px 9px; }
+.ver-dlc { color: #fff; font-weight: 700; letter-spacing: .02em; background: linear-gradient(90deg, #6a3fb5, #2f5fd0); }
+.ver-dlc svg { width: 13px; height: 13px; fill: none; stroke: #fff; stroke-width: 1.5; }
+.ver-dlc svg circle { fill: #c9f6ff; stroke: none; }
+.ver-patch { color: #2a2112; font-weight: 700; background: var(--power); }
+.ver-badge.small { font-size: .7rem; margin-top: 8px; }
 .nav-toggle {
   display: none; font-size: 1.3rem; background: var(--accent); color: #fff; border: 0;
   width: 40px; height: 40px; border-radius: 10px; box-shadow: var(--shadow); cursor: pointer;
@@ -248,7 +265,11 @@ a:hover { color: #9be8f5; }
 @media (max-width: 880px) {
   .shell { grid-template-columns: 1fr; padding: 16px 16px 48px; gap: 16px; }
   .nav-toggle { display: inline-block; }
-  .cycle-chip { display: none; }
+  .top-tabs { margin-left: 4px; }
+  .top-tabs a { padding: 6px 9px 5px; font-size: .95rem; }
+  .brand-text { display: none; }
+  .ver-dlc { display: none !important; }
+  .ver-badge { font-size: .7rem; }
   .topbar { padding: 8px 16px; }
   .sidebar { position: fixed; top: 62px; left: 16px; right: 16px; z-index: 30; display: none; max-height: calc(100vh - 80px); }
   body.nav-open .sidebar { display: block; }
@@ -555,3 +576,15 @@ img.img-missing { display: none; }
 @media (max-width: 640px) {
   .prose .preface { padding: 24px 18px 16px; font-size: .98rem; }
 }
+
+/* 사례 목록 카드 */
+.case-list { display: grid; gap: 12px; margin: 4px 0 22px; }
+.case-card {
+  display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px; text-decoration: none; color: var(--ink);
+  background: var(--panel-2); border: 3px solid var(--panel-edge); border-radius: 12px; box-shadow: var(--shadow);
+}
+.case-card:hover { border-color: var(--accent); }
+.case-no { font-family: var(--font-display); font-size: 1.8rem; line-height: 1; color: var(--accent-2); }
+.case-body { display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+.case-body strong { font-family: var(--font-display); font-size: 1.2rem; font-weight: 400; }
+.case-body small { color: var(--ink-dim); font-size: .88rem; }

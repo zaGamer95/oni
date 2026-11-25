@@ -1,0 +1,8 @@
+# 게임 버전 표기. 키를 _config.yml 의 game_version(사이트 기본) 또는
+# 페이지 front matter 의 game_version 에 적으면 상단 바 배지가 그 버전으로 바뀝니다.
+# 사례마다 다른 버전으로 플레이했다면 여기에 항목을 하나 더 만들고 그 사례 페이지에 키를 적으세요.
+u60-2026-11-20:
+  dlc: "Spaced Out!"
+  dlc_ko: "우주 탐사 DLC"
+  patch: "26년 11월 20일 패치"
+  build: "U60-763796"

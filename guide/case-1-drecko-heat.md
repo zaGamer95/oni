@@ -1,11 +1,13 @@
 ---
-title: "사례 1-1: Persephazon 열 문제와 드레코 목장 (사이클 108)"
-nav_title: "1-1 열 문제·드레코 목장"
-nav_order: 31
-nav_num: "①-1"
+title: "사례 1 · 1-1: Persephazon 열 문제와 드레코 목장 (사이클 108)"
+nav_title: "열 문제·드레코 목장"
+nav_order: 30.2
+nav_num: "1-1"
 nav_group: case
+nav_parent: case1-perse
 dlc: spaced-out
-eyebrow: 실제 플레이 사례 1-1
+game_version: u60-2026-11-20
+eyebrow: 사례 1 · 1-1
 permalink: /guide/case/terrania-1/drecko-ranch/
 description: 에어컨이 아직 없는데 메인 기지가 데워져 농장이 멈춘 상황. 시드가 미리 깔아둔 오브젝트(텔레포터, 우라늄, 차가운 증기 분출구, 천연 가스 분출구, 공급 텔레포터)를 피해 기지를 다듬고, SPOM 없이 전기분해기 하나로 수소를 채워 2LegitCity식 드레코 목장(22×11)을 앉히는 계획.
 ---
@@ -13,7 +15,7 @@ description: 에어컨이 아직 없는데 메인 기지가 데워져 농장이 
 * 목차
 {:toc}
 
-> [사례 1]({{ '/guide/case/terrania-1/' | relative_url }})의 시작 행성 **Persephazon** 이야기입니다. 아직 W가 검토 중인 **계획안**이에요. 실제로 지어보고 맞는 부분만 남깁니다.
+> [사례 1 · 1장]({{ '/guide/case/terrania-1/persephazon/' | relative_url }})의 시작 행성 **Persephazon** 이야기입니다. 아직 W가 검토 중인 **계획안**이에요. 실제로 지어보고 맞는 부분만 남깁니다.
 {: .tip}
 
 ## 상황 (사이클 108)

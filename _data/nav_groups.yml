@@ -1,14 +1,23 @@
+# section: 상단 바 탭(가이드 / 사례). 사이드바는 지금 페이지와 같은 section 의 그룹만 보여줍니다.
+# 새 사례는 section: case 그룹을 하나 더 만들고, 그 사례 페이지들의 nav_group 을 그 id 로.
 - id: start
   title: 시작하기
+  section: guide
 - id: early
   title: "초반: 재료 과학 연구 전까지"
+  section: guide
 - id: mid
   title: "중반: 재료 과학 연구부터"
+  section: guide
 - id: late
   title: "후반: 데이터 분석부터"
-- id: case
-  title: 실제 플레이 사례
+  section: guide
 - id: ref
   title: 참고 자료
+  section: guide
 - id: appendix
   title: 부록
+  section: guide
+- id: case
+  title: "사례 1: Terrania 클러스터"
+  section: case
