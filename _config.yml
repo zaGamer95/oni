@@ -20,6 +20,7 @@ exclude:
   - Gemfile.lock
   - vendor
   - _sources
+  - CLAUDE.md
 
 defaults:
   - scope:
