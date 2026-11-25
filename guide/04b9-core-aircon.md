@@ -64,7 +64,7 @@ description: 단열 격벽 기지를 20~25°C로 유지하는 냉방 설계. 냉
 | 자동화 와이어 | 1×1 | 정제 금속 5 kg/칸 | 자동화 | – |
 | **헤비와트 와이어 (Heavi-Watt Wire)** + 연결판 (Joint Plate) | 1×1 | 금속 광석 100 kg/칸 | 고급 전력 조절 (Advanced Power Regulation) | 최대 20 kW |
 | 액체 펌프 (Liquid Pump) | 2×2 | 금속 광석 400 kg | 액체 파이프 | 240 W (처음 채울 때만) |
-| 7단계: **증기 터빈 (Steam Turbine)** | 5×3 | **정제 금속 800 kg** + 개스킷 재료 4 kg | 재생 에너지 (Renewable Energy, 5단계) | **최대 +850 W** |
+| 7단계: **증기 터빈 (Steam Turbine)** | 5×3 | **정제 금속 800 kg** + **개스킷 4개** (1개 = 플라스틱 50 kg, 제작대에서 제작, 개선된 파이프 연구. 2026년 6월 패치부터) | 재생 에너지 (Renewable Energy, 5단계) | **최대 +850 W** |
 | 7단계: 방열 액체 파이프 (Radiant Liquid Pipe) | 1×1 | 정제 금속 50 kg/칸 | 액체 조율 | – |
 
 정제 금속은 1~6단계에 **센서 25 kg + 자동화 와이어 몇 칸 ≈ 75 kg**뿐이라 [암석 분쇄기]({{ '/guide/core-base/refining/' | relative_url }})로 충분합니다.
