@@ -24,7 +24,7 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 | [1장 Persephazon]({{ '/guide/case/terrania-1/persephazon/' | relative_url }}) | 시작 행성 | 기지 세우기, 안정화, 텔레포터로 두 번째 행성 보내기 |
 | [1-1 열 문제·드레코 목장]({{ '/guide/case/terrania-1/drecko-ranch/' | relative_url }}) | 시작 행성 | 에어컨 없이 열 막기, 2LegitCity식 드레코 목장 (사이클 108) |
 | [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }}) | 시작 행성 | 염수 수조, 전기분해기 3대 SPOM, 터빈 전 전력 |
-| [1-3 개인 침실 8칸 배치]({{ '/guide/case/terrania-1/persephazon/bedrooms/' | relative_url }}) | 시작 행성 | 텔레포터를 피해 큰 회관 위에 6×4 침실 6칸 + 기존 침대 2 |
+| [1-3 개인 침실 8칸 배치]({{ '/guide/case/terrania-1/persephazon/bedrooms/' | relative_url }}) | 시작 행성 | 텔레포터를 피해 큰 회관 위에 6×4 침실 6칸 + 기존 침대 2, 병원 |
 | [2장 Oozato]({{ '/guide/case/terrania-1/oozato/' | relative_url }}) | 기름 늪 | 전력 0에서 자립까지, 단계 A~E (사이클 108) |
 | [2-1 사이클 142 점검]({{ '/guide/case/terrania-1/oozato/check-142/' | relative_url }}) | 기름 늪 | 다섯 질문으로 본 Oozato, 닫힌 고리 |
 | [2-2 단계별 플랜]({{ '/guide/case/terrania-1/oozato/plan/' | relative_url }}) | 기름 늪 | 0~8단계, 2명 → 4~6명 |
