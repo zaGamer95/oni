@@ -1,7 +1,7 @@
 ---
 title: 후반 테크 (데이터 분석부터, 6단계~)
 nav_title: 후반 테크 (데이터 뱅크)
-nav_order: 18
+nav_order: 19
 nav_group: late
 dlc: spaced-out
 permalink: /guide/research/late/
@@ -15,7 +15,7 @@ description: 데이터 분석(Data Analysis) 포인트가 필요한 6단계부�
 
 이 가이드는 **데이터 분석 (Data Analysis)** 연구 포인트가 필요해지는 6단계부터 **후반**으로 봅니다. 가상 천체투영관 (Virtual Planetarium, 비상 계획)과 데이터 뱅크가 있어야 진행돼요.
 
-> 5단계(래드볼트)까지는 [16 중반 테크]({{ '/guide/research/mid/' | relative_url }}).
+> 5단계(래드볼트)까지는 [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}).
 {: .tip}
 
 ## 6구간: 사이클 150~, 데이터 뱅크가 필요한 6단계 이후

@@ -1,7 +1,7 @@
 ---
 title: 중반 테크 (재료 과학 연구부터, 래드볼트)
 nav_title: 중반 테크 (래드볼트)
-nav_order: 16
+nav_order: 17
 nav_group: mid
 dlc: spaced-out
 permalink: /guide/research/mid/
@@ -13,7 +13,7 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 
 ## 한 줄 요약
 
-이 가이드는 **재료 과학 연구 (Materials Science Research)** 를 연구하는 순간부터 **중반**으로 봅니다. 여기서 래드볼트(응용 과학) 건물이 열리고, 5단계부터는 기술마다 래드볼트가 들어갑니다. **데이터 분석** 포인트가 필요한 6단계부터는 [18 후반 테크]({{ '/guide/research/late/' | relative_url }}).
+이 가이드는 **재료 과학 연구 (Materials Science Research)** 를 연구하는 순간부터 **중반**으로 봅니다. 여기서 래드볼트(응용 과학) 건물이 열리고, 5단계부터는 기술마다 래드볼트가 들어갑니다. **데이터 분석** 포인트가 필요한 6단계부터는 [19 후반 테크]({{ '/guide/research/late/' | relative_url }}).
 
 > 그 전까지(1~4단계 대부분, 터빈 없는 냉방)는 [7 초반 테크]({{ '/guide/research/early/' | relative_url }}).
 {: .tip}

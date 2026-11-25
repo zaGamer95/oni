@@ -32,7 +32,7 @@ description: 목적지 선택 화면에 뜨는 트레잇이 무슨 뜻인지, �
 | **근처 소행성** | Metal Rich, Metallic Caves, Geoactive, Crashed Satellites, Irregular Oil, Trapped Oil | Metal Poor 정도만. 나머지는 버틸 만함 |
 | **먼 소행성** | 무엇이든 보너스 | 신경 안 써도 됨 |
 
-> **예시 (합격):** 시작 Terrania는 트레잇 없음, 근처 Irradiated Forest에 Metal Rich + Metallic Caves, Oily Swamp에 Metallic Caves, 먼 Tundra에 Metal Poor. 시작 소행성에 ❌가 없고 근처가 금속 부자라서 바로 시작해도 됩니다. Tundra의 Metal Poor는 늦게 가는 곳이라 상관없어요.
+> **예시 (합격):** 시작 Terrania는 트레잇 없음, 근처 Irradiated Forest에 Metal Rich + Metallic Caves, Oily Swamp에 Metallic Caves, 먼 Tundra에 Metal Poor. 시작 소행성에 ❌가 없고 근처가 금속 부자라서 바로 시작해도 됩니다. Tundra의 Metal Poor는 늦게 가는 곳이라 상관없어요. 이 시드로 실제로 한 판은 [사례 1]({{ '/guide/case/terrania-1/' | relative_url }}).
 {: .tip}
 
 ## 월드 트레잇 전체 (23개)

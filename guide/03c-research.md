@@ -1,7 +1,7 @@
 ---
 title: 연구 순서와 타이밍
 nav_title: 연구 순서와 타이밍
-nav_order: 19
+nav_order: 20
 nav_group: ref
 dlc: spaced-out
 permalink: /guide/research/
@@ -71,9 +71,9 @@ Spaced Out!은 연구 포인트가 4종류입니다. 단계(Tier)가 올라갈�
 
 | 구간 | 시작 신호 | 연구 포인트 | 핵심 | 페이지 |
 |---|---|---|---|---|
-| **초반** | 게임 시작 | 초급 + 고급 | 생존 → SPOM → 단열 → 냉방 → 특수복 → 첫 로켓. **증기 터빈 없이 버티는 법** | [7 초반 테크]({{ '/guide/research/early/' | relative_url }}) |
-| **중반** | **재료 과학 연구** (Materials Science Research) | + 응용 과학 (래드볼트, 5단계부터) | 래드볼트, 증기 터빈, 지열 조정기, 납 방호복, 플라스틱, 8명 운영 | [16 중반 테크]({{ '/guide/research/mid/' | relative_url }}) |
-| **후반** | **데이터 분석** (Data Analysis) 포인트가 필요한 6단계 | + 데이터 분석 (데이터 뱅크) | 석유 엔진 로켓, 연구용 원자로, 제트 특수복 | [18 후반 테크]({{ '/guide/research/late/' | relative_url }}) |
+| **초반** | 게임 시작 | 초급 + 고급 | 생존 → SPOM → **두 번째 행성 (텔레포터)** → 단열 → 냉방 → 특수복 → 첫 로켓. **증기 터빈 없이 버티는 법** | [7 초반 테크]({{ '/guide/research/early/' | relative_url }}) |
+| **중반** | **재료 과학 연구** (Materials Science Research) | + 응용 과학 (래드볼트, 5단계부터) | 래드볼트, 증기 터빈, 지열 조정기, 납 방호복, 플라스틱, 8명 운영 | [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}) |
+| **후반** | **데이터 분석** (Data Analysis) 포인트가 필요한 6단계 | + 데이터 분석 (데이터 뱅크) | 석유 엔진 로켓, 연구용 원자로, 제트 특수복 | [19 후반 테크]({{ '/guide/research/late/' | relative_url }}) |
 
 
 ---
