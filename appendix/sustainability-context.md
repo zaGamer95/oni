@@ -7,7 +7,7 @@ nav_group: appendix
 eyebrow: 부록 A
 permalink: /appendix/sustainability-context/
 dlc: spaced-out
-description: "먹을 것·산소·온도·전력·자원, 다섯 가지가 계속 돌아가는지 숫자로 확인하는 한 장짜리 기준표. 2026년 11월 패치(U60-763796)까지 반영했습니다."
+description: "먹을 것·산소·온도·전력·자원, 다섯 가지가 계속 돌아가는지 숫자로 확인하는 한 장짜리 기준표. 2026년 11월 패치(U60-763796)와 DLC 4종까지 반영했습니다."
 ---
 
 <!--
@@ -404,11 +404,84 @@ W가 고른 방식: **하프 로드리게스 (Half Rodriguez)** — 전기분해
 
 **바뀌지 않은 것 (2026-11 기준):** 복제체 산소 100 g/s·1,000 kcal, 전기분해기, 모든 발전기 출력, 주요 작물 생장·kcal, 주둥가리·드레코 수치.
 
-### 수중 행성 팩 (The Aquatic Planet Pack, 2026-06-11)
+수중 행성 팩 등 DLC 내용은 아래 **12. DLC 활용**에 정리했습니다.
 
-W 판에 이 DLC가 켜져 있다면 쓸 만한 것: 조력 터빈(300 W), 미니 냉장고, 벽걸이 화분·넓은 수경 재배 타일(수중 작물), 스시 바 요리(니기리 품질 5, 3,600 kcal), 고무(가황기)로 개스킷 대체, 호흡 스테이션(물속 복제체용 산소). 새 시작 행성 Marinea. **켜져 있는지 아직 확인 안 함.**
+## 12. DLC 활용 (W는 DLC 4개 모두 켬)
 
-## 12. 출처와 갱신 방법
+W는 **Spaced Out! + 서리 행성 팩 + 바이오닉 부스터 팩 + 선사 행성 팩 + 수중 행성 팩**을 모두 켜고 합니다 (2026-11-25 확인). 아래 작물·동물은 **그 DLC의 바이옴이나 소행성이 클러스터에 있을 때만** 씨앗·알을 얻을 수 있습니다. 지금 Terrania 판에 어떤 DLC 바이옴이 있는지는 아직 확인하지 않았습니다. 건물과 요리법은 DLC만 켜져 있으면 어디서나 쓸 수 있습니다.
+
+### 12-1. DLC 작물 (길들인 상태)
+
+| 작물 | DLC | 생장 온도 | 그루당 입력 / 사이클 | 수확 | kcal/사이클/그루 | 1명당 그루 수 | 메모 |
+|---|---|---|---|---|---|---|---|
+| Megafrond | 선사 | −45~15°C | **염소 대기 500 g 이상**, 염소 54 kg 소모 | 9사이클 · 낟알 36개 | 낟알 **4개** | 고추빵이면 **0.63** | 진눈깨비밀 낟알 대신 쓸 수 있음 → 고추빵 농장이 1/4 크기 |
+| Plume Squash | 서리 | −55~−14°C | 에탄올 15 kg | 9사이클 · 4,000 kcal | 444 | **2.25** (튀김 1.67) | Squash Fries 5,400 kcal 품질 3 (Deep Fryer, 우지) |
+| Pikeapple Bush | 서리 | −55~−14°C | 인회석 5 kg | 3사이클 · 800 kcal | 267 | 3.75 (꼬치 2.5) | Pikeapple Skewer 1,200 kcal (전기 그릴) |
+| Sodicane | 수중 | 10~40°C | 소금 10 kg | 4사이클 · 600 kcal | 150 | 6.7 | 먹으면 Thirsty 디버프. 비상용만 |
+| Pinpoket | 수중 | 40~80°C | 정제 탄소 5 kg, 물속, 벽걸이 화분 | 16사이클 · Pinpoki | Uni로 450 | 2.2 | Uni 7,200 kcal 품질 3 (Sushi Bar) |
+| Sweatcorn Stalk | 선사 | — | 꽃가루받이 필요 (Mimika·그럽그럽) | 3사이클 · 800 kcal | 약 267~317 | 3.2~3.75 | Veggie Poppers (Smoker) |
+| Ovagro Node | 선사 | 25~45°C | 물 90 kg | 덩굴마다 Ovagro Fig | 덩굴 수에 비례 | — | Lumb 먹이 |
+
+**자원 작물 (수중 행성 팩):**
+
+| 작물 | 생장 온도 | 입력 / 사이클 | 출력 | 의미 |
+|---|---|---|---|---|
+| **Tublia** | 50~110°C, 물속 | 브라인 또는 오염 브라인 30 kg + 황 20 kg | **플라스틱 200 kg / 8사이클 (25 kg/사이클)** | 원유·드레코 없이 플라스틱. 증기 터빈 개스킷 4개 = 8사이클 |
+| Starnacle | 25~45°C, 물속, 벽걸이 화분 | Coquina 20 kg | 인회석 80 kg / 4사이클 | 핀차·Pikeapple 비료 |
+| Flue Coral | 25~45°C, 물속, 위쪽에 빛 2,500 lux | 소금물 20 kg + 석회 5 kg | **산소** (빛 받을 때) | 초반 산소. Starnacle → Beakon → 석회 → Flue Coral 고리 |
+| Clampum | 25~45°C, 3×3 전부 물속 | 모래 35 kg | 진주 50 kg / 8사이클 | 유리 대용 (Glassy 재료) |
+| Gum Palm | 24~54°C | 황 20 kg | Gum Wood 700 kg / 10사이클 | 분쇄 → 라텍스 → 가황기 → 고무 (고무 개스킷) |
+| Alveo Vera (서리) | −80~0°C, CO₂ 대기 | 얼음 20 kg, CO₂ 2 g/s 흡수 | Oxylite 36 kg / 2사이클 | 추운 곳 산소 보조 (약 0.3명분) |
+
+### 12-2. DLC 동물
+
+| 동물 | DLC | 쾌적 온도 | 먹는 것 | 만드는 것 | 쓰임 |
+|---|---|---|---|---|---|
+| Flox | 서리 | −30~10°C | Pikeapple Bush·센털꽃 | 흙, 털깎이로 목재 | 추운 목장 |
+| Spigot Seal | 서리 | −75~10°C | Bonbon Tree 꿀 또는 설탕 | **에탄올** (설탕 1 kg → 1.3 kg) | Plume Squash·노쉬 새싹 관개, 석유 발전기 연료. 죽으면 우지 50 kg |
+| Bammoth | 서리 | 30~70°C | Plume Squash 식물 | 배설물, 고기 14개 | 큰 고기원 |
+| Lumb / Blum Lumb | 선사 | 20~70°C | Ovagro Fig 등 열매 | 이탄(Peat) / 조류 | 이탄 → 이탄 발전기 |
+| Dartle | 선사 | −40~20°C | Dewdrip | 표백석·염소 | Megafrond 방의 염소 공급 |
+| Jawbo | 선사 | 0~60°C | 파쿠 등 물고기 | 필레 12개 | 물고기 목장 위 단계 |
+| Blowter | 수중 | 0~60°C | 물풀(Waterweed) 상추 | **산소** (물속 복제체가 숨 쉼) | 수중 작업용 |
+| Beakon | 수중 | 0~60°C | 인회석, Starnacle | 석회 | Flue Coral 비료 |
+| Slogo / Gildgo | 수중 | 5~75 / 60~115°C | 소금 / 황 | 흙 / 흑요석 | 소금 → 흙 (끼니나무 흙 재생!) |
+| Glo Squid | 수중 | 40~100°C | Tublia | 오징어 먹물(젖 짜기), Calamari 9,600 kcal | Tublia 옆 목장 |
+| Merpip | 수중 (2026.11) | 10~40°C | 동물 허물·껍데기 | Coquina, 수중 씨앗 심기 | Starnacle 먹이 |
+
+### 12-3. DLC 건물·발전
+
+| 건물 | DLC | 수치 | 쓰임 |
+|---|---|---|---|
+| 이탄 발전기 (Peat Burner) | 선사 | **480 W**, 이탄 1 kg/s, 오염수 200 g/s + CO₂ 40 g/s | Lumb 이탄으로 재생 |
+| 조력 터빈 (Tidal Turbine) | 수중 | 300 W, 조수 샘(Tidal Spring) 위에만 | 연료 없는 상시 전력 |
+| 나무 난로 (Wood Heater) | 서리 | 열 20 kDTU/s, 목재 25 g/s, 빛 450 lux | 추운 행성 생활구역 난방 |
+| Deep Fryer | 서리 | 480 W, 우지 사용, 주방 방 필요 | Squash Fries·Fish Taco·Nosh Noms |
+| Smoker | 선사 | 전력 없음, CO₂ 20 g/s | Tender Brisket 16,000 kcal 품질 3, Smoked Fish 32사이클 보존 |
+| Sushi Bar | 수중 | 숙련 복제체 | Nigiri 품질 5 (3,600 kcal), Sushi Roll 품질 4 |
+| 미니 냉장고 (Mini Fridge) | 수중 | 1×1, 60 W, 1°C | 식당 옆 소량 보관 |
+| 벽걸이 화분 · 넓은 수경 재배 타일 | 수중 | 벽/바닥 겸용 | 수중 작물 |
+| 가황기 (Vulcanizer) | 수중 | 480 W, 라텍스 → 고무, CO₂ 50 g/s | 고무 개스킷 (플라스틱 대신) |
+| 호흡 스테이션 (Breathing Station) | 수중 | 기체 파이프 산소 공급 | 물속 작업 |
+
+### 12-4. 바이오닉 복제체 (Bionic Booster Pack)
+
+바이오닉 복제체는 **먹지 않고, 숨은 산소 탱크로 쉬고, 화장실 대신 오물(Gunk)을 뺍니다.** 다섯 질문이 이렇게 바뀝니다.
+
+| 질문 | 일반 복제체 | 바이오닉 복제체 |
+|---|---|---|
+| 식량 | 1,000 kcal/사이클 | **파워 뱅크 1개(120 kJ)/사이클 = 평균 200 W.** 충전기(Power Bank Charger)는 평균 240 W |
+| 산소 | 100 g/s | 같은 100 g/s, 단 240 kg 탱크를 산소 통·공기에서 채움 (4사이클분) |
+| 온도 | 생활구역 20~30°C | 같음. **물에 젖으면 스트레스 +200%/사이클** → 물길 피하기 |
+| 전력 | — | 위 200 W × 인원이 전력 예산에 더해짐 |
+| 자원 | 물 (화장실) | **기어 오일**: 윤활 스테이션(원유 또는 식물성 기름) / 기어 밤. **오물**: Gunk Extractor로 뽑아 파이프로 |
+
+W의 8명은 모두 일반 복제체라 지금은 해당 없음. 바이오닉을 뽑으면 식량 대신 전력 200 W/명을 예산에 넣으세요.
+
+> **DLC를 다 켠 W에게 가장 큰 이득:** ① 선사 팩의 **Megafrond**로 고추빵(품질 5) 농장이 1/4 크기, ② 수중 팩의 **Tublia**로 원유 없이 플라스틱, ③ 서리 팩의 **Spigot Seal**로 에탄올 재생 (Plume Squash·노쉬 새싹·석유 발전기). 클러스터에 해당 바이옴이 있는지부터 확인하세요.
+{: .tip}
+
+## 13. 출처와 갱신 방법
 
 - 수치: oxygennotincluded.wiki.gg 건물·식물·동물 페이지와 데이터 모듈 (`Module:Data/Plants`, `Module:Data/Critters`, 2026-11-25 조회). 게임 안 툴팁이 최종 정답.
 - 설계: 이 사이트의 [10 발전소]({{ '/guide/core-base/power/' | relative_url }}), [11 농장·목장·산업]({{ '/guide/core-base/blocks/' | relative_url }}), [14 격벽·냉방·수조]({{ '/guide/core-base/envelope/' | relative_url }}), [15 에어컨 설치]({{ '/guide/core-base/aircon/' | relative_url }}), [18 8명 중반 설계]({{ '/guide/midgame-8/' | relative_url }}), [23 장기 평형]({{ '/guide/sustainability/' | relative_url }}), [24 수치 치트시트]({{ '/guide/numbers/' | relative_url }}), 실제 플레이 사례 1·1-1.
