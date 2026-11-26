@@ -28,4 +28,5 @@ description: 가이드는 "대부분의 판에 맞는 순서"이고, 사례는 �
 | [2-1 사이클 142 점검]({{ '/guide/case/terrania-1/oozato/check-142/' | relative_url }}) | 기름 늪 | 다섯 질문, 닫힌 고리 |
 | [2-2 단계별 플랜]({{ '/guide/case/terrania-1/oozato/plan/' | relative_url }}) | 기름 늪 | 0~8단계, 2명 → 4~6명 |
 | [2-3 기지 배치 v2]({{ '/guide/case/terrania-1/oozato/layout/' | relative_url }}) | 기름 늪 | 텔레포터 홀 식당, 개인 침실 |
-| [3장 세 번째 행성과 그다음]({{ '/guide/case/terrania-1/next/' | relative_url }}) | 방사능 숲 외 | 첫 로켓, 이후 행성 순서 |
+| [3장 두 기지 교환 구조]({{ '/guide/case/terrania-1/link/' | relative_url }}) | 두 행성 | 주고받는 것, 사이클당 양, 여는 순서 |
+| [4장 세 번째 행성과 그다음]({{ '/guide/case/terrania-1/next/' | relative_url }}) | 방사능 숲 외 | 첫 로켓, 이후 행성 순서 |
