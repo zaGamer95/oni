@@ -1,12 +1,12 @@
 ---
-title: "사례 1 · 3장: 세 번째 행성과 그다음"
+title: "사례 1 · 4장: 세 번째 행성과 그다음"
 nav_title: "세 번째 행성과 그다음"
 nav_order: 30.4
-nav_num: "3"
+nav_num: "4"
 nav_group: case
 dlc: spaced-out
 game_version: u60-2026-11-20
-eyebrow: 사례 1 · 3장
+eyebrow: 사례 1 · 4장
 permalink: /guide/case/terrania-1/next/
 description: 첫 로켓으로 방사능 숲에 가서 우라늄과 금속을 가져오고, 재료 과학 연구로 중반에 들어가는 계획. 그다음 행성 순서.
 ---
