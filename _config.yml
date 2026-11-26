@@ -21,6 +21,7 @@ exclude:
   - vendor
   - _sources
   - CLAUDE.md
+  - tools
 
 defaults:
   - scope:
