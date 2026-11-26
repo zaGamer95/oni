@@ -280,8 +280,11 @@ class BP:
             ''.join('M%g %gH%g' % (x0, self.Y(j), x1) for j in range(rows + 1) if (j - self.y0) % 5)
         major = ''.join('M%g %gV%g' % (self.X(i), y0, y1) for i in range(cols + 1) if not (i - self.x0) % 5) + \
             ''.join('M%g %gH%g' % (x0, self.Y(j), x1) for j in range(rows + 1) if not (j - self.y0) % 5)
+        ten = ''.join('M%g %gV%g' % (self.X(i), y0, y1) for i in range(cols + 1) if not (i - self.x0) % 10) + \
+            ''.join('M%g %gH%g' % (x0, self.Y(j), x1) for j in range(rows + 1) if not (j - self.y0) % 10)
         out = ['<path d="%s" stroke="#ffffff" stroke-opacity=".09" stroke-width="1" fill="none"/>' % minor,
-               '<path d="%s" stroke="#ffffff" stroke-opacity=".24" stroke-width="1" fill="none"/>' % major]
+               '<path d="%s" stroke="#ffffff" stroke-opacity=".22" stroke-width="1" fill="none"/>' % major,
+               '<path d="%s" stroke="#ffffff" stroke-opacity=".38" stroke-width="1.6" fill="none"/>' % ten]
         # 눈금
         tk = []
         for i in range(cols):
@@ -318,7 +321,7 @@ class BP:
             out.append('<rect x="%g" y="%g" width="%g" height="8" fill="%s" stroke="#cfd3e6" stroke-width=".8"/>' % (
                 bx + i * u, y + 3, u, '#cfd3e6' if i % 2 == 0 else '#11131f'))
         out.append('<text x="%g" y="%g" fill="%s" font-size="10">%d칸</text>' % (bx + n * u + 5, y + 11, C['dim'], n))
-        info = '1칸 = 1타일 · 전체 %d × %d칸 · 눈금 숫자 = 칸 번호, 굵은 선 5칸마다' % (self.cols, self.rows)
+        info = '1칸 = 1타일 · 전체 %d × %d칸 · 눈금 숫자 = 칸 번호, 선: 5칸마다 굵게, 10칸마다 더 굵게' % (self.cols, self.rows)
         if W < 760:
             out.append('<text x="20" y="%g" fill="%s" font-size="10">%s</text>' % (y + 28, C['dim'], escape(info)))
             y += 18
