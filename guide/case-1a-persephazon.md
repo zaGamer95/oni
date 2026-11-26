@@ -46,3 +46,5 @@ description: 시작 행성 Persephazon(Terrania)을 가이드 격자로 세우�
 ## 사이클 160: 본진 재개
 
 기지 안 염수 수조(Beakon·Flue Coral·Starnacle)와 전기분해기 3대짜리 무한 SPOM 점검은 [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }})에 정리했습니다.
+
+본진 개인 침실 8칸 배치(텔레포터 때문에 큰 회관 위로 옮긴 이유와 도면)는 [1-3 개인 침실 8칸 배치]({{ '/guide/case/terrania-1/persephazon/bedrooms/' | relative_url }})에 있습니다.
