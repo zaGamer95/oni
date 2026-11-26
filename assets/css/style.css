@@ -534,6 +534,7 @@ img.img-missing { display: none; }
 /* 중앙 기지 배치도 (SVG 도면) */
 .bp-wrap { overflow-x: auto; margin: 14px 0 6px; border: 3px solid #5a4a3a; border-radius: 12px; background: #11131f; }
 .bp-wrap svg { display: block; min-width: 900px; width: 100%; height: auto; }
+.bp-wrap svg.bp-svg { margin: 0 auto; }
 .bp-legend { font-size: .8rem; color: var(--ink-dim); margin: 0 0 20px; }
 
 /* 교대 일정 막대 */
