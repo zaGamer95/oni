@@ -24,13 +24,8 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 | 중앙 통로 | 사다리 + 소방봉 나란히 | 올라갈 땐 사다리, 내려갈 땐 소방봉(Fire Pole)이 훨씬 빠름 |
 | 가로 통로 | 2칸 높이 | 복제체 키 |
 
-<div class="base-diagram" role="img" aria-label="기지 층 배치 예시: 위에서부터 침실·연구, 식당·농장, 화장실·보관함, 발전 구역, 맨 아래 CO2 구덩이. 가운데에 사다리와 소방봉 통로.">
-  <div class="floor"><div class="room">침실 <small>내부 4칸</small></div><div class="shaft"><i>H</i><i>F</i></div><div class="room">연구 · 작업장</div></div>
-  <div class="floor"><div class="room">식당 · 주방</div><div class="shaft"><i>H</i><i>F</i></div><div class="room food">농장</div></div>
-  <div class="floor"><div class="room water">화장실 · 세면기</div><div class="shaft"><i>H</i><i>F</i></div><div class="room">보관함</div></div>
-  <div class="floor"><div class="room hot wide">발전기 · 전기분해기 <small>뜨거움, 단열 타일로 감싸기</small></div></div>
-  <div class="floor"><div class="room co2 wide">CO₂ 구덩이 <small>무거운 이산화탄소가 모이는 곳</small></div></div>
-  <div class="legend">H = 사다리 (Ladder) · F = 소방봉 (Fire Pole)</div>
+<div class="bp-wrap" markdown="0">
+{% include bp/build-floors.svg %}
 </div>
 
 > **뜨거운 건 아래에? 위에?** 뜨거운 가스는 위로 오릅니다. 그래서 발전기를 아래층에 두면 열이 생활 구역으로 올라올 수 있어요. 발전 구역은 단열 타일로 따로 감싸는 게 정답입니다. 단, CO₂는 무거워서 아래로 가라앉으니, 기지 맨 아래 구덩이에 모아 처리하세요.
@@ -74,8 +69,8 @@ description: 층 높이, 방 크기, 동선, 와이어·파이프 용량, 재료
 
 복제체는 화장실을 쓴 뒤 **세면기(Wash Basin / Sink)를 지나가면** 손을 씻습니다. 세면기에는 방향이 있어서, 화장실에서 나오는 방향으로 놓아야 합니다.
 
-<div class="tile-row" role="img" aria-label="화장실 배치: 화장실 3칸, 세면기 2칸, 문, 기지 쪽 순서">
-  <span class="t wall"></span><span class="t toilet">🚽</span><span class="t toilet">🚽</span><span class="t toilet">🚽</span><span class="t sink">→🚰</span><span class="t sink">→🚰</span><span class="t door">문</span><span class="t out">기지 쪽 →</span>
+<div class="bp-wrap" markdown="0">
+{% include bp/bath-flow.svg %}
 </div>
 
 - 화장실 칸 → 세면기 → 문 순서로, **나가는 길이 세면기를 통과**하게 만드세요.
