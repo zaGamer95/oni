@@ -7,80 +7,57 @@ permalink: /guide/tips/
 description: 몰라도 게임은 굴러가지만, 알면 복제체 손이 덜 가는 작은 팁 모음.
 ---
 
-몰라도 게임은 굴러가지만, 알면 복제체의 일손과 자리를 아낄 수 있는 것들입니다. 수치는 패치로 바뀔 수 있으니 게임 안 툴팁으로 한 번 더 확인하세요.
-
-* 목차
-{:toc}
+알면 일손과 자리를 아끼는 작은 팁. 수치는 게임 안 툴팁으로 한 번 더 확인하세요.
 
 ## 위생
 
-### 화장실은 소독하지 않아도 된다
+{: .ico-grid}
+- {% include i.html n="Outhouse" %} **화장실 소독은 끄기** 세면기에서 손 씻으면 끝
+- {% include i.html n="Compost" %} **오염된 흙·물은 덮기** 공기에 닿으면 오염된 산소
 
-뒷간 (Outhouse)과 수세식 화장실 (Lavatory)의 **소독 활성화 (Enable Disinfect)** 는 꺼 두세요. 화장실에는 식중독 세균이 계속 묻는데, 소독을 켜 두면 복제체가 그걸 닦으러 수시로 불려 갑니다. 세균은 볼일 본 복제체의 손에 옮고, **세면기 (Wash Basin)에서 손을 씻으면 지워집니다.** 화장실에서 나오는 길에 세면기를 지나가게만 배치하면 소독은 일손만 잡아먹어요.
+{% include shot.html src="tip-outhouse-disinfect.jpg" caption="화장실의 '소독 활성화 (Enable Disinfect)'는 누르지 않은 채로." %}
 
-{% include shot.html src="tip-outhouse-disinfect.jpg" caption="화장실 버튼 줄의 '소독 활성화(Enable Disinfect)'는 누르지 않은 채로 둡니다." %}
+<details class="nums" markdown="1">
+<summary>왜?</summary>
 
-> 소독이 의미 있는 곳은 음식이 닿는 곳(조리대, 식탁 근처)이나 세균이 퍼지면 곤란한 저장고 정도입니다. 화장실은 예외로 두세요.
-{: .tip}
+- 소독을 켜면 계속 묻는 식중독 세균을 닦으러 복제체가 수시로 불려 감. 세균은 손에 옮고 **세면기 (Wash Basin)** 에서 지워짐. 소독이 의미 있는 곳은 조리대·식탁·저장고.
+- 오염된 물 웅덩이는 물 한 겹으로 덮거나 방을 막고, 오염된 흙은 저장고 → 퇴비 (Compost). 바닥에 흘린 건 걸레질 (Mop).
 
-### 오염된 흙·오염된 물은 덮어 두기
-
-오염된 흙 (Polluted Dirt)과 오염된 물 (Polluted Water)은 공기에 닿아 있으면 **오염된 산소 (Polluted Oxygen)를 계속 내뿜습니다.** 오염된 물 웅덩이는 위를 물 한 겹으로 덮거나 방을 막아 두고, 오염된 흙은 저장고에 넣어 두었다가 퇴비 (Compost)로 흙으로 되돌리세요. 바닥에 흘린 오염된 물은 '걸레질 (Mop)'로 빨리 치우는 게 좋습니다.
+</details>
 
 ## 음식
 
-### 시작할 때 있는 식량 상자는 분해하기
+{: .ico-grid}
+- {% include i.html n="Ration_Box" %} **배급 상자 (Ration Box)는 분해** 부패를 안 늦춤
+- {% include i.html n="Refrigerator" %} **냉장고 (Refrigerator)** 전력 끊기면 그냥 상자
+- {% include i.html n="Carbon_Dioxide" %} **CO₂·염소·진공 속** 거의 안 썩음
+- {% include i.html n="Mealwood" %} **야생 식물은 수확만 예약** 공짜 식량
 
-처음 주어지는 **배급 상자 (Ration Box)는 음식이 썩는 속도를 늦춰주지 않습니다.** 게임 설명에도 "생물에게서 음식을 지켜주지만 부패를 늦추지는 않는다"고 적혀 있어요. 상태 창에도 '냉장되지 않음 (Unrefrigerated)'이라고 빨갛게 뜹니다. 자리만 차지하니 일찍 분해하고 그 자리에 다른 건물을 지으세요. 음식은 냉장고 (Refrigerator)가 생길 때까지 바닥에 두어도 썩는 속도는 같습니다.
-
-{% include shot.html src="tip-ration-box.jpg" caption="식량 상자 설명: 'Ration boxes keep food safe from hungry critters, but don't slow food spoilage.'" %}
-
-### 오래 보관하려면 냉장고, 더 오래는 무균 환경
-
-- **냉장고 (Refrigerator)** 는 전력을 써서 음식을 차갑게 유지하고 부패를 늦춥니다. 전력이 끊기면 그냥 상자가 돼요.
-- 이산화탄소, 염소 같은 **무균 기체 속이나 진공** 에 둔 음식은 거의 썩지 않습니다. 이산화탄소는 아래로 가라앉으니 기지 맨 아래 구덩이에 냉장고를 두면 전력 없이도 오래 갑니다.
-
-### 야생 식물은 그냥 두면 공짜 식량
-
-맵에 원래 자라던 끼니나무 (Mealwood) 같은 **야생 식물은 흙이나 물을 주지 않아도 자랍니다.** 대신 속도가 화분에 심은 것보다 훨씬 느려요. 초반에 캐서 없애지 말고 수확만 예약해 두면 식량에 보탬이 됩니다.
+{% include shot.html src="tip-ration-box.jpg" caption="배급 상자 설명: 'Ration boxes keep food safe from hungry critters, but don't slow food spoilage.'" %}
 
 ## 산소와 기체
 
-### 산소 확산기·전해조는 압력이 차면 멈춘다
-
-산소 확산기 (Oxygen Diffuser)와 전해조 (Electrolyzer)는 주변 기체 압력이 약 **1.8 kg** 을 넘으면 '과압'으로 멈춥니다. 산소가 안 나온다 싶으면 건물이 좁은 구석에 갇혀 있지 않은지 보세요. 넓은 통로 쪽에 두면 됩니다.
-
-### 공기는 통하고 물은 막는 타일
-
-- **공기 흐름 타일 (Airflow Tile):** 기체는 통과, 액체는 막음. 바닥 아래 산소를 위로 올릴 때 좋아요.
-- **그물 타일 (Mesh Tile):** 기체와 액체 둘 다 통과. 물을 아래로 흘려보내는 배수 바닥으로 씁니다.
+{: .ico-grid}
+- {% include i.html n="Oxygen_Diffuser" %} **1.8 kg 넘으면 멈춤** 산소 확산기·전해조는 넓은 곳에
+- {% include i.html n="Airflow_Tile" %} **공기 흐름 타일 (Airflow Tile)** 기체 O, 액체 X
+- {% include i.html n="Mesh_Tile" %} **그물 타일 (Mesh Tile)** 기체·액체 둘 다 O, 배수 바닥
 
 ## 관리와 일손
 
-### 우선순위는 숫자가 클수록 먼저
-
-우선순위 1~9 중 **9가 가장 높습니다.** 정말 급한 건 '!!' 긴급 (Emergency)으로 지정하세요. 긴급은 꼭 필요한 곳에만 쓰세요. 다 긴급이면 아무것도 긴급이 아니게 됩니다.
-
-### 저장고는 '쓸기 전용'으로
-
-저장통 (Storage Bin) 설정에 있는 **쓸기 전용 (Sweep Only)** 을 켜면, 바닥에 떨어진 것만 담고 다른 저장고에서 물건을 빼 오지 않습니다. 저장고끼리 같은 물건을 계속 옮기는 낭비를 막아줘요.
-
-### 프린팅팟 선택지는 거절해도 된다
-
-프린팅팟 (Printing Pod)은 몇 사이클마다 새 복제체나 물자를 고르라고 합니다. **마음에 안 들면 전부 거절해도 불이익이 없어요.** 식량·산소가 아직 불안할 땐 사람을 늘리기보다 물자를 받거나 거절하는 게 안전합니다. 고르는 기준은 [복제체 고르기]({{ '/guide/duplicants/' | relative_url }})를 보세요.
-
-### 주둥가리는 돌을 먹고 석탄을 낸다
-
-주둥가리 (Hatch)는 모래, 사암 같은 광물을 먹고 **석탄 (Coal)** 을 떨굽니다. 초반에 주둥가리를 몇 마리 가둬 두고 잔해를 먹이면 석탄 발전기 연료가 됩니다.
+{: .ico-grid}
+- **우선순위 9가 최고** 진짜 급할 때만 긴급 (Emergency)
+- {% include i.html n="Storage_Bin" %} **저장통은 쓸기 전용 (Sweep Only)** 저장고끼리 옮기는 낭비 차단
+- {% include i.html n="Printing_Pod" %} **프린팅팟은 거절해도 됨** 불이익 없음 ([고르는 기준]({{ '/guide/duplicants/' | relative_url }}))
+- {% include i.html n="Hatch" %} **주둥가리 (Hatch)** 돌 먹고 석탄 (Coal)
 
 ## 방 보너스
 
-### 큰 회관용 워터 쿨러는 지어 놓고 꺼 두기
-
-식당을 큰 회관 (Great Hall)으로 키우려면 오락 건물이 하나 필요한데, 가장 싸게 채우는 방법이 **워터 쿨러 (Water Cooler)** 입니다. 짓고 나서 **비활성화 (Disable Building)** 해 두세요. 꺼져 있어도 방 조건에는 그대로 들어가서 큰 회관 보너스는 받고, 복제체가 물을 마시러 가지 않으니 물도 아낍니다. 목마름은 게임에 거의 영향이 없어서 꺼 둬도 손해가 없어요.
+{: .ico-grid}
+- {% include i.html n="Water_Cooler" %} **워터 쿨러 (Water Cooler)는 지어 놓고 꺼 두기** 큰 회관 조건은 그대로, 물·일손 절약
 
 ## 쾌적함
 
-- **장식 (Decor):** 침실·식당 근처에 그림, 화분, 조각상을 두면 사기가 오릅니다. 바닥에 흩어진 잔해는 장식을 깎아요.
-- **조명:** 연구소와 작업대에 조명이 있으면 작업 속도가 빨라집니다.
-- **스케줄:** 일정 (Schedule) 화면에서 복제체를 두 조로 나누면 화장실과 식탁이 덜 붐빕니다. 자세한 방법은 [중앙 기지 배치도]({{ '/guide/core-base/' | relative_url }})의 휴식 시간 분리를 보세요.
+{: .ico-grid}
+- {% include i.html n="Flower_Pot" %} **장식 (Decor)** 침실·식당 근처. 잔해는 장식 감소
+- {% include i.html n="Ceiling_Light" %} **조명** 연구소·작업대 속도 ↑
+- {% include i.html n="Cot" %} **일정 나누기** [교대 일정]({{ '/guide/core-base/shifts/' | relative_url }})
