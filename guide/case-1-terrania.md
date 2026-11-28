@@ -22,8 +22,8 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 | 장 | 행성 | 내용 |
 |---|---|---|
 | [1장 Persephazon]({{ '/guide/case/terrania-1/persephazon/' | relative_url }}) | 시작 행성 | 기지 세우기, 안정화, 텔레포터로 두 번째 행성 보내기 |
-| [1-1 열 문제·드레코 목장]({{ '/guide/case/terrania-1/drecko-ranch/' | relative_url }}) | 시작 행성 | 에어컨 없이 열 막기, 2LegitCity식 드레코 목장 (사이클 108) |
-| [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }}) | 시작 행성 | 염수 수조, 전기분해기 3대 SPOM, 터빈 전 전력 |
+| [1-1 열 문제·기끌이 목장]({{ '/guide/case/terrania-1/drecko-ranch/' | relative_url }}) | 시작 행성 | 에어컨 없이 열 막기, 2LegitCity식 기끌이 목장 (사이클 108) |
+| [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }}) | 시작 행성 | 염수 수조, 전해조 3대 SPOM, 터빈 전 전력 |
 | [1-3 개인 침실 8칸 배치]({{ '/guide/case/terrania-1/persephazon/bedrooms/' | relative_url }}) | 시작 행성 | 텔레포터를 피해 큰 회관 위에 6×4 침실 6칸 + 기존 침대 2, 병원 |
 | [2장 Oozato]({{ '/guide/case/terrania-1/oozato/' | relative_url }}) | 기름 늪 | 전력 0에서 자립까지, 단계 A~E (사이클 108) |
 | [2-1 사이클 142 점검]({{ '/guide/case/terrania-1/oozato/check-142/' | relative_url }}) | 기름 늪 | 다섯 질문으로 본 Oozato, 닫힌 고리 |
@@ -76,7 +76,7 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 | 노먼 | **청소 + 특수복** (냉동 탱크에서 해동) | Oozato | 12 / 6 | +6 |
 | 배시시 | **굴착 + 건설** (뽑아서 보냄) | Oozato | 11 / 1 | +10 |
 
-- 목표였던 **8명을 사이클 108에 채웠습니다.** 프린팅 포드 7명 + 냉동 탱크 1명.
+- 목표였던 **8명을 사이클 108에 채웠습니다.** 프린팅팟 7명 + 냉동 탱크 1명.
 - **말랑은 사기 여유가 0**입니다. 굴착 스킬을 많이 찍어서 요구치가 높아요. 스킬을 더 찍기 전에 사기를 올리거나 스킬 포인트를 아껴 두세요. ([18 8명 중반 설계의 사기 예산]({{ '/guide/midgame-8/#사기-예산-행복도-높게-유지' | relative_url }}))
 - 두 번째 행성은 **청소+특수복 1명, 굴착+건설 1명**. 굴착과 건설을 둘이서 다 하는 조합이에요.
 

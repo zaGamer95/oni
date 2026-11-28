@@ -42,7 +42,7 @@ description: 산소미포함(Oxygen Not Included) 초반 생존 가이드. 게�
   <h2 class="home-h2">로드맵</h2>
   <ol class="roadmap four">
     <li><i>1</i><b>극초반</b><small>사이클 1~20</small><span>화장실, 산소, 농장, 연구, 침실, 수조, 식당, 석탄 발전기</span></li>
-    <li><i>2</i><b>초반</b><small>20~80</small><span>수트 스킬, 금속 정제, 전기분해기, 온도 관리, 간헐천</span></li>
+    <li><i>2</i><b>초반</b><small>20~80</small><span>수트 스킬, 금속 정제, 전해조, 온도 관리, 간헐천</span></li>
     <li><i>3</i><b>중반</b><small>80~150</small><span>원유 바이옴, 지상 개통, 강철, 목장</span></li>
     <li><i>4</i><b>후반</b><small>150~</small><span>운석 대비, 우주 탐사, 로켓, 극후반 체제</span></li>
   </ol>

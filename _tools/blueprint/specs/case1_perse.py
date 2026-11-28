@@ -23,19 +23,19 @@ def bedrooms():
             x += 1
             d.room(x, y, w, 4, '침실 %d' % n, 'bed', dims='w' if y == 1 else '', label_at='top',
                    dim_w_at=y + 4.5 if y == 6 else None, size_in_label=True)
-            d.bld(x + 1, y + 2, 4, 2, 'Comfy_Bed', None, color='#e7b45a', title='편한 침대 4×2 (전엔 간이 침대)')
-            d.icon(x + w - 2, y, 1, 2, 'Hanging_Pot', title='천장 걸이 화분 (장식 1)')
-            d.icon(x + w - 1, y, 1, 2, 'Hanging_Pot', title='천장 걸이 화분 (장식 2)')
+            d.bld(x + 1, y + 2, 4, 2, 'Comfy_Bed', None, color='#e7b45a', title='편안한 침대 4×2 (전엔 간이 침대)')
+            d.icon(x + w - 2, y, 1, 2, 'Hanging_Pot', title='매달린 단지 (장식 1)')
+            d.icon(x + w - 1, y, 1, 2, 'Hanging_Pot', title='매달린 단지 (장식 2)')
             x += w
             n += 1
         d.tiles(x, y, 1, 2)
         d.door(x, y + 2)
     d.room(1, 11, 26, 2, '큰 회관 (그대로) → 아래 화장실 → 샤워실 → 포드', 'food', dims='', label_at='mid', size_in_label=False)
-    d.key('room', '개인 침실 (6×4 = 24칸, 끝 방 10×4 = 40칸) · 뒷벽 석고 벽 전부', 'bed')
-    d.key('icon', '편한 침대 4×2 (플라스틱 200 kg) · 전엔 간이 침대 = 막사 +1', 'Comfy_Bed')
-    d.key('icon', '천장 걸이 화분 2개 = 장식 2개 (식물이 한 칸 아래로)', 'Hanging_Pot')
+    d.key('room', '개인 침실 (6×4 = 24칸, 끝 방 10×4 = 40칸) · 뒷벽 건식벽체 전부', 'bed')
+    d.key('icon', '편안한 침대 4×2 (플라스틱 200 kg) · 전엔 간이 침대 = 막사 +1', 'Comfy_Bed')
+    d.key('icon', '매달린 단지 2개 = 장식 2개 (식물이 한 칸 아래로)', 'Hanging_Pot')
     d.key('icon', '문 (양 끝은 사다리, 가운데는 옆 방으로)', 'Pneumatic_Door')
-    d.key('tile', '단열 타일 (기지 지붕)', 'ins')
+    d.key('tile', '절연 타일 (기지 지붕)', 'ins')
     d.key('icon', '사다리 (서쪽 · 가운데 통로)', 'Ladder')
     d.key('dim', '치수선 (칸)')
     return d
@@ -57,19 +57,19 @@ def hospital():
     d.door(18, 3)
     d.ladder(19, 1, 4)
     d.room(2, 1, 16, 4, '병원 (Hospital)', 'med', dims='wh', label_at='top')
-    d.bld(2, 3, 3, 2, 'Triage_Cot', '응급 침대', color='#ff848e')
-    d.bld(5, 3, 3, 2, 'Triage_Cot', '응급 침대', color='#ff848e')
+    d.bld(2, 3, 3, 2, 'Triage_Cot', '부상자분류 간이침대', color='#ff848e')
+    d.bld(5, 3, 3, 2, 'Triage_Cot', '부상자분류 간이침대', color='#ff848e')
     d.bld(8, 3, 3, 2, 'Sick_Bay', '병상', color='#ffb3b9')
     d.bld(11, 2, 2, 3, 'Outhouse', '화장실(끔)', color='#c0c8e0')
     d.bld(13, 4, 1, 1, 'Mess_Table', None, color='#ffe284', title='식탁 (방 조건용)')
     d.bld(14, 2, 4, 3, None, '나중: 질병 클리닉 2×3', color='#a9b0d0', planned=True, fs=8.5)
-    d.icon(4, 1, 1, 1, 'Ceiling_Light', title='천장 조명 1개')
+    d.icon(4, 1, 1, 1, 'Ceiling_Light', title='천정등 1개')
     d.key('room', '병원 16×4 = 64칸 (12~96칸)', 'med')
-    d.key('icon', '응급 침대 3×2: 체력 +50/사이클 (돌봄 받으면 +75), 쓰러진 복제체를 되살림', 'Triage_Cot')
-    d.key('icon', '병상 3×2: 슬라임 폐 치료, 의료 팩 1 kg/회 (Medical Equipment 연구)', 'Sick_Bay')
-    d.key('icon', '간이 화장실 2×3: 꺼 둠 (방 조건만 채움)', 'Outhouse')
+    d.key('icon', '부상자분류 간이침대 3×2: 체력 +50/사이클 (돌봄 받으면 +75), 쓰러진 복제체를 되살림', 'Triage_Cot')
+    d.key('icon', '병상 3×2: 는지렁이허파 치료, 의료 팩 1 kg/회 (Medical Equipment 연구)', 'Sick_Bay')
+    d.key('icon', '뒷간 2×3: 꺼 둠 (방 조건만 채움)', 'Outhouse')
     d.key('icon', '식탁 1×1 (방 조건)', 'Mess_Table')
-    d.key('tile', '단열 타일 (지금 있는 벽·바닥)', 'ins')
+    d.key('tile', '절연 타일 (지금 있는 벽·바닥)', 'ins')
     d.legend_cols = 1
     return d
 
