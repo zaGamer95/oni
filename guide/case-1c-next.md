@@ -13,14 +13,15 @@ description: 첫 로켓으로 방사능 숲에 가서 우라늄과 금속을 가
 
 ## 초반 ③ → 중반: 세 번째 행성 (첫 로켓)
 
-- 목표: **방사능 숲**. 이 시드는 Metal Rich + Metallic Caves라 우라늄과 금속을 같이 가져올 수 있어요.
-- 우주 프로그램 + 이산화탄소 엔진 → 첫 로켓 (3칸 왕복). 그전까지 래드볼트는 시작 행성 왼쪽 위 우라늄으로 버팀.
-- 재료 과학 연구를 누르는 순간부터 중반: 래드볼트 → 증기 터빈 → 강철.
+{: .ico-grid}
+1. {% include i.html n="Irradiated_Forest_Asteroid" %} **목표: 방사능 숲** 금속 풍족 + 금속 동굴, 우라늄
+2. {% include i.html n="Carbon_Dioxide_Engine" %} **이산화탄소 엔진 로켓** 3칸 왕복
+3. {% include i.html n="Uranium_Ore" %} **그전까지 래드볼트** 시작 행성 왼쪽 위 우라늄
+4. {% include i.html n="Steam_Turbine" %} **재료 과학 연구 = 중반** 래드볼트 → 증기 터빈 → 강철
 
 ## 이후 계획
 
-| 순서 | 행성 | 가는 법 | 왜 |
-|---|---|---|---|
-| 4 | 습지 (Marsh, **Metal Rich**) | 석유 엔진 | 금속, 후반 기지 후보 |
-| 5 | 무 (Moo) | 석유 엔진 | 가스질 음메 |
-| 예비 | 레골리스 (**Frozen Friend**) | 석유 엔진 | 8명에서 결원이 생기면 충원 |
+{: .ico-grid}
+- {% include i.html n="Petroleum_Engine" %} **4. 습지** 금속 풍족 (Metal Rich), 후반 기지 후보
+- {% include i.html n="Petroleum_Engine" %} **5. 무 (Moo)** 가스질 음메
+- {% include i.html n="Cryotank_3000" %} **예비: 표토 소행성** 언 친구 (Frozen Friend), 결원 충원
