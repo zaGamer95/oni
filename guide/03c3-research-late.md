@@ -11,16 +11,20 @@ description: 데이터 분석(Data Analysis) 포인트가 필요한 6단계부�
 * 목차
 {:toc}
 
-## 한 줄 요약
+## 한눈에
 
-이 가이드는 **데이터 분석 (Data Analysis)** 연구 포인트가 필요해지는 6단계부터 **후반**으로 봅니다. 가상 플라네타륨 (Virtual Planetarium, 충돌 계획)과 데이터 뱅크가 있어야 진행돼요.
+**데이터 분석 (Data Analysis)** 포인트가 필요한 6단계부터 후반. 6단계 기술당 **데이터 뱅크 30개**, 7단계 **250개.** 5단계까지는 [중반 테크]({{ '/guide/research/mid/' | relative_url }}).
 
-> 5단계(래드볼트)까지는 [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}).
-{: .tip}
+## 먼저 열 것 ★
 
-## 6구간: 사이클 150~, 데이터 뱅크가 필요한 6단계 이후
+{: .ico-grid}
+- {% include i.html n="Small_Petroleum_Engine" %} **탄화수소 추진 (Hydrocarbon Propulsion)** 소형 석유 엔진
+- {% include i.html n="Research_Reactor" %} **방사선 정제 (Radiation Refinement)** 연구용 반응로
+- {% include i.html n="Storage_Bin" %} **고체 관리 (Solid Management)** 고체 필터·대형 화물칸
+- {% include i.html n="Petroleum_Engine" %} **개선된 탄화수소 추진** 석유 엔진 (7단계)
 
-6단계부터 **데이터 분석 30 = 데이터 뱅크 30개**, 7단계는 **250개**가 듭니다.
+<details class="nums" markdown="1">
+<summary>6~8단계 전체 목록</summary>
 
 | 우선 | 기술 | 단계 | 이걸로 짓는 것 |
 |---|---|---|---|
@@ -35,7 +39,19 @@ description: 데이터 분석(Data Analysis) 포인트가 필요한 6단계부�
 | | 래드볼트 추진 (Radbolt Propulsion) | 7 | 래드볼트 엔진 |
 | | 냉동연료 추진 (Cryofuel Propulsion) | 8 | 수소 엔진. 트리 마지막 |
 
-**데이터 뱅크 모으는 방법**
+</details>
+
+## 데이터 뱅크 모으기
+
+{: .ico-grid}
+1. {% include i.html n="Telescope" %} **망원경 (Telescope)** 칸당 3개, 반경 3칸만 108개
+2. {% include i.html n="Orbital_Data_Collection_Lab" %} **궤도 데이터 수집 실험실** 플라스틱 5 kg → 1개, 무한
+
+> **망원경은 2단계에서 열리니 일찍 짓고 계속 돌리기** (천문학 (Astronomy) 스킬 필요). 별지도를 밝혀야 로켓 목적지도 생깁니다.
+{: .tip}
+
+<details class="nums" markdown="1">
+<summary>데이터 뱅크 얻는 방법 전체</summary>
 
 | 방법 | 양 |
 |---|---|
@@ -44,9 +60,11 @@ description: 데이터 분석(Data Analysis) 포인트가 필요한 6단계부�
 | 간헐천 분석, 유물 분석, 추락 위성 | 소량 |
 | **궤도 데이터 수집 실험실** (로켓 안) | 플라스틱 5 kg → 1개. 무한. 운영 복제체의 기계류(Machinery)가 높을수록 빠름 |
 
-> **망원경은 2단계 고급 연구에서 열리니 일찍 짓고 계속 돌리세요.** 별지도를 밝혀야 로켓 목적지도 생기고, 그때 나오는 데이터 뱅크가 6단계 비용(30개)을 몇 번이나 채웁니다. 단, 망원경도 Astronomy 스킬이 있어야 쓸 수 있어요.
-{: .tip}
+</details>
 
-## 출처
+<details class="nums" markdown="1">
+<summary>출처</summary>
 
 - 기술 비용: 위키 Module:Data/Techs (Spaced Out!)
+
+</details>

@@ -11,16 +11,22 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 * 목차
 {:toc}
 
-## 한 줄 요약
+## 한눈에
 
-이 가이드는 **재료 과학 연구 (Materials Science Research)** 를 연구하는 순간부터 **중반**으로 봅니다. 여기서 래드볼트(응용 과학) 건물이 열리고, 5단계부터는 기술마다 래드볼트가 들어갑니다. **데이터 분석** 포인트가 필요한 6단계부터는 [19 후반 테크]({{ '/guide/research/late/' | relative_url }}).
+**재료 과학 연구 (Materials Science Research)** 부터 중반. 5단계부터 기술마다 **래드볼트 200개**(응용 과학 20). 6단계(데이터 분석)부터는 [후반 테크]({{ '/guide/research/late/' | relative_url }}).
 
-> 그 전까지(1~4단계 대부분, 터빈 없는 냉방)는 [7 초반 테크]({{ '/guide/research/early/' | relative_url }}).
-{: .tip}
+## 래드볼트 준비 (3~4단계)
 
-## 4구간 이어서: 래드볼트 준비 (3~4단계)
+{: .ico-grid}
+1. {% include i.html n="Materials_Study_Terminal" %} **재료 과학 연구**<br>터미널·수동 래드볼트 생성기
+2. {% include i.html n="Radbolt_Generator" %} **더 많은 재료 과학 연구**<br>래드볼트 생성기
+3. {% include i.html n="Virtual_Planetarium" %} **충돌 계획**<br>가상 플라네타륨
+4. {% include i.html n="Telescope" %} **천체 탐지**<br>연구 모듈·운석 감지기
+5. {% include i.html n="Power_Transformer" %} **저저항 도체**<br>전도성 와이어
+6. {% include i.html n="Polymer_Press" %} **플라스틱 제조**<br>폴리머 프레스
 
-초반 테크 4구간(냉방·특수복·첫 로켓)을 마쳤으면 이 순서로 넘어갑니다. 아직 래드볼트는 안 들지만, 5단계를 열 준비입니다.
+<details class="nums" markdown="1">
+<summary>준비 단계 상세 표</summary>
 
 | 순서 | 기술 | 단계 | 이걸로 짓는 것 | 목표 |
 |---|---|---|---|---|
@@ -31,9 +37,19 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 | 39 | **저저항 도체** (Low-Resistance Conductors) | 4 | 전도성 와이어, 큰 변압기 | 5단계 재생 가능 에너지 선행 |
 | 40 | **플라스틱 제조** (Plastic Manufacturing) | 4 | **폴리머 프레스 (Polymer Press)** | 석유 → 플라스틱 |
 
-## 5구간: 사이클 80~150, 래드볼트가 필요한 5단계
+</details>
 
-5단계부터 기술마다 **응용 과학 20 = 래드볼트 200개**가 듭니다. 위 준비 단계에서 래드볼트를 미리 만들어 두면 막힘 없이 넘어가요.
+## 5단계 (사이클 80~150): 먼저 열 것 ★
+
+{: .ico-grid}
+- {% include i.html n="Steam_Turbine" %} **재생 가능 에너지 (Renewable Energy)** 증기 터빈
+- {% include i.html n="Geotuner" %} **초과열 제조 (Superheated Forging)** 지오튜너·유리
+- {% include i.html n="Mini_Liquid_Pump" %} **밸브 소형화 (Valve Miniaturization)** 소형 펌프
+- {% include i.html n="Spacefarer_Module" %} **내구성 뛰어난 생명 유지 장치** 우주여행자 모듈
+- {% include i.html n="Lead_Suit" %} **방사선 보호 (Radiation Protection)** 납 특수복
+
+<details class="nums" markdown="1">
+<summary>5단계 전체 목록</summary>
 
 | 우선 | 기술 | 이걸로 짓는 것 |
 |---|---|---|
@@ -48,7 +64,15 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 | | 고체 운송 → 고체 제어 (Solid Transport → Solid Control) | 컨베이어 레일, 로켓 고체 화물 |
 | | 미식가 식사 준비 (Gourmet Meal Preparation) | 가스레인지 |
 
-**래드볼트 모으는 방법 (쉬운 순서)**
+</details>
+
+## 래드볼트 모으기
+
+> **우라늄이 있으면 수동 생성기가 가장 쌉니다** (전기 0, 열 0). 우라늄 광석 1 kg → 래드볼트 5개, 200개 = 약 41 kg. 처음에 100~200 kg 캐 두기. 래드볼트는 **1칸마다 0.1개씩 줄어서** 생성기와 터미널을 붙여 놓기.
+{: .tip}
+
+<details class="nums" markdown="1">
+<summary>방법별 양 (지표 생성기·우라늄·반응로)</summary>
 
 | 방법 | 양 | 메모 |
 |---|---|---|
@@ -57,17 +81,23 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 | **수동 래드볼트 생성기 + 우라늄 광석** | 우라늄 광석 1 kg → 래드볼트 5개 (전기 불필요) | 시작 소행성에 우라늄이 있으면 바로 (아래 설계), 없으면 방사능 숲에서 가져온 뒤. 200개 = 우라늄 약 41 kg |
 | 연구용 반응로 (Research Reactor) 주변 생성기 | 대량 | 6단계 방사선 정제 이후, 후반용 |
 
-> 래드볼트는 날아가면서 **1칸마다 0.1개씩 줄어듭니다.** 생성기와 단말기는 가깝게. 단말기는 100개까지 저장하고 넘치는 건 받은 방향으로 다시 쏘니, 단말기 앞에 복제체가 서 있지 않게 하세요.
-{: .warn}
+</details>
 
-## 시작 소행성 우라늄으로 래드볼트 만들기
+### 시작 소행성 우라늄으로 (W 판은 왼쪽 위)
 
-시작 소행성에 **우라늄 광석**이 있다면(W 판은 왼쪽 위) 첫 로켓 없이 재생 가능 에너지를 열 수 있습니다. 재료 과학 연구 (Materials Science Research, 3단계)에서 두 건물이 같이 열려요.
+{: .ico-grid}
+1. {% include i.html n="Uranium_Ore" %} **우라늄 광석** 짧게 끊어 캐기 (납 특수복 전)
+2. {% include i.html n="Manual_Radbolt_Generator" %} **수동 래드볼트 생성기** 터미널 왼쪽에 붙여 오른쪽으로 쏘기
+3. {% include i.html n="Materials_Study_Terminal" %} **재료 연구 터미널** 격벽 안 연구실, 가득 차면 NOT 게이트로 생성기 정지
+
+<details class="nums" markdown="1">
+<summary>두 건물 수치와 배치·자동화·위치</summary>
 
 | 건물 | 크기 · 재료 | 전력 · 열 | 메모 |
 |---|---|---|---|
 | **수동 래드볼트 생성기** (Manual Radbolt Generator) | 1×3 · 원광 800 kg | 없음 | 우라늄 광석 1 kg → 40초 작업 → 래드볼트 5개 + 열화 우라늄 0.5 kg |
 | **재료 연구 터미널** (Materials Study Terminal) | 5×3 · 정제 금속 400 kg | 120 W · 4.5 kDTU/s · 과열 75°C | 래드볼트 100개 저장, 10개 → 응용 과학 1. **Applied Sciences Research** 스킬 필요 |
+
 
 - **배치:** 생성기를 단말기 **왼쪽에 바로 붙이고** 오른쪽으로 쏘게 설정. 단말기 입력구는 왼쪽 아래에서 두 번째 칸입니다. 래드볼트는 1칸마다 0.1개씩 줄어서 붙여야 손실이 거의 없어요.
 - **자동화:** 단말기 출력(저장이 가득 차면 초록) → **NOT 게이트** → 생성기 입력. 단말기가 차면 생성기가 멈춥니다. 안 하면 넘친 래드볼트가 같은 방향으로 다시 날아가 벽이나 복제체에 맞아요(복제체 피해 20).
@@ -75,10 +105,15 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 - **위치:** 단말기는 열을 내고 75°C에서 과열되니 **단열 격벽 안 연구실**(연구소·슈퍼컴퓨터 옆, 연구실 +10%). 캔 **우라늄 광석은 격벽 밖** 광맥 쪽 작은 보관함에 두고 조금씩만 날라 오게 하세요. 침실·작업장과는 멀리.
 - **캐기:** 납 특수복은 5단계(방사선 보호)라 아직 없습니다. 짧게 끊어 캐고, 복제체 정보창의 방사선 수치가 오르면 교대.
 
-> 전기로 도는 **래드볼트 생성기** (Radbolt Generator)는 더 많은 재료 과학 연구(4단계, 래드볼트 불필요)에서 열립니다. 지표에 두면 1대당 하루 약 12개지만 1대당 5 kDTU/s 열을 내서, 우라늄이 있으면 수동 쪽이 훨씬 쌉니다.
-{: .tip}
 
-## 출처
+- 전기 래드볼트 생성기는 지표에서 하루 약 12개, 1대당 5 kDTU/s 열.
+
+</details>
+
+<details class="nums" markdown="1">
+<summary>출처</summary>
 
 - 기술 비용: 위키 Module:Data/Techs (Spaced Out!). 재생 가능 에너지 = 초급 40 + 고급 50 + 응용 과학 20
 - [Materials Study Terminal](https://oxygennotincluded.wiki.gg/wiki/Materials_Study_Terminal), [Manual Radbolt Generator](https://oxygennotincluded.wiki.gg/wiki/Manual_Radbolt_Generator), [Radbolt Generator](https://oxygennotincluded.wiki.gg/wiki/Radbolt_Generator), [Radbolt](https://oxygennotincluded.wiki.gg/wiki/Radbolt)
+
+</details>
