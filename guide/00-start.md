@@ -122,12 +122,12 @@ description: 새 게임을 만들 때 고르는 순서 그대로. 모르겠으�
         <strong>라임 (Rime)</strong>
         <small>★★☆☆☆ 전체가 추움. 냉각은 쉽고 농사가 까다로움.</small>
       </button>
-      <button type="button" class="wz-opt" data-value="verdante" data-label="베르단테 (Verdante)">
-        <strong>베르단테 (Verdante)</strong>
+      <button type="button" class="wz-opt" data-value="verdante" data-label="버단트 (Verdante)">
+        <strong>버단트 (Verdante)</strong>
         <small>★★☆☆☆ 숲 시작, 자원 풍부, 냉각원 부족.</small>
       </button>
       <button type="button" class="wz-opt" data-value="hard" data-label="고난도 행성">
-        <strong>고난도 (아르보리아~오아시스)</strong>
+        <strong>고난도 (아보리아~오아시스)</strong>
         <small>★★★ 이상. 익숙해진 뒤에 도전.</small>
       </button>
       <button type="button" class="wz-opt" data-value="dlc-planet" data-label="DLC 전용 행성">

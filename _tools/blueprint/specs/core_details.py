@@ -2,9 +2,9 @@ from bp import BP, C
 
 
 def corridor():
-    # 서쪽 방(4칸만 보임) | 벽 | 식물·사다리·소방봉 | 벽 | 동쪽 방(2칸만 보임), 두 층
+    # 서쪽 방(4칸만 보임) | 벽 | 식물·사다리·소방서 폴 | 벽 | 동쪽 방(2칸만 보임), 두 층
     d = BP('core-corridor', cols=13, rows=13, unit=28, x0=1, y0=1, title='서쪽 통로 단면 두 층 (1칸 = 1타일)', legend_cols=1,
-           note='통로 3칸 = 식물 칸 1 + 사다리 1 + 소방봉 1. 층 = 내부 4칸 + 바닥 1칸.')
+           note='통로 3칸 = 식물 칸 1 + 사다리 1 + 소방서 폴 1. 층 = 내부 4칸 + 바닥 1칸.')
     ox, oy = 1, 1
     W = lambda x, y, w, h, k='tile': d.tiles(ox + x, oy + y, w, h, k)
     for y in (0, 5, 10):
@@ -68,14 +68,14 @@ def _wash(d, ox, oy, zoom=False):
         d.bld(ox + x, oy + 1, 2, 3, 'Lavatory', None, color='#ffffff', title='수세식 화장실 2×3')
     for x in range(4, 20, 2):
         d.bld(ox + x, oy + 5, 2, 4, 'Shower', None, color='#bfe6ff', title='샤워기 2×4')
-    d.bld(ox + 21, oy + 1, 4, 3, 'Water_Sieve', '물 정화기 4×3' if zoom else None, color='#c0c8e0', title='물 정화기 4×3 · 120 W')
-    d.bld(ox + 25, oy + 2, 1, 2, 'Storage_Bin', '모래' if zoom else None, color='#a9b0d0', title='저장 상자 (모래만, 우선순위 높게)')
+    d.bld(ox + 21, oy + 1, 4, 3, 'Water_Sieve', '물 체 4×3' if zoom else None, color='#c0c8e0', title='물 체 4×3 · 120 W')
+    d.bld(ox + 25, oy + 2, 1, 2, 'Storage_Bin', '모래' if zoom else None, color='#a9b0d0', title='저장통 (모래만, 우선순위 높게)')
     d.icon(ox + 26, oy + 1, 1, 3, 'Thimble_Reed', title='갈대')
     T(26, 4, 1, 1, 'hydro')
     for x in (3, 20, 28):
         d.door(ox + x, oy + 2)
     d.door(ox + 3, oy + 7)
-    d.bld(ox + 21, oy + 0, 3, 1, 'Liquid_Bridge', None, color='#ffd34a', op=.6, title='액체 다리 3×1 (우선순위)')
+    d.bld(ox + 21, oy + 0, 3, 1, 'Liquid_Bridge', None, color='#ffd34a', op=.6, title='액체 브리지 3×1 (우선순위)')
     c = lambda x, y: (ox + x, oy + y)
     d.line([c(24, 3), c(4, 3), c(4, 8), c(19, 8)], 'liquid')
     d.line([c(5, 0), c(21, 0)], 'dirty')
@@ -91,9 +91,9 @@ def wash_loop():
     _wash(d, 0, 1)
     d.dim(0, 3, .5, '통로 3')
     d.key('line', '물: 정화기 → 싱크·수세식 8 → 서쪽 끝에서 아래로 → 샤워기 8, 마지막 샤워기에서 끝', 'liquid')
-    d.key('line', '오염수: 출구마다 짧게 위로 빼서 천장 줄에 모음 (출구끼리 한 줄로 잇지 않기) → 액체 다리 → 물 정화기', 'dirty')
-    d.key('dash', '넘침: 액체 다리 입구에서 가지 → 수경 재배 타일의 갈대 (다리 쪽이 먼저, 꽉 차면 갈대로)', 'o2')
-    d.key('icon', '액체 다리 3×1 (천장 줄)', 'Liquid_Bridge')
+    d.key('line', '오염된 물: 출구마다 짧게 위로 빼서 천장 줄에 모음 (출구끼리 한 줄로 잇지 않기) → 액체 브리지 → 물 체', 'dirty')
+    d.key('dash', '넘침: 액체 브리지 입구에서 가지 → 수경 재배 타일의 갈대 (다리 쪽이 먼저, 꽉 차면 갈대로)', 'o2')
+    d.key('icon', '액체 브리지 3×1 (천장 줄)', 'Liquid_Bridge')
     d.key('tile', '수경 재배 타일 (갈대 심는 칸, 바닥 줄)', 'hydro')
     return d
 
@@ -101,12 +101,12 @@ def wash_loop():
 def machine_room():
     d = BP('machine-room', cols=13, rows=7, unit=44, x0=-13, y0=1, show_zero=True, rock=True,
            title='기계실 7×3 확대 (화장실 동쪽 옆)', legend_cols=1,
-           note='17~20번: 물 정화기 · 21번: 모래 저장 상자(우선순위 높게) · 22번: 수경 재배 타일 위 갈대 · 23번: 지나다니는 칸\n'
+           note='17~20번: 물 체 · 21번: 모래 저장통(우선순위 높게) · 22번: 수경 재배 타일 위 갈대 · 23번: 지나다니는 칸\n'
                 '문: 서쪽(16번) = 화장실, 동쪽(24번) = 동쪽 통로. 모래는 동쪽 통로로 들어옴.')
     # 로컬 x17 → 이 도면 x0 (화장실 끝 2칸 보이게)
     _wash(d, -18, 1, zoom=True)
     d.key('line', '물: 정화기 출력구 → 서쪽 벽을 지나 화장실 아래 줄', 'liquid')
-    d.key('line', '오염수: 천장 줄(식당 바닥)로 와서 액체 다리 → 정화기 입력구', 'dirty')
+    d.key('line', '오염된 물: 천장 줄(식당 바닥)로 와서 액체 브리지 → 정화기 입력구', 'dirty')
     d.key('dash', '넘침: 다리 입구 칸에서 가지 → 23번 줄로 내려가 → 22번 수경 재배 타일', 'o2')
     return d
 

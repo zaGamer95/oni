@@ -45,7 +45,7 @@ def mess_late():
     oy = 1
     d = BP('mess-late', cols=35, rows=8, unit=18, x0=8, y0=oy,
            title='후반: 복층 큰 회관 24×5 (가운데 3번째 줄에 발판)', legend_cols=2,
-           note='아래층 식탁 8 (5~19번 홀수) · 위층 식탁 6 (6~16번 짝수) + 워터 쿨러(꺼 둠, 18~19번) · 꽃병(블러프 브라이어) 2번.\n'
+           note='아래층 식탁 8 (5~19번 홀수) · 위층 식탁 6 (6~16번 짝수) + 워터 쿨러(꺼 둠, 18~19번) · 꽃병(깎아지른찔레) 2번.\n'
                 '발판 = 4~21번 칸 3번째 줄 타일 18개, 양 끝 3·22번에 방 안 사다리 · 방 크기 120 − 발판 18 = 102칸 (큰 회관 32~120).')
     _mess_shell(d, oy, '← 주방 24')
     d.room(8, oy + 1, 24, 5, '복층 큰 회관', 'food', dims='wh', label_at='top')
@@ -58,7 +58,7 @@ def mess_late():
     for x in range(13, 24, 2):
         d.bld(x, oy + 2, 1, 1, 'Mess_Table', None, color='#ffe284', title='식탁 (위층)')
     d.bld(25, oy + 1, 2, 2, 'Water_Cooler', None, color='#6aa8ff', title='워터 쿨러 2×2 (꺼 둠)')
-    d.bld(9, oy + 4, 1, 2, 'Flower_Pot', None, color='#ff9fd0', title='꽃병 (블러프 브라이어)')
+    d.bld(9, oy + 4, 1, 2, 'Flower_Pot', None, color='#ff9fd0', title='꽃병 (깎아지른찔레)')
     d.key('icon', '식탁 1×1 (위 6 + 아래 8 = 14)', 'Mess_Table')
     d.key('tile', '발판 = 일반 타일 18개', 'tile')
     d.key('icon', '방 안 사다리 (3·22번)', 'Ladder')
@@ -81,15 +81,15 @@ def _gh_shell(d, ox, oy):
 def greenhouse_early():
     ox, oy = 0, 1
     d = BP('greenhouse-early', cols=29, rows=17, unit=16, x0=ox + 2, y0=oy + 1,
-           title='초반: 바닥 농장 타일 한 줄', legend_cols=1,
-           note='바닥 농장 타일 20 = 끼니나무 20 = 4,000 kcal (4명). 통로 쪽 끝 3칸 중 맨 끝 1칸에 사다리.')
+           title='초반: 바닥 재배 타일 한 줄', legend_cols=1,
+           note='바닥 재배 타일 20 = 끼니나무 20 = 4,000 kcal (4명). 통로 쪽 끝 3칸 중 맨 끝 1칸에 사다리.')
     _gh_shell(d, ox, oy)
     d.room(ox + 2, oy + 1, 23, 5, '온실 A', 'farm', dims='wh', label_at='top')
     d.tiles(ox + 2, oy + 6, 20, 1, 'farm')
     d.plants(ox + 2, oy + 5, 20, 'Mealwood', title='끼니나무')
     d.ladder(ox + 24, oy + 1, 5)
     d.room(ox + 10, oy + 7, 15, 7, '온실 B 자리', 'plan', dims='wh', dashed=True, label_at='top', dim_w_at=oy + 14.5)
-    d.key('tile', '농장 타일 (바닥 줄 20칸)', 'farm')
+    d.key('tile', '재배 타일 (바닥 줄 20칸)', 'farm')
     d.key('icon', '끼니나무 1×2 (20그루)', 'Mealwood')
     d.key('dim', '치수선 (방 안쪽 칸 수)')
     return d
@@ -99,8 +99,8 @@ def greenhouse_late():
     ox, oy = 0, 1
     d = BP('greenhouse-late', cols=29, rows=17, unit=16, x0=ox + 2, y0=oy + 1,
            title='후반: 2줄 온실 A + 조명 온실 B', legend_cols=1,
-           note='A: 끼니나무 40, 작업대 없음 (끼니나무는 농부의 손길을 못 받음) · B: 센털꽃 24 + 천장 조명 4 + 농업 작업대.\n'
-                'B 줄 (위에서): 1 조명 · 2~3 센털꽃 · 4 농장 타일 · 5 조명(타일 아래) · 6~7 센털꽃 · 바닥 농장 타일.')
+           note='A: 끼니나무 40, 작업대 없음 (끼니나무는 농부의 손길을 못 받음) · B: 센털꽃 24 + 천정등 4 + 재배스테이션.\n'
+                'B 줄 (위에서): 1 조명 · 2~3 센털꽃 · 4 재배 타일 · 5 조명(타일 아래) · 6~7 센털꽃 · 바닥 재배 타일.')
     _gh_shell(d, ox, oy)
     d.room(ox + 2, oy + 1, 23, 5, '온실 A', 'farm', dims='wh', label_at='top')
     d.tiles(ox + 2, oy + 3, 20, 1, 'farm')
@@ -117,14 +117,14 @@ def greenhouse_late():
     d.plants(ox + 10, oy + 13, 12, 'Bristle_Blossom', title='센털꽃')
     for x in (12, 19):
         for y in (7, 11):
-            d.bld(ox + x, oy + y, 1, 1, 'Ceiling_Light', None, color='#fff6a0', title='천장 조명')
-    d.bld(ox + 22, oy + 11, 2, 3, 'Farm_Station', '작업대', color='#cdf248', title='농업 작업대 2×3')
+            d.bld(ox + x, oy + y, 1, 1, 'Ceiling_Light', None, color='#fff6a0', title='천정등')
+    d.bld(ox + 22, oy + 11, 2, 3, 'Farm_Station', '작업대', color='#cdf248', title='재배스테이션 2×3')
     d.ladder(ox + 24, oy + 7, 7)
-    d.key('tile', '농장 타일', 'farm')
+    d.key('tile', '재배 타일', 'farm')
     d.key('icon', '끼니나무 (A, 40그루)', 'Mealwood')
     d.key('icon', '센털꽃 (B, 24그루, 빛 200 lux 이상)', 'Bristle_Blossom')
-    d.key('icon', '천장 조명 1×1', 'Ceiling_Light')
-    d.key('icon', '농업 작업대 2×3', 'Farm_Station')
+    d.key('icon', '천정등 1×1', 'Ceiling_Light')
+    d.key('icon', '재배스테이션 2×3', 'Farm_Station')
     d.key('dim', '치수선 (방 안쪽 칸 수)')
     return d
 

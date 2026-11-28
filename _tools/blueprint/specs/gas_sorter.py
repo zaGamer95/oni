@@ -22,7 +22,7 @@ def gas_sorter():
     d.fill(5, 5, 3, 8, C['o2'], op=.22)
     d.fill(5, 13, 3, 2, CL, op=.45)
     d.fill(5, 15, 3, 2, C['co2'], op=.55)
-    for y, s, col in ((4.1, '수소', C['h2']), (8.2, '산소·오염 산소', C['o2']), (14.1, '염소', CL), (16.1, 'CO₂', '#d0d0d0')):
+    for y, s, col in ((4.1, '수소', C['h2']), (8.2, '산소·오염된 산소', C['o2']), (14.1, '염소', CL), (16.1, 'CO₂', '#d0d0d0')):
         d.text(6.5, y, s, col, 9.5, bold=True, halo=True)
     # 건물
     d.bld(5, 3, 1, 2, 'Mini_Gas_Pump', None, color=C['h2'], op=.4, title='P1 미니 기체 펌프 (수소)')

@@ -11,6 +11,7 @@ Korean Oxygen Not Included (산소미포함) guide site for W's own play and for
 ## Conventions
 
 - The guide is written for **Spaced Out!**. Early/mid/late are defined by research: mid starts at Materials Science Research, late starts at Data Analysis Research.
+- **Names come only from `_data/glossary_ko.yml`** (official Klei Korean, built from the game's `strings_preinstalled_ko_klei.po` by `_tools/glossary/build.py`; copy of the .po in the project files `oni-strings/`). Never invent or translate a name yourself. If a term is missing, write the English name and ask W. Write `한글 (English)` on first use in a page so both are visible. After a game update, rebuild the glossary from W's new .po; to fix names in bulk use `_tools/glossary/apply_fixes.py` + `fix_particles.py` (을/를 etc.). Public page: `/appendix/glossary/`.
 - Call them "복제체", never 듀플리컨트. Use the Korean game UI terms (와이어, 파이프, 기체 파이프, 환경 특수복). Write names as `한글 (English)`; the English name is the reliable key.
 - Pages live in `guide/*.md` with front matter `nav_order` / `nav_num` / `nav_group` / `permalink`. Sidebar groups are in `_data/nav_groups.yml`. Callouts use a blockquote plus `{: .tip|.warn|.danger|.heat}`.
 - Top bar has two sections, 가이드 / 사례. Each group in `_data/nav_groups.yml` has `section: guide|case`; the sidebar and prev/next pager show only the current section. Case pages live at `/guide/case/...` with the hub at `/guide/case/` (`guide/case-index.md`); a new case gets its own `section: case` group, and chapters use `nav_key` / `nav_parent`.

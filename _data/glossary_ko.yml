@@ -1,0 +1,1807 @@
+# 공식 한국어 용어집 (Oxygen Not Included, Klei 공식 한국어 번역)
+# 출처: 게임 내장 strings_preinstalled_ko_klei.po (빌드 759457). 생성: _tools/glossary/build.py
+# 손으로 고치지 말 것. 이름은 이 파일의 ko 값만 쓴다. 키 = 영어 이름(게임 영문 UI).
+# also = 같은 영어 이름이 다른 곳에서 다르게 번역된 경우 (게임 원문 그대로).
+_source: {file: strings_preinstalled_ko_klei.po, build: "759457", terms: 1802}
+"Abyss Bug": {ko: "심연 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.NAME}
+"Abyss Nymph": {ko: "심연 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME}
+"Alveo Vera": {ko: "알베오 베라", cat: critter, key: CREATURES.SPECIES.BLUE_GRASS.NAME}
+"Arbor Tree": {ko: "수목 나무", cat: critter, key: CREATURES.SPECIES.WOOD_TREE.NAME}
+"Arbor Tree Branch": {ko: "수목 나무 가지", cat: critter, key: CREATURES.SPECIES.WOOD_TREE_BRANCH.NAME}
+"Avari Vine": {ko: "아바리 덩굴", cat: critter, key: CREATURES.SPECIES.GREEDYGREEN.NAME}
+"Azure Bug": {ko: "담청 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.NAME}
+"Azure Nymph": {ko: "담청 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME}
+"Balm Lily": {ko: "아물나리", cat: critter, key: CREATURES.SPECIES.SWAMPLILY.NAME}
+"Bammini": {ko: "밤미니", cat: critter, key: CREATURES.SPECIES.ICEBELLY.BABY.NAME}
+"Bammoth": {ko: "밤모스", cat: critter, key: CREATURES.SPECIES.ICEBELLY.NAME}
+"Beakon": {ko: "비콘", cat: critter, key: CREATURES.SPECIES.PARROTFISH.NAME}
+"Beakon Fry": {ko: "비콘 치어", cat: critter, key: CREATURES.SPECIES.PARROTFISH.BABY.NAME}
+"Beeta": {ko: "벌타", cat: critter, key: CREATURES.SPECIES.BEE.NAME}
+"Beetiny": {ko: "벌티니", cat: critter, key: CREATURES.SPECIES.BEE.BABY.NAME}
+"Bliss Burst": {ko: "지복파열", cat: critter, key: CREATURES.SPECIES.CYLINDRICA.NAME}
+"Blowter": {ko: "블로우터", cat: critter, key: CREATURES.SPECIES.PUFFERFISH.NAME}
+"Blowter Fry": {ko: "블로우터 치어", cat: critter, key: CREATURES.SPECIES.PUFFERFISH.BABY.NAME}
+"Bluff Briar": {ko: "깎아지른찔레", cat: critter, key: CREATURES.SPECIES.PRICKLEGRASS.NAME}
+"Blum Lumb": {ko: "블럼 럼브", cat: critter, key: CREATURES.SPECIES.ALGAE_STEGO.NAME}
+"Blumblet": {ko: "블럼블릿", cat: critter, key: CREATURES.SPECIES.ALGAE_STEGO.BABY.NAME}
+"Bog Bucket": {ko: "수렁박", cat: critter, key: CREATURES.SPECIES.SWAMPHARVESTPLANT.NAME}
+"Bonbon Tree": {ko: "봉봉나무", cat: critter, key: CREATURES.SPECIES.SPACETREE.NAME}
+"Bristle Blossom": {ko: "센털꽃", cat: critter, key: CREATURES.SPECIES.PRICKLEFLOWER.NAME}
+"Buddy Bud": {ko: "친구눈", cat: critter, key: CREATURES.SPECIES.BULBPLANT.NAME}
+"Bulbloom": {ko: "구근꽃", cat: critter, key: CREATURES.SPECIES.BULBLOOM.NAME}
+"Buried Muckroot": {ko: "묻힌 진창뿌리", cat: critter, key: CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME}
+"Carved Lumen Quartz": {ko: "조각된 루멘 쿼츠", cat: critter, key: CREATURES.SPECIES.PINKROCKCARVED.NAME}
+"Chlorine Geyser": {ko: "염소 분출구", cat: critter, key: CREATURES.SPECIES.CHLORINEGEYSER.NAME}
+"Clampum": {ko: "클램펌", cat: critter, key: CREATURES.SPECIES.CLAM.NAME}
+"Coral Bug": {ko: "산호 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME}
+"Coral Nymph": {ko: "산호 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME}
+"Cuddle Pip": {ko: "포옹잎람쥐", cat: critter, key: CREATURES.SPECIES.SQUIRREL.VARIANT_HUG.NAME}
+"Cuddle Pipsqueak": {ko: "포옹잎람쥐새끼", cat: critter, key: CREATURES.SPECIES.SQUIRREL.VARIANT_HUG.BABY.NAME}
+"Dartle": {ko: "다틀", cat: critter, key: CREATURES.SPECIES.CHAMELEON.NAME}
+"Dartlet": {ko: "다틀릿", cat: critter, key: CREATURES.SPECIES.CHAMELEON.BABY.NAME}
+"Dasha Saltvine": {ko: "뿌림 소금덩굴", cat: critter, key: CREATURES.SPECIES.SALTPLANT.NAME}
+"Delecta Vole": {ko: "풍미들쥐", cat: critter, key: CREATURES.SPECIES.MOLE.VARIANT_DELICACY.NAME}
+"Delecta Vole Pup": {ko: "풍미들쥐 새끼", cat: critter, key: CREATURES.SPECIES.MOLE.VARIANT_DELICACY.BABY.NAME}
+"Dense Puft": {ko: "빽빽한 헐떡이", cat: critter, key: CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME}
+"Dense Puftlet": {ko: "빽빽한 애헐떡이", cat: critter, key: CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME}
+"Dew Dripper": {ko: "이슬내리개", cat: critter, key: CREATURES.SPECIES.DEWDRIPPERPLANT.NAME}
+"Drecklet": {ko: "애기끌이", cat: critter, key: CREATURES.SPECIES.DRECKO.BABY.NAME}
+"Drecko": {ko: "기끌이", cat: critter, key: CREATURES.SPECIES.DRECKO.NAME}
+"Dusk Cap": {ko: "어스름갓", cat: critter, key: CREATURES.SPECIES.MUSHROOMPLANT.NAME}
+"Experiment 52B": {ko: "실험 52B", cat: critter, key: CREATURES.SPECIES.SAPTREE.NAME}
+"Fervine": {ko: "뻗덩굴", cat: critter, key: CREATURES.SPECIES.HEATBULB.NAME}
+"Fervine Bulb": {ko: "뻗덩굴 알뿌리", cat: critter, key: CREATURES.SPECIES.HEATBULBSEED.NAME}
+"Flox": {ko: "플록스", cat: critter, key: CREATURES.SPECIES.WOODDEER.NAME}
+"Flox Fawn": {ko: "플록스 새끼", cat: critter, key: CREATURES.SPECIES.WOODDEER.BABY.NAME}
+"Flue Coral": {ko: "연통산호", cat: critter, key: CREATURES.SPECIES.OXYCORAL.NAME}
+"Gas Grass": {ko: "가스풀", cat: critter, key: CREATURES.SPECIES.GASGRASS.NAME}
+"Gassy Moo": {ko: "가스질 음메", cat: critter, key: CREATURES.SPECIES.MOO.NAME}
+"Gildgo": {ko: "길드고", cat: critter, key: CREATURES.SPECIES.SNAIL.VARIANT_IRON.NAME}
+"Gildgo Baby": {ko: "길드고 새끼", cat: critter, key: CREATURES.SPECIES.SNAIL.VARIANT_IRON.BABY.NAME}
+"Glo Squid": {ko: "발광징어", cat: critter, key: CREATURES.SPECIES.SQUID.NAME}
+"Glo Squid Larva": {ko: "발광징어 유충", cat: critter, key: CREATURES.SPECIES.SQUID.BABY.NAME}
+"Glossy Drecklet": {ko: "번질한 애기끌이", cat: critter, key: CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME}
+"Glossy Drecko": {ko: "번질한 기끌이", cat: critter, key: CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME}
+"Gnit": {ko: "그니트", cat: critter, key: CREATURES.SPECIES.MOSQUITO.NAME}
+"Gnit Larva": {ko: "그니트 유충", cat: critter, key: CREATURES.SPECIES.MOSQUITO.BABY.NAME}
+"Grubfruit Plant": {ko: "벵이과실 식물", cat: critter, key: CREATURES.SPECIES.SUPERWORMPLANT.NAME}
+"Grubgrub": {ko: "벵이벵이", cat: critter, key: CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.NAME}
+"Grubgrub Wormling": {ko: "벵이벵이 작은벌레", cat: critter, key: CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME}
+"Gulp Fish": {ko: "꿀꺽물고기", cat: critter, key: CREATURES.SPECIES.PACU.VARIANT_CLEANER.NAME}
+"Gulp Fry": {ko: "꿀꺽 잔챙이", cat: critter, key: CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME}
+"Gum Palm": {ko: "껌야자", cat: critter, key: CREATURES.SPECIES.DEWPALM.NAME}
+"Hatch": {ko: "주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.NAME}
+"Hatchling": {ko: "애주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.BABY.NAME}
+"Hexalent": {ko: "헥사렌트", cat: critter, key: CREATURES.SPECIES.FORESTFORAGEPLANTPLANTED.NAME}
+"Husha Cups": {ko: "쉿컵", cat: critter, key: CREATURES.SPECIES.WATERCUPS.NAME}
+"Husky Moo": {ko: "허스키 음메", cat: critter, key: CREATURES.SPECIES.DIESELMOO.NAME}
+"Hydrocactus": {ko: "수선인장", cat: critter, key: CREATURES.SPECIES.FILTERPLANT.NAME}
+"Idylla Flower": {ko: "아이딜라 꽃", cat: critter, key: CREATURES.SPECIES.ICEFLOWER.NAME}
+"Ionizing Bug": {ko: "이온화 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.NAME}
+"Ionizing Nymph": {ko: "이온화 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.NAME}
+"Jawbo": {ko: "죠보", cat: critter, key: CREATURES.SPECIES.PREHISTORICPACU.NAME}
+"Jawbo Fry": {ko: "죠보 새끼", cat: critter, key: CREATURES.SPECIES.PREHISTORICPACU.BABY.NAME}
+"Jumping Joya": {ko: "뛰는기쁨", cat: critter, key: CREATURES.SPECIES.CACTUSPLANT.NAME}
+"Kelpole": {ko: "켈폴", cat: critter, key: CREATURES.SPECIES.SEAFAIRY.NAME}
+"Longhair Larva": {ko: "긴털 애벌레", cat: critter, key: CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME}
+"Longhair Slickster": {ko: "긴털 미끌이", cat: critter, key: CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME}
+"Lumb": {ko: "럼브", cat: critter, key: CREATURES.SPECIES.STEGO.NAME}
+"Lumblet": {ko: "럼블렛", cat: critter, key: CREATURES.SPECIES.STEGO.BABY.NAME}
+"Lumen Quartz": {ko: "루멘 쿼츠", cat: critter, key: CREATURES.SPECIES.PINKROCK.NAME}
+"Lura Plant": {ko: "루라 식물", cat: critter, key: CREATURES.SPECIES.FLYTRAPPLANT.NAME}
+"Mealwood": {ko: "끼니나무", cat: critter, key: CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.NAME}
+"Megafrond": {ko: "메가프론드", cat: critter, key: CREATURES.SPECIES.DINOFERN.NAME}
+"Mellow Mallow": {ko: "말랑당아욱", cat: critter, key: CREATURES.SPECIES.WINECUPS.NAME}
+"Merpip": {ko: "어람쥐", cat: critter, key: CREATURES.SPECIES.SQUIRREL.VARIANT_AQUATIC.NAME}
+"Mimika": {ko: "미미카", cat: critter, key: CREATURES.SPECIES.BUTTERFLY.NAME}
+"Mimika Bud": {ko: "미미카 봉오리", cat: critter, key: CREATURES.SPECIES.BUTTERFLYPLANT.NAME}
+"Mipsqueak": {ko: "어람쥐새끼", cat: critter, key: CREATURES.SPECIES.SQUIRREL.VARIANT_AQUATIC.BABY.NAME}
+"Mirth Leaf": {ko: "환희잎", cat: critter, key: CREATURES.SPECIES.LEAFYPLANT.NAME}
+"Molten Larva": {ko: "용해 애벌레", cat: critter, key: CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME}
+"Molten Slickster": {ko: "용해 미끌이", cat: critter, key: CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME}
+"Morb": {ko: "음눈", cat: critter, key: CREATURES.SPECIES.GLOM.NAME}
+"Mussel Sprout": {ko: "홍합싹", cat: critter, key: CREATURES.SPECIES.MUSSELSPROUT.NAME}
+"Mysterious Egg": {ko: "신비로운 알", cat: critter, key: CREATURES.SPECIES.MYSTERYEGG.NAME}
+"Nosh Sprout": {ko: "오물오물 싹", cat: critter, key: CREATURES.SPECIES.BEAN_PLANT.NAME}
+"Oakshell": {ko: "오크딱지", cat: critter, key: CREATURES.SPECIES.CRAB.VARIANT_WOOD.NAME}
+"Oakshell Spawn": {ko: "오크딱지 새끼", cat: critter, key: CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.NAME}
+"Oil Reservoir": {ko: "기름 저장소", cat: critter, key: CREATURES.SPECIES.OIL_WELL.NAME}
+"Oil Spout": {ko: "기름 구멍", cat: critter, key: CREATURES.SPECIES.OILSPOUT.NAME}
+"Orehull": {ko: "광석딱지", cat: critter, key: CREATURES.SPECIES.SEATURTLE.NAME}
+"Orehull Spawn": {ko: "광석딱지 유생", cat: critter, key: CREATURES.SPECIES.SEATURTLE.BABY.NAME}
+"Ovagro Node": {ko: "오바그로 마디", cat: critter, key: CREATURES.SPECIES.VINEMOTHER.NAME}
+"Ovagro Vine": {ko: "오바그로 덩굴", cat: critter, key: CREATURES.SPECIES.VINEBRANCH.NAME}
+"Oxyfern": {ko: "산고사리", cat: critter, key: CREATURES.SPECIES.OXYFERN.NAME}
+"Pacu": {ko: "드럽치", cat: critter, key: CREATURES.SPECIES.PACU.NAME}
+"Pacu Egg": {ko: "드럽치 알", cat: critter, key: CREATURES.SPECIES.PACUEGG.NAME}
+"Pacu Fry": {ko: "드럽치 잔챙이", cat: critter, key: CREATURES.SPECIES.PACU.BABY.NAME}
+"Palmera Tree": {ko: "팔메라 나무", cat: critter, key: CREATURES.SPECIES.JUNGLEGASPLANT.NAME}
+"Petta Pouf": {ko: "페타푸프", cat: critter, key: CREATURES.SPECIES.FILAMENTPLANT.NAME}
+"Pikeapple Bush": {ko: "파이크애플 덤불", cat: critter, key: CREATURES.SPECIES.HARDSKINBERRYPLANT.NAME}
+"Pincha Pepperplant": {ko: "꼬집후추풀", cat: critter, key: CREATURES.SPECIES.SPICE_VINE.NAME}
+"Pinpoket": {ko: "핀포켓", cat: critter, key: CREATURES.SPECIES.URCHINPLANT.NAME}
+"Pinpoki": {ko: "핀포키", cat: critter, key: CREATURES.SPECIES.SEAURCHIN.NAME}
+"Pip": {ko: "잎람쥐", cat: critter, key: CREATURES.SPECIES.SQUIRREL.NAME}
+"Pipsqueak": {ko: "잎람쥐새끼", cat: critter, key: CREATURES.SPECIES.SQUIRREL.BABY.NAME}
+"Plug Sluglet": {ko: "플러그팽 새끼", cat: critter, key: CREATURES.SPECIES.STATERPILLAR.BABY.NAME}
+"Plume Squash Plant": {ko: "플룸 스쿼시 식물", cat: critter, key: CREATURES.SPECIES.CARROTPLANT.NAME}
+"Pokeshell": {ko: "쑤심딱지", cat: critter, key: CREATURES.SPECIES.CRAB.NAME}
+"Pokeshell Spawn": {ko: "쑤심딱지 새끼", cat: critter, key: CREATURES.SPECIES.CRAB.BABY.NAME}
+"Propane Spout": {ko: "프로판 구멍", cat: critter, key: CREATURES.SPECIES.PROPANESPOUT.NAME}
+"Puft": {ko: "헐떡이", cat: critter, key: CREATURES.SPECIES.PUFT.NAME}
+"Puft Prince": {ko: "헐떡이 영주", cat: critter, key: CREATURES.SPECIES.PUFT.VARIANT_ALPHA.NAME}
+"Puftlet": {ko: "애헐떡이", cat: critter, key: CREATURES.SPECIES.PUFT.BABY.NAME}
+"Puftlet Prince": {ko: "애헐떡이 영주", cat: critter, key: CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME}
+"Radiant Bug": {ko: "발광 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME}
+"Radiant Nymph": {ko: "발광 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME}
+"Regal Bammini": {ko: "리갈 밤미니", cat: critter, key: CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.BABY.NAME}
+"Regal Bammoth": {ko: "리갈 밤모스", cat: critter, key: CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.NAME}
+"Rhex": {ko: "레크스", cat: critter, key: CREATURES.SPECIES.RAPTOR.NAME}
+"Rhex Baby": {ko: "레크스 아기", cat: critter, key: CREATURES.SPECIES.RAPTOR.BABY.NAME}
+"Ring Rosebush": {ko: "고리장미나무", cat: critter, key: CREATURES.SPECIES.GARDENDECORPLANT.NAME}
+"Royal Bug": {ko: "왕 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.NAME}
+"Royal Nymph": {ko: "왕 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME}
+"Sage Hatch": {ko: "슬기로운 주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.NAME}
+"Sage Hatchling": {ko: "슬기로운 애주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME}
+"Sanishell": {ko: "위생딱지", cat: critter, key: CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.NAME}
+"Sanishell Spawn": {ko: "위생딱지 새끼", cat: critter, key: CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.NAME}
+"Saturn Critter Trap": {ko: "새턴 크리터 트랩", cat: critter, key: CREATURES.SPECIES.CRITTERTRAPPLANT.NAME}
+"Seakomb": {ko: "씨콤", cat: critter, key: CREATURES.SPECIES.KELPPLANT.NAME}
+"Seaquine": {ko: "시콰인", cat: critter, key: CREATURES.SPECIES.SEAHORSE.NAME}
+"Seaquine Fry": {ko: "시콰인 치어", cat: critter, key: CREATURES.SPECIES.SEAHORSE.BABY.NAME}
+"Shatter Flox": {ko: "샤터 플록스", cat: critter, key: CREATURES.SPECIES.GLASSDEER.NAME}
+"Shatter Flox Fawn": {ko: "샤터 플록스 새끼", cat: critter, key: CREATURES.SPECIES.GLASSDEER.BABY.NAME}
+"Sherberry Plant": {ko: "셔베리 식물", cat: critter, key: CREATURES.SPECIES.ICECAVESFORAGEPLANTPLANTED.NAME}
+"Shine Bug": {ko: "빛벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.NAME}
+"Shine Nymph": {ko: "빛님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.BABY.NAME}
+"Shockworm": {ko: "충격벌레", cat: critter, key: CREATURES.SPECIES.SHOCKWORM.NAME}
+"Shove Vole": {ko: "굴착들쥐", cat: critter, key: CREATURES.SPECIES.MOLE.NAME}
+"Sleet Wheat": {ko: "진눈깨비밀", cat: critter, key: CREATURES.SPECIES.COLDWHEAT.NAME}
+"Slickster": {ko: "미끌이", cat: critter, key: CREATURES.SPECIES.OILFLOATER.NAME}
+"Slickster Larva": {ko: "애미끌이", cat: critter, key: CREATURES.SPECIES.OILFLOATER.BABY.NAME}
+"Slogo": {ko: "슬로고", cat: critter, key: CREATURES.SPECIES.SNAIL.NAME}
+"Slogo Baby": {ko: "슬로고 새끼", cat: critter, key: CREATURES.SPECIES.SNAIL.BABY.NAME}
+"Smog Slug": {ko: "스모그팽", cat: critter, key: CREATURES.SPECIES.STATERPILLAR.VARIANT_GAS.NAME}
+"Smog Sluglet": {ko: "스모그팽 새끼", cat: critter, key: CREATURES.SPECIES.STATERPILLAR.VARIANT_GAS.BABY.NAME}
+"Smooth Hatch": {ko: "매끄러운 주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.VARIANT_METAL.NAME}
+"Smooth Hatchling": {ko: "매끄러운 애주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME}
+"Snactus": {ko: "스낙트", cat: critter, key: CREATURES.SPECIES.GARDENFORAGEPLANTPLANTED.NAME}
+"Sodicane": {ko: "소디케인", cat: critter, key: CREATURES.SPECIES.SALTYSTICKSPLANT.NAME}
+"Spigot Pup": {ko: "스피곳펍", cat: critter, key: CREATURES.SPECIES.SEAL.BABY.NAME}
+"Spigot Seal": {ko: "스피곳물범", cat: critter, key: CREATURES.SPECIES.SEAL.NAME}
+"Spindly Grubfruit Plant": {ko: "호리호리한 벵이과실 식물", cat: critter, key: CREATURES.SPECIES.WORMPLANT.NAME}
+"Sponge Slug": {ko: "스펀지팽", cat: critter, key: CREATURES.SPECIES.STATERPILLAR.VARIANT_LIQUID.NAME}
+"Sponge Sluglet": {ko: "스펀지팽 새끼", cat: critter, key: CREATURES.SPECIES.STATERPILLAR.VARIANT_LIQUID.BABY.NAME}
+"Sporechid": {ko: "포자난", cat: critter, key: CREATURES.SPECIES.EVILFLOWER.NAME}
+"Squeaky Puft": {ko: "찍찍거리는 헐떡이", cat: critter, key: CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME}
+"Squeaky Puftlet": {ko: "찍찍거리는 애헐떡이", cat: critter, key: CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME}
+"Starnacle": {ko: "스타나클", cat: critter, key: CREATURES.SPECIES.PLANKTONCORAL.NAME}
+"Steam Spout": {ko: "증기 구멍", cat: critter, key: CREATURES.SPECIES.STEAMSPOUT.NAME}
+"Stone Hatch": {ko: "돌 주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.VARIANT_HARD.NAME}
+"Stone Hatchling": {ko: "돌 애주둥가리", cat: critter, key: CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME}
+"Sun Bug": {ko: "해 벌레", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME}
+"Sun Nymph": {ko: "해 님프", cat: critter, key: CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME}
+"Swamp Chard": {ko: "늪근대", cat: critter, key: CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.NAME}
+"Sweatcorn Stalk": {ko: "땀옥수수 줄기", cat: critter, key: CREATURES.SPECIES.GARDENFOODPLANT.NAME}
+"Sweetle": {ko: "단벌레", cat: critter, key: CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.NAME}
+"Sweetle Larva": {ko: "단벌레 애벌레", cat: critter, key: CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME}
+"Thimble Reed": {ko: "골무갈대", cat: critter, key: CREATURES.SPECIES.BASICFABRICMATERIALPLANT.NAME}
+"Tower Kelp": {ko: "타워 켈프", cat: critter, key: CREATURES.SPECIES.SEATREE.NAME}
+"Tranquil Toes": {ko: "잔잔발가락", cat: critter, key: CREATURES.SPECIES.TOEPLANT.NAME}
+"Tropical Fry": {ko: "열대 잔챙이", cat: critter, key: CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME}
+"Tropical Pacu": {ko: "열대 드럽치", cat: critter, key: CREATURES.SPECIES.PACU.VARIANT_TROPICAL.NAME}
+"Tublia": {ko: "튜블리아", cat: critter, key: CREATURES.SPECIES.TUBEWORM.NAME}
+"Vole Pup": {ko: "볼 새끼", cat: critter, key: CREATURES.SPECIES.MOLE.BABY.NAME}
+"Waterweed": {ko: "물이파리", cat: critter, key: CREATURES.SPECIES.SEALETTUCE.NAME}
+"Wheezewort": {ko: "씨근풀", cat: critter, key: CREATURES.SPECIES.COLDBREATHER.NAME}
+"Alveo Vera Seed": {ko: "알베오 베라 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.BLUE_GRASS.NAME}
+"Arbor Acorn": {ko: "수목 나무열매", cat: seed, key: CREATURES.SPECIES.SEEDS.WOOD_TREE.NAME}
+"Balm Lily Seed": {ko: "아물나리 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SWAMPLILY.NAME}
+"Bliss Burst Seed": {ko: "지복파열 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.CYLINDRICA.NAME}
+"Blossom Seed": {ko: "꽃 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.NAME}
+"Bog Bucket Seed": {ko: "수렁박 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME}
+"Bonbon Tree Seed": {ko: "봉봉나무 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SPACETREE.NAME}
+"Briar Seed": {ko: "찔레 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.PRICKLEGRASS.NAME}
+"Buddy Bud Seed": {ko: "친구눈 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.BULBPLANT.NAME}
+"Bulbloom Seed": {ko: "구근꽃 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.BULBLOOM.NAME}
+"Clampum Seed": {ko: "클램펌 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.CLAM.NAME}
+"Dasha Saltvine Seed": {ko: "뿌림 소금덩굴 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SALTPLANT.NAME}
+"Dew Seed": {ko: "이슬 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.DEWDRIPPERPLANT.NAME}
+"Flue Coral Seed": {ko: "연통산호 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.OXYCORAL.NAME}
+"Fungal Spore": {ko: "진균 포자", cat: seed, key: CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.NAME}
+"Gas Grass Seed": {ko: "가스풀 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.GASGRASS.NAME}
+"Grubfruit Seed": {ko: "벵이과실 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.WORMPLANT.NAME}
+"Gum Palm Seed": {ko: "껌야자 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.DEWPALM.NAME}
+"Husha Cups Seed": {ko: "쉿컵 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.WATERCUPS.NAME}
+"Hydrocactus Seed": {ko: "수선인장 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.FILTERPLANT.NAME}
+"Idylla Seed": {ko: "아이딜라 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.ICEFLOWER.NAME}
+"Ink Bloom Seed": {ko: "먹물꽃 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.OILEATER.NAME}
+"Joya Seed": {ko: "뛰는기쁨 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME}
+"Lura Seed": {ko: "루라 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.FLYTRAPPLANT.NAME}
+"Mallow Seed": {ko: "당아욱 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.WINECUPS.NAME}
+"Mealwood Seed": {ko: "끼니나무 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.NAME}
+"Megafrond Spore": {ko: "메가프론드 포자", cat: seed, key: CREATURES.SPECIES.SEEDS.DINOFERN.NAME}
+"Mimillet": {ko: "미밀렛", cat: seed, key: CREATURES.SPECIES.SEEDS.BUTTERFLYPLANTSEED.NAME}
+"Mirth Leaf Seed": {ko: "환희잎 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME}
+"Nosh Bean": {ko: "오물오물콩", cat: seed, key: CREATURES.SPECIES.SEEDS.BEAN_PLANT.NAME}
+"Ovagro Node Seed": {ko: "오바그로 마디 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.VINEMOTHER.NAME}
+"Oxyfern Seed": {ko: "산고사리 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.OXYFERN.NAME}
+"Petta Pouf Seed": {ko: "페타푸프 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.FILAMENTPLANT.NAME}
+"Pikeapple Bush Seed": {ko: "파이크애플 덤불 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.HARDSKINBERRYPLANT.NAME}
+"Pincha Pepper Seed": {ko: "꼬집후추 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SPICE_VINE.NAME}
+"Pinpoket Seed": {ko: "핀포켓 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.URCHINPLANT.NAME}
+"Plume Squash Seed": {ko: "플럼 스쿼시 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.CARROTPLANT.NAME}
+"Rosebush Seed": {ko: "장미나무 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.GARDENDECORPLANT.NAME}
+"Saturn Critter Trap Seed": {ko: "새턴 크리터 트랩 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME}
+"Seakomb Seed": {ko: "씨콤 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.KELPPLANT.NAME}
+"Sleet Wheat Grain": {ko: "진눈깨비밀 낟알", cat: seed, key: CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME}
+"Sodicane Seed": {ko: "소디케인 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SALTYSTICKSPLANT.NAME}
+"Sporechid Seed": {ko: "포자난 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.EVILFLOWER.NAME}
+"Starnacle Seed": {ko: "스타나클 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.PLANKTONCORAL.NAME}
+"Sweatcorn Seed": {ko: "땀옥수수 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.GARDENFOODPLANT.NAME}
+"Thimble Reed Seed": {ko: "골무갈대 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.NAME}
+"Tower Kelp Seed": {ko: "타워 켈프 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SEAFAIRYPLANTSEED.NAME}
+"Tranquil Toe Seed": {ko: "잔잔발가락 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.TOEPLANT.NAME}
+"Tublia Seed": {ko: "튜블리아 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.TUBEWORM.NAME}
+"Waterweed Seed": {ko: "물이파리 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.SEALETTUCE.NAME}
+"Wort Seed": {ko: "씨근풀 씨", cat: seed, key: CREATURES.SPECIES.SEEDS.COLDBREATHER.NAME}
+"Aluminum Volcano": {ko: "알루미늄 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME}
+"Carbon Dioxide Geyser": {ko: "이산화탄소 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME}
+"Carbon Dioxide Vent": {ko: "이산화탄소 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.HOT_CO2.NAME}
+"Chlorine Gas Vent": {ko: "염소 기체 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME}
+"Cobalt Volcano": {ko: "코발트 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.NAME}
+"Cool Chlorine Gas Vent": {ko: "서늘한 염소 기체", cat: geyser, key: CREATURES.SPECIES.GEYSER.CHLORINE_GAS_COOL.NAME}
+"Cool Salt Slush Geyser": {ko: "서늘한 소금 슬러시 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME}
+"Cool Slush Geyser": {ko: "서늘한 슬러시 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME}
+"Cool Steam Vent": {ko: "서늘한 증기 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.STEAM.NAME}
+"Copper Volcano": {ko: "구리 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME}
+"Gold Volcano": {ko: "금 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME}
+"Hot Polluted Oxygen Vent": {ko: "뜨거운 오염된 산소 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.HOT_PO2.NAME}
+"Hydrogen Vent": {ko: "수소 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME}
+"Infectious Polluted Oxygen Vent": {ko: "전염성인 오염된 산소 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME}
+"Iron Volcano": {ko: "철 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME}
+"Leaky Oil Fissure": {ko: "새는 기름 균열", cat: geyser, key: CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME}
+"Liquid Sulfur Geyser": {ko: "액체 황 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME}
+"Minor Volcano": {ko: "작은 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME}
+"Natural Gas Geyser": {ko: "천연가스 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.METHANE.NAME}
+"Niobium Volcano": {ko: "나이오븀 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME}
+"Polluted Brine Vent": {ko: "오염된 염수 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.MURKY_BRINE.NAME}
+"Polluted Water Vent": {ko: "오염된 물 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME}
+"Salt Water Geyser": {ko: "소금물 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.SALT_WATER.NAME}
+"Steam Vent": {ko: "증기 벤트", cat: geyser, key: CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME}
+"Thermal Gas Fissure": {ko: "열 기체 균열", cat: geyser, key: CREATURES.SPECIES.GEYSER.UNDERWATERVENT.NAME}
+"Tidal Spring": {ko: "조력 샘", cat: geyser, key: CREATURES.SPECIES.GEYSER.SMALLREEFGEYSER.NAME}
+"Tungsten Volcano": {ko: "텅스텐 화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME}
+"Volcano": {ko: "화산", cat: geyser, key: CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME}
+"Water Geyser": {ko: "물 분출구", cat: geyser, key: CREATURES.SPECIES.GEYSER.HOT_WATER.NAME}
+"[DEPRECATED] Steam Turbine": {ko: "[미사용] 증기 터빈", cat: building, key: BUILDINGS.PREFABS.STEAMTURBINE.NAME}
+"Acoustic Art Panel": {ko: "어쿠스틱 아트 패널", cat: building, key: BUILDINGS.PREFABS.PROPCERESPOSTERLARGE.NAME}
+"Aero Pot": {ko: "에어로 단지", cat: building, key: BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME}
+"Airborne Critter Bait": {ko: "공중 크리터 미끼", cat: building, key: BUILDINGS.PREFABS.FLYINGCREATUREBAIT.NAME}
+"Airborne Critter Condo": {ko: "에어본 크리터 콘도", cat: building, key: BUILDINGS.PREFABS.AIRBORNECRITTERCONDO.NAME}
+"Airborne Critter Lure": {ko: "공중 크리터 미끼", cat: building, key: BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME}
+"Airborne Critter Trap": {ko: "공중 크리터 덫", cat: building, key: BUILDINGS.PREFABS.CREATUREAIRTRAP.NAME}
+"Airflow Tile": {ko: "공기 흐름 타일", cat: building, key: BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.NAME}
+"Algae Distiller": {ko: "조류 추출기", cat: building, key: BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME}
+"Algae Terrarium": {ko: "조류 배양기", cat: building, key: BUILDINGS.PREFABS.ALGAEHABITAT.NAME}
+"Anatomy Poster": {ko: "해부학 포스터", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASCREATUREPOSTER.NAME}
+"Ancient Specimen": {ko: "고대 표본", cat: building, key: BUILDINGS.PREFABS.FOSSILDIG.NAME}
+"AND Gate": {ko: "AND 게이트", cat: building, key: BUILDINGS.PREFABS.LOGICGATEAND.NAME}
+"Anti Entropy Thermo-Nullifier": {ko: "항엔트로피열무효화장치", cat: building, key: BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME}
+"Apothecary": {ko: "약제대", cat: building, key: BUILDINGS.PREFABS.APOTHECARY.NAME}
+"Aquatic Critter Condo": {ko: "수생 크리터 콘도", cat: building, key: BUILDINGS.PREFABS.UNDERWATERCRITTERCONDO.NAME}
+"Aquatic Critter Fountain": {ko: "수생 크리터 파운틴", cat: building, key: BUILDINGS.PREFABS.UNDERWATERMILKFEEDER.NAME}
+"Aquatic Grooming Station": {ko: "수생 치장 스테이션", cat: building, key: BUILDINGS.PREFABS.UNDERWATERRANCHSTATION.NAME}
+"Aquatic Milking Station": {ko: "수생 착유 스테이션", cat: building, key: BUILDINGS.PREFABS.UNDERWATERMILKINGSTATION.NAME}
+"Aquatic Shearing Station": {ko: "수생 털 깎기 스테이션", cat: building, key: BUILDINGS.PREFABS.UNDERWATERSHEARINGSTATION.NAME}
+"Arcade Cabinet": {ko: "아케이드 캐비닛", cat: building, key: BUILDINGS.PREFABS.ARCADEMACHINE.NAME}
+"Artifact Analysis Station": {ko: "가공물 분석 스테이션", cat: building, key: BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME}
+"Artifact Transport Module": {ko: "가공물 수송 스테이션", cat: building, key: BUILDINGS.PREFABS.ARTIFACTCARGOBAY.NAME}
+"Atmo Sensor": {ko: "기체 압력 센서", cat: building, key: BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME}
+"Atmo Suit Checkpoint": {ko: "환경 특수복 체크포인트", cat: building, key: BUILDINGS.PREFABS.SUITMARKER.NAME}
+"Atmo Suit Dock": {ko: "환경 특수복 거치대", cat: building, key: BUILDINGS.PREFABS.SUITLOCKER.NAME}
+"Atmo Switch": {ko: "기체 스위치", cat: building, key: BUILDINGS.PREFABS.PRESSURESWITCHGAS.NAME}
+"Auto-Sweeper": {ko: "자동정리기", cat: building, key: BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME}
+"Automated Notifier": {ko: "자동 알림", cat: building, key: BUILDINGS.PREFABS.LOGICALARM.NAME}
+"Automatic Dispenser": {ko: "자동 분배기", cat: building, key: BUILDINGS.PREFABS.OBJECTDISPENSER.NAME}
+"Automation Broadcaster": {ko: "자동화 브로드캐스터", cat: building, key: BUILDINGS.PREFABS.LOGICINTERASTEROIDSENDER.NAME}
+"Automation Receiver": {ko: "자동화 수신기", cat: building, key: BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.NAME}
+"Automation Ribbon": {ko: "자동화 리본", cat: building, key: BUILDINGS.PREFABS.LOGICRIBBON.NAME}
+"Automation Ribbon Bridge": {ko: "자동화 리본 브리지", cat: building, key: BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME}
+"Automation Wire": {ko: "자동화 와이어", cat: building, key: BUILDINGS.PREFABS.LOGICWIRE.NAME}
+"Automation Wire Bridge": {ko: "자동화 와이어 브리지", cat: building, key: BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME}
+"Basic Nosecone": {ko: "기본 노즈콘", cat: building, key: BUILDINGS.PREFABS.NOSECONEBASIC.NAME}
+"Battery": {ko: "배터리", cat: building, key: BUILDINGS.PREFABS.BATTERY.NAME}
+"Battery Module": {ko: "배터리 모듈", cat: building, key: BUILDINGS.PREFABS.BATTERYMODULE.NAME}
+"Beach Chair": {ko: "해변 의자", cat: building, key: BUILDINGS.PREFABS.BEACHCHAIR.NAME}
+"Beeta Hive": {ko: "벌타 통", cat: building, key: BUILDINGS.PREFABS.BEEHIVE.NAME}
+"Big Brain Jar": {ko: "큰 뇌 용기", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASJAR1.NAME}
+"Biobot Builder": {ko: "바이오봇 빌더", cat: building, key: BUILDINGS.PREFABS.MORBROVERMAKER.NAME}
+"Biodiesel Engine": {ko: "바이오디젤 엔진", cat: building, key: BUILDINGS.PREFABS.BIODIESELENGINE.NAME}
+"Biological Cargo Bay": {ko: "생물학적 화물칸", cat: building, key: BUILDINGS.PREFABS.SPECIALCARGOBAY.NAME}
+"Biophysics Research Desk": {ko: "생물물리학 연구 데스크", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASDESK.NAME}
+"Blank Canvas": {ko: "빈 캔버스", cat: building, key: BUILDINGS.PREFABS.CANVAS.NAME}
+"Blastshot Maker": {ko: "블래스트숏 메이커", cat: building, key: BUILDINGS.PREFABS.MISSILEFABRICATOR.NAME}
+"Bleach Stone Hopper": {ko: "표백석 호퍼", cat: building, key: BUILDINGS.PREFABS.CHLORINATOR.NAME}
+"Botanical Analyzer": {ko: "식물 분석기", cat: building, key: BUILDINGS.PREFABS.GENETICANALYSISSTATION.NAME}
+"Bottle Drainer": {ko: "병 드레이너", cat: building, key: BUILDINGS.PREFABS.BOTTLEEMPTIERCONDUITLIQUID.NAME}
+"Bottle Emptier": {ko: "병 비우개", cat: building, key: BUILDINGS.PREFABS.BOTTLEEMPTIER.NAME}
+"Bottle Filler": {ko: "병 주입기", cat: building, key: BUILDINGS.PREFABS.LIQUIDBOTTLER.NAME}
+"Breathing Station": {ko: "호흡 스테이션", cat: building, key: BUILDINGS.PREFABS.UNDERWATERBREATHINGSTATION.NAME}
+"Broken Elevator": {ko: "고장난 엘리베이터", cat: building, key: BUILDINGS.PREFABS.PROPELEVATOR.NAME}
+"Broken Fire Extinguisher": {ko: "고장난 소화기", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASFIREEXTINGUISHER.NAME}
+"BUFFER Gate": {ko: "BUFFER 게이트", cat: building, key: BUILDINGS.PREFABS.LOGICGATEBUFFER.NAME}
+"Bunker Door": {ko: "벙커 문", cat: building, key: BUILDINGS.PREFABS.BUNKERDOOR.NAME}
+"Bunker Tile": {ko: "벙커 타일", cat: building, key: BUILDINGS.PREFABS.BUNKERTILE.NAME}
+"Canister Drainer": {ko: "캐니스터 드레이너", cat: building, key: BUILDINGS.PREFABS.BOTTLEEMPTIERCONDUITGAS.NAME}
+"Canister Emptier": {ko: "통 비우개", cat: building, key: BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME}
+"Canister Filler": {ko: "통 주입기", cat: building, key: BUILDINGS.PREFABS.GASBOTTLER.NAME}
+"Carbon Dioxide Engine": {ko: "이산화탄소 엔진", cat: building, key: BUILDINGS.PREFABS.CO2ENGINE.NAME}
+"Carbon Skimmer": {ko: "탄소 스키머", cat: building, key: BUILDINGS.PREFABS.CO2SCRUBBER.NAME}
+"Cargo Bay": {ko: "화물칸", cat: building, key: BUILDINGS.PREFABS.CARGOBAY.NAME}
+"Carpeted Tile": {ko: "카펫 타일", cat: building, key: BUILDINGS.PREFABS.CARPETTILE.NAME}
+"Cartographic Module": {ko: "지도 제작 모듈", cat: building, key: BUILDINGS.PREFABS.SCANNERMODULE.NAME}
+"Ceiling Light": {ko: "천정등", cat: building, key: BUILDINGS.PREFABS.CEILINGLIGHT.NAME}
+"Ceiling Robot": {ko: "천장 로봇", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME}
+"Ceiling Trim": {ko: "천장 트림", cat: building, key: BUILDINGS.PREFABS.CROWNMOULDING.NAME}
+"Chandelier": {ko: "샹들리에", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYCHANDELIER.NAME}
+"Clock": {ko: "시계", cat: building, key: BUILDINGS.PREFABS.PROPCLOCK.NAME}
+"Clothing Rack": {ko: "의류 랙", cat: building, key: BUILDINGS.PREFABS.PROPDRYSUITHANGER.NAME}
+"Clothing Refashionator": {ko: "의류 리패션에이터", cat: building, key: BUILDINGS.PREFABS.CLOTHINGALTERATIONSTATION.NAME}
+"Coal Generator": {ko: "석탄 발전기", cat: building, key: BUILDINGS.PREFABS.GENERATOR.NAME}
+"Coat Rack": {ko: "외투 걸이", cat: building, key: BUILDINGS.PREFABS.PROPCLOTHESHANGER.NAME}
+"Coffee Table": {ko: "커피 테이블", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYTABLE.NAME}
+"Comfy Bed": {ko: "편안한 침대", cat: building, key: BUILDINGS.PREFABS.LUXURYBED.NAME}
+"Command Capsule": {ko: "지령 캡슐", cat: building, key: BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.NAME}
+"Communal Table": {ko: "공동 식탁", cat: building, key: BUILDINGS.PREFABS.MULTIMINIONDININGTABLE.NAME}
+"Compact Discharger": {ko: "소형 방전기", cat: building, key: BUILDINGS.PREFABS.SMALLELECTROBANKDISCHARGER.NAME}
+"Compost": {ko: "퇴비", cat: building, key: BUILDINGS.PREFABS.COMPOST.NAME}
+"Computer Desk": {ko: "컴퓨터 데스크", cat: building, key: BUILDINGS.PREFABS.PROPDESK.NAME}
+"Computer Podium": {ko: "컴퓨터 연단", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASDESKPODIUM.NAME}
+"Conduction Panel": {ko: "전도 패널", cat: building, key: BUILDINGS.PREFABS.CONTACTCONDUCTIVEPIPEBRIDGE.NAME}
+"Conductive Wire": {ko: "전도성 와이어", cat: building, key: BUILDINGS.PREFABS.WIREREFINED.NAME}
+"Conductive Wire Bridge": {ko: "전도성 와이어 브리지", cat: building, key: BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME}
+"Conveyor Bridge": {ko: "컨베이어 브리지", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.NAME}
+"Conveyor Chute": {ko: "컨베이어 투하기", cat: building, key: BUILDINGS.PREFABS.SOLIDVENT.NAME}
+"Conveyor Loader": {ko: "컨베이어 적재기", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME}
+"Conveyor Loader Fitting": {ko: "컨베이어 적재기 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.NAME}
+"Conveyor Meter": {ko: "컨베이어 미터", cat: building, key: BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME}
+"Conveyor Rail": {ko: "컨베이어 레일", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUIT.NAME}
+"Conveyor Rail Element Sensor": {ko: "컨베이어 레일 원소 센서", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.NAME}
+"Conveyor Rail Germ Sensor": {ko: "컨베이어 레일 세균 센서", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.NAME}
+"Conveyor Rail Thermo Sensor": {ko: "컨베이어 레일 온도 센서", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME}
+"Conveyor Receptacle": {ko: "컨베이어 용기", cat: building, key: BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.NAME}
+"Conveyor Receptacle Fitting": {ko: "컨베이어 용기 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.NAME}
+"Conveyor Shutoff": {ko: "컨베이어 중단", cat: building, key: BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME}
+"Cooking Tools": {ko: "조리 도구", cat: building, key: BUILDINGS.PREFABS.KITCHENTOOLS.NAME}
+"Corner Trim": {ko: "코너 트림", cat: building, key: BUILDINGS.PREFABS.CORNERMOULDING.NAME}
+"Cot": {ko: "간이침대", cat: building, key: BUILDINGS.PREFABS.BED.NAME}
+"Crafting Station": {ko: "제작 스테이션", cat: building, key: BUILDINGS.PREFABS.CRAFTINGTABLE.NAME}
+"Crashed Satellite": {ko: "부서진 위성", cat: building, key: BUILDINGS.PREFABS.PROPSURFACESATELLITE1.NAME}
+"Critter Cargo Bay": {ko: "크리터 화물칸", cat: building, key: BUILDINGS.PREFABS.SPECIALCARGOBAYCLUSTER.NAME}
+"Critter Condo": {ko: "크리터 콘도", cat: building, key: BUILDINGS.PREFABS.CRITTERCONDO.NAME}
+"Critter Drop-Off": {ko: "크리터 투하", cat: building, key: BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME, also: ["크리터 드롭오프"]}
+"Critter Feeder": {ko: "크리터 사료 공급기", cat: building, key: BUILDINGS.PREFABS.CREATUREFEEDER.NAME}
+"Critter Flux-O-Matic": {ko: "크리터 플럭스-오-매틱", cat: building, key: BUILDINGS.PREFABS.GRAVITASCREATUREMANIPULATOR.NAME}
+"Critter Fountain": {ko: "크리터 파운틴", cat: building, key: BUILDINGS.PREFABS.MILKFEEDER.NAME}
+"Critter Pick-Up": {ko: "크리터 픽업", cat: building, key: BUILDINGS.PREFABS.CRITTERPICKUP.NAME}
+"Critter Sensor": {ko: "크리터 센서", cat: building, key: BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.NAME}
+"Critter Trap": {ko: "크리터 덫", cat: building, key: BUILDINGS.PREFABS.CREATUREGROUNDTRAP.NAME}
+"Crushed Satellite": {ko: "부숴진 위성", cat: building, key: BUILDINGS.PREFABS.PROPSURFACESATELLITE3.NAME}
+"Cryotank 3000": {ko: "크라이오탱크 3000", cat: building, key: BUILDINGS.PREFABS.CRYOTANK.NAME}
+"Cycle Sensor": {ko: "주기 센서", cat: building, key: BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME}
+"Data Miner": {ko: "데이터 마이너", cat: building, key: BUILDINGS.PREFABS.DATAMINER.NAME}
+"Dead Plant": {ko: "죽은 식물", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASPOTPLANTDEAD.NAME}
+"Decontamination Shower": {ko: "오염 제거 샤워", cat: building, key: BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.NAME}
+"Deep Fryer": {ko: "튀김기", cat: building, key: BUILDINGS.PREFABS.DEEPFRYER.NAME}
+"Dehydrator": {ko: "탈수기", cat: building, key: BUILDINGS.PREFABS.FOODDEHYDRATOR.NAME}
+"Deodorizer": {ko: "탈취기", cat: building, key: BUILDINGS.PREFABS.AIRFILTER.NAME}
+"Desalinator": {ko: "탈염기", cat: building, key: BUILDINGS.PREFABS.DESALINATOR.NAME}
+"Dev Generator": {ko: "개발자 생성기", cat: building, key: BUILDINGS.PREFABS.DEVGENERATOR.NAME}
+"Dev Heater": {ko: "개발자 히터", cat: building, key: BUILDINGS.PREFABS.DEVHEATER.NAME}
+"Dev Life Support": {ko: "개발자 생명 지원", cat: building, key: BUILDINGS.PREFABS.DEVLIFESUPPORT.NAME}
+"Dev Light Source": {ko: "개발자 광원", cat: building, key: BUILDINGS.PREFABS.DEVLIGHTGENERATOR.NAME}
+"Dev Pump Gas": {ko: "개발 펌프 기체", cat: building, key: BUILDINGS.PREFABS.DEVPUMPGAS.NAME}
+"Dev Pump Liquid": {ko: "개발 펌프 액체", cat: building, key: BUILDINGS.PREFABS.DEVPUMPLIQUID.NAME}
+"Dev Pump Solid": {ko: "개발 펌프 고체", cat: building, key: BUILDINGS.PREFABS.DEVPUMPSOLID.NAME}
+"Dev Radbolt Generator": {ko: "개발자 래드볼트 생성기", cat: building, key: BUILDINGS.PREFABS.DEVHEPSPAWNER.NAME}
+"Dev Radiation Emitter": {ko: "개발자 방사선 방출기", cat: building, key: BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.NAME}
+"Diamond Press": {ko: "다이아몬드 프레스", cat: building, key: BUILDINGS.PREFABS.DIAMONDPRESS.NAME}
+"Director's Desk": {ko: "관장의 책상", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYDESK.NAME}
+"Disease Clinic": {ko: "병실", cat: building, key: BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.NAME}
+"Display Shelf": {ko: "디스플레이 선반", cat: building, key: BUILDINGS.PREFABS.SHELF.NAME}
+"Distillation Column": {ko: "증류탑", cat: building, key: BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME}
+"Doctorate Degree": {ko: "박사 학위.", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYWALLDEGREE.NAME}
+"Drillcone": {ko: "드릴콘", cat: building, key: BUILDINGS.PREFABS.NOSECONEHARVEST.NAME}
+"Drywall": {ko: "건식벽체", cat: building, key: BUILDINGS.PREFABS.EXTERIORWALL.NAME}
+"Duplicant Checkpoint": {ko: "복제체 체크포인트", cat: building, key: BUILDINGS.PREFABS.CHECKPOINT.NAME}
+"Duplicant Motion Sensor": {ko: "복제체 동작 센서", cat: building, key: BUILDINGS.PREFABS.LOGICDUPLICANTSENSOR.NAME}
+"Egg Cracker": {ko: "알 크래커", cat: building, key: BUILDINGS.PREFABS.EGGCRACKER.NAME}
+"Electric Grill": {ko: "전기 그릴", cat: building, key: BUILDINGS.PREFABS.COOKINGSTATION.NAME}
+"Electrolyzer": {ko: "전해조", cat: building, key: BUILDINGS.PREFABS.ELECTROLYZER.NAME}
+"Electronic Display": {ko: "전자 디스플레이", cat: building, key: BUILDINGS.PREFABS.PROPDLC2DISPLAY1.NAME}
+"Empty Rocket Module": {ko: "빈 로켓 모듈", cat: building, key: BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.NAME}
+"Emulsifier": {ko: "유화기", cat: building, key: BUILDINGS.PREFABS.CHEMICALREFINERY.NAME}
+"Enamel Sink": {ko: "에나멜 싱크대", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASBATHROOMSINK.NAME}
+"Enclosed Telescope": {ko: "에워싸인 망원경", cat: building, key: BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME}
+"Escape Pod": {ko: "탈출 팟", cat: building, key: BUILDINGS.PREFABS.ESCAPEPOD.NAME}
+"Espresso Machine": {ko: "에스프레소 머신", cat: building, key: BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME}
+"Ethanol Distiller": {ko: "에탄올 증류기", cat: building, key: BUILDINGS.PREFABS.ETHANOLDISTILLERY.NAME}
+"Exosuit Forge": {ko: "특수복 제조소", cat: building, key: BUILDINGS.PREFABS.SUITFABRICATOR.NAME}
+"Explosives Locker": {ko: "폭발물 사물함", cat: building, key: BUILDINGS.PREFABS.MISSILESETLOCKER.NAME}
+"Farm Station": {ko: "재배스테이션", cat: building, key: BUILDINGS.PREFABS.FARMSTATION.NAME}
+"Farm Tile": {ko: "재배 타일", cat: building, key: BUILDINGS.PREFABS.FARMTILE.NAME}
+"Fertilizer Synthesizer": {ko: "비료 합성기", cat: building, key: BUILDINGS.PREFABS.FERTILIZERMAKER.NAME}
+"Filing Cabinet": {ko: "서류캐비닛", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYGLOBEDROORS.NAME}
+"FILTER Gate": {ko: "FILTER 게이트", cat: building, key: BUILDINGS.PREFABS.LOGICGATEFILTER.NAME}
+"Fire Pole": {ko: "소방서 폴", cat: building, key: BUILDINGS.PREFABS.FIREPOLE.NAME}
+"First Aid Kit": {ko: "구급 키트", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASFIRSTAIDKIT.NAME}
+"Fish Feeder": {ko: "물고기 사료 공급기", cat: building, key: BUILDINGS.PREFABS.FISHFEEDER.NAME}
+"Fish Pick-Up": {ko: "물고기 픽업", cat: building, key: BUILDINGS.PREFABS.FISHPICKUP.NAME}
+"Fish Release": {ko: "물고기 방출", cat: building, key: BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME}
+"Fish Trap": {ko: "물고기 덫", cat: building, key: BUILDINGS.PREFABS.FISHTRAP.NAME}
+"Flip Phone": {ko: "플립 폰", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASFLIPPHONE.NAME}
+"Flower Pot": {ko: "화분", cat: building, key: BUILDINGS.PREFABS.FLOWERVASE.NAME}
+"Forge Tools": {ko: "단조 도구", cat: building, key: BUILDINGS.PREFABS.FORGETOOLS.NAME}
+"Fossil Block": {ko: "화석 블록", cat: building, key: BUILDINGS.PREFABS.FOSSILSCULPTURE.NAME}
+"Fossil Quarry": {ko: "화석 채석장", cat: building, key: BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.NAME}
+"Fountain Pen": {ko: "만년필", cat: building, key: BUILDINGS.PREFABS.FOUNTAINPEN.NAME}
+"Gamma Ray Oven": {ko: "감마 레이 오븐", cat: building, key: BUILDINGS.PREFABS.GAMMARAYOVEN.NAME}
+"Gantry": {ko: "발사 정비탑", cat: building, key: BUILDINGS.PREFABS.GANTRY.NAME}
+"Gas Bridge": {ko: "기체 브리지", cat: building, key: BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME}
+"Gas Cargo Canister": {ko: "기체 화물 통", cat: building, key: BUILDINGS.PREFABS.GASCARGOBAY.NAME}
+"Gas Element Sensor": {ko: "기체 원소 센서", cat: building, key: BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.NAME}
+"Gas Filter": {ko: "기체 필터", cat: building, key: BUILDINGS.PREFABS.GASFILTER.NAME}
+"Gas Input Hub": {ko: "기체 유입 허브", cat: building, key: BUILDINGS.PREFABS.MODULARGASINPUT.NAME}
+"Gas Intake Fitting": {ko: "기체 흡입 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.NAME}
+"Gas Meter Valve": {ko: "기체 미터 밸브", cat: building, key: BUILDINGS.PREFABS.GASLIMITVALVE.NAME}
+"Gas Output Fitting": {ko: "기체 배출 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.NAME}
+"Gas Overflow Valve": {ko: "기체 오버플로 밸브", cat: building, key: BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME}
+"Gas Pipe": {ko: "기체 파이프", cat: building, key: BUILDINGS.PREFABS.GASCONDUIT.NAME}
+"Gas Pipe Element Sensor": {ko: "기체 파이프 원소 센서", cat: building, key: BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME}
+"Gas Pipe Germ Sensor": {ko: "기체 파이프 세균 센서", cat: building, key: BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME}
+"Gas Pipe Thermo Sensor": {ko: "기체 파이프 온도 센서", cat: building, key: BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME}
+"Gas Pump": {ko: "기체 펌프", cat: building, key: BUILDINGS.PREFABS.GASPUMP.NAME}
+"Gas Range": {ko: "가스레인지", cat: building, key: BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.NAME}
+"Gas Reservoir": {ko: "기체 저장소", cat: building, key: BUILDINGS.PREFABS.GASRESERVOIR.NAME}
+"Gas Rocket Port Loader": {ko: "기체 로켓 포트 로더", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME}
+"Gas Rocket Port Unloader": {ko: "기체 로켓 포트 언로더", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.NAME}
+"Gas Shutoff": {ko: "기체 중단", cat: building, key: BUILDINGS.PREFABS.GASLOGICVALVE.NAME}
+"Gas Spacefarer Input Port": {ko: "기체 우주여행자 유입 포트", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.NAME}
+"Gas Spacefarer Output Port": {ko: "기체 우주여행자 배출 포트", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.NAME}
+"Gas Valve": {ko: "기체 밸브", cat: building, key: BUILDINGS.PREFABS.GASVALVE.NAME}
+"Gas Vent": {ko: "기체 벤트", cat: building, key: BUILDINGS.PREFABS.GASVENT.NAME}
+"Geo Vent": {ko: "지열 벤트", cat: building, key: BUILDINGS.PREFABS.GEOTHERMALVENT.NAME}
+"Geothermal Heat Pump": {ko: "지열 히트 펌프", cat: building, key: BUILDINGS.PREFABS.GEOTHERMALCONTROLLER.NAME}
+"Geotuner": {ko: "지오튜너", cat: building, key: BUILDINGS.PREFABS.GEOTUNER.NAME}
+"Germ Sensor": {ko: "세균 센서", cat: building, key: BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME}
+"Glass Backwall": {ko: "유리 후면벽", cat: building, key: BUILDINGS.PREFABS.GLASSEXTERIORWALL.NAME}
+"Glass Forge": {ko: "유리 제조소", cat: building, key: BUILDINGS.PREFABS.GLASSFORGE.NAME}
+"Glass Jelly Ceiling Light": {ko: "유리 젤리 천장 조명", cat: building, key: BUILDINGS.PREFABS.GLASSCEILINGLIGHT.NAME}
+"Gleaner": {ko: "글리너", cat: building, key: BUILDINGS.PREFABS.MILKFATSEPARATOR.NAME}
+"Gravitas Door": {ko: "그라비타스 문", cat: building, key: BUILDINGS.PREFABS.GRAVITASDOOR.NAME}
+"Gravitas Monument": {ko: "그라비타스 기념물", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYSTATUE.NAME}
+"Gravitas Pedestal": {ko: "그라비타스 받침대", cat: building, key: BUILDINGS.PREFABS.GRAVITASPEDESTAL.NAME}
+"Gravitas Shipping Container": {ko: "그라비타스 선적 컨테이너", cat: building, key: BUILDINGS.PREFABS.LONELYMINIONHOUSE.NAME}
+"Grooming Station": {ko: "치장스테이션", cat: building, key: BUILDINGS.PREFABS.RANCHSTATION.NAME}
+"Gunk Extractor": {ko: "오물 추출기", cat: building, key: BUILDINGS.PREFABS.GUNKEMPTIER.NAME}
+"Hammer": {ko: "해머", cat: building, key: BUILDINGS.PREFABS.LOGICHAMMER.NAME}
+"Hand Sanitizer": {ko: "손 소독제", cat: building, key: BUILDINGS.PREFABS.HANDSANITIZER.NAME}
+"Hand Scanner": {ko: "핸드 스캐너", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME}
+"Hanging Fossil Block": {ko: "매달린 화석 블록", cat: building, key: BUILDINGS.PREFABS.CEILINGFOSSILSCULPTURE.NAME}
+"Hanging Pot": {ko: "매달린 단지", cat: building, key: BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME}
+"Heavi-Watt Conductive Joint Plate": {ko: "헤비와트 전도성 결합 판", cat: building, key: BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.NAME}
+"Heavi-Watt Conductive Wire": {ko: "헤비와트 전도성 와이어", cat: building, key: BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME}
+"Heavi-Watt Joint Plate": {ko: "헤비와트 결합 판", cat: building, key: BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME}
+"Heavi-Watt Wire": {ko: "헤비와트 와이어", cat: building, key: BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME}
+"High Pressure Gas Vent": {ko: "고압 기체 벤트", cat: building, key: BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME}
+"Hot Tub": {ko: "핫 텁", cat: building, key: BUILDINGS.PREFABS.HOTTUB.NAME}
+"Hydro Sensor": {ko: "액체 압력 센서", cat: building, key: BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME}
+"Hydro Switch": {ko: "액체 스위치", cat: building, key: BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.NAME}
+"Hydrofan": {ko: "수랭팬", cat: building, key: BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.NAME}
+"Hydrogen Engine": {ko: "수소 엔진", cat: building, key: BUILDINGS.PREFABS.HYDROGENENGINE.NAME}
+"Hydrogen Generator": {ko: "수소 발전기", cat: building, key: BUILDINGS.PREFABS.HYDROGENGENERATOR.NAME}
+"Hydroponic Farm": {ko: "수경재배장", cat: building, key: BUILDINGS.PREFABS.HYDROPONICFARM.NAME}
+"Ice Block": {ko: "얼음 덩어리", cat: building, key: BUILDINGS.PREFABS.ICESCULPTURE.NAME}
+"Ice Liquefier": {ko: "얼음 액화기", cat: building, key: BUILDINGS.PREFABS.ICEKETTLE.NAME}
+"Ice Maker": {ko: "아이스 메이커", cat: building, key: BUILDINGS.PREFABS.ICEMACHINE.NAME}
+"Ice-E Fan": {ko: "아이스-E 팬", cat: building, key: BUILDINGS.PREFABS.ICECOOLEDFAN.NAME}
+"Incubator": {ko: "인큐베이터", cat: building, key: BUILDINGS.PREFABS.EGGINCUBATOR.NAME}
+"Insulated Conductive Wire": {ko: "절연 전도성 와이어", cat: building, key: BUILDINGS.PREFABS.WIRERUBBER.NAME}
+"Insulated Conductive Wire Bridge": {ko: "절연 전도성 와이어 브리지", cat: building, key: BUILDINGS.PREFABS.WIRERUBBERBRIDGE.NAME}
+"Insulated Door": {ko: "단열문", cat: building, key: BUILDINGS.PREFABS.INSULATEDDOOR.NAME}
+"Insulated Gas Pipe": {ko: "절연 기체 파이프", cat: building, key: BUILDINGS.PREFABS.INSULATEDGASCONDUIT.NAME}
+"Insulated Liquid Pipe": {ko: "절연 액체 파이프", cat: building, key: BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME}
+"Insulated Tile": {ko: "절연 타일", cat: building, key: BUILDINGS.PREFABS.INSULATIONTILE.NAME}
+"Insulated Wire": {ko: "절연 와이어", cat: building, key: BUILDINGS.PREFABS.INSULATEDWIRE.NAME}
+"Interior Hatch": {ko: "내부 해치", cat: building, key: BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.NAME}
+"Interplanetary Launcher": {ko: "행성 간 런처", cat: building, key: BUILDINGS.PREFABS.RAILGUN.NAME}
+"Jet Suit Checkpoint": {ko: "제트복 체크포인트", cat: building, key: BUILDINGS.PREFABS.JETSUITMARKER.NAME}
+"Jet Suit Dock": {ko: "제트복 거치대", cat: building, key: BUILDINGS.PREFABS.JETSUITLOCKER.NAME}
+"Juicer": {ko: "주서", cat: building, key: BUILDINGS.PREFABS.JUICER.NAME}
+"Jukebot": {ko: "주크봇", cat: building, key: BUILDINGS.PREFABS.PHONOBOX.NAME}
+"Jumbo Battery": {ko: "점보 배터리", cat: building, key: BUILDINGS.PREFABS.BATTERYMEDIUM.NAME}
+"Kiln": {ko: "가마", cat: building, key: BUILDINGS.PREFABS.KILN.NAME}
+"Lab Desk": {ko: "실험실 책상", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.NAME}
+"Lab Wall": {ko: "실험실 벽", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASLABWALL.NAME}
+"Lab Window": {ko: "실험실 창", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.NAME}
+"Ladder": {ko: "사다리", cat: building, key: BUILDINGS.PREFABS.LADDER.NAME}
+"Ladder Bed": {ko: "사다리 침대", cat: building, key: BUILDINGS.PREFABS.LADDERBED.NAME}
+"Lamp": {ko: "램프", cat: building, key: BUILDINGS.PREFABS.FLOORLAMP.NAME}
+"Landscape Canvas": {ko: "가로 캔버스", cat: building, key: BUILDINGS.PREFABS.CANVASWIDE.NAME}
+"Landscape Portrait": {ko: "풍경 초상", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYPAINTING.NAME}
+"Large Cargo Bay": {ko: "대형 화물칸", cat: building, key: BUILDINGS.PREFABS.CARGOBAYCLUSTER.NAME}
+"Large Discharger": {ko: "대형 방전기", cat: building, key: BUILDINGS.PREFABS.LARGEELECTROBANKDISCHARGER.NAME}
+"Large Gas Cargo Canister": {ko: "대형 기체 화물 통", cat: building, key: BUILDINGS.PREFABS.GASCARGOBAYCLUSTER.NAME}
+"Large Liquid Cargo Tank": {ko: "대형 액체 화물 탱크", cat: building, key: BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.NAME}
+"Large Liquid Fuel Tank": {ko: "대형 액체 연료 탱크", cat: building, key: BUILDINGS.PREFABS.LIQUIDFUELTANKCLUSTER.NAME}
+"Large Power Transformer": {ko: "큰 변압기", cat: building, key: BUILDINGS.PREFABS.POWERTRANSFORMER.NAME}
+"Large Sculpting Block": {ko: "큰 조형물 덩어리", cat: building, key: BUILDINGS.PREFABS.SCULPTURE.NAME}
+"Large Solid Oxidizer Tank": {ko: "대형 고체 산화제 탱크", cat: building, key: BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.NAME}
+"Lavatory": {ko: "화장실", cat: building, key: BUILDINGS.PREFABS.FLUSHTOILET.NAME}
+"Lead Suit Checkpoint": {ko: "납 특수복 체크포인트", cat: building, key: BUILDINGS.PREFABS.LEADSUITMARKER.NAME}
+"Lead Suit Dock": {ko: "납 특수복 거치대", cat: building, key: BUILDINGS.PREFABS.LEADSUITLOCKER.NAME}
+"LED Light": {ko: "LED 조명", cat: building, key: BUILDINGS.PREFABS.GRAVITASLABLIGHT.NAME}
+"Light Fixture": {ko: "조명설비", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYLAMP.NAME}
+"Light Sensor": {ko: "광 센서", cat: building, key: BUILDINGS.PREFABS.LOGICLIGHTSENSOR.NAME}
+"Liquid Bridge": {ko: "액체 브리지", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME}
+"Liquid Cargo Tank": {ko: "액체 화물 탱크", cat: building, key: BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME}
+"Liquid Channel": {ko: "액체 채널", cat: building, key: BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.NAME}
+"Liquid Element Sensor": {ko: "액체 원소 센서", cat: building, key: BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.NAME}
+"Liquid Filter": {ko: "액체 필터", cat: building, key: BUILDINGS.PREFABS.LIQUIDFILTER.NAME}
+"Liquid Fuel Tank": {ko: "액체 연료 탱크", cat: building, key: BUILDINGS.PREFABS.LIQUIDFUELTANK.NAME}
+"Liquid Heatquilizer": {ko: "액체 열등화기", cat: building, key: BUILDINGS.PREFABS.HEATCOMPRESSOR.NAME}
+"Liquid Input Hub": {ko: "액체 유입 허브", cat: building, key: BUILDINGS.PREFABS.MODULARLIQUIDINPUT.NAME}
+"Liquid Intake Fitting": {ko: "액체 유입 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.NAME}
+"Liquid Meter Valve": {ko: "액체 미터 밸브", cat: building, key: BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME}
+"Liquid Output Fitting": {ko: "액체 배출 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUT.NAME}
+"Liquid Overflow Valve": {ko: "액체 오버플로 밸브", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME}
+"Liquid Oxidizer Tank": {ko: "액체 산화제 탱크", cat: building, key: BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME}
+"Liquid Pipe": {ko: "액체 파이프", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME}
+"Liquid Pipe Element Sensor": {ko: "액체 파이프 원소 센서", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.NAME}
+"Liquid Pipe Germ Sensor": {ko: "액체 파이프 세균 센서", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.NAME}
+"Liquid Pipe Thermo Sensor": {ko: "액체 파이프 온도 센서", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME}
+"Liquid Pump": {ko: "액체 펌프", cat: building, key: BUILDINGS.PREFABS.LIQUIDPUMP.NAME}
+"Liquid Reservoir": {ko: "액체 저장소", cat: building, key: BUILDINGS.PREFABS.LIQUIDRESERVOIR.NAME}
+"Liquid Rocket Port Loader": {ko: "액체 로켓 포트 로더", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME}
+"Liquid Rocket Port Unloader": {ko: "액체 로켓 포트 언로더", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.NAME}
+"Liquid Shutoff": {ko: "액체 중단", cat: building, key: BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME}
+"Liquid Spacefarer Input Port": {ko: "액체 우주여행자 유입 포트", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.NAME}
+"Liquid Spacefarer Output Port": {ko: "액체 우주여행자 배출 포트", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.NAME}
+"Liquid Tepidizer": {ko: "액체 미온기", cat: building, key: BUILDINGS.PREFABS.LIQUIDHEATER.NAME}
+"Liquid Valve": {ko: "액체 밸브", cat: building, key: BUILDINGS.PREFABS.LIQUIDVALVE.NAME}
+"Liquid Vent": {ko: "액체 벤트", cat: building, key: BUILDINGS.PREFABS.LIQUIDVENT.NAME}
+"Litter Box": {ko: "배변 상자", cat: building, key: BUILDINGS.PREFABS.LITTERBOX.NAME}
+"Lobby Chair": {ko: "로비 의자", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYCHAIR.NAME}
+"Lobby Couch": {ko: "로비 소파", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYCOUCH.NAME}
+"Lobby Doors": {ko: "로비 문", cat: building, key: BUILDINGS.PREFABS.POIFACILITYDOOR.NAME}
+"Locker": {ko: "로커", cat: building, key: BUILDINGS.PREFABS.SETLOCKER.NAME}
+"Long Prefab Shelf": {ko: "긴 조립식 선반", cat: building, key: BUILDINGS.PREFABS.PROPEXOSHELFLONG.NAME}
+"Lubrication Station": {ko: "윤활 스테이션", cat: building, key: BUILDINGS.PREFABS.OILCHANGER.NAME}
+"Mailbox": {ko: "우편함", cat: building, key: BUILDINGS.PREFABS.LONELYMAILBOX.NAME}
+"Manual Airlock": {ko: "수동 에어록", cat: building, key: BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME}
+"Manual Generator": {ko: "수동 발전기", cat: building, key: BUILDINGS.PREFABS.MANUALGENERATOR.NAME}
+"Manual Radbolt Generator": {ko: "수동 래드볼트 생성기", cat: building, key: BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.NAME}
+"Marble Block": {ko: "대리석 덩어리", cat: building, key: BUILDINGS.PREFABS.MARBLESCULPTURE.NAME}
+"Marine Drill": {ko: "해양 드릴", cat: building, key: BUILDINGS.PREFABS.UNDERWATERVENTDRILL.NAME}
+"Massage Table": {ko: "마사지 테이블", cat: building, key: BUILDINGS.PREFABS.MASSAGETABLE.NAME}
+"Materials Study Terminal": {ko: "재료 연구 터미널", cat: building, key: BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.NAME}
+"Mechanical Surfboard": {ko: "기계 서프보드", cat: building, key: BUILDINGS.PREFABS.MECHANICALSURFBOARD.NAME}
+"Mechanics Station": {ko: "기계학 스테이션", cat: building, key: BUILDINGS.PREFABS.MACHINESHOP.NAME}
+"Mechanized Airlock": {ko: "기계식 에어록", cat: building, key: BUILDINGS.PREFABS.PRESSUREDOOR.NAME}
+"Memory Toggle": {ko: "메모리 토글", cat: building, key: BUILDINGS.PREFABS.LOGICMEMORY.NAME}
+"Mercury Ceiling Light": {ko: "수은 천장 조명", cat: building, key: BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.NAME}
+"Mesh Tile": {ko: "그물 타일", cat: building, key: BUILDINGS.PREFABS.MESHTILE.NAME}
+"Mess Table": {ko: "식탁", cat: building, key: BUILDINGS.PREFABS.DININGTABLE.NAME}
+"Metal Block": {ko: "금속 덩어리", cat: building, key: BUILDINGS.PREFABS.METALSCULPTURE.NAME}
+"Metal Refinery": {ko: "금속 제련소", cat: building, key: BUILDINGS.PREFABS.METALREFINERY.NAME}
+"Metal Tile": {ko: "금속 타일", cat: building, key: BUILDINGS.PREFABS.METALTILE.NAME}
+"Meteor Blaster": {ko: "유성 블래스터", cat: building, key: BUILDINGS.PREFABS.MISSILELAUNCHER.NAME}
+"Microbe Musher": {ko: "미생물 걸죽기", cat: building, key: BUILDINGS.PREFABS.MICROBEMUSHER.NAME}
+"Milking Station": {ko: "착유 스테이션", cat: building, key: BUILDINGS.PREFABS.MILKINGSTATION.NAME}
+"Mini Fridge": {ko: "미니 냉장고", cat: building, key: BUILDINGS.PREFABS.MINIFRIDGE.NAME}
+"Mini Gas Pump": {ko: "소형 기체 펌프", cat: building, key: BUILDINGS.PREFABS.GASMINIPUMP.NAME}
+"Mini Liquid Pump": {ko: "작은 액체 펌프", cat: building, key: BUILDINGS.PREFABS.LIQUIDMINIPUMP.NAME}
+"Mini-Pod": {ko: "미니팟", cat: building, key: BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.NAME}
+"Mirror": {ko: "거울", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASBATHROOMMIRROR.NAME}
+"Mission Control Station": {ko: "임무통제 스테이션", cat: building, key: BUILDINGS.PREFABS.MISSIONCONTROL.NAME, also: ["미션 컨트롤 스테이션"]}
+"Model Skeleton": {ko: "골격 모형", cat: building, key: BUILDINGS.PREFABS.PROPSKELETON.NAME}
+"Molecular Forge": {ko: "분자 제조소", cat: building, key: BUILDINGS.PREFABS.SUPERMATERIALREFINERY.NAME}
+"Monument Base": {ko: "기념물 기초", cat: building, key: BUILDINGS.PREFABS.MONUMENTBOTTOM.NAME}
+"Monument Midsection": {ko: "기념물 중간 부분", cat: building, key: BUILDINGS.PREFABS.MONUMENTMIDDLE.NAME}
+"Monument Top": {ko: "기념물 꼭대기", cat: building, key: BUILDINGS.PREFABS.MONUMENTTOP.NAME}
+"Murphy Bed": {ko: "머피 침대", cat: building, key: BUILDINGS.PREFABS.PROPHUMANMURPHYBED.NAME}
+"Natural Gas Generator": {ko: "천연가스 발전기", cat: building, key: BUILDINGS.PREFABS.METHANEGENERATOR.NAME}
+"Neural Vacillator": {ko: "신경 변동기", cat: building, key: BUILDINGS.PREFABS.GENESHUFFLER.NAME}
+"NOT Gate": {ko: "NOT 게이트", cat: building, key: BUILDINGS.PREFABS.LOGICGATENOT.NAME}
+"Nuclear Apothecary": {ko: "핵 약제대", cat: building, key: BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME}
+"Off-site Locker": {ko: "외부 사물함", cat: building, key: BUILDINGS.PREFABS.PROPEXOSETLOCKER.NAME}
+"Office Plant": {ko: "사무실 식물", cat: building, key: BUILDINGS.PREFABS.PROPFACILITYTALLPLANT.NAME}
+"Oil Refinery": {ko: "석유 정제소", cat: building, key: BUILDINGS.PREFABS.OILREFINERY.NAME}
+"Oil Well": {ko: "유정", cat: building, key: BUILDINGS.PREFABS.OILWELLCAP.NAME}
+"Omniprinter": {ko: "옴니프린터", cat: building, key: BUILDINGS.PREFABS.GENERICFABRICATOR.NAME}
+"OR Gate": {ko: "OR 게이트", cat: building, key: BUILDINGS.PREFABS.LOGICGATEOR.NAME}
+"Orbital Cargo Module": {ko: "궤도 화물 모듈", cat: building, key: BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME}
+"Orbital Data Collection Lab": {ko: "궤도 데이터 수집 연구실", cat: building, key: BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.NAME}
+"Ore Scrubber": {ko: "광석 정화기", cat: building, key: BUILDINGS.PREFABS.ORESCRUBBER.NAME}
+"Outhouse": {ko: "뒷간", cat: building, key: BUILDINGS.PREFABS.OUTHOUSE.NAME}
+"Oxygen Diffuser": {ko: "산소 확산기", cat: building, key: BUILDINGS.PREFABS.MINERALDEOXIDIZER.NAME}
+"Oxygen Mask Checkpoint": {ko: "산소 마스크 체크포인트", cat: building, key: BUILDINGS.PREFABS.OXYGENMASKMARKER.NAME}
+"Oxygen Mask Dock": {ko: "산소 마스크 거치대", cat: building, key: BUILDINGS.PREFABS.OXYGENMASKLOCKER.NAME}
+"Oxygen Mask Station": {ko: "산소 마스크 스테이션", cat: building, key: BUILDINGS.PREFABS.OXYGENMASKSTATION.NAME}
+"Oxylite Refinery": {ko: "산소석 제련소", cat: building, key: BUILDINGS.PREFABS.OXYLITEREFINERY.NAME}
+"Oxylite Sconce": {ko: "산소석 스콘스", cat: building, key: BUILDINGS.PREFABS.OXYSCONCE.NAME}
+"Pajama Cubby": {ko: "파자마 커비", cat: building, key: BUILDINGS.PREFABS.GRAVITASCONTAINER.NAME}
+"Paper Towel Dispenser": {ko: "종이 타월 분배기", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASPAPERTOLELDISPENSER.NAME}
+"Park Sign": {ko: "공원 표지", cat: building, key: BUILDINGS.PREFABS.PARKSIGN.NAME}
+"Party Line Phone": {ko: "파티 라인 전화", cat: building, key: BUILDINGS.PREFABS.TELEPHONE.NAME}
+"Payload Opener": {ko: "적재물 오프너", cat: building, key: BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME}
+"Peat Burner": {ko: "이탄 연소기", cat: building, key: BUILDINGS.PREFABS.PEATGENERATOR.NAME}
+"Pedestal": {ko: "받침대", cat: building, key: BUILDINGS.PREFABS.ITEMPEDESTAL.NAME}
+"Petroleum Engine": {ko: "석유 엔진", cat: building, key: BUILDINGS.PREFABS.KEROSENEENGINE.NAME}
+"Petroleum Generator": {ko: "석유 발전기", cat: building, key: BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME}
+"Pitcher Pump": {ko: "피처 펌프", cat: building, key: BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.NAME}
+"Pixel Pack": {ko: "픽셀 팩", cat: building, key: BUILDINGS.PREFABS.PIXELPACK.NAME}
+"Plant Pulverizer": {ko: "식물 분쇄기", cat: building, key: BUILDINGS.PREFABS.MILKPRESS.NAME}
+"Planter Box": {ko: "재배 박스", cat: building, key: BUILDINGS.PREFABS.PLANTERBOX.NAME}
+"Plastic Flowers": {ko: "플라스틱 꽃", cat: building, key: BUILDINGS.PREFABS.PLASTICFLOWERS.NAME}
+"Plastic Ladder": {ko: "플라스틱 사다리", cat: building, key: BUILDINGS.PREFABS.LADDERFAST.NAME}
+"Plastic Tile": {ko: "플라스틱 타일", cat: building, key: BUILDINGS.PREFABS.PLASTICTILE.NAME}
+"Plug Slug": {ko: "플러그팽", cat: building, key: BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME}
+"Plywood Press": {ko: "합판 프레스", cat: building, key: BUILDINGS.PREFABS.FABRICATEDWOODMAKER.NAME}
+"Pneumatic Door": {ko: "공압 문", cat: building, key: BUILDINGS.PREFABS.DOOR.NAME}
+"Polymer Press": {ko: "폴리머 프레스", cat: building, key: BUILDINGS.PREFABS.POLYMERIZER.NAME}
+"Portrait Canvas": {ko: "세로 캔버스", cat: building, key: BUILDINGS.PREFABS.CANVASTALL.NAME}
+"Potted Plant": {ko: "단지에 든 식물", cat: building, key: BUILDINGS.PREFABS.PROPTALLPLANT.NAME}
+"Power Bank Charger": {ko: "파워 뱅크 충전기", cat: building, key: BUILDINGS.PREFABS.ELECTROBANKCHARGER.NAME}
+"Power Control Station": {ko: "전력제어스테이션", cat: building, key: BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME}
+"Power Outlet Fitting": {ko: "전력 아웃렛 피팅", cat: building, key: BUILDINGS.PREFABS.ROCKETINTERIORPOWERPLUG.NAME}
+"Power Shutoff": {ko: "전력 중단", cat: building, key: BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME}
+"Power Transformer": {ko: "변압기", cat: building, key: BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME}
+"Prefab Shelf": {ko: "조립식 선반", cat: building, key: BUILDINGS.PREFABS.PROPEXOSHELSHORT.NAME}
+"Printerceptor": {ko: "프린터셉터", cat: building, key: BUILDINGS.PREFABS.HIJACKEDHEADQUARTERS.NAME}
+"Printing Pod": {ko: "프린팅팟", cat: building, key: BUILDINGS.PREFABS.HEADQUARTERS.NAME}
+"Priority Gas Flow": {ko: "우선순위 기체 흐름", cat: building, key: BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME}
+"Priority Liquid Flow": {ko: "우선순위 액체 흐름", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME}
+"Radbolt Chamber": {ko: "래드볼트 챔버", cat: building, key: BUILDINGS.PREFABS.HEPBATTERY.NAME}
+"Radbolt Engine": {ko: "래드볼트 엔진", cat: building, key: BUILDINGS.PREFABS.HEPENGINE.NAME}
+"Radbolt Generator": {ko: "래드볼트 생성기", cat: building, key: BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.NAME}
+"Radbolt Joint Plate": {ko: "래드볼트 조인트 플레이트", cat: building, key: BUILDINGS.PREFABS.HEPBRIDGETILE.NAME}
+"Radbolt Reflector": {ko: "래드볼트 반사기", cat: building, key: BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.NAME}
+"Radbolt Sensor": {ko: "래드볼트 센서", cat: building, key: BUILDINGS.PREFABS.LOGICHEPSENSOR.NAME}
+"Radiant Gas Pipe": {ko: "방사형 기체 파이프", cat: building, key: BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME}
+"Radiant Liquid Pipe": {ko: "방사형 액체 파이프", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME}
+"Radiation Lamp": {ko: "방사선 램프", cat: building, key: BUILDINGS.PREFABS.RADIATIONLIGHT.NAME}
+"Radiation Sensor": {ko: "방사선 센서", cat: building, key: BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.NAME}
+"Ration Box": {ko: "배급 상자", cat: building, key: BUILDINGS.PREFABS.RATIONBOX.NAME}
+"Reception Desk": {ko: "리셉션 데스크", cat: building, key: BUILDINGS.PREFABS.PROPRECEPTIONDESK.NAME}
+"Refrigerator": {ko: "냉장고", cat: building, key: BUILDINGS.PREFABS.REFRIGERATOR.NAME}
+"Rehydrator": {ko: "재수화기", cat: building, key: BUILDINGS.PREFABS.FOODREHYDRATOR.NAME}
+"Remote Controller": {ko: "원격 컨트롤러", cat: building, key: BUILDINGS.PREFABS.REMOTEWORKTERMINAL.NAME}
+"Remote Worker Dock": {ko: "원격 작업자 도크", cat: building, key: BUILDINGS.PREFABS.REMOTEWORKERDOCK.NAME}
+"Research Module": {ko: "연구 모듈", cat: building, key: BUILDINGS.PREFABS.RESEARCHCLUSTERMODULE.NAME}
+"Research Portal": {ko: "연구 포털", cat: building, key: BUILDINGS.PREFABS.DLC2POITECHUNLOCKS.NAME}
+"Research Reactor": {ko: "연구용 반응로", cat: building, key: BUILDINGS.PREFABS.NUCLEARREACTOR.NAME}
+"Research Station": {ko: "연구스테이션", cat: building, key: BUILDINGS.PREFABS.RESEARCHCENTER.NAME}
+"Ribbon Reader": {ko: "리본 리더", cat: building, key: BUILDINGS.PREFABS.LOGICRIBBONREADER.NAME}
+"Ribbon Writer": {ko: "리본 라이터", cat: building, key: BUILDINGS.PREFABS.LOGICRIBBONWRITER.NAME}
+"Robo-Miner": {ko: "로보광부", cat: building, key: BUILDINGS.PREFABS.AUTOMINER.NAME}
+"Robo-Pilot Capsule": {ko: "로보파일럿 캡슐", cat: building, key: BUILDINGS.PREFABS.ROBOPILOTCOMMANDMODULE.NAME}
+"Robo-Pilot Module": {ko: "로보파일럿 모듈", cat: building, key: BUILDINGS.PREFABS.ROBOPILOTMODULE.NAME}
+"Robotic Arm": {ko: "로봇 팔", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.NAME}
+"Robotics Research Desk": {ko: "로봇공학 연구 데스크", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.NAME}
+"Rock Crusher": {ko: "쇄석기", cat: building, key: BUILDINGS.PREFABS.ROCKCRUSHER.NAME}
+"Rocket": {ko: "로켓", cat: building, key: BUILDINGS.PREFABS.ROCKETENVELOPETILE.NAME}
+"Rocket Cockpit": {ko: "로켓 조종실", cat: building, key: BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.NAME}
+"Rocket Control Station": {ko: "로켓제어스테이션", cat: building, key: BUILDINGS.PREFABS.ROCKETCONTROLSTATION.NAME}
+"Rocket Platform": {ko: "로켓 플랫폼", cat: building, key: BUILDINGS.PREFABS.LAUNCHPAD.NAME}
+"Rocket Port": {ko: "로켓 포트", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME}
+"Rocket Port Extension": {ko: "로켓 포트 확장", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTBRIDGE.NAME}
+"Rocket Wall": {ko: "로켓 벽", cat: building, key: BUILDINGS.PREFABS.ROCKETWALLTILE.NAME}
+"Rocket Window": {ko: "로켓 창", cat: building, key: BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.NAME}
+"Rover's Doghouse": {ko: ">로버의 개집", cat: building, key: BUILDINGS.PREFABS.SCOUTROCKETPOD.NAME}
+"Rover's Lander": {ko: "로버의 착륙선", cat: building, key: BUILDINGS.PREFABS.SCOUTLANDER.NAME}
+"Rover's Module": {ko: "로버의 모듈", cat: building, key: BUILDINGS.PREFABS.SCOUTMODULE.NAME}
+"Rubber Tile": {ko: "고무 타일", cat: building, key: BUILDINGS.PREFABS.RUBBERTILE.NAME}
+"Rust Deoxidizer": {ko: "녹 탈산기", cat: building, key: BUILDINGS.PREFABS.RUSTDEOXIDIZER.NAME}
+"Sample Jar": {ko: "샘플 용기", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASJAR2.NAME}
+"Sandpit": {ko: "모래장", cat: building, key: BUILDINGS.PREFABS.SANDBOXBUILDING.NAME}
+"Sauna": {ko: "사우나", cat: building, key: BUILDINGS.PREFABS.SAUNA.NAME}
+"Sculpting Block": {ko: "조형물 덩어리", cat: building, key: BUILDINGS.PREFABS.SMALLSCULPTURE.NAME}
+"Security Door": {ko: "보안 문", cat: building, key: BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.NAME}
+"Service Cart": {ko: "서비스 카트", cat: building, key: BUILDINGS.PREFABS.PROPDLC2GEOTHERMALCART.NAME}
+"Shearing Station": {ko: "털 깎기 스테이션", cat: building, key: BUILDINGS.PREFABS.SHEARINGSTATION.NAME}
+"Shelf": {ko: "선반", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASSHELF.NAME}
+"Shower": {ko: "샤워", cat: building, key: BUILDINGS.PREFABS.SHOWER.NAME}
+"Showroom Chair": {ko: "쇼룸 의자", cat: building, key: BUILDINGS.PREFABS.PROPHUMANCHESTERFIELDCHAIR.NAME}
+"Showroom Couch": {ko: "쇼룸 소파", cat: building, key: BUILDINGS.PREFABS.PROPHUMANCHESTERFIELDSOFA.NAME}
+"Showroom Doors": {ko: "쇼룸 도어", cat: building, key: BUILDINGS.PREFABS.POIDLC2SHOWROOMDOOR.NAME}
+"Sick Bay": {ko: "병실", cat: building, key: BUILDINGS.PREFABS.DOCTORSTATION.NAME}
+"Sight-Seeing Module": {ko: "관광 모듈", cat: building, key: BUILDINGS.PREFABS.TOURISTMODULE.NAME}
+"Signal Counter": {ko: "신호 카운터", cat: building, key: BUILDINGS.PREFABS.LOGICCOUNTER.NAME}
+"Signal Distributor": {ko: "신호 분배기", cat: building, key: BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME}
+"Signal Selector": {ko: "신호 선택기", cat: building, key: BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME}
+"Signal Switch": {ko: "신호 스위치", cat: building, key: BUILDINGS.PREFABS.LOGICSWITCH.NAME}
+"Single Player Arcade": {ko: "싱글 플레이어 아케이드", cat: building, key: BUILDINGS.PREFABS.SINGLEPLAYERARCADE.NAME}
+"Sink": {ko: "싱크대", cat: building, key: BUILDINGS.PREFABS.WASHSINK.NAME}
+"Skill Scrubber": {ko: "기술 소제기", cat: building, key: BUILDINGS.PREFABS.RESETSKILLSSTATION.NAME}
+"Skills Board": {ko: "기술 보드", cat: building, key: BUILDINGS.PREFABS.ROLESTATION.NAME}
+"Sludge Press": {ko: "슬러지 프레스", cat: building, key: BUILDINGS.PREFABS.SLUDGEPRESS.NAME}
+"Slug Egg": {ko: "팽 알", cat: building, key: BUILDINGS.PREFABS.STATERPILLAREGG.NAME}
+"Small Petroleum Engine": {ko: "소형 석유 엔진", cat: building, key: BUILDINGS.PREFABS.KEROSENEENGINECLUSTERSMALL.NAME}
+"Small Solid Oxidizer Tank": {ko: "소형 고체 산화제 탱크", cat: building, key: BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME}
+"Smart Battery": {ko: "스마트 배터리", cat: building, key: BUILDINGS.PREFABS.BATTERYSMART.NAME}
+"Smart Storage Bin": {ko: "스마트 저장통", cat: building, key: BUILDINGS.PREFABS.STORAGELOCKERSMART.NAME}
+"Smoker": {ko: "스모커", cat: building, key: BUILDINGS.PREFABS.SMOKER.NAME}
+"Snow Tile": {ko: "눈 타일", cat: building, key: BUILDINGS.PREFABS.SNOWTILE.NAME}
+"Soda Fountain": {ko: "소다 파운틴", cat: building, key: BUILDINGS.PREFABS.SODAFOUNTAIN.NAME}
+"Solar Panel": {ko: "솔라 패널", cat: building, key: BUILDINGS.PREFABS.SOLARPANEL.NAME}
+"Solar Panel Module": {ko: "솔라 패널 모듈", cat: building, key: BUILDINGS.PREFABS.SOLARPANELMODULE.NAME}
+"Soldering Station": {ko: "땜질 스테이션", cat: building, key: BUILDINGS.PREFABS.ADVANCEDCRAFTINGTABLE.NAME}
+"Solid Filter": {ko: "고체 필터", cat: building, key: BUILDINGS.PREFABS.SOLIDFILTER.NAME}
+"Solid Fuel Thruster": {ko: "고체 연료 스러스터", cat: building, key: BUILDINGS.PREFABS.SOLIDBOOSTER.NAME}
+"Solid Input Hub": {ko: "고체 입력 허브", cat: building, key: BUILDINGS.PREFABS.MODULARSOLIDINPUT.NAME}
+"Solid Oxidizer Tank": {ko: "고체 산화제 탱크", cat: building, key: BUILDINGS.PREFABS.OXIDIZERTANK.NAME}
+"Solid Rocket Port Loader": {ko: "고체 로켓 포트 로더", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME}
+"Solid Rocket Port Unloader": {ko: "고체 로켓 포트 언로더", cat: building, key: BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.NAME}
+"Solo Spacefarer Nosecone": {ko: "솔로 여행자 노즈콘", cat: building, key: BUILDINGS.PREFABS.HABITATMODULESMALL.NAME}
+"Somnium Synthesizer": {ko: "솜늄 합성기", cat: building, key: BUILDINGS.PREFABS.MEGABRAINTANK.NAME}
+"Space Heater": {ko: "공간 가열기", cat: building, key: BUILDINGS.PREFABS.SPACEHEATER.NAME}
+"Space Racer": {ko: "우주 레이서", cat: building, key: BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME}
+"Space Scanner": {ko: "우주 스캐너", cat: building, key: BUILDINGS.PREFABS.COMETDETECTOR.NAME}
+"Spacefarer Deploy Pod": {ko: "우주여행자 배치 팟", cat: building, key: BUILDINGS.PREFABS.LANDING_POD.NAME}
+"Spacefarer Module": {ko: "우주여행자 모듈", cat: building, key: BUILDINGS.PREFABS.HABITATMODULEMEDIUM.NAME}
+"Spice Grinder": {ko: "향신료 분쇄기", cat: building, key: BUILDINGS.PREFABS.SPICEGRINDER.NAME}
+"Starmap Location Sensor": {ko: "스타맵 위치 센서", cat: building, key: BUILDINGS.PREFABS.LOGICCLUSTERLOCATIONSENSOR.NAME}
+"Steam Engine": {ko: "증기 엔진", cat: building, key: BUILDINGS.PREFABS.STEAMENGINE.NAME}
+"Steam Turbine": {ko: "증기 터빈", cat: building, key: BUILDINGS.PREFABS.STEAMTURBINE2.NAME}
+"Sticker Bomb": {ko: "스티커 폭탄", cat: building, key: BUILDINGS.PREFABS.STICKERBOMB.NAME}
+"Storage Bin": {ko: "저장통", cat: building, key: BUILDINGS.PREFABS.STORAGELOCKER.NAME}
+"Storage Tile": {ko: "보관 타일", cat: building, key: BUILDINGS.PREFABS.STORAGETILE.NAME}
+"Study Tools": {ko: "연구 도구", cat: building, key: BUILDINGS.PREFABS.RESEARCHARCHIVES.NAME}
+"Sublimation Station": {ko: "승화 스테이션", cat: building, key: BUILDINGS.PREFABS.SUBLIMATIONSTATION.NAME}
+"Sugar Engine": {ko: "설탕 엔진", cat: building, key: BUILDINGS.PREFABS.SUGARENGINE.NAME}
+"Sun Lamp": {ko: "선 램프", cat: building, key: BUILDINGS.PREFABS.SUNLAMP.NAME}
+"Super Computer": {ko: "슈퍼 컴퓨터", cat: building, key: BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME}
+"Supply Teleporter Input": {ko: "공급 텔레포터 입력", cat: building, key: BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME}
+"Supply Teleporter Output": {ko: "공급 텔레포터 출력", cat: building, key: BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME}
+"Sushi Bar": {ko: "스시바", cat: building, key: BUILDINGS.PREFABS.SUSHIBAR.NAME}
+"Sweepy's Dock": {ko: "치우개의 거치대", cat: building, key: BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME}
+"Switch": {ko: "스위치", cat: building, key: BUILDINGS.PREFABS.SWITCH.NAME}
+"Table": {ko: "테이블", cat: building, key: BUILDINGS.PREFABS.PROPTABLE.NAME}
+"Targeting Beacon": {ko: "타깃팅 비콘", cat: building, key: BUILDINGS.PREFABS.LANDINGBEACON.NAME}
+"Tasteful Memorial": {ko: "세련된 기념비", cat: building, key: BUILDINGS.PREFABS.GRAVE.NAME}
+"Tattered Beach Chair": {ko: "낡은 비치 체어", cat: building, key: BUILDINGS.PREFABS.PROPBEACHCHAIR.NAME}
+"Teleporter Pad": {ko: "텔레포터 패드", cat: building, key: BUILDINGS.PREFABS.TELEPORTALPAD.NAME}
+"Teleporter Receiver": {ko: "텔레포터 수신기", cat: building, key: BUILDINGS.PREFABS.WARPRECEIVER.NAME}
+"Teleporter Transmitter": {ko: "텔레포터 송신기", cat: building, key: BUILDINGS.PREFABS.WARPPORTAL.NAME}
+"Telescope": {ko: "망원경", cat: building, key: BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME}
+"Temporal Tear Opener": {ko: "시간의 찢어짐 개방기", cat: building, key: BUILDINGS.PREFABS.TEMPORALTEAROPENER.NAME}
+"Tempshift Plate": {ko: "온도변환 판", cat: building, key: BUILDINGS.PREFABS.THERMALBLOCK.NAME}
+"Textile Loom": {ko: "직물 직조기", cat: building, key: BUILDINGS.PREFABS.CLOTHINGFABRICATOR.NAME}
+"Thermo Aquatuner": {ko: "열액체조화기", cat: building, key: BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME}
+"Thermo Regulator": {ko: "온도 조절기", cat: building, key: BUILDINGS.PREFABS.AIRCONDITIONER.NAME}
+"Thermo Sensor": {ko: "온도 센서", cat: building, key: BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME}
+"Thermo Switch": {ko: "온도 스위치", cat: building, key: BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.NAME}
+"Tidal Turbine": {ko: "조력 터빈", cat: building, key: BUILDINGS.PREFABS.REEFGENERATOR.NAME}
+"Tile": {ko: "타일", cat: building, key: BUILDINGS.PREFABS.TILE.NAME}
+"Timer Sensor": {ko: "타이머 센서", cat: building, key: BUILDINGS.PREFABS.LOGICTIMERSENSOR.NAME}
+"Toilet": {ko: "화장실", cat: building, key: BUILDINGS.PREFABS.GRAVITASBATHROOMSTALL.NAME}
+"Toilet Paper Holder": {ko: "화장지 걸이", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASBATHROOMTOILETPAPERHOLDER.NAME}
+"Tool Crate": {ko: "도구 상자", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASTOOLCRATE.NAME}
+"Tool Rack": {ko: "도구 랙", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASTOOLSHELF.NAME}
+"Trailblazer Deploy Pod": {ko: "트레일블레이저 배치 팟", cat: building, key: BUILDINGS.PREFABS.ROCKETPOD.NAME}
+"Trailblazer Lander": {ko: "트레일블레이저 착륙선", cat: building, key: BUILDINGS.PREFABS.PIONEERLANDER.NAME}
+"Trailblazer Module": {ko: "트레일블레이저 모듈", cat: building, key: BUILDINGS.PREFABS.PIONEERMODULE.NAME}
+"Trampoline": {ko: "트램펄린", cat: building, key: BUILDINGS.PREFABS.TRAMPOLINE.NAME}
+"Transit Tube": {ko: "수송 튜브", cat: building, key: BUILDINGS.PREFABS.TRAVELTUBE.NAME}
+"Transit Tube Access": {ko: "수송 튜브 액세스", cat: building, key: BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME}
+"Transit Tube Crossing": {ko: "수송 튜브 횡단부", cat: building, key: BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME}
+"Trash Can": {ko: "쓰레기통", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASTRASHCAN.NAME}
+"Travel Poster": {ko: "여행 포스터", cat: building, key: BUILDINGS.PREFABS.PROPCERESPOSTERA.NAME}
+"Triage Cot": {ko: "부상자분류 간이침대", cat: building, key: BUILDINGS.PREFABS.MEDICALCOT.NAME}
+"Trimming Tile": {ko: "트리밍 타일", cat: building, key: BUILDINGS.PREFABS.MOULDINGTILE.NAME}
+"Triple Decker Cake": {ko: "트리플 데커 케이크", cat: building, key: BUILDINGS.PREFABS.PARTYCAKE.NAME}
+"Unknown Duplicant": {ko: "알 수 없는 복제체", cat: building, key: BUILDINGS.PREFABS.MINNOW_IMPERATIVE_POI_A.NAME}
+"Uranium Centrifuge": {ko: "우라늄 원심 분리기", cat: building, key: BUILDINGS.PREFABS.URANIUMCENTRIFUGE.NAME}
+"Vending Machine": {ko: "자판기", cat: building, key: BUILDINGS.PREFABS.VENDINGMACHINE.NAME}
+"Vertical Wind Tunnel": {ko: "수직 윈드 터널", cat: building, key: BUILDINGS.PREFABS.VERTICALWINDTUNNEL.NAME}
+"Virtual Planetarium": {ko: "가상 플라네타륨", cat: building, key: BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME}
+"Vulcanizer": {ko: "가황기", cat: building, key: BUILDINGS.PREFABS.RUBBERMAKER.NAME}
+"Wall": {ko: "벽", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASWALL.NAME}
+"Wall Cabinet": {ko: "벽 캐비닛", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASSMALLSEEDLOCKER.NAME}
+"Wall Chart": {ko: "벽 차트", cat: building, key: BUILDINGS.PREFABS.PROPGRAVITASPOSTERPLANTS.NAME}
+"Wall Planter": {ko: "벽 화분", cat: building, key: BUILDINGS.PREFABS.LARGEBACKWALLFARM.NAME}
+"Wall Pot": {ko: "벽 단지", cat: building, key: BUILDINGS.PREFABS.FLOWERVASEWALL.NAME}
+"Wall Toilet": {ko: "벽 변기", cat: building, key: BUILDINGS.PREFABS.WALLTOILET.NAME}
+"Wash Basin": {ko: "세면기", cat: building, key: BUILDINGS.PREFABS.WASHBASIN.NAME}
+"Water Cooler": {ko: "워터 쿨러", cat: building, key: BUILDINGS.PREFABS.WATERCOOLER.NAME}
+"Water Sieve": {ko: "물 체", cat: building, key: BUILDINGS.PREFABS.WATERPURIFIER.NAME}
+"Wattage Sensor": {ko: "와트수 센서", cat: building, key: BUILDINGS.PREFABS.LOGICWATTAGESENSOR.NAME}
+"Weight Plate": {ko: "중량 판", cat: building, key: BUILDINGS.PREFABS.FLOORSWITCH.NAME}
+"Wicker Door": {ko: "위커 도어", cat: building, key: BUILDINGS.PREFABS.WOODENDOOR.NAME}
+"Wide Hydroponic Farm": {ko: "넓은 수경 농장", cat: building, key: BUILDINGS.PREFABS.WIDEFARMTILE.NAME}
+"Window": {ko: "창", cat: building, key: BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME}
+"Window Tile": {ko: "창 타일", cat: building, key: BUILDINGS.PREFABS.GLASSTILE.NAME}
+"Wire": {ko: "와이어", cat: building, key: BUILDINGS.PREFABS.WIRE.NAME}
+"Wire Bridge": {ko: "와이어 브리지", cat: building, key: BUILDINGS.PREFABS.WIREBRIDGE.NAME}
+"Wood Block": {ko: "목재 덩어리", cat: building, key: BUILDINGS.PREFABS.WOODSCULPTURE.NAME}
+"Wood Burner": {ko: "목재 버너", cat: building, key: BUILDINGS.PREFABS.WOODGASGENERATOR.NAME}
+"Wood Heater": {ko: "목재 히터", cat: building, key: BUILDINGS.PREFABS.CAMPFIRE.NAME}
+"Wood Pile": {ko: "목재 더미", cat: building, key: BUILDINGS.PREFABS.WOODSTORAGE.NAME}
+"Wood Tile": {ko: "나무 타일", cat: building, key: BUILDINGS.PREFABS.WOODTILE.NAME}
+"Workshop Tools": {ko: "워크숍 도구", cat: building, key: BUILDINGS.PREFABS.WORKSHOPTOOLS.NAME}
+"Wrecked Satellite": {ko: "파괴된 위성", cat: building, key: BUILDINGS.PREFABS.PROPSURFACESATELLITE2.NAME}
+"XOR Gate": {ko: "XOR 게이트", cat: building, key: BUILDINGS.PREFABS.LOGICGATEXOR.NAME}
+"Abyssalite": {ko: "심성석", cat: element, key: ELEMENTS.KATAIRITE.NAME}
+"Aerogel": {ko: "에어로젤", cat: element, key: ELEMENTS.AEROGEL.NAME}
+"Algae": {ko: "조류", cat: element, key: ELEMENTS.ALGAE.NAME}
+"Aluminum": {ko: "알루미늄", cat: element, key: ELEMENTS.ALUMINUM.NAME}
+"Aluminum Gas": {ko: "알루미늄 기체", cat: element, key: ELEMENTS.ALUMINUMGAS.NAME}
+"Aluminum Ore": {ko: "알루미늄 광석", cat: element, key: ELEMENTS.ALUMINUMORE.NAME}
+"Amber": {ko: "호박", cat: element, key: ELEMENTS.AMBER.NAME}
+"Basalt": {ko: "현무암", cat: element, key: ELEMENTS.BASALT.NAME}
+"Biodiesel": {ko: "바이오디젤", cat: element, key: ELEMENTS.REFINEDLIPID.NAME}
+"Bitumen": {ko: "역청", cat: element, key: ELEMENTS.BITUMEN.NAME}
+"Bleach Stone": {ko: "표백석", cat: element, key: ELEMENTS.BLEACHSTONE.NAME}
+"Brackene": {ko: "코사리", cat: element, key: ELEMENTS.MILK.NAME}
+"Brackwax": {ko: "코왁스", cat: element, key: ELEMENTS.MILKFAT.NAME}
+"Brick": {ko: "벽돌", cat: element, key: ELEMENTS.BRICK.NAME}
+"Brine": {ko: "염수", cat: element, key: ELEMENTS.BRINE.NAME}
+"Brine Ice": {ko: "염수 얼음", cat: element, key: ELEMENTS.BRINEICE.NAME}
+"Building Slab": {ko: "건조판", cat: element, key: ELEMENTS.SLABS.NAME}
+"Carbon Dioxide": {ko: "이산화탄소", cat: element, key: ELEMENTS.CARBONDIOXIDE.NAME}
+"Carbon Fiber": {ko: "탄소 섬유", cat: element, key: ELEMENTS.CARBONFIBRE.NAME}
+"Carbon Gas": {ko: "탄소 기체", cat: element, key: ELEMENTS.CARBONGAS.NAME}
+"Cement": {ko: "시멘트", cat: element, key: ELEMENTS.CEMENT.NAME}
+"Cement Mix": {ko: "시멘트 믹스", cat: element, key: ELEMENTS.CEMENTMIX.NAME}
+"Ceramic": {ko: "세라믹", cat: element, key: ELEMENTS.CERAMIC.NAME}
+"Chlorine Gas": {ko: "염소 기체", cat: element, key: ELEMENTS.CHLORINEGAS.NAME}
+"Cinnabar Ore": {ko: "진사 광석", cat: element, key: ELEMENTS.CINNABAR.NAME}
+"Clay": {ko: "점토", cat: element, key: ELEMENTS.CLAY.NAME}
+"Coal": {ko: "석탄", cat: element, key: ELEMENTS.CARBON.NAME}
+"Cobalt": {ko: "코발트", cat: element, key: ELEMENTS.COBALT.NAME}
+"Cobalt Gas": {ko: "코발트 기체", cat: element, key: ELEMENTS.COBALTGAS.NAME}
+"Cobalt Ore": {ko: "코발트 광석", cat: element, key: ELEMENTS.COBALTITE.NAME}
+"Composition": {ko: "조성", cat: element, key: ELEMENTS.COMPOSITION.NAME}
+"Copper": {ko: "구리", cat: element, key: ELEMENTS.COPPER.NAME}
+"Copper Gas": {ko: "구리 기체", cat: element, key: ELEMENTS.COPPERGAS.NAME}
+"Copper Ore": {ko: "동광석", cat: element, key: ELEMENTS.CUPRITE.NAME}
+"Coquina": {ko: "코퀴나", cat: element, key: ELEMENTS.COQUINA.NAME}
+"Corallium": {ko: "코랄리움", cat: element, key: ELEMENTS.CORALLIUM.NAME}
+"Corium": {ko: "코륨", cat: element, key: ELEMENTS.CORIUM.NAME}
+"Crude Oil": {ko: "원유", cat: element, key: ELEMENTS.CRUDEOIL.NAME}
+"Crushed Ice": {ko: "으깨진 얼음", cat: element, key: ELEMENTS.CRUSHEDICE.NAME}
+"Crushed Rock": {ko: "으깬 바위", cat: element, key: ELEMENTS.CRUSHEDROCK.NAME}
+"Depleted Uranium": {ko: "고갈된 우라늄", cat: element, key: ELEMENTS.DEPLETEDURANIUM.NAME}
+"Diamond": {ko: "다이아몬드", cat: element, key: ELEMENTS.DIAMOND.NAME}
+"Dirt": {ko: "흙", cat: element, key: ELEMENTS.DIRT.NAME}
+"Electrum": {ko: "엘렉트럼", cat: element, key: ELEMENTS.ELECTRUM.NAME}
+"Enriched Uranium": {ko: "농축 우라늄", cat: element, key: ELEMENTS.ENRICHEDURANIUM.NAME}
+"Ethanol": {ko: "에탄올", cat: element, key: ELEMENTS.ETHANOL.NAME}
+"Ethanol Gas": {ko: "에탄올 기체", cat: element, key: ELEMENTS.ETHANOLGAS.NAME}
+"Fertilizer": {ko: "비료", cat: element, key: ELEMENTS.FERTILIZER.NAME}
+"Fossil": {ko: "화석", cat: element, key: ELEMENTS.FOSSIL.NAME}
+"Frozen Brackene": {ko: "동결된 코사리", cat: element, key: ELEMENTS.MILKICE.NAME}
+"Frozen Mucin": {ko: "얼어붙은 뮤신", cat: element, key: ELEMENTS.SOLIDMUCUS.NAME}
+"Frozen Ovolene": {ko: "얼어붙은 오볼린", cat: element, key: ELEMENTS.FISHMILKICE.NAME}
+"Frozen Phyto Oil": {ko: "식물성언 식물성 오일", cat: element, key: ELEMENTS.FROZENPHYTOOIL.NAME}
+"Frozen Squid Ink": {ko: "언 오징어 먹물", cat: element, key: ELEMENTS.FROZENINK.NAME}
+"Fullerene": {ko: "풀러린", cat: element, key: ELEMENTS.FULLERENE.NAME}
+"Galena": {ko: "방연광", cat: element, key: ELEMENTS.GALENA.NAME}
+"Genetic Ooze": {ko: "유전적 무른감탕", cat: element, key: ELEMENTS.CREATURE.NAME}
+"Glass": {ko: "유리", cat: element, key: ELEMENTS.GLASS.NAME}
+"Gold": {ko: "금", cat: element, key: ELEMENTS.GOLD.NAME}
+"Gold Amalgam": {ko: "금 아말감", cat: element, key: ELEMENTS.GOLDAMALGAM.NAME}
+"Gold Gas": {ko: "금 기체", cat: element, key: ELEMENTS.GOLDGAS.NAME}
+"Granite": {ko: "화강암", cat: element, key: ELEMENTS.GRANITE.NAME}
+"Graphite": {ko: "그래파이트", cat: element, key: ELEMENTS.GRAPHITE.NAME}
+"Gum Wood": {ko: "껌 목재", cat: element, key: ELEMENTS.PALMWOOD.NAME}
+"Gunk": {ko: "오물", cat: element, key: ELEMENTS.LIQUIDGUNK.NAME}
+"Helium": {ko: "헬륨", cat: element, key: ELEMENTS.HELIUM.NAME}
+"Hydrogen Gas": {ko: "수소 기체", cat: element, key: ELEMENTS.HYDROGEN.NAME}
+"Ice": {ko: "얼음", cat: element, key: ELEMENTS.ICE.NAME}
+"Igneous Rock": {ko: "화성암", cat: element, key: ELEMENTS.IGNEOUSROCK.NAME}
+"Insulite": {ko: "절연석", cat: element, key: ELEMENTS.SUPERINSULATOR.NAME}
+"Iridium": {ko: "이리듐", cat: element, key: ELEMENTS.IRIDIUM.NAME}
+"Iridium Gas": {ko: "이리듐 기체", cat: element, key: ELEMENTS.IRIDIUMGAS.NAME}
+"Iron": {ko: "철", cat: element, key: ELEMENTS.IRON.NAME}
+"Iron Gas": {ko: "철 기체", cat: element, key: ELEMENTS.IRONGAS.NAME}
+"Iron Ore": {ko: "철광석", cat: element, key: ELEMENTS.IRONORE.NAME}
+"Isosap": {ko: "이소샙", cat: element, key: ELEMENTS.ISORESIN.NAME}
+"Latex": {ko: "라텍스", cat: element, key: ELEMENTS.LATEX.NAME}
+"Lead": {ko: "납", cat: element, key: ELEMENTS.LEAD.NAME}
+"Lead Gas": {ko: "납 기체", cat: element, key: ELEMENTS.LEADGAS.NAME}
+"Lime": {ko: "석회", cat: element, key: ELEMENTS.LIME.NAME}
+"Liquid Carbon": {ko: "액체 탄소", cat: element, key: ELEMENTS.MOLTENCARBON.NAME}
+"Liquid Carbon Dioxide": {ko: "액체 이산화탄소", cat: element, key: ELEMENTS.LIQUIDCARBONDIOXIDE.NAME}
+"Liquid Chlorine": {ko: "액체 염소", cat: element, key: ELEMENTS.CHLORINE.NAME}
+"Liquid Hydrogen": {ko: "액체 수소", cat: element, key: ELEMENTS.LIQUIDHYDROGEN.NAME}
+"Liquid Methane": {ko: "액체 메탄", cat: element, key: ELEMENTS.LIQUIDMETHANE.NAME}
+"Liquid Naphtha": {ko: "액체 나프타", cat: element, key: ELEMENTS.NAPHTHA.NAME}
+"Liquid Nuclear Waste": {ko: "액체 핵 폐기물", cat: element, key: ELEMENTS.NUCLEARWASTE.NAME}
+"Liquid Oxygen": {ko: "액체 산소", cat: element, key: ELEMENTS.LIQUIDOXYGEN.NAME}
+"Liquid Phosphorus": {ko: "액체 인", cat: element, key: ELEMENTS.LIQUIDPHOSPHORUS.NAME}
+"Liquid Propane": {ko: "액체 프로판", cat: element, key: ELEMENTS.LIQUIDPROPANE.NAME}
+"Liquid Sucrose": {ko: "액체 수크로스", cat: element, key: ELEMENTS.MOLTENSUCROSE.NAME}
+"Liquid Sulfur": {ko: "액체 황", cat: element, key: ELEMENTS.LIQUIDSULFUR.NAME}
+"Liquid Uranium": {ko: "액체 우라늄", cat: element, key: ELEMENTS.MOLTENURANIUM.NAME}
+"Mafic Rock": {ko: "고철질암", cat: element, key: ELEMENTS.MAFICROCK.NAME}
+"Magma": {ko: "마그마", cat: element, key: ELEMENTS.MAGMA.NAME}
+"Mercury": {ko: "수은", cat: element, key: ELEMENTS.MERCURY.NAME}
+"Mercury Gas": {ko: "수은 기체", cat: element, key: ELEMENTS.MERCURYGAS.NAME}
+"Molten Aluminum": {ko: "용융 알루미늄", cat: element, key: ELEMENTS.MOLTENALUMINUM.NAME}
+"Molten Cobalt": {ko: "용융 코발트", cat: element, key: ELEMENTS.MOLTENCOBALT.NAME}
+"Molten Copper": {ko: "용융 구리", cat: element, key: ELEMENTS.MOLTENCOPPER.NAME}
+"Molten Glass": {ko: "용융된 유리", cat: element, key: ELEMENTS.MOLTENGLASS.NAME}
+"Molten Gold": {ko: "용융 금", cat: element, key: ELEMENTS.MOLTENGOLD.NAME}
+"Molten Iridium": {ko: "용융 이리듐", cat: element, key: ELEMENTS.MOLTENIRIDIUM.NAME}
+"Molten Iron": {ko: "용융 철", cat: element, key: ELEMENTS.MOLTENIRON.NAME}
+"Molten Lead": {ko: "녹은 납", cat: element, key: ELEMENTS.MOLTENLEAD.NAME}
+"Molten Nickel": {ko: "용융 니켈", cat: element, key: ELEMENTS.MOLTENNICKEL.NAME}
+"Molten Niobium": {ko: "용융 나이오븀", cat: element, key: ELEMENTS.MOLTENNIOBIUM.NAME}
+"Molten Salt": {ko: "용융염", cat: element, key: ELEMENTS.MOLTENSALT.NAME}
+"Molten Steel": {ko: "용융 강철", cat: element, key: ELEMENTS.MOLTENSTEEL.NAME}
+"Molten Synthesis Gas": {ko: "용해 합성 기체", cat: element, key: ELEMENTS.MOLTENSYNGAS.NAME}
+"Molten Tungsten": {ko: "용융 텅스텐", cat: element, key: ELEMENTS.MOLTENTUNGSTEN.NAME}
+"Molten Zinc": {ko: "용융 아연", cat: element, key: ELEMENTS.MOLTENZINC.NAME}
+"Mucin": {ko: "뮤신", cat: element, key: ELEMENTS.MUCUS.NAME}
+"Mud": {ko: "진흙", cat: element, key: ELEMENTS.MUD.NAME}
+"Natural Gas": {ko: "천연가스", cat: element, key: ELEMENTS.METHANE.NAME}
+"Nectar": {ko: "넥타", cat: element, key: ELEMENTS.SUGARWATER.NAME}
+"Neutronium": {ko: "뉴트로늄", cat: element, key: ELEMENTS.UNOBTANIUM.NAME}
+"Nickel": {ko: "니켈", cat: element, key: ELEMENTS.NICKEL.NAME}
+"Nickel Gas": {ko: "니켈 기체", cat: element, key: ELEMENTS.NICKELGAS.NAME}
+"Nickel Ore": {ko: "니켈 광석", cat: element, key: ELEMENTS.NICKELORE.NAME}
+"Niobium": {ko: "나이오븀", cat: element, key: ELEMENTS.NIOBIUM.NAME}
+"Niobium Gas": {ko: "나이오븀 기체", cat: element, key: ELEMENTS.NIOBIUMGAS.NAME}
+"Nuclear Fallout": {ko: "핵 낙진", cat: element, key: ELEMENTS.FALLOUT.NAME}
+"Obsidian": {ko: "흑요석", cat: element, key: ELEMENTS.OBSIDIAN.NAME}
+"Ovolene": {ko: "오볼린", cat: element, key: ELEMENTS.FISHMILK.NAME}
+"Oxygen": {ko: "산소", cat: element, key: ELEMENTS.OXYGEN.NAME}
+"Oxylite": {ko: "산소석", cat: element, key: ELEMENTS.OXYROCK.NAME}
+"Packed Snow": {ko: "쌓인 눈", cat: element, key: ELEMENTS.STABLESNOW.NAME}
+"Pearl": {ko: "진주", cat: element, key: ELEMENTS.PEARL.NAME}
+"Peat": {ko: "이탄", cat: element, key: ELEMENTS.PEAT.NAME}
+"Petroleum": {ko: "석유", cat: element, key: ELEMENTS.PETROLEUM.NAME}
+"Phosphate Nodules": {ko: "인산염 단괴", cat: element, key: ELEMENTS.PHOSPHATENODULES.NAME}
+"Phosphorite": {ko: "인광석", cat: element, key: ELEMENTS.PHOSPHORITE.NAME}
+"Phosphorus Gas": {ko: "인 기체", cat: element, key: ELEMENTS.PHOSPHORUSGAS.NAME}
+"Phyto Oil": {ko: "식물성 오일", cat: element, key: ELEMENTS.PHYTOOIL.NAME}
+"Plastic": {ko: "플라스틱", cat: element, key: ELEMENTS.POLYPROPYLENE.NAME}
+"Plastium": {ko: "플라스튬", cat: element, key: ELEMENTS.HARDPOLYPROPYLENE.NAME}
+"Plywood": {ko: "합판", cat: element, key: ELEMENTS.FABRICATEDWOOD.NAME}
+"Polluted Brine": {ko: "오염된 염수", cat: element, key: ELEMENTS.MURKYBRINE.NAME}
+"Polluted Brine Ice": {ko: "오염된 염수 얼음", cat: element, key: ELEMENTS.MURKYBRINEICE.NAME}
+"Polluted Dirt": {ko: "오염된 흙", cat: element, key: ELEMENTS.TOXICSAND.NAME}
+"Polluted Ice": {ko: "오염된 얼음", cat: element, key: ELEMENTS.DIRTYICE.NAME}
+"Polluted Mud": {ko: "오염된 진흙", cat: element, key: ELEMENTS.TOXICMUD.NAME}
+"Polluted Oxygen": {ko: "오염된 산소", cat: element, key: ELEMENTS.CONTAMINATEDOXYGEN.NAME}
+"Polluted Water": {ko: "오염된 물", cat: element, key: ELEMENTS.DIRTYWATER.NAME}
+"Pondscum": {ko: "못더껑이", cat: element, key: ELEMENTS.PONDSCUM.NAME}
+"Propane Gas": {ko: "프로판 기체", cat: element, key: ELEMENTS.PROPANE.NAME}
+"Pyrite": {ko: "황철광", cat: element, key: ELEMENTS.FOOLSGOLD.NAME}
+"Radium": {ko: "라듐", cat: element, key: ELEMENTS.RADIUM.NAME}
+"Refined Carbon": {ko: "정제 탄소", cat: element, key: ELEMENTS.REFINEDCARBON.NAME}
+"Refined Phosphorus": {ko: "정제된 인", cat: element, key: ELEMENTS.PHOSPHORUS.NAME}
+"Regolith": {ko: "표토", cat: element, key: ELEMENTS.REGOLITH.NAME}
+"Resin": {ko: "레진", cat: element, key: ELEMENTS.NATURALRESIN.NAME}
+"Rock Gas": {ko: "바위 가스", cat: element, key: ELEMENTS.ROCKGAS.NAME}
+"Rubber": {ko: "고무", cat: element, key: ELEMENTS.RUBBER.NAME}
+"Rust": {ko: "녹", cat: element, key: ELEMENTS.RUST.NAME}
+"Salt": {ko: "소금", cat: element, key: ELEMENTS.SALT.NAME}
+"Salt Gas": {ko: "소금 기체", cat: element, key: ELEMENTS.SALTGAS.NAME}
+"Salt Water": {ko: "소금물", cat: element, key: ELEMENTS.SALTWATER.NAME}
+"Sand": {ko: "모래", cat: element, key: ELEMENTS.SAND.NAME}
+"Sand Cement": {ko: "모래 시멘트", cat: element, key: ELEMENTS.SANDCEMENT.NAME}
+"Sandstone": {ko: "사암", cat: element, key: ELEMENTS.SANDSTONE.NAME}
+"Sap": {ko: "수액", cat: element, key: ELEMENTS.RESIN.NAME}
+"Sedimentary Rock": {ko: "퇴적암", cat: element, key: ELEMENTS.SEDIMENTARYROCK.NAME}
+"Shale": {ko: "혈암", cat: element, key: ELEMENTS.SHALE.NAME}
+"Siltstone": {ko: "실트암", cat: element, key: ELEMENTS.SILTSTONE.NAME}
+"Slime": {ko: "는지렁이", cat: element, key: ELEMENTS.SLIMEMOLD.NAME}
+"Snow": {ko: "눈", cat: element, key: ELEMENTS.SNOW.NAME}
+"Solid Carbon Dioxide": {ko: "고체 이산화탄소", cat: element, key: ELEMENTS.SOLIDCARBONDIOXIDE.NAME}
+"Solid Chlorine": {ko: "고체 염소", cat: element, key: ELEMENTS.SOLIDCHLORINE.NAME}
+"Solid Crude Oil": {ko: "고체 원유", cat: element, key: ELEMENTS.SOLIDCRUDEOIL.NAME}
+"Solid Ethanol": {ko: "고체 에탄올", cat: element, key: ELEMENTS.SOLIDETHANOL.NAME}
+"Solid Gunk": {ko: "고체 오물", cat: element, key: ELEMENTS.GUNK.NAME}
+"Solid Hydrogen": {ko: "고체 수소", cat: element, key: ELEMENTS.SOLIDHYDROGEN.NAME}
+"Solid Methane": {ko: "고체 메탄", cat: element, key: ELEMENTS.SOLIDMETHANE.NAME}
+"Solid Naphtha": {ko: "고체 나프타", cat: element, key: ELEMENTS.SOLIDNAPHTHA.NAME}
+"Solid Nuclear Waste": {ko: "고체 핵 폐기물", cat: element, key: ELEMENTS.SOLIDNUCLEARWASTE.NAME}
+"Solid Oxygen": {ko: "고체 산소", cat: element, key: ELEMENTS.SOLIDOXYGEN.NAME}
+"Solid Petroleum": {ko: "고체 석유", cat: element, key: ELEMENTS.SOLIDPETROLEUM.NAME}
+"Solid Propane": {ko: "고체 프로판", cat: element, key: ELEMENTS.SOLIDPROPANE.NAME}
+"Solid Resin": {ko: "고체 레진", cat: element, key: ELEMENTS.NATURALSOLIDRESIN.NAME}
+"Solid Sap": {ko: "고체 수액", cat: element, key: ELEMENTS.SOLIDRESIN.NAME}
+"Solid Super Coolant": {ko: "고체 초냉각제", cat: element, key: ELEMENTS.SOLIDSUPERCOOLANT.NAME}
+"Solid Synthesis Gas": {ko: "고체 합성 기체", cat: element, key: ELEMENTS.SOLIDSYNGAS.NAME}
+"Solid Visco-Gel": {ko: "고체 비스코-젤", cat: element, key: ELEMENTS.SOLIDVISCOGEL.NAME}
+"Sour Gas": {ko: "사워 가스", cat: element, key: ELEMENTS.SOURGAS.NAME}
+"Squid Ink": {ko: "오징어 먹물", cat: element, key: ELEMENTS.INK.NAME}
+"Steam": {ko: "증기", cat: element, key: ELEMENTS.STEAM.NAME}
+"Steel": {ko: "강철", cat: element, key: ELEMENTS.STEEL.NAME}
+"Steel Gas": {ko: "강철 기체", cat: element, key: ELEMENTS.STEELGAS.NAME}
+"Sucrose": {ko: "수크로스", cat: element, key: ELEMENTS.SUCROSE.NAME}
+"Sulfur": {ko: "황", cat: element, key: ELEMENTS.SULFUR.NAME}
+"Sulfur Gas": {ko: "황 기체", cat: element, key: ELEMENTS.SULFURGAS.NAME}
+"Super Coolant": {ko: "초냉각제", cat: element, key: ELEMENTS.SUPERCOOLANT.NAME}
+"Super Coolant Gas": {ko: "초냉각제 기체", cat: element, key: ELEMENTS.SUPERCOOLANTGAS.NAME}
+"Synthesis Gas": {ko: "합성 기체", cat: element, key: ELEMENTS.SYNGAS.NAME}
+"Tallow": {ko: "수지", cat: element, key: ELEMENTS.TALLOW.NAME}
+"Test Element": {ko: "시험 원소", cat: element, key: ELEMENTS.TESTELEMENT.NAME}
+"Thermium": {ko: "서미움", cat: element, key: ELEMENTS.TEMPCONDUCTORSOLID.NAME}
+"Tungsten": {ko: "텅스텐", cat: element, key: ELEMENTS.TUNGSTEN.NAME}
+"Tungsten Diselenide": {ko: "텅스텐 디셀레나이드", cat: element, key: ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME}
+"Tungsten Diselenide Gas": {ko: "텅스텐 디셀레나이드 기체", cat: element, key: ELEMENTS.TUNGSTENDISELENIDEGAS.NAME}
+"Tungsten Gas": {ko: "텅스텐 기체", cat: element, key: ELEMENTS.TUNGSTENGAS.NAME}
+"Uranium Ore": {ko: "우라늄 광석", cat: element, key: ELEMENTS.URANIUMORE.NAME}
+"Vacuum": {ko: "진공", cat: element, key: ELEMENTS.VACUUM.NAME}
+"Visco-Gel Fluid": {ko: "비스코-젤 유체", cat: element, key: ELEMENTS.VISCOGEL.NAME}
+"Void": {ko: "공허", cat: element, key: ELEMENTS.VOID.NAME}
+"Water": {ko: "물", cat: element, key: ELEMENTS.BOTTLEDWATER.NAME}
+"Wolframite": {ko: "철망간 중석", cat: element, key: ELEMENTS.WOLFRAMITE.NAME}
+"Wood": {ko: "목재", cat: element, key: ELEMENTS.WOODLOG.NAME}
+"Yellowcake": {ko: "옐로케이크", cat: element, key: ELEMENTS.YELLOWCAKE.NAME}
+"Zinc": {ko: "아연", cat: element, key: ELEMENTS.ZINC.NAME}
+"Zinc Gas": {ko: "아연 기체", cat: element, key: ELEMENTS.ZINCGAS.NAME}
+"Zinc Ore": {ko: "아연 광석", cat: element, key: ELEMENTS.ZINCORE.NAME}
+"Advanced Construction Booster": {ko: "고급 건조 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_OP2.NAME}
+"Allergy Medication": {ko: "알레르기 약", cat: item, key: ITEMS.PILLS.ANTIHISTAMINE.NAME}
+"Applied Sciences Booster": {ko: "응용 과학 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_RESEARCH3.NAME}
+"Astronomy Booster": {ko: "천문학 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_RESEARCH2.NAME}
+"Atomic Power Bank": {ko: "원자력 파워 뱅크", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.NAME}
+"Balm Lily Flower": {ko: "아물나리꽃", cat: item, key: ITEMS.INGREDIENTS.SWAMPLILYFLOWER.NAME}
+"Bammoth Patty": {ko: "밤모스 패티", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ICE_BELLY_POOP.NAME}
+"Barbeque": {ko: "바베큐", cat: item, key: ITEMS.FOOD.COOKEDMEAT.NAME}
+"Basic Rad Pill": {ko: "베이직 방사선약", cat: item, key: ITEMS.PILLS.BASICRADPILL.NAME}
+"Berry Sludge": {ko: "베리 죽", cat: item, key: ITEMS.FOOD.FRUITCAKE.NAME}
+"Bog Jelly": {ko: "수렁 젤리", cat: item, key: ITEMS.FOOD.SWAMPFRUIT.NAME}
+"Brawny Spice": {ko: "강건 향신료", cat: item, key: ITEMS.SPICES.STRENGTH_SPICE.NAME}
+"Bristle Berry": {ko: "센털베리", cat: item, key: ITEMS.FOOD.PRICKLEFRUIT.NAME}
+"Calamari": {ko: "칼라마리", cat: item, key: ITEMS.FOOD.SQUIDMEAT.NAME}
+"Caviar": {ko: "캐비아", cat: item, key: ITEMS.FOOD.CAVIAR.NAME}
+"Cooked Seafood": {ko: "조리된 해산물", cat: item, key: ITEMS.FOOD.COOKEDFISH.NAME}
+"Curative Tablet": {ko: "치료용 정제", cat: item, key: ITEMS.PILLS.BASICCURE.NAME}
+"Curried Beans": {ko: "커리콩", cat: item, key: ITEMS.FOOD.CURRY.NAME}
+"Custom Parts": {ko: "맞춤 부품", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME}
+"Data Bank": {ko: "데이터 뱅크", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.NAME}
+"Deep Fried Steak": {ko: "스테이크 튀김", cat: item, key: ITEMS.FOOD.DEEPFRIEDMEAT.NAME}
+"Dewdrip": {ko: "이슬방울", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.DEWDRIP.NAME}
+"Drecko Egg": {ko: "기끌이 알", cat: item, key: ITEMS.FOOD.DRECKOEGG.NAME}
+"Eco Power Bank": {ko: "에코 파워 뱅크", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK.NAME}
+"Edamame": {ko: "에다마메", cat: item, key: ITEMS.FOOD.EDAMAME.NAME}
+"Egg Shell": {ko: "알 껍질", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.NAME}
+"Empty Eco Power Bank": {ko: "빈 에코 파워 뱅크", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_EMPTY.NAME}
+"Feather Fiber": {ko: "깃털 섬유", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.FEATHER_FABRIC.NAME}
+"Fish Fillet": {ko: "물고기 토막", cat: item, key: ITEMS.FOOD.FISHMEAT.NAME}
+"Fish Taco": {ko: "피시 타코", cat: item, key: ITEMS.FOOD.DEEPFRIEDFISH.NAME}
+"Food Splatter": {ko: "식품 튀김", cat: item, key: ITEMS.FOOD.FOODSPLAT.NAME}
+"Freshener Spice": {ko: "신선기 향신료", cat: item, key: ITEMS.SPICES.PRESERVING_SPICE.NAME}
+"Fried Mushroom": {ko: "버섯 튀김", cat: item, key: ITEMS.FOOD.FRIEDMUSHROOM.NAME}
+"Frost Bun": {ko: "서리빵", cat: item, key: ITEMS.FOOD.COLDWHEATBREAD.NAME}
+"Frost Burger": {ko: "서리 버거", cat: item, key: ITEMS.FOOD.BURGER.NAME}
+"Fuel Brick": {ko: "연료 브릭", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME}
+"Gamma Mush": {ko: "감마 묵", cat: item, key: ITEMS.FOOD.GAMMAMUSH.NAME}
+"Gildgo Molt": {ko: "길드고 허물", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.SNAIL_IRON_SHELL.NAME}
+"Gristle Berry": {ko: "센털베리구이", cat: item, key: ITEMS.FOOD.GRILLEDPRICKLEFRUIT.NAME}
+"Grubfruit": {ko: "벵이과실", cat: item, key: ITEMS.FOOD.WORMSUPERFRUIT.NAME}
+"Grubfruit Preserve": {ko: "벵이과실 프리저브", cat: item, key: ITEMS.FOOD.WORMSUPERFOOD.NAME}
+"Hatch Egg": {ko: "주둥가리 알", cat: item, key: ITEMS.FOOD.HATCHEGG.NAME}
+"Hexalent Fruit": {ko: "헥사렌트 열매", cat: item, key: ITEMS.FOOD.FORESTFORAGEPLANT.NAME}
+"Immuno Booster": {ko: "면역 강화제", cat: item, key: ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME}
+"Intermediate Rad Pill": {ko: "중급 방사선약", cat: item, key: ITEMS.PILLS.INTERMEDIATERADPILL.NAME}
+"Jawbo Fillet": {ko: "죠보 필렛", cat: item, key: ITEMS.FOOD.PREHISTORICPACUFILLET.NAME}
+"Lettuce": {ko: "상추", cat: item, key: ITEMS.FOOD.LETTUCE.NAME}
+"Liceloaf": {ko: "이빵", cat: item, key: ITEMS.FOOD.BASICPLANTBAR.NAME}
+"Machinist Spice": {ko: "기계공 향신료", cat: item, key: ITEMS.SPICES.MACHINERY_SPICE.NAME}
+"Meal Lice": {ko: "끼니이", cat: item, key: ITEMS.FOOD.BASICPLANTFOOD.NAME}
+"Meat": {ko: "고기", cat: item, key: ITEMS.FOOD.MEAT.NAME}
+"Medical Pack": {ko: "의료 팩", cat: item, key: ITEMS.PILLS.INTERMEDIATECURE.NAME}
+"Megafrond Grain": {ko: "메가프론드 낟알", cat: item, key: ITEMS.FOOD.FERNFOOD.NAME}
+"Metal Power Bank": {ko: "금속 파워 뱅크", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_METAL_ORE.NAME}
+"Microchip": {ko: "마이크로칩", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME}
+"Micronutrient Fertilizer": {ko: "미량 영양소 비료", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME}
+"Microwaved Lettuce": {ko: "전자레인지 돌린 상추", cat: item, key: ITEMS.FOOD.MICROWAVEDLETTUCE.NAME}
+"Mixed Berry Pie": {ko: "믹스 베리 파이", cat: item, key: ITEMS.FOOD.BERRYPIE.NAME}
+"Muckroot": {ko: "진창뿌리", cat: item, key: ITEMS.FOOD.BASICFORAGEPLANT.NAME}
+"Mush Bar": {ko: "걸죽바", cat: item, key: ITEMS.FOOD.MUSHBAR.NAME}
+"Mush Fry": {ko: "걸죽 튀김", cat: item, key: ITEMS.FOOD.FRIEDMUSHBAR.NAME}
+"Mushroom": {ko: "버섯", cat: item, key: ITEMS.FOOD.MUSHROOM.NAME}
+"Mushroom Quiche": {ko: "버섯 키시", cat: item, key: ITEMS.FOOD.QUICHE.NAME}
+"Mushroom Wrap": {ko: "버섯 쌈", cat: item, key: ITEMS.FOOD.MUSHROOMWRAP.NAME}
+"Mussel Tongue": {ko: "홍합 혀", cat: item, key: ITEMS.FOOD.AQUATICFORAGEPLANT.NAME}
+"Nigiri": {ko: "니기리", cat: item, key: ITEMS.FOOD.NIGIRI.NAME}
+"Nori": {ko: "김", cat: item, key: ITEMS.FOOD.NORI.NAME}
+"Nosh Noms": {ko: "오물오물 냠스", cat: item, key: ITEMS.FOOD.DEEPFRIEDNOSH.NAME}
+"Nutrient Bar": {ko: "영양 바", cat: item, key: ITEMS.FOOD.FIELDRATION.NAME}
+"Omelette": {ko: "오믈렛", cat: item, key: ITEMS.FOOD.COOKEDEGG.NAME}
+"Ovagro Fig": {ko: "오바그로 휘그", cat: item, key: ITEMS.FOOD.VINEFRUIT.NAME}
+"Pacu Treat": {ko: "드럽치 특별식", cat: item, key: ITEMS.FOOD.FISHFOOD.NAME}
+"Pasta": {ko: "파스타", cat: item, key: ITEMS.FOOD.PASTA.NAME}
+"Pemmican": {ko: "페미칸", cat: item, key: ITEMS.FOOD.PEMMICAN.NAME}
+"Pepper Bread": {ko: "후추빵", cat: item, key: ITEMS.FOOD.SPICEBREAD.NAME}
+"Pickled Meal": {ko: "끼니 절임", cat: item, key: ITEMS.FOOD.PICKLEDMEAL.NAME}
+"Pikeapple": {ko: "파이크애플", cat: item, key: ITEMS.FOOD.HARDSKINBERRY.NAME}
+"Pikeapple Skewer": {ko: "파이크애플 꼬치", cat: item, key: ITEMS.FOOD.COOKEDPIKEAPPLE.NAME}
+"Piloting Booster": {ko: "파일럿 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_PILOT1.NAME}
+"Pincha Peppernut": {ko: "꼬집후추콩", cat: item, key: ITEMS.FOOD.SPICENUT.NAME}
+"Placebo": {ko: "헛약", cat: item, key: ITEMS.PILLS.PLACEBO.NAME}
+"Plant Husk": {ko: "식물 껍질", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.PLANT_FIBER.NAME}
+"Plant Meat": {ko: "식물 고기", cat: item, key: ITEMS.FOOD.PLANTMEAT.NAME}
+"Plastic Gasket": {ko: "플라스틱 개스킷", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.PLASTIC_GASKET.NAME}
+"Plume Squash": {ko: "플룸 스쿼시", cat: item, key: ITEMS.FOOD.CARROT.NAME}
+"Pokeshell Molt": {ko: "쑤심딱지 허물", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME}
+"Popcorn": {ko: "팝콘", cat: item, key: ITEMS.FOOD.POPCORN.NAME}
+"Power Bank Scrap": {ko: "파워 뱅크 고철", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_GARBAGE.NAME}
+"Puft Egg": {ko: "헐떡이 알", cat: item, key: ITEMS.FOOD.PUFTEGG.NAME}
+"Radbolts": {ko: "래드볼트", cat: item, key: ITEMS.RADIATION.HIGHENERGYPARITCLE.NAME}
+"Raw Egg": {ko: "생알", cat: item, key: ITEMS.FOOD.RAWEGG.NAME}
+"Raw Shellfish": {ko: "생 조개류", cat: item, key: ITEMS.FOOD.SHELLFISHMEAT.NAME}
+"Reed Fiber": {ko: "갈대 섬유", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.NAME}
+"Refined Sugar": {ko: "정제당", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.NAME}
+"Regal Bammoth Crest": {ko: "리갈 밤모스 크레스트", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.GOLD_BELLY_CROWN.NAME}
+"Researching Booster": {ko: "연구 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_RESEARCH1.NAME}
+"Roast Grubfruit Nut": {ko: "로스트 벵이과실 견과", cat: item, key: ITEMS.FOOD.WORMBASICFOOD.NAME}
+"Rocketeer Spice": {ko: "로켓티어 향신료", cat: item, key: ITEMS.SPICES.PILOTING_SPICE.NAME}
+"Rocketry Booster": {ko: "로켓 공학 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_PILOTVANILLA1.NAME}
+"Rot Pile": {ko: "썩은 더미", cat: item, key: ITEMS.FOOD.ROTPILE.NAME}
+"Rubber Gasket": {ko: "고무 개스킷", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.RUBBER_GASKET.NAME}
+"Salty Sticks": {ko: "짠맛 막대기", cat: item, key: ITEMS.FOOD.SALTYSTICKSFOOD.NAME}
+"Seakomb Leaf": {ko: "씨콤 잎", cat: item, key: ITEMS.INGREDIENTS.KELP.NAME}
+"Serum Vial": {ko: "혈청 바이알", cat: item, key: ITEMS.PILLS.ADVANCEDCURE.NAME}
+"Shellfish Tempura": {ko: "조개 튀김", cat: item, key: ITEMS.FOOD.DEEPFRIEDSHELLFISH.NAME}
+"Sherberry": {ko: "셔베리", cat: item, key: ITEMS.FOOD.ICECAVESFORAGEPLANT.NAME}
+"Shine Bug Egg": {ko: "빛벌레 알", cat: item, key: ITEMS.FOOD.LIGHTBUGEGG.NAME}
+"Slickster Egg": {ko: "미끌이 알", cat: item, key: ITEMS.FOOD.OILFLOATEREGG.NAME}
+"Slogo Molt": {ko: "슬로고 허물", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.SNAIL_SHELL.NAME}
+"Small Pokeshell Molt": {ko: "작은 쑤심딱지 허물", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.NAME}
+"Smoked Fish": {ko: "훈제 생선", cat: item, key: ITEMS.FOOD.SMOKEDFISH.NAME}
+"Snac Fruit": {ko: "스낙 열매", cat: item, key: ITEMS.FOOD.GARDENFORAGEPLANT.NAME}
+"Soufflé Pancakes": {ko: "수플레 팬케이크", cat: item, key: ITEMS.FOOD.PANCAKES.NAME}
+"Spicy Tofu": {ko: "매운 두부", cat: item, key: ITEMS.FOOD.SPICYTOFU.NAME}
+"Spindly Grubfruit": {ko: "호리호리한 벵이과실", cat: item, key: ITEMS.FOOD.WORMBASICFRUIT.NAME}
+"Squash Fries": {ko: "스쿼시 튀김", cat: item, key: ITEMS.FOOD.FRIESCARROT.NAME}
+"Stuffed Berry": {ko: "소를 넣은 베리", cat: item, key: ITEMS.FOOD.SALSA.NAME}
+"Surf'n'Turf": {ko: "서프 앤 터프", cat: item, key: ITEMS.FOOD.SURFANDTURF.NAME}
+"Sushi": {ko: "회", cat: item, key: ITEMS.FOOD.SUSHI.NAME}
+"Sushi Roll": {ko: "스시 롤", cat: item, key: ITEMS.FOOD.MAKI.NAME}
+"Swamp Chard Heart": {ko: "늪근대 속", cat: item, key: ITEMS.FOOD.SWAMPFORAGEPLANT.NAME}
+"Swampy Delights": {ko: "늪의 환희", cat: item, key: ITEMS.FOOD.SWAMPDELIGHTS.NAME}
+"Sweatcorn": {ko: "땀옥수수", cat: item, key: ITEMS.FOOD.GARDENFOODPLANTFOOD.NAME}
+"Swim Hack Booster": {ko: "수영 해킹 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_MOD_SWIM.NAME}
+"Table Salt": {ko: "식탁용 소금", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME}
+"Tender Brisket": {ko: "부드러운 양지머리", cat: item, key: ITEMS.FOOD.SMOKEDDINOSAURMEAT.NAME}
+"Tidying Booster": {ko: "정리 부스터", cat: item, key: ITEMS.BIONIC_BOOSTERS.BOOSTER_TIDY1.NAME}
+"Toasted Mimillet": {ko: "구운 미밀렛", cat: item, key: ITEMS.FOOD.BUTTERFLYFOOD.NAME}
+"Tofu": {ko: "두부", cat: item, key: ITEMS.FOOD.TOFU.NAME}
+"Tonic Root": {ko: "강장뿌리", cat: item, key: ITEMS.INGREDIENTS.GINGER.NAME}
+"Tough Meat": {ko: "질긴 고기", cat: item, key: ITEMS.FOOD.DINOSAURMEAT.NAME}
+"Trap Components": {ko: "덫 구성 요소", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.NAME}
+"Uni": {ko: "우니", cat: item, key: ITEMS.FOOD.URCHINMEAT.NAME}
+"Uranium Ore Power Bank": {ko: "우라늄 광석 파워 뱅크", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.NAME}
+"Vacillator Recharge": {ko: "변동기 충전", cat: item, key: ITEMS.INDUSTRIAL_PRODUCTS.GENE_SHUFFLER_RECHARGE.NAME}
+"Veggie Poppers": {ko: "채소 포퍼", cat: item, key: ITEMS.FOOD.SMOKEDVEGETABLES.NAME}
+"Vitamin Chews": {ko: "씹어먹는 비타민", cat: item, key: ITEMS.PILLS.BASICBOOSTER.NAME}
+"Aqua Suit": {ko: "아쿠아 특수복", cat: equipment, key: EQUIPMENT.PREFABS.AQUA_SUIT.NAME}
+"Atmo Suit": {ko: "환경 특수복", cat: equipment, key: EQUIPMENT.PREFABS.ATMO_SUIT.NAME}
+"Balloon Friend": {ko: "풍선 친구", cat: equipment, key: EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.NAME}
+"Cool Vest": {ko: "시원한 조끼", cat: equipment, key: EQUIPMENT.PREFABS.COOL_VEST.NAME}
+"Default Accessory": {ko: "기본 액세서리", cat: equipment, key: EQUIPMENT.PREFABS.CLOTHING_ACCESORIES.NAME}
+"Default Atmo Belt": {ko: "기본 애트모 벨트", cat: equipment, key: EQUIPMENT.PREFABS.ATMO_SUIT_BELT.NAME}
+"Default Atmo Boots": {ko: "기본 애트모 부츠", cat: equipment, key: EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.NAME}
+"Default Atmo Gloves": {ko: "기본 애트모 장갑", cat: equipment, key: EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.NAME}
+"Default Atmo Helmet": {ko: "기본 애트모 헬멧", cat: equipment, key: EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.NAME}
+"Default Atmo Uniform": {ko: "기본 애트모 유니폼", cat: equipment, key: EQUIPMENT.PREFABS.ATMO_SUIT_BODY.NAME}
+"Default Bottom": {ko: "기본 하의", cat: equipment, key: EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.NAME}
+"Default Footwear": {ko: "기본 신발", cat: equipment, key: EQUIPMENT.PREFABS.CLOTHING_SHOES.NAME}
+"Default Gloves": {ko: "기본 장갑", cat: equipment, key: EQUIPMENT.PREFABS.CLOTHING_GLOVES.NAME}
+"Default Headgear": {ko: "기본 헤드기어", cat: equipment, key: EQUIPMENT.PREFABS.CLOTHING_HATS.NAME}
+"Default Jet Boots": {ko: "기본 제트 부츠", cat: equipment, key: EQUIPMENT.PREFABS.JET_SUIT_SHOES.NAME}
+"Default Jet Gloves": {ko: "기본 제트 장갑", cat: equipment, key: EQUIPMENT.PREFABS.JET_SUIT_GLOVES.NAME}
+"Default Jet Helmet": {ko: "기본 제트 헬멧", cat: equipment, key: EQUIPMENT.PREFABS.JET_SUIT_HELMET.NAME}
+"Default Jet Uniform": {ko: "기본 제트 유니폼", cat: equipment, key: EQUIPMENT.PREFABS.JET_SUIT_BODY.NAME}
+"Default Top": {ko: "기본 상의", cat: equipment, key: EQUIPMENT.PREFABS.CLOTHING_TOPS.NAME}
+"Holiday Gift Crate": {ko: "홀리데이 선물 상자", cat: equipment, key: EQUIPMENT.PREFABS.HOLIDAY_2023_CRATE.NAME}
+"Jet Suit": {ko: "제트복", cat: equipment, key: EQUIPMENT.PREFABS.JET_SUIT.NAME}
+"Lead Suit": {ko: "납 특수복", cat: equipment, key: EQUIPMENT.PREFABS.LEAD_SUIT.NAME}
+"Oxygen Mask": {ko: "산소 마스크", cat: equipment, key: EQUIPMENT.PREFABS.OXYGEN_MASK.NAME}
+"Oxygen Rebreather": {ko: "산소 리브리더", cat: equipment, key: EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.NAME}
+"Oxygen Tank": {ko: "산소 탱크", cat: equipment, key: EQUIPMENT.PREFABS.OXYGEN_TANK.NAME}
+"Pajamas": {ko: "파자마", cat: equipment, key: EQUIPMENT.PREFABS.SLEEPCLINICPAJAMAS.NAME}
+"Primo Garb": {ko: "으뜸 의복", cat: equipment, key: EQUIPMENT.PREFABS.CUSTOMCLOTHING.NAME}
+"Rubber Boots": {ko: "고무 부츠", cat: equipment, key: EQUIPMENT.PREFABS.RUBBERBOOTS.NAME}
+"Snazzy Suit": {ko: "호화 슈트", cat: equipment, key: EQUIPMENT.PREFABS.FUNKY_VEST.NAME}
+"Swimwear": {ko: "수영복", cat: equipment, key: EQUIPMENT.PREFABS.DRYSUIT.NAME}
+"Thermo Suit": {ko: "열 특수복", cat: equipment, key: EQUIPMENT.PREFABS.TEMPERATURE_SUIT.NAME}
+"Warm Coat": {ko: "방한 코트", cat: equipment, key: EQUIPMENT.PREFABS.WARM_VEST.NAME}
+"Advanced Medical Care": {ko: "고급 의료", cat: skill, key: DUPLICANTS.ROLES.SENIOR_MEDIC.NAME}
+"Advanced Research": {ko: "고급 연구", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME}
+"Advanced Schematics": {ko: "고급 회로도", cat: skill, key: DUPLICANTS.ROLES.BIONICS_C2.NAME}
+"Aesthetic Design": {ko: "미적 디자인", cat: skill, key: DUPLICANTS.ROLES.ARTIST.NAME}
+"Applied Sciences Research": {ko: "응용 과학 연구", cat: skill, key: DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.NAME}
+"Art Fundamentals": {ko: "예술의 기초", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME}
+"Astronomy": {ko: "천문학", cat: skill, key: DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME}
+"Basic Swimming": {ko: "기초 수영", cat: skill, key: DUPLICANTS.ROLES.SWIMMER.NAME}
+"Bedside Manner": {ko: "환자를 대하는 태도", cat: skill, key: DUPLICANTS.ROLES.MEDIC.NAME}
+"Booster Processing I": {ko: "부스터 처리 I", cat: skill, key: DUPLICANTS.ROLES.BIONICS_A1.NAME}
+"Booster Processing II": {ko: "부스터 처리 II", cat: skill, key: DUPLICANTS.ROLES.BIONICS_A2.NAME}
+"Climate Control": {ko: "기후 제어", cat: skill, key: DUPLICANTS.ROLES.BIONICS_D2.NAME}
+"Complex Processing": {ko: "복잡한 처리", cat: skill, key: DUPLICANTS.ROLES.BIONICS_A3.NAME}
+"Critter Ranching I": {ko: "크리터 사육 I", cat: skill, key: DUPLICANTS.ROLES.RANCHER.NAME}
+"Critter Ranching II": {ko: "크리터 사육 II", cat: skill, key: DUPLICANTS.ROLES.SENIOR_RANCHER.NAME}
+"Crop Tending": {ko: "작물 경작", cat: skill, key: DUPLICANTS.ROLES.FARMER.NAME}
+"Data Analysis Researcher": {ko: "데이터 분석 연구원", cat: skill, key: DUPLICANTS.ROLES.SPACE_RESEARCHER.NAME}
+"Demolition": {ko: "파괴", cat: skill, key: DUPLICANTS.ROLES.SENIOR_BUILDER.NAME}
+"Divemaster": {ko: "다이브마스터", cat: skill, key: DUPLICANTS.ROLES.EXPERT_SWIMMER.NAME}
+"Electrical Engineering": {ko: "전기 엔지니어링", cat: skill, key: DUPLICANTS.ROLES.POWER_TECHNICIAN.NAME}
+"Enhanced Seasoning": {ko: "강화된 조미료", cat: skill, key: DUPLICANTS.ROLES.COOK.NAME}
+"Exosuit Training": {ko: "외부특수복 훈련", cat: skill, key: DUPLICANTS.ROLES.SUIT_EXPERT.NAME}
+"Field Research": {ko: "현장 연구", cat: skill, key: DUPLICANTS.ROLES.RESEARCHER.NAME}
+"Fine Dining": {ko: "파인 다이닝", cat: skill, key: DUPLICANTS.ROLES.SENIOR_COOK.NAME}
+"Grilling": {ko: "그릴", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_COOK.NAME}
+"Hard Digging": {ko: "경도 굴착", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_MINER.NAME}
+"Hazmat Digging": {ko: "위험 물질 굴착", cat: skill, key: DUPLICANTS.ROLES.MASTER_MINER.NAME}
+"Improved Carrying I": {ko: "개선된 운반 I", cat: skill, key: DUPLICANTS.ROLES.HAULER.NAME}
+"Improved Carrying II": {ko: "개선된 운반 II", cat: skill, key: DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME}
+"Improved Construction I": {ko: "개선된 건조 I", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME}
+"Improved Construction II": {ko: "개선된 건조 II", cat: skill, key: DUPLICANTS.ROLES.BUILDER.NAME}
+"Improved Farming I": {ko: "개선된 재배 I", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_FARMER.NAME}
+"Improved Farming II": {ko: "개선된 재배 II", cat: skill, key: DUPLICANTS.ROLES.SENIOR_FARMER.NAME}
+"Improved Gears I": {ko: "개선된 기어 I", cat: skill, key: DUPLICANTS.ROLES.BIONICS_B1.NAME}
+"Improved Gears II": {ko: "개선된 기어 II", cat: skill, key: DUPLICANTS.ROLES.BIONICS_B2.NAME}
+"Improved Hardware": {ko: "개선된 하드웨어", cat: skill, key: DUPLICANTS.ROLES.BIONICS_D1.NAME}
+"Improved Strength": {ko: "힘 향상", cat: skill, key: DUPLICANTS.ROLES.HANDYMAN.NAME}
+"Improved Tinkering": {ko: "땜질 향상", cat: skill, key: DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME}
+"Masterworks": {ko: "걸작", cat: skill, key: DUPLICANTS.ROLES.MASTER_ARTIST.NAME}
+"Mechatronics Engineering": {ko: "메커트로닉스 엔지니어링", cat: skill, key: DUPLICANTS.ROLES.MECHATRONIC_ENGINEER.NAME}
+"Medicine Compounding": {ko: "약품 합성", cat: skill, key: DUPLICANTS.ROLES.JUNIOR_MEDIC.NAME}
+"Oil Engineering": {ko: "오일 엔지니어링", cat: skill, key: DUPLICANTS.ROLES.OIL_TECHNICIAN.NAME}
+"Plumbing": {ko: "배관", cat: skill, key: DUPLICANTS.ROLES.PLUMBER.NAME}
+"Power Banking": {ko: "파워 뱅킹", cat: skill, key: DUPLICANTS.ROLES.BIONICS_C3.NAME}
+"Pyrotechnics": {ko: "불꽃제조술", cat: skill, key: DUPLICANTS.ROLES.PYROTECHNIC.NAME}
+"Rocket Navigation": {ko: "로켓 조종", cat: skill, key: DUPLICANTS.ROLES.ASTRONAUT.NAME}
+"Rocket Piloting": {ko: "로켓 조종", cat: skill, key: DUPLICANTS.ROLES.ASTRONAUTTRAINEE.NAME}
+"Rocket Piloting II": {ko: "로켓 조종 II", cat: skill, key: DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.NAME}
+"Schematics": {ko: "설계도", cat: skill, key: DUPLICANTS.ROLES.BIONICS_C1.NAME}
+"Suit Sustainability Training": {ko: "특수복 내구도 교육", cat: skill, key: DUPLICANTS.ROLES.SUIT_DURABILITY.NAME}
+"Super-Duperhard Digging": {ko: "초특경도 굴착", cat: skill, key: DUPLICANTS.ROLES.SENIOR_MINER.NAME}
+"Superhard Digging": {ko: "초경도 굴착", cat: skill, key: DUPLICANTS.ROLES.MINER.NAME}
+"Top Gear": {ko: "탑 기어", cat: skill, key: DUPLICANTS.ROLES.BIONICS_B3.NAME}
+"Unemployed": {ko: "무직", cat: skill, key: DUPLICANTS.ROLES.NO_ROLE.NAME}
+"W.I.P. Skill": {ko: "W.I.P. 기술", cat: skill, key: DUPLICANTS.ROLES.USELESSSKILL.NAME}
+"Builder": {ko: "제작자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.BUILDING.NAME}
+"Cooker": {ko: "조리사", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.COOKING.NAME}
+"Decorator": {ko: "장식자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.ART.NAME}
+"Digger": {ko: "굴착자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.MINING.NAME}
+"Doctor": {ko: "의사", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.MEDICALAID.NAME}
+"Farmer": {ko: "농부", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.FARMING.NAME}
+"Operator": {ko: "조작자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.TECHNICALS.NAME}
+"Pilot": {ko: "조종사", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.ROCKETRY.NAME}
+"Rancher": {ko: "사육자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.RANCHING.NAME}
+"Researcher": {ko: "연구자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.RESEARCH.NAME}
+"Suit Wearer": {ko: "특수복 착용자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.SUITS.NAME}
+"Supplier": {ko: "공급자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.HAULING.NAME}
+"Tidier": {ko: "정리자", cat: skill_group, key: DUPLICANTS.SKILLGROUPS.BASEKEEPING.NAME}
+"Attacking": {ko: "공격", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.COMBAT.NAME}
+"Building": {ko: "만들기", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.BUILD.NAME}
+"Cooking": {ko: "조리", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.COOK.NAME}
+"Decorating": {ko: "장식 중", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.ART.NAME}
+"Digging": {ko: "굴착", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.DIG.NAME}
+"Doctoring": {ko: "의사일", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.MEDICALAID.NAME}
+"Farming": {ko: "재배", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.FARMING.NAME}
+"Operating": {ko: "작동", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.NAME}
+"Ranching": {ko: "사육", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.RANCHING.NAME}
+"Relaxing": {ko: "긴장 풂", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.MASSAGE.NAME}
+"Repairing": {ko: "수리", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.REPAIR.NAME}
+"Researching": {ko: "연구", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.RESEARCH.NAME}
+"Rocketry": {ko: "로켓 공학", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.ROCKETRY.NAME}
+"Storing": {ko: "저장", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.STORAGE.NAME}
+"Supplying": {ko: "공급", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.HAULING.NAME}
+"Swimming": {ko: "수영 중", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.SWIMMING.NAME}
+"Tidying": {ko: "정리", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME}
+"Toggling": {ko: "토글", cat: chore_group, key: DUPLICANTS.CHOREGROUPS.TOGGLE.NAME}
+"Absorbed Radiation Dose": {ko: "흡수된 방사선량", cat: attribute, key: DUPLICANTS.ATTRIBUTES.RADIATIONBALANCEDELTA.NAME}
+"Agriculture": {ko: "농업", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BOTANIST.NAME}
+"Air Consumption Rate": {ko: "공기 소비율", cat: attribute, key: DUPLICANTS.ATTRIBUTES.AIRCONSUMPTIONRATE.NAME}
+"Athletics": {ko: "운동", cat: attribute, key: DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME}
+"Bathroom Use Speed": {ko: "화장실 사용 시간", cat: attribute, key: DUPLICANTS.ATTRIBUTES.TOILETEFFICIENCY.NAME}
+"Bladder": {ko: "방광", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BLADDERDELTA.NAME}
+"Booster Slots": {ko: "부스터 슬롯", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BIONICBOOSTERSLOTS.NAME}
+"Break Down Temperature": {ko: "고장 온도", cat: attribute, key: DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.NAME}
+"Breath": {ko: "숨", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BREATHDELTA.NAME}
+"Burden": {ko: "적재량", cat: attribute, key: DUPLICANTS.ATTRIBUTES.ROCKETBURDEN.NAME}
+"Calories": {ko: "칼로리", cat: attribute, key: DUPLICANTS.ATTRIBUTES.CALORIESDELTA.NAME}
+"Carrying Capacity": {ko: "나르는 용량", cat: attribute, key: DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.NAME}
+"Construction": {ko: "건조", cat: attribute, key: DUPLICANTS.ATTRIBUTES.CONSTRUCTION.NAME}
+"Creativity": {ko: "창의성", cat: attribute, key: DUPLICANTS.ATTRIBUTES.ART.NAME}
+"Critter Metabolism": {ko: "크리터 물질대사", cat: attribute, key: DUPLICANTS.ATTRIBUTES.METABOLISM.NAME}
+"Cuisine": {ko: "요리", cat: attribute, key: DUPLICANTS.ATTRIBUTES.COOKING.NAME}
+"Decor": {ko: "장식", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DECOR.NAME}
+"Decor Bonus": {ko: "장식 보너스", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME}
+"Decor Morale Bonus": {ko: "장식 사기 보너스", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME}
+"Decor Radius": {ko: "장식 반경", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DECORRADIUS.NAME}
+"Disease Recovery Speed Bonus": {ko: "질병 회복 속도 보너스", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DISEASECURESPEED.NAME}
+"Engine Power": {ko: "엔진 출력", cat: attribute, key: DUPLICANTS.ATTRIBUTES.ROCKETENGINEPOWER.NAME}
+"Excavation": {ko: "굴착", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DIGGING.NAME}
+"Fertilizer Usage": {ko: "비료 사용", cat: attribute, key: DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME}
+"Food Morale Bonus": {ko: "식품 사기 보너스", cat: attribute, key: DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME}
+"Frostbite Threshold": {ko: "동상 임계값", cat: attribute, key: DUPLICANTS.ATTRIBUTES.SCOLDINGTHRESHOLD.NAME}
+"Gear Oil": {ko: "기어 오일", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BIONICOILDELTA.NAME}
+"Germ Resistance": {ko: "세균 저항", cat: attribute, key: DUPLICANTS.ATTRIBUTES.GERMRESISTANCE.NAME}
+"Happiness": {ko: "행복", cat: attribute, key: DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.NAME}
+"Harvest Duration": {ko: "수확 지속 시간", cat: attribute, key: DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME}
+"Health": {ko: "건강", cat: attribute, key: DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME}
+"Height": {ko: "높이", cat: attribute, key: DUPLICANTS.ATTRIBUTES.HEIGHT.NAME}
+"Husbandry": {ko: "축산", cat: attribute, key: DUPLICANTS.ATTRIBUTES.RANCHING.NAME}
+"Hygiene": {ko: "위생", cat: attribute, key: DUPLICANTS.ATTRIBUTES.HYGIENE.NAME}
+"Immunity": {ko: "면역", cat: attribute, key: DUPLICANTS.ATTRIBUTES.IMMUNELEVELDELTA.NAME}
+"Insulation": {ko: "절연", cat: attribute, key: DUPLICANTS.ATTRIBUTES.INSULATION.NAME}
+"Insulation Thickness": {ko: "절연 두께", cat: attribute, key: DUPLICANTS.ATTRIBUTES.THERMALCONDUCTIVITYBARRIER.NAME}
+"Life Support": {ko: "생명 지원", cat: attribute, key: DUPLICANTS.ATTRIBUTES.LIFESUPPORT.NAME}
+"Light": {ko: "점화", cat: attribute, key: DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.NAME}
+"Luminescence": {ko: "발광", cat: attribute, key: DUPLICANTS.ATTRIBUTES.LUMINESCENCE.NAME}
+"Machinery": {ko: "기계류", cat: attribute, key: DUPLICANTS.ATTRIBUTES.MACHINERY.NAME}
+"Machinery Speed": {ko: "기계류 속도", cat: attribute, key: DUPLICANTS.ATTRIBUTES.MACHINERYSPEED.NAME}
+"Maximum Breath": {ko: "최대 호흡", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BREATHMAX.NAME}
+"Maximum Radiation": {ko: "최대 방사선", cat: attribute, key: DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.NAME}
+"Medicine": {ko: "의약", cat: attribute, key: DUPLICANTS.ATTRIBUTES.CARING.NAME}
+"Minimum Radiation": {ko: "최소 방사선", cat: attribute, key: DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.NAME}
+"Morale": {ko: "사기", cat: attribute, key: DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME}
+"Morale Need": {ko: "필요 사기", cat: attribute, key: DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME}
+"Overheat Temperature": {ko: "과열 온도", cat: attribute, key: DUPLICANTS.ATTRIBUTES.OVERHEATTEMPERATURE.NAME}
+"Piloting": {ko: "조종", cat: attribute, key: DUPLICANTS.ATTRIBUTES.SPACENAVIGATION.NAME}
+"Power Banks": {ko: "파워 뱅크", cat: attribute, key: DUPLICANTS.ATTRIBUTES.BIONICBATTERYCOUNTCAPACITY.NAME}
+"Power Output": {ko: "전력 출력", cat: attribute, key: DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME}
+"Radiation Absorption": {ko: "방사선 흡수", cat: attribute, key: DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.NAME}
+"Radiation Resistance": {ko: "방사선 저항", cat: attribute, key: DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.NAME}
+"Range": {ko: "범위", cat: attribute, key: DUPLICANTS.ATTRIBUTES.FUELRANGEPERKILOGRAM.NAME}
+"Scalding Threshold": {ko: "데는 임계값", cat: attribute, key: DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME}
+"Science": {ko: "과학", cat: attribute, key: DUPLICANTS.ATTRIBUTES.LEARNING.NAME}
+"Sneeziness": {ko: "재채기", cat: attribute, key: DUPLICANTS.ATTRIBUTES.SNEEZYNESS.NAME}
+"Stamina": {ko: "스태미나", cat: attribute, key: DUPLICANTS.ATTRIBUTES.STAMINADELTA.NAME}
+"Strength": {ko: "힘", cat: attribute, key: DUPLICANTS.ATTRIBUTES.STRENGTH.NAME}
+"Stress": {ko: "스트레스", cat: attribute, key: DUPLICANTS.ATTRIBUTES.STRESSDELTA.NAME}
+"Temperature Preference": {ko: "선호 온도", cat: attribute, key: DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.NAME}
+"Toggle": {ko: "토글", cat: attribute, key: DUPLICANTS.ATTRIBUTES.TOGGLE.NAME}
+"Toxicity": {ko: "독성", cat: attribute, key: DUPLICANTS.ATTRIBUTES.TOXICITYDELTA.NAME}
+"Transit Speed": {ko: "수송 속도", cat: attribute, key: DUPLICANTS.ATTRIBUTES.TRANSITTUBETRAVELSPEED.NAME}
+"Treatment Received Effect": {ko: "치료 받음 효과", cat: attribute, key: DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME}
+"Underwater Movement": {ko: "수중 이동", cat: attribute, key: DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.NAME}
+"Viable Temperature Range": {ko: "생존 가능 온도 범위", cat: attribute, key: DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.NAME}
+"Yield Amount": {ko: "산출량", cat: attribute, key: DUPLICANTS.ATTRIBUTES.YIELDFACTOR.NAME}
+"Advanced Medical Booster": {ko: "첨단 의료 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_MEDICINE1.NAME}
+"Allergies": {ko: "알레르기", cat: trait, key: DUPLICANTS.TRAITS.ALLERGIES.NAME}
+"Ancient Knowledge": {ko: "고대 지식", cat: trait, key: DUPLICANTS.TRAITS.ANCIENTKNOWLEDGE.NAME}
+"Anemic": {ko: "빈혈", cat: trait, key: DUPLICANTS.TRAITS.ANEMIC.NAME}
+"Animal Lover": {ko: "동물 애호가", cat: trait, key: DUPLICANTS.TRAITS.RANCHINGUP.NAME}
+"Anxious": {ko: "불안", cat: trait, key: DUPLICANTS.TRAITS.ANXIOUS.NAME}
+"Balloon Artist": {ko: "벌룬 아티스트", cat: trait, key: DUPLICANTS.TRAITS.BALLOONARTIST.NAME}
+"Banshee": {ko: "밴시", cat: trait, key: DUPLICANTS.TRAITS.BANSHEE.NAME}
+"Beefsteak": {ko: "비프스테이크", cat: trait, key: DUPLICANTS.TRAITS.ROCKCRUSHER.NAME}
+"Binge Eater": {ko: "폭식가", cat: trait, key: DUPLICANTS.TRAITS.BINGEEATER.NAME}
+"Biohazardous": {ko: "생물재해", cat: trait, key: DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME}
+"Bionic Bug: All Thumbs": {ko: "바이오닉 버그: 손재주 없음", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG3.NAME}
+"Bionic Bug: Dissociative": {ko: "바이오닉 버그: 해리성", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG2.NAME}
+"Bionic Bug: Error Prone": {ko: "바이오닉 버그: 오류 발생 가능성", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG7.NAME}
+"Bionic Bug: Late Bloomer": {ko: "바이오닉 버그: 늦게 피는 꽃", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG5.NAME}
+"Bionic Bug: Overengineered": {ko: "바이오닉 버그: 과잉 엔지니어링", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG4.NAME}
+"Bionic Bug: Rigid Thinking": {ko: "바이오닉 버그: 경직된 생각", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG1.NAME}
+"Bionic Bug: Urbanite": {ko: "바이오닉 버그: 어반아이트", cat: trait, key: DUPLICANTS.TRAITS.BIONICBUG6.NAME}
+"Bottomless Stomach": {ko: "밑바닥 없는 배", cat: trait, key: DUPLICANTS.TRAITS.CALORIEBURNER.NAME}
+"Buff": {ko: "왕근육", cat: trait, key: DUPLICANTS.TRAITS.STRONGARM.NAME}
+"Building Impaired": {ko: "건조물 장애", cat: trait, key: DUPLICANTS.TRAITS.CONSTRUCTIONDOWN.NAME}
+"Caregiver": {ko: "간병인", cat: trait, key: DUPLICANTS.TRAITS.BEDSIDEMANNER.NAME}
+"Charismatic": {ko: "카리스마 있음", cat: trait, key: DUPLICANTS.TRAITS.CHATTY.NAME}
+"Construction Booster": {ko: "건조 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_CONSTRUCT1.NAME}
+"Critter Aversion": {ko: "크리터 혐오", cat: trait, key: DUPLICANTS.TRAITS.RANCHINGDOWN.NAME}
+"Crop Tending Booster": {ko: "작물 경작 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_FARM1.NAME}
+"Deep Diver's Lungs": {ko: "깊게 들어가는 잠수부의 허파", cat: trait, key: DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.NAME}
+"Destructive": {ko: "파괴적", cat: trait, key: DUPLICANTS.TRAITS.AGGRESSIVE.NAME}
+"Digging Booster": {ko: "굴착 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_DIG1.NAME}
+"Diver's Lungs": {ko: "잠수부의 허파", cat: trait, key: DUPLICANTS.TRAITS.DIVERSLUNG.NAME}
+"Duress to Impress": {ko: "강박의 인상", cat: trait, key: DUPLICANTS.TRAITS.THRIVER.NAME}
+"Early Bird": {ko: "아침형 복제체", cat: trait, key: DUPLICANTS.TRAITS.EARLYBIRD.NAME}
+"Engineering Booster": {ko: "엔지니어링 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_OP1.NAME}
+"Extreme Digging Booster": {ko: "극한 굴착 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_DIG2.NAME}
+"Flash Mobber": {ko: "플래시모버", cat: trait, key: DUPLICANTS.TRAITS.ROBODANCER.NAME}
+"Flatulent": {ko: "헛배부름", cat: trait, key: DUPLICANTS.TRAITS.FLATULENCE.NAME}
+"Frost Proof": {ko: "서리 방지", cat: trait, key: DUPLICANTS.TRAITS.FROSTPROOF.NAME}
+"Fussy": {ko: "까다로움", cat: trait, key: DUPLICANTS.TRAITS.FUSSY.NAME}
+"Gastrophobia": {ko: "요리공포증", cat: trait, key: DUPLICANTS.TRAITS.CANTCOOK.NAME}
+"Germ Resistant": {ko: "세균 저항", cat: trait, key: DUPLICANTS.TRAITS.STRONGIMMUNESYSTEM.NAME}
+"Glow Stick": {ko: "글로우 스틱", cat: trait, key: DUPLICANTS.TRAITS.GLOWSTICK.NAME}
+"Gourmet": {ko: "미식가", cat: trait, key: DUPLICANTS.TRAITS.FOODIE.NAME}
+"Grease Monkey": {ko: "수리공", cat: trait, key: DUPLICANTS.TRAITS.GREASEMONKEY.NAME}
+"Green Thumb": {ko: "녹색 엄지", cat: trait, key: DUPLICANTS.TRAITS.GREENTHUMB.NAME}
+"Grilling Booster": {ko: "그릴링 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_COOK1.NAME}
+"Handy": {ko: "능숙함", cat: trait, key: DUPLICANTS.TRAITS.CONSTRUCTIONUP.NAME}
+"Innately Stylish": {ko: "타고난 세련됨", cat: trait, key: DUPLICANTS.TRAITS.DECORUP.NAME}
+"Interior Decorator": {ko: "실내 장식가", cat: trait, key: DUPLICANTS.TRAITS.INTERIORDECORATOR.NAME}
+"Iron Gut": {ko: "강철 위장", cat: trait, key: DUPLICANTS.TRAITS.IRONGUT.NAME}
+"Irritable Bowel": {ko: "과민성 대장", cat: trait, key: DUPLICANTS.TRAITS.IRRITABLEBOWEL.NAME}
+"Kitchen Menace": {ko: "주방 위협", cat: trait, key: DUPLICANTS.TRAITS.COOKINGDOWN.NAME}
+"Loner": {ko: "외톨이", cat: trait, key: DUPLICANTS.TRAITS.LONER.NAME}
+"Loud Sleeper": {ko: "시끄럽게 잠", cat: trait, key: DUPLICANTS.TRAITS.SNORER.NAME}
+"Luddite": {ko: "러다이트", cat: trait, key: DUPLICANTS.TRAITS.MACHINERYDOWN.NAME}
+"Masterworks Art Booster": {ko: "마스터웍스 아트 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_ART1.NAME}
+"Mole Hands": {ko: "두더지 손", cat: trait, key: DUPLICANTS.TRAITS.MOLEHANDS.NAME}
+"Mouth Breather": {ko: "입으로 숨쉼", cat: trait, key: DUPLICANTS.TRAITS.MOUTHBREATHER.NAME}
+"Narcoleptic": {ko: "기면증", cat: trait, key: DUPLICANTS.TRAITS.NARCOLEPSY.NAME}
+"Night Owl": {ko: "올빼미족", cat: trait, key: DUPLICANTS.TRAITS.NIGHTOWL.NAME}
+"Noodle Arms": {ko: "면 팔", cat: trait, key: DUPLICANTS.TRAITS.NOODLEARMS.NAME}
+"Nyctophobic": {ko: "야공포증", cat: trait, key: DUPLICANTS.TRAITS.NIGHTLIGHT.NAME}
+"Pacifist": {ko: "평화주의자", cat: trait, key: DUPLICANTS.TRAITS.SCAREDYCAT.NAME}
+"Plant Murderer": {ko: "식물 살해자", cat: trait, key: DUPLICANTS.TRAITS.BOTANISTDOWN.NAME}
+"Quick Learner": {ko: "빨리 배움", cat: trait, key: DUPLICANTS.TRAITS.FASTLEARNER.NAME}
+"Radiation Eater": {ko: "방사선을 먹는 자", cat: trait, key: DUPLICANTS.TRAITS.RADIATIONEATER.NAME}
+"Rainmaker": {ko: "레인메이커", cat: trait, key: DUPLICANTS.TRAITS.DATARAINER.NAME}
+"Ranching Booster": {ko: "사육 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_RANCH1.NAME}
+"Regenerative": {ko: "재생", cat: trait, key: DUPLICANTS.TRAITS.REGENERATION.NAME}
+"Relic Hunter": {ko: "유물 사냥꾼", cat: trait, key: DUPLICANTS.TRAITS.ARCHAEOLOGIST.NAME}
+"Rock Fan": {ko: "록 팬", cat: trait, key: DUPLICANTS.TRAITS.METEORPHILE.NAME}
+"Shabby Dresser": {ko: "초라한 드레서", cat: trait, key: DUPLICANTS.TRAITS.DECORDOWN.NAME}
+"Shrivelled Tastebuds": {ko: "줄어든 맛봉오리", cat: trait, key: DUPLICANTS.TRAITS.SIMPLETASTES.NAME}
+"Skilled: Advanced Medical Care": {ko: "숙련: 고급 의료", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME}
+"Skilled: Advanced Research": {ko: "숙련: 고급 연구", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.NAME}
+"Skilled: Aesthetic Design": {ko: "숙련: 미적 디자인", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.NAME}
+"Skilled: Applied Sciences Research": {ko: "숙련: 응용 과학 연구", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME}
+"Skilled: Art Fundamentals": {ko: "숙련: 미술 기초", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.NAME}
+"Skilled: Astronomy": {ko: "숙련: 천문학", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME}
+"Skilled: Basic Swimming": {ko: "숙련: 기초 수영", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_SWIMMING.NAME}
+"Skilled: Bedside Manner": {ko: "숙련: 환자를 대하는 태도", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.NAME}
+"Skilled: Critter Ranching I": {ko: "숙련: 크리터 사육 I", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.NAME}
+"Skilled: Critter Ranching II": {ko: "숙련: 크리터 사육 II", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.NAME}
+"Skilled: Crop Tending": {ko: "숙련: 작물 경작", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.NAME}
+"Skilled: Demolition": {ko: "숙련: 파괴", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME}
+"Skilled: Divemaster": {ko: "숙련: 다이브마스터", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_SWIMMING2.NAME}
+"Skilled: Electrical Engineering": {ko: "숙련: 전기 엔지니어링", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.NAME}
+"Skilled: Enhanced Seasoning": {ko: "숙련: 강화된 조미료", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.NAME}
+"Skilled: Exosuit Training": {ko: "숙련: 특수복 훈련", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.NAME}
+"Skilled: Field Research": {ko: "숙련: 현장 연구", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.NAME}
+"Skilled: Grilling": {ko: "숙련: 그릴", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.NAME}
+"Skilled: Hard Digging": {ko: "숙련: 경도 굴착", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME}
+"Skilled: Hazmat Digging": {ko: "숙련: 위험 물질 굴착", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME}
+"Skilled: Improved Carrying I": {ko: "숙련: 개선된 운반 I", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.NAME}
+"Skilled: Improved Carrying II": {ko: "숙련: 개선된 운반 II", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.NAME}
+"Skilled: Improved Construction I": {ko: "숙련: 개선된 건조 I", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.NAME}
+"Skilled: Improved Construction II": {ko: "숙련: 개선된 건조 II", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.NAME}
+"Skilled: Improved Farming I": {ko: "숙련: 개선된 재배 I", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.NAME}
+"Skilled: Improved Farming II": {ko: "숙련: 개선된 재배 II", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.NAME}
+"Skilled: Improved Strength": {ko: "숙련: 힘 향상", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.NAME}
+"Skilled: Improved Tinkering": {ko: "숙련: 땜질 향상", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.NAME}
+"Skilled: Masterworks": {ko: "숙련: 명작", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.NAME}
+"Skilled: Mechatronics Engineering": {ko: "숙련: 메카트로닉스 엔지니어링", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.NAME}
+"Skilled: Medicine Compounding": {ko: "숙련: 약품 합성", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.NAME}
+"Skilled: Plumbing": {ko: "숙련: 배관", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.NAME}
+"Skilled: Pyrotechnics": {ko: "숙련: 불꽃제조술", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.NAME}
+"Skilled: Rocket Navigation": {ko: "숙련: 로켓 항행", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.NAME}
+"Skilled: Rocket Piloting": {ko: "숙련: 로켓 조종", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.NAME}
+"Skilled: Super-Duperhard Digging": {ko: "숙련: 초특경도 굴착", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MINING3.NAME}
+"Skilled: Superhard Digging": {ko: "숙련: 초경도 굴착", cat: trait, key: DUPLICANTS.TRAITS.GRANTSKILL_MINING2.NAME}
+"Slow Learner": {ko: "느리게 배움", cat: trait, key: DUPLICANTS.TRAITS.SLOWLEARNER.NAME}
+"Small Bladder": {ko: "작은 방광", cat: trait, key: DUPLICANTS.TRAITS.SMALLBLADDER.NAME}
+"Sparkle Streaker": {ko: "스파클 스트리커", cat: trait, key: DUPLICANTS.TRAITS.SPARKLESTREAKER.NAME}
+"Squeamish": {ko: "비위가 약함", cat: trait, key: DUPLICANTS.TRAITS.HEMOPHOBIA.NAME}
+"Starry Eyed": {ko: "별이 빛나는 눈", cat: trait, key: DUPLICANTS.TRAITS.STARRYEYED.NAME}
+"Sticker Bomber": {ko: "스티커 폭탄사", cat: trait, key: DUPLICANTS.TRAITS.STICKERBOMBER.NAME}
+"Strength Booster": {ko: "힘 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_CARRY1.NAME}
+"Stunner": {ko: "마비자", cat: trait, key: DUPLICANTS.TRAITS.STRESSSHOCKER.NAME}
+"Suit Training Booster": {ko: "수트 트레이닝 부스터", cat: trait, key: DUPLICANTS.TRAITS.STARTWITHBOOSTER_SUITS1.NAME}
+"Sunny Disposition": {ko: "해맑은 성격", cat: trait, key: DUPLICANTS.TRAITS.SUNNYDISPOSITION.NAME}
+"Super Productive": {ko: "초생산성", cat: trait, key: DUPLICANTS.TRAITS.SUPERPRODUCTIVE.NAME}
+"Trypophobia": {ko: "환공포증", cat: trait, key: DUPLICANTS.TRAITS.CANTDIG.NAME}
+"Twinkletoes": {ko: "번개발가락", cat: trait, key: DUPLICANTS.TRAITS.TWINKLETOES.NAME}
+"Ugly Crier": {ko: "못생긴 울보", cat: trait, key: DUPLICANTS.TRAITS.UGLYCRIER.NAME}
+"Unconstructive": {ko: "비건설적", cat: trait, key: DUPLICANTS.TRAITS.CANTBUILD.NAME}
+"Uncultured": {ko: "교양 없음", cat: trait, key: DUPLICANTS.TRAITS.UNCULTURED.NAME}
+"Undigging": {ko: "못 파", cat: trait, key: DUPLICANTS.TRAITS.DIGGINGDOWN.NAME}
+"Unempathetic": {ko: "무관심", cat: trait, key: DUPLICANTS.TRAITS.CARINGDOWN.NAME}
+"Unpracticed Artist": {ko: "미숙한 아티스트", cat: trait, key: DUPLICANTS.TRAITS.ARTDOWN.NAME}
+"Vomiter": {ko: "구토자", cat: trait, key: DUPLICANTS.TRAITS.STRESSVOMITER.NAME}
+"Yodeler": {ko: "요들러", cat: trait, key: DUPLICANTS.TRAITS.HAPPYSINGER.NAME}
+"Yokel": {ko: "시골뜨기", cat: trait, key: DUPLICANTS.TRAITS.CANTRESEARCH.NAME}
+"All Diseases": {ko: "모든 질병", cat: disease, key: DUPLICANTS.DISEASES.ALLDISEASES.NAME}
+"Allergic Reaction": {ko: "알레르기성 반응", cat: disease, key: DUPLICANTS.DISEASES.ALLERGIES.NAME}
+"Floral Scent": {ko: "꽃 향기", cat: disease, key: DUPLICANTS.DISEASES.POLLENGERMS.NAME}
+"Food Poisoning": {ko: "식중독", cat: disease, key: DUPLICANTS.DISEASES.FOODPOISONING.NAME}
+"NO": {ko: "없음", cat: disease, key: DUPLICANTS.DISEASES.NODISEASES.NAME}
+"Radioactive Contaminants": {ko: "방사능 오염 물질", cat: disease, key: DUPLICANTS.DISEASES.RADIATIONSICKNESS.NAME}
+"Radioactive Contamination": {ko: "방사능 오염", cat: disease, key: DUPLICANTS.DISEASES.RADIATIONPOISONING.NAME}
+"Slimelung": {ko: "는지렁이허파", cat: disease, key: DUPLICANTS.DISEASES.SLIMELUNG.NAME}
+"Sunburn": {ko: "햇볕에 탐", cat: disease, key: DUPLICANTS.DISEASES.SUNBURNSICKNESS.NAME}
+"Trench Stench": {ko: "참호 악취", cat: disease, key: DUPLICANTS.DISEASES.PUTRIDODOUR.NAME}
+"Zombie Spores": {ko: "좀비 포자", cat: disease, key: DUPLICANTS.DISEASES.ZOMBIESICKNESS.NAME}
+"Advanced Automation": {ko: "고급 자동화", cat: research, key: RESEARCH.TECHS.LOGICCIRCUITS.NAME}
+"Advanced Caffeination": {ko: "고급 카페인화", cat: research, key: RESEARCH.TECHS.PRECISIONPLUMBING.NAME}
+"Advanced Combustion": {ko: "고급 연소", cat: research, key: RESEARCH.TECHS.SPACECOMBUSTION.NAME}
+"Advanced Gas Flow": {ko: "고급 기체 흐름", cat: research, key: RESEARCH.TECHS.SPACEGAS.NAME}
+"Advanced Power Regulation": {ko: "고급 전력 제어", cat: research, key: RESEARCH.TECHS.ADVANCEDPOWERREGULATION.NAME}
+"Advanced Resource Extraction": {ko: "고급 자원 추출", cat: research, key: RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.NAME}
+"Advanced Sanitation": {ko: "고급 위생", cat: research, key: RESEARCH.TECHS.ADVANCEDSANITATION.NAME}
+"Air Systems": {ko: "공기 시스템", cat: research, key: RESEARCH.TECHS.IMPROVEDOXYGEN.NAME}
+"Animal Control": {ko: "동물 통제", cat: research, key: RESEARCH.TECHS.ANIMALCONTROL.NAME}
+"Artificial Friends": {ko: "인조 친구", cat: research, key: RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME}
+"Artistic Expression": {ko: "예술적 표현", cat: research, key: RESEARCH.TECHS.ARTISTRY.NAME}
+"Basic Farming": {ko: "기본 재배", cat: research, key: RESEARCH.TECHS.FARMINGTECH.NAME}
+"Bioengineering": {ko: "바이오엔지니어링", cat: research, key: RESEARCH.TECHS.BIOENGINEERING.NAME}
+"Brackene Flow": {ko: "코사리 흐름", cat: research, key: RESEARCH.TECHS.DAIRYOPERATION.NAME}
+"Brute-Force Refinement": {ko: "무차별 정제", cat: research, key: RESEARCH.TECHS.BASICREFINEMENT.NAME}
+"Catalytics": {ko: "촉매제", cat: research, key: RESEARCH.TECHS.CATALYTICS.NAME}
+"Celestial Detection": {ko: "천체 탐지", cat: research, key: RESEARCH.TECHS.SKYDETECTORS.NAME}
+"Computing": {ko: "컴퓨팅", cat: research, key: RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME}
+"Crash Plan": {ko: "충돌 계획", cat: research, key: RESEARCH.TECHS.CRASHPLAN.NAME}
+"Creature Comforts": {ko: "안락한 크리터", cat: research, key: RESEARCH.TECHS.ANIMALCOMFORT.NAME}
+"Cryofuel Combustion": {ko: "냉동연료 연소", cat: research, key: RESEARCH.TECHS.ENGINESIII.NAME}
+"Cryofuel Propulsion": {ko: "냉동연료 추진", cat: research, key: RESEARCH.TECHS.CRYOFUELPROPULSION.NAME}
+"Data Science": {ko: "데이터 과학", cat: research, key: RESEARCH.TECHS.DATASCIENCE.NAME}
+"Decontamination": {ko: "오염 제거", cat: research, key: RESEARCH.TECHS.DIRECTEDAIRSTREAMS.NAME}
+"Distillation": {ko: "증류", cat: research, key: RESEARCH.TECHS.DISTILLATION.NAME}
+"Durable Life Support": {ko: "내구성 뛰어난 생명 유지 장치", cat: research, key: RESEARCH.TECHS.DURABLELIFESUPPORT.NAME}
+"Employment": {ko: "고용", cat: research, key: RESEARCH.TECHS.JOBS.NAME}
+"Emulsification": {ko: "유화", cat: research, key: RESEARCH.TECHS.ADVANCEDDISTILLATION.NAME}
+"Environmental Appreciation": {ko: "환경 감상", cat: research, key: RESEARCH.TECHS.ENVIRONMENTALAPPRECIATION.NAME}
+"Filtration": {ko: "여과", cat: research, key: RESEARCH.TECHS.ADVANCEDFILTRATION.NAME}
+"Fine Art": {ko: "예술", cat: research, key: RESEARCH.TECHS.FINEART.NAME}
+"Flow Redirection": {ko: "흐름 방향 바꿈", cat: research, key: RESEARCH.TECHS.FLOWREDIRECTION.NAME}
+"Food Repurposing": {ko: "식품 용도 변경", cat: research, key: RESEARCH.TECHS.FOODREPURPOSING.NAME}
+"Fossil Fuels": {ko: "화석 연료", cat: research, key: RESEARCH.TECHS.IMPROVEDCOMBUSTION.NAME}
+"Gas Distribution": {ko: "기체 분배", cat: research, key: RESEARCH.TECHS.GASDISTRIBUTION.NAME}
+"Generic Sensors": {ko: "일반 센서", cat: research, key: RESEARCH.TECHS.GENERICSENSORS.NAME}
+"Glass Blowing": {ko: "유리 불기", cat: research, key: RESEARCH.TECHS.GLASSFURNISHINGS.NAME}
+"Gourmet Meal Preparation": {ko: "미식가 식사 준비", cat: research, key: RESEARCH.TECHS.FINERDINING.NAME}
+"Hazard Protection": {ko: "위험 방지", cat: research, key: RESEARCH.TECHS.SUITS.NAME}
+"High Culture": {ko: "고급 문화", cat: research, key: RESEARCH.TECHS.REFRACTIVEDECOR.NAME}
+"High Velocity Destruction": {ko: "고속 파괴", cat: research, key: RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.NAME}
+"High Velocity Transport": {ko: "고속 수송", cat: research, key: RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME}
+"Home Luxuries": {ko: "집 사치품", cat: research, key: RESEARCH.TECHS.LUXURY.NAME}
+"HVAC": {ko: "HVAC", cat: research, key: RESEARCH.TECHS.HVAC.NAME}
+"Hydrocarbon Combustion": {ko: "탄화수소 연소", cat: research, key: RESEARCH.TECHS.ENGINESII.NAME}
+"Hydrocarbon Propulsion": {ko: "탄화수소 추진", cat: research, key: RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME}
+"Improved Hydrocarbon Propulsion": {ko: "개선된 탄화수소 추진", cat: research, key: RESEARCH.TECHS.BETTERHYDROCARBONPROPULSION.NAME}
+"Improved Plumbing": {ko: "개선된 배관", cat: research, key: RESEARCH.TECHS.IMPROVEDLIQUIDPIPING.NAME}
+"Improved Ventilation": {ko: "개선된 환기", cat: research, key: RESEARCH.TECHS.IMPROVEDGASPIPING.NAME}
+"Interior Decor": {ko: "실내 장식", cat: research, key: RESEARCH.TECHS.INTERIORDECOR.NAME}
+"Internal Combustion": {ko: "내연 기관", cat: research, key: RESEARCH.TECHS.COMBUSTION.NAME}
+"Introductory Rocketry": {ko: "시작 로켓 공학", cat: research, key: RESEARCH.TECHS.BASICROCKETRY.NAME}
+"Liquid and Gas Cargo": {ko: "액체 및 기체 화물", cat: research, key: RESEARCH.TECHS.CARGOII.NAME}
+"Liquid Distribution": {ko: "액체 분배", cat: research, key: RESEARCH.TECHS.LIQUIDDISTRIBUTION.NAME}
+"Liquid Tuning": {ko: "액체 튜닝", cat: research, key: RESEARCH.TECHS.LIQUIDTEMPERATURE.NAME}
+"Liquid-Based Refinement Processes": {ko: "액체 기반 정제 공정", cat: research, key: RESEARCH.TECHS.LIQUIDFILTERING.NAME}
+"Low-Resistance Conductors": {ko: "저저항 도체", cat: research, key: RESEARCH.TECHS.PRETTYGOODCONDUCTORS.NAME}
+"Materials Science Research": {ko: "재료 과학 연구", cat: research, key: RESEARCH.TECHS.NUCLEARRESEARCH.NAME}
+"Meal Preparation": {ko: "식사 준비", cat: research, key: RESEARCH.TECHS.FINEDINING.NAME}
+"Medical Equipment": {ko: "의료 장비", cat: research, key: RESEARCH.TECHS.MEDICINEII.NAME}
+"Micro-Targeted Medicine": {ko: "미세 표적 의학", cat: research, key: RESEARCH.TECHS.MEDICINEIV.NAME}
+"Missiles": {ko: "미사일", cat: research, key: RESEARCH.TECHS.MISSILES.NAME}
+"Monuments": {ko: "기념물", cat: research, key: RESEARCH.TECHS.MONUMENTS.NAME}
+"More Materials Science Research": {ko: "더 많은 재료 과학 연구", cat: research, key: RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.NAME}
+"Multiplexing": {ko: "멀티플렉싱", cat: research, key: RESEARCH.TECHS.MULTIPLEXING.NAME}
+"New Media": {ko: "뉴 미디어", cat: research, key: RESEARCH.TECHS.SCREENS.NAME}
+"Notification Systems": {ko: "알림 시스템", cat: research, key: RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME}
+"Parallel Automation": {ko: "병렬 자동화", cat: research, key: RESEARCH.TECHS.PARALLELAUTOMATION.NAME}
+"Pathogen Diagnostics": {ko: "병원균 진단", cat: research, key: RESEARCH.TECHS.MEDICINEIII.NAME}
+"Personal Flight": {ko: "개인 비행", cat: research, key: RESEARCH.TECHS.JETPACKS.NAME}
+"Pharmacology": {ko: "약학", cat: research, key: RESEARCH.TECHS.MEDICINEI.NAME}
+"Plastic Manufacturing": {ko: "플라스틱 제조", cat: research, key: RESEARCH.TECHS.PLASTICS.NAME}
+"Portable Gases": {ko: "휴대용 기체", cat: research, key: RESEARCH.TECHS.PORTABLEGASSES.NAME}
+"Power Amplifiers": {ko: "전력 증폭기", cat: research, key: RESEARCH.TECHS.AMPLIFIERS.NAME}
+"Power Regulation": {ko: "전력 제어", cat: research, key: RESEARCH.TECHS.POWERREGULATION.NAME}
+"Pressure Management": {ko: "압력 관리", cat: research, key: RESEARCH.TECHS.PRESSUREMANAGEMENT.NAME}
+"Pressurized Forging": {ko: "고압 제조", cat: research, key: RESEARCH.TECHS.HIGHPRESSUREFORGING.NAME}
+"Radbolt Containment": {ko: "래드볼트 봉쇄", cat: research, key: RESEARCH.TECHS.NUCLEARSTORAGE.NAME}
+"Radbolt Propulsion": {ko: "래드볼트 추진", cat: research, key: RESEARCH.TECHS.NUCLEARPROPULSION.NAME}
+"Radiation Protection": {ko: "방사선 보호", cat: research, key: RESEARCH.TECHS.RADIATIONPROTECTION.NAME}
+"Radiation Refinement": {ko: "방사선 정제", cat: research, key: RESEARCH.TECHS.NUCLEARREFINEMENT.NAME}
+"Refined Renovations": {ko: "정제된 혁신", cat: research, key: RESEARCH.TECHS.REFINEDOBJECTS.NAME}
+"Renaissance Art": {ko: "르네상스 예술", cat: research, key: RESEARCH.TECHS.RENAISSANCEART.NAME}
+"Renewable Energy": {ko: "재생 가능 에너지", cat: research, key: RESEARCH.TECHS.RENEWABLEENERGY.NAME}
+"Robotic Tools": {ko: "로봇 도구", cat: research, key: RESEARCH.TECHS.ROBOTICTOOLS.NAME}
+"Sanitation": {ko: "위생", cat: research, key: RESEARCH.TECHS.SANITATIONSCIENCES.NAME}
+"Sensitive Microimaging": {ko: "민감한 마이크로이미징", cat: research, key: RESEARCH.TECHS.ADVANCEDSCANNERS.NAME}
+"Smart Home": {ko: "스마트 홈", cat: research, key: RESEARCH.TECHS.LOGICCONTROL.NAME}
+"Smart Storage": {ko: "스마트 저장", cat: research, key: RESEARCH.TECHS.SMARTSTORAGE.NAME}
+"Smelting": {ko: "제련", cat: research, key: RESEARCH.TECHS.SMELTING.NAME}
+"Solid Cargo": {ko: "고체 화물", cat: research, key: RESEARCH.TECHS.CARGOI.NAME}
+"Solid Control": {ko: "고체 제어", cat: research, key: RESEARCH.TECHS.SOLIDSPACE.NAME}
+"Solid Distribution": {ko: "고체 분배", cat: research, key: RESEARCH.TECHS.SOLIDDISTRIBUTION.NAME}
+"Solid Fuel Combustion": {ko: "고체 연료 연소", cat: research, key: RESEARCH.TECHS.ENGINESI.NAME}
+"Solid Management": {ko: "고체 관리", cat: research, key: RESEARCH.TECHS.SOLIDMANAGEMENT.NAME}
+"Solid Transport": {ko: "고체 수송", cat: research, key: RESEARCH.TECHS.SOLIDTRANSPORT.NAME}
+"Sound Amplifiers": {ko: "음향 증폭기", cat: research, key: RESEARCH.TECHS.ACOUSTICS.NAME}
+"Space Power": {ko: "우주력", cat: research, key: RESEARCH.TECHS.SPACEPOWER.NAME}
+"Space Program": {ko: "우주 프로그램", cat: research, key: RESEARCH.TECHS.SPACEPROGRAM.NAME}
+"Superheated Forging": {ko: "초과열 제조", cat: research, key: RESEARCH.TECHS.HIGHTEMPFORGING.NAME}
+"Temperature Modulation": {ko: "온도 조절", cat: research, key: RESEARCH.TECHS.TEMPERATUREMODULATION.NAME}
+"Textile Production": {ko: "직물 생산", cat: research, key: RESEARCH.TECHS.CLOTHING.NAME}
+"Transit Tubes": {ko: "이동 튜브", cat: research, key: RESEARCH.TECHS.TRAVELTUBES.NAME}
+"Unique Cargo": {ko: "고유 화물", cat: research, key: RESEARCH.TECHS.CARGOIII.NAME}
+"Valve Miniaturization": {ko: "밸브 소형화", cat: research, key: RESEARCH.TECHS.VALVEMINIATURIZATION.NAME}
+"Ventilation": {ko: "환기", cat: research, key: RESEARCH.TECHS.GASPIPING.NAME}
+"Banquet Hall": {ko: "연회장", cat: room, key: ROOMS.TYPES.BANQUETHALL.NAME}
+"Barracks": {ko: "막사", cat: room, key: ROOMS.TYPES.BARRACKS.NAME}
+"Great Hall": {ko: "큰 회관", cat: room, key: ROOMS.TYPES.GREATHALL.NAME}
+"Greenhouse": {ko: "온실", cat: room, key: ROOMS.TYPES.FARM.NAME}
+"Hospital": {ko: "병원", cat: room, key: ROOMS.TYPES.HOSPITAL.NAME}
+"Kitchen": {ko: "주방", cat: room, key: ROOMS.TYPES.KITCHEN.NAME}
+"Laboratory": {ko: "연구소", cat: room, key: ROOMS.TYPES.LABORATORY.NAME}
+"Latrine": {ko: "변소", cat: room, key: ROOMS.TYPES.LATRINE.NAME}
+"Luxury Barracks": {ko: "호화 막사", cat: room, key: ROOMS.TYPES.BEDROOM.NAME}
+"Machine Shop": {ko: "기계 공작소", cat: room, key: ROOMS.TYPES.MACHINE_SHOP.NAME}
+"Massage Clinic": {ko: "마사지 클리닉", cat: room, key: ROOMS.TYPES.MASSAGE_CLINIC.NAME}
+"Mess Hall": {ko: "식당", cat: room, key: ROOMS.TYPES.MESSHALL.NAME}
+"Miscellaneous Room": {ko: "잡실", cat: room, key: ROOMS.TYPES.NEUTRAL.NAME}
+"Nature Reserve": {ko: "자연 보호구역", cat: room, key: ROOMS.TYPES.NATURERESERVE.NAME}
+"Park": {ko: "공원", cat: room, key: ROOMS.TYPES.PARK.NAME}
+"Power Plant": {ko: "발전소", cat: room, key: ROOMS.TYPES.POWER_PLANT.NAME}
+"Private Bathroom": {ko: "개인 화장실", cat: room, key: ROOMS.TYPES.PRIVATE_BATHROOM.NAME}
+"Private Bedroom": {ko: "개인 침실", cat: room, key: ROOMS.TYPES.PRIVATE_BEDROOM.NAME}
+"Recreation Room": {ko: "오락실", cat: room, key: ROOMS.TYPES.REC_ROOM.NAME}
+"Stable": {ko: "외양간", cat: room, key: ROOMS.TYPES.CREATUREPEN.NAME}
+"Washroom": {ko: "세척실", cat: room, key: ROOMS.TYPES.PLUMBEDBATHROOM.NAME}
+"Alternate Pod Location": {ko: "다른 팟 위치", cat: world_trait, key: WORLD_TRAITS.MISALIGNED_START.NAME}
+"Crashed Satellites": {ko: "추락한 위성", cat: world_trait, key: WORLD_TRAITS.CRASHED_SATELLITES.NAME}
+"Frozen Core": {ko: "언 핵", cat: world_trait, key: WORLD_TRAITS.FROZEN_CORE.NAME}
+"Frozen Friend": {ko: "언 친구", cat: world_trait, key: WORLD_TRAITS.DISTRESS_SIGNAL.NAME}
+"Geoactive": {ko: "지질활성", cat: world_trait, key: WORLD_TRAITS.GEOACTIVE.NAME}
+"Geodes": {ko: "정동", cat: world_trait, key: WORLD_TRAITS.GEODES.NAME}
+"Geodormant": {ko: "지질휴지", cat: world_trait, key: WORLD_TRAITS.GEODORMANT.NAME}
+"Irregular Oil": {ko: "비정규 석유", cat: world_trait, key: WORLD_TRAITS.IRREGULAR_OIL.NAME}
+"Large Boulders": {ko: "큰 표석", cat: world_trait, key: WORLD_TRAITS.BOULDERS_LARGE.NAME}
+"Large Glaciers": {ko: "거대 빙하", cat: world_trait, key: WORLD_TRAITS.GLACIERS_LARGE.NAME}
+"Lush Core": {ko: "울창한 코어", cat: world_trait, key: WORLD_TRAITS.LUSH_CORE.NAME}
+"Magma Channels": {ko: "마그마 채널", cat: world_trait, key: WORLD_TRAITS.MAGMA_VENTS.NAME}
+"Medium Boulders": {ko: "중급 표석", cat: world_trait, key: WORLD_TRAITS.BOULDERS_MEDIUM.NAME}
+"Metal Poor": {ko: "금속 부족", cat: world_trait, key: WORLD_TRAITS.METAL_POOR.NAME}
+"Metal Rich": {ko: "금속 풍족", cat: world_trait, key: WORLD_TRAITS.METAL_RICH.NAME}
+"Metallic Caves": {ko: "금속 동굴", cat: world_trait, key: WORLD_TRAITS.METAL_CAVES.NAME}
+"Mixed Boulders": {ko: "혼합된 표석", cat: world_trait, key: WORLD_TRAITS.BOULDERS_MIXED.NAME}
+"Radioactive Crust": {ko: "방사성 크러스트", cat: world_trait, key: WORLD_TRAITS.RADIOACTIVE_CRUST.NAME}
+"Slime Molds": {ko: "는지렁이균", cat: world_trait, key: WORLD_TRAITS.SLIME_SPLATS.NAME}
+"Small Boulders": {ko: "작은 표석", cat: world_trait, key: WORLD_TRAITS.BOULDERS_SMALL.NAME}
+"Subsurface Ocean": {ko: "지표 아래 해양", cat: world_trait, key: WORLD_TRAITS.SUBSURFACE_OCEAN.NAME}
+"This world is stable and has no unusual features.": {ko: "이 세계는 안정적이고 별다른 특징이 없습니다.", cat: world_trait, key: WORLD_TRAITS.NO_TRAITS.NAME}
+"Trapped Oil": {ko: "갇힌 석유", cat: world_trait, key: WORLD_TRAITS.DEEP_OIL.NAME}
+"Volcanic Activity": {ko: "화산 활동", cat: world_trait, key: WORLD_TRAITS.VOLCANOES.NAME}
+"Abyss Biome": {ko: "심해 생물군계", cat: subworld, key: SUBWORLDS.ABYSS.NAME}
+"Aquatic Biome": {ko: "수생 생물군계", cat: subworld, key: SUBWORLDS.AQUATIC.NAME}
+"Barren Biome": {ko: "불모의 생물군계", cat: subworld, key: SUBWORLDS.BARREN.NAME}
+"Beach Biome": {ko: "해변 생물군계", cat: subworld, key: SUBWORLDS.BEACH.NAME}
+"Cool Pool Biome": {ko: "서늘한 웅덩이 생물군계", cat: subworld, key: SUBWORLDS.CARROTQUARRY.NAME}
+"Feather Biome": {ko: "깃털 생물군계", cat: subworld, key: SUBWORLDS.RAPTOR.NAME}
+"Forest Biome": {ko: "숲 생물군계", cat: subworld, key: SUBWORLDS.FOREST.NAME}
+"Garden Biome": {ko: "정원 생물군계", cat: subworld, key: SUBWORLDS.GARDEN.NAME}
+"Ice Cave Biome": {ko: "얼음 동굴 생물군계", cat: subworld, key: SUBWORLDS.ICECAVES.NAME}
+"Jungle Biome": {ko: "정글 생물군계", cat: subworld, key: SUBWORLDS.JUNGLE.NAME}
+"Kelp Forest Biome": {ko: "켈프 숲 생물군계", cat: subworld, key: SUBWORLDS.KELPFOREST.NAME}
+"Magma Biome": {ko: "마그마 생물군계", cat: subworld, key: SUBWORLDS.MAGMA.NAME}
+"Marsh Biome": {ko: "습지 생물군계", cat: subworld, key: SUBWORLDS.MARSH.NAME}
+"Metallic Biome": {ko: "금속 생물군계", cat: subworld, key: SUBWORLDS.METALLIC.NAME}
+"Moo Biome": {ko: "음메 생물군계", cat: subworld, key: SUBWORLDS.MOO.NAME}
+"Nectar Biome": {ko: "넥타 생물군계", cat: subworld, key: SUBWORLDS.SUGARWOODS.NAME}
+"Niobium Biome": {ko: "나이오븀 생물군계", cat: subworld, key: SUBWORLDS.NIOBIUM.NAME}
+"Ocean Biome": {ko: "해양 생물군계", cat: subworld, key: SUBWORLDS.OCEAN.NAME}
+"Oily Biome": {ko: "기름 생물군계", cat: subworld, key: SUBWORLDS.OIL.NAME}
+"Radioactive Biome": {ko: "방사능 생물군계", cat: subworld, key: SUBWORLDS.RADIOACTIVE.NAME}
+"Reef Biome": {ko: "암초 생물군계", cat: subworld, key: SUBWORLDS.REEF.NAME}
+"Regolith Biome": {ko: "표토 생물군계", cat: subworld, key: SUBWORLDS.REGOLITH.NAME}
+"Rust Biome": {ko: "녹 생물군계", cat: subworld, key: SUBWORLDS.RUST.NAME}
+"Sandstone Biome": {ko: "사암 생물군계", cat: subworld, key: SUBWORLDS.SANDSTONE.NAME}
+"Space Biome": {ko: "우주 생물군계", cat: subworld, key: SUBWORLDS.SPACE.NAME}
+"Swampy Biome": {ko: "늪지대 생물군계", cat: subworld, key: SUBWORLDS.SWAMP.NAME}
+"Tundra Biome": {ko: "툰드라 생물군계", cat: subworld, key: SUBWORLDS.FROZEN.NAME}
+"Wasteland Biome": {ko: "황무지 생물군계", cat: subworld, key: SUBWORLDS.WASTELAND.NAME}
+"Wetlands Biome": {ko: "습지 생물군계", cat: subworld, key: SUBWORLDS.WETLANDS.NAME}
+"Arboria": {ko: "아보리아", cat: world, key: WORLDS.FOREST_DEFAULT.NAME}
+"Arboria Asteroid": {ko: "아보리아 소행성", cat: world, key: WORLDS.VANILLAARBORIA.NAME}
+"Aridio": {ko: "아리디오", cat: world, key: WORLDS.FOREST_HOT.NAME}
+"Aridio Asteroid": {ko: "아리디오 소행성", cat: world, key: WORLDS.VANILLAARIDIO.NAME}
+"Barren Moon": {ko: "불모의 달", cat: world, key: WORLDS.MOON_BARREN.NAME}
+"Big Empty FOR DEVS": {ko: "개발자를 위한 큰 빈 공간", cat: world, key: WORLDS.BIGEMPTY.NAME}
+"Brimstonia Asteroid": {ko: "브림스토니아 소행성", cat: world, key: WORLDS.SULFURMOONLET.NAME}
+"Ceres Asteroid": {ko: "세레스 소행성", cat: world, key: WORLDS.CERESCLASSIC.NAME}
+"Ceres Core Asteroid": {ko: "세레스 핵 소행성", cat: world, key: WORLDS.MINISHATTEREDGEO.NAME}
+"Ceres Fragment": {ko: "세레스 파편", cat: world, key: WORLDS.CERESMIXING.NAME}
+"Ceres Mantle Asteroid": {ko: "세레스 맨틀 소행성", cat: world, key: WORLDS.MINISHATTEREDSTART.NAME}
+"Ceres Minor": {ko: "세레스 마이너", cat: world, key: WORLDS.CERESSPACEDOUT.NAME}
+"Flipped Asteroid": {ko: "뒤집힌 소행성", cat: world, key: WORLDS.MINIFLIPPED.NAME}
+"Folia Asteroid": {ko: "폴리아 소행성", cat: world, key: WORLDS.FORESTMOONLET.NAME}
+"Frozen Forest Asteroid": {ko: "얼어붙은 숲 소행성", cat: world, key: WORLDS.MINIFORESTFROZEN.NAME}
+"Glowood Wasteland Asteroid": {ko: "글로우드 황무지 소행성", cat: world, key: WORLDS.MEDIUMFORESTYWASTELAND.NAME}
+"Helicona": {ko: "헬리코나", cat: world, key: WORLDS.HELICONA.NAME}
+"Irradiated Forest Asteroid": {ko: "방사능 가득한 숲 소행성", cat: world, key: WORLDS.IDEALLANDINGSITE.NAME}
+"Irradiated Marsh Asteroid": {ko: "방사능 가득한 습지 소행성", cat: world, key: WORLDS.METALHEAVYLANDINGSITE.NAME}
+"Irradiated Swampy Asteroid": {ko: "조사된 늪지대 소행성", cat: world, key: WORLDS.SWAMPYLANDINGSITE.NAME}
+"Marinea Asteroid": {ko: "마리네아 소행성", cat: world, key: WORLDS.AQUATICCLASSIC.NAME}
+"Marinea Fragment": {ko: "마리네아 파편", cat: world, key: WORLDS.AQUATICMIXING.NAME}
+"Marinea Minor": {ko: "마리네아 마이너", cat: world, key: WORLDS.AQUATICSPACEDOUT.NAME}
+"Marshy Asteroid": {ko: "습지 소행성", cat: world, key: WORLDS.MARSHYMOONLET.NAME}
+"Metallic Swampy Asteroid": {ko: "금속성 늪지대 소행성", cat: world, key: WORLDS.MINIMETALLICSWAMPY.NAME}
+"Moo Asteroid": {ko: "음메 소행성", cat: world, key: WORLDS.MOOMOONLET.NAME}
+"Oasisse": {ko: "오아시쎄", cat: world, key: WORLDS.OASIS.NAME}
+"Oasisse Asteroid": {ko: "오아시쎄 소행성", cat: world, key: WORLDS.VANILLAOASIS.NAME}
+"Oceania": {ko: "오세아니아", cat: world, key: WORLDS.OCEANIA.NAME}
+"Oceania Asteroid": {ko: "오세아니아 소행성", cat: world, key: WORLDS.VANILLAOCEANIA.NAME}
+"Oily Sandy Swamp Asteroid": {ko: "기름이 많은 모래 늪 소행성", cat: world, key: WORLDS.WARPOILYSANDYSWAMP.NAME}
+"Oily Swamp Asteroid": {ko: "기름진 늪 소행성", cat: world, key: WORLDS.WARPOILYSWAMP.NAME}
+"Quagmiris Asteroid": {ko: "콰그미리스 소행성", cat: world, key: WORLDS.SWAMPMOONLET.NAME}
+"Radioactive Forest Asteroid": {ko: "방사성 숲 소행성", cat: world, key: WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.NAME}
+"Radioactive Ocean Asteroid": {ko: "방사성 바다 소행성", cat: world, key: WORLDS.MINIRADIOACTIVEOCEAN.NAME}
+"Radioactive Swamp Asteroid": {ko: "방사성 늪 소행성", cat: world, key: WORLDS.MEDIUMRADIOACTIVEVANILLAWARPPLANET.NAME}
+"Radioactive Terra Asteroid": {ko: "방사성 테라 소행성", cat: world, key: WORLDS.MEDIUMSANDYRADIOACTIVEVANILLAWARPPLANET.NAME}
+"Radioactive Terrabog Asteroid": {ko: "방사성 테라보그 소행성", cat: world, key: WORLDS.MEDIUMSANDYSWAMP.NAME}
+"Regolith Asteroid": {ko: "레골리스 소행성", cat: world, key: WORLDS.REGOLITHMOONLET.NAME}
+"Relica Asteroid": {ko: "렐리카 소행성", cat: world, key: WORLDS.PREHISTORICCLASSIC.NAME}
+"Relica Fragment": {ko: "렐리카 파편", cat: world, key: WORLDS.PREHISTORICMIXING.NAME}
+"Relica Minor": {ko: "렐리카 마이너", cat: world, key: WORLDS.PREHISTORICSPACEDOUT.NAME}
+"RelicAAAAAAAGHH": {ko: "렐릭AAAAAAAGHH", cat: world, key: WORLDS.PREHISTORICSHATTERED.NAME}
+"Rime": {ko: "라임", cat: world, key: WORLDS.SANDSTONE_FROZEN.NAME}
+"Rime Asteroid": {ko: "라임 소행성", cat: world, key: WORLDS.VANILLASANDSTONEFROZEN.NAME}
+"Rocky Asteroid": {ko: "바위투성이 소행성", cat: world, key: WORLDS.STRANGERICHSANDSTONE.NAME}
+"Rusty Oil Asteroid": {ko: "녹슨 기름 소행성", cat: world, key: WORLDS.OILRICHWARPTARGET.NAME}
+"Skewed Asteroid": {ko: "Skewed Asteroid", cat: world, key: WORLDS.STRANGE_ASTEROID_KF23.NAME}
+"Squelchy Asteroid": {ko: "스켈치 소행성", cat: world, key: WORLDS.VANILLASWAMPDEFAULT.NAME}
+"Stinko Swamp Asteroid": {ko: "악취 늪지대 소행성", cat: world, key: WORLDS.MEDIUMSWAMPY.NAME}
+"Superconductive Asteroid": {ko: "초전도 소행성", cat: world, key: WORLDS.NIOBIUMMOONLET.NAME}
+"Sweet Ceres Asteroid": {ko: "달콤한 세레스 소행성", cat: world, key: WORLDS.MINISHATTEREDWARP.NAME}
+"Terra": {ko: "테라", cat: world, key: WORLDS.SANDSTONE_DEFAULT.NAME}
+"Terra Asteroid": {ko: "테라 소행성", cat: world, key: WORLDS.VANILLASANDSTONEDEFAULT.NAME}
+"Terrania Asteroid": {ko: "테라니아 소행성", cat: world, key: WORLDS.TERRAMOONLET.NAME}
+"The Badlands": {ko: "배드랜즈", cat: world, key: WORLDS.BADLANDS.NAME}
+"The Badlands Asteroid": {ko: "배드랜즈 소행성", cat: world, key: WORLDS.VANILLABADLANDS.NAME}
+"The Desolands Asteroid": {ko: "황량땅 소행성", cat: world, key: WORLDS.MINIBADLANDS.NAME}
+"The Rock": {ko: "록", cat: world, key: WORLDS.THE_ROCK.NAME}
+"Tiny Empty FOR DEVS": {ko: "개발자를 위한 작고 비어 있는 곳", cat: world, key: WORLDS.TINYEMPTY.NAME}
+"Tiny Forest FOR DEVS": {ko: "개발자를 위한 작은 숲", cat: world, key: WORLDS.TINYFOREST.NAME}
+"Tiny Ice FOR DEVS": {ko: "개발자를 위한 작은 얼음", cat: world, key: WORLDS.TINYICE.NAME}
+"Tiny Magma FOR DEVS": {ko: "개발자를 위한 작은 마그마", cat: world, key: WORLDS.TINYMAGMA.NAME}
+"Tiny Start FOR DEVS": {ko: "개발자를 위한 작은 시작", cat: world, key: WORLDS.TINYSTART.NAME}
+"Tiny Surface FOR DEVS": {ko: "개발자를 위한 작은 표면", cat: world, key: WORLDS.TINYSURFACE.NAME}
+"Tiny Twin Asteroid FOR DEVS": {ko: "개발자를 위한 작은 쌍둥이 소행성", cat: world, key: WORLDS.TWINMOONLET.NAME}
+"Tundra Asteroid": {ko: "툰드라 소행성", cat: world, key: WORLDS.TUNDRAMOONLET.NAME}
+"Verdante": {ko: "버단트", cat: world, key: WORLDS.FOREST_LUSH.NAME}
+"Verdante Asteroid": {ko: "베르단테 소행성", cat: world, key: WORLDS.VANILLAFORESTDEFAULT.NAME}
+"Viscosia Asteroid": {ko: "점성 소행성", cat: world, key: WORLDS.OILYMOONLET.NAME}
+"Volcanea": {ko: "볼카네아", cat: world, key: WORLDS.VOLCANIC.NAME}
+"Volcanea Asteroid": {ko: "볼카네아 소행성", cat: world, key: WORLDS.VANILLAVOLCANIC.NAME}
+"Water Asteroid": {ko: "물 소행성", cat: world, key: WORLDS.WATERMOONLET.NAME}
+"Arboria Cluster": {ko: "아보리아 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_ARBORIA_CLUSTER.NAME}
+"Aridio Cluster": {ko: "아리디오 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_ARIDIO_CLUSTER.NAME}
+"Blasted Ceres": {ko: "폭파된 세레스", cat: cluster, key: CLUSTER_NAMES.CERES_BASE_SHATTERED_CLUSTER.NAME}
+"Blasted Ceres Cluster": {ko: "폭파된 세레스 클러스터", cat: cluster, key: CLUSTER_NAMES.CERES_CLASSIC_SHATTERED_CLUSTER.NAME}
+"Ceres": {ko: "세레스", cat: cluster, key: CLUSTER_NAMES.CERES_BASE_CLUSTER.NAME, also: ["Ceres"]}
+"Ceres Cluster": {ko: "세레스 클러스터", cat: cluster, key: CLUSTER_NAMES.CERES_CLASSIC_CLUSTER.NAME}
+"Ceres Minor Cluster": {ko: "세레스 마이너 클러스터", cat: cluster, key: CLUSTER_NAMES.CERES_SPACEDOUT_CLUSTER.NAME}
+"Folia Cluster": {ko: "폴리아 클러스터", cat: cluster, key: CLUSTER_NAMES.FOREST_START_CLUSTER.NAME}
+"Marinea": {ko: "마리네아", cat: cluster, key: CLUSTER_NAMES.AQUATIC_BASE_CLUSTER.NAME}
+"Marinea Cluster": {ko: "마리네아 클러스터", cat: cluster, key: CLUSTER_NAMES.AQUATIC_CLASSIC_CLUSTER.NAME}
+"Marinea Minor Cluster": {ko: "마리네아 소 클러스터", cat: cluster, key: CLUSTER_NAMES.AQUATIC_SPACEDOUT_CLUSTER.NAME}
+"Mini Cluster - Ceres Mantle": {ko: "미니 클러스터 - 세레스 맨틀", cat: cluster, key: CLUSTER_NAMES.CERES_SPACEDOUT_SHATTERED_CLUSTER.NAME}
+"Moonlet Cluster - Flipped": {ko: "소위성 클러스터 - 뒤집힘", cat: cluster, key: CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.NAME}
+"Moonlet Cluster - Frozen Forest": {ko: "소위성 클러스터 - 얼어붙은 숲", cat: cluster, key: CLUSTER_NAMES.MINICLUSTER_FORESTFROZENSTART.NAME}
+"Moonlet Cluster - Metallic Swampy": {ko: "소위성 클러스터 - 금속성 늪지대", cat: cluster, key: CLUSTER_NAMES.MINICLUSTER_METALLICSWAMPYSTART.NAME}
+"Moonlet Cluster - Radioactive Ocean": {ko: "소위성 클러스터 - 방사성 바다", cat: cluster, key: CLUSTER_NAMES.MINICLUSTER_RADIOACTIVEOCEANSTART.NAME}
+"Moonlet Cluster - The Desolands": {ko: "소위성 클러스터 - 황량땅", cat: cluster, key: CLUSTER_NAMES.MINICLUSTER_BADLANDSSTART.NAME}
+"Oasisse Cluster": {ko: "오아시쎄 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_OASIS_CLUSTER.NAME}
+"Oceania Cluster": {ko: "오세아니아 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_OCEANIA_CLUSTER.NAME}
+"Planetary System": {ko: "행성계", cat: cluster, key: CLUSTER_NAMES.MILKYWAY.NAME}
+"Quagmiris Cluster": {ko: "콰그미리스 클러스터", cat: cluster, key: CLUSTER_NAMES.SWAMP_START_CLUSTER.NAME}
+"Relica": {ko: "렐리카", cat: cluster, key: CLUSTER_NAMES.PREHISTORIC_BASE_CLUSTER.NAME}
+"Relica Cluster": {ko: "렐리카 클러스터", cat: cluster, key: CLUSTER_NAMES.PREHISTORIC_CLASSIC_CLUSTER.NAME}
+"Relica Minor Cluster": {ko: "렐리카 마이너 클러스터", cat: cluster, key: CLUSTER_NAMES.PREHISTORIC_SPACEDOUT_CLUSTER.NAME}
+"RelicAAAAAAAGHH Cluster": {ko: "렐릭AAAAAAAGHH 클러스터", cat: cluster, key: CLUSTER_NAMES.PREHISTORIC_SHATTERED_CLUSTER.NAME}
+"Rime Cluster": {ko: "수빙 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_SANDSTONE_FROZEN_CLUSTER.NAME}
+"Single World": {ko: "단일 세계", cat: cluster, key: CLUSTER_NAMES.DEFAULT.NAME}
+"Squelchy Cluster": {ko: "스켈치 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_SWAMP_CLUSTER.NAME}
+"Terra Cluster": {ko: "테라 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_SANDSTONE_CLUSTER.NAME}
+"Terrania Cluster": {ko: "테라니아 클러스터", cat: cluster, key: CLUSTER_NAMES.SANDSTONE_START_CLUSTER.NAME}
+"The Badlands Cluster": {ko: "배드랜즈 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_BADLANDS_CLUSTER.NAME}
+"Two Small Worlds": {ko: "작은 두 세계", cat: cluster, key: CLUSTER_NAMES.TWO_SMALL_WORLDS.NAME}
+"Verdante Cluster": {ko: "베르단테 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_FOREST_CLUSTER.NAME}
+"Volcanea Cluster": {ko: "볼카네아 클러스터", cat: cluster, key: CLUSTER_NAMES.VANILLA_VOLCANIC_CLUSTER.NAME}
+"Biobot": {ko: "바이오봇", cat: robot, key: ROBOTS.MODELS.MORB.NAME}
+"Flydo": {ko: "플라이도", cat: robot, key: ROBOTS.MODELS.FLYDO.NAME}
+"Rover": {ko: "로버", cat: robot, key: ROBOTS.MODELS.SCOUT.NAME}
+"Sweepy": {ko: "치우개", cat: robot, key: ROBOTS.MODELS.SWEEPBOT.NAME}
+"Mysterious Hermit": {ko: "신비한 은둔자", cat: story_trait, key: CODEX.STORY_TRAITS.LONELYMINION.NAME}

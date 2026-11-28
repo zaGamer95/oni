@@ -23,8 +23,8 @@ description: 가이드는 "대부분의 판에 맞는 순서"이고, 사례는 �
 |---|---|---|
 | [개요]({{ '/guide/case/terrania-1/' | relative_url }}) | | 시드·트레잇, 복제체 8명, 가이드로 옮긴 것 |
 | [1장 Persephazon]({{ '/guide/case/terrania-1/persephazon/' | relative_url }}) | 시작 행성 | 기지 세우기, 안정화, 두 번째 행성 보내기 |
-| [1-1 열 문제·드레코 목장]({{ '/guide/case/terrania-1/drecko-ranch/' | relative_url }}) | 시작 행성 | 에어컨 없이 열 막기, 드레코 목장 |
-| [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }}) | 시작 행성 | 염수 수조, 전기분해기 3대 SPOM, 터빈 전 전력 |
+| [1-1 열 문제·기끌이 목장]({{ '/guide/case/terrania-1/drecko-ranch/' | relative_url }}) | 시작 행성 | 에어컨 없이 열 막기, 기끌이 목장 |
+| [1-2 사이클 160: 수조·무한 SPOM]({{ '/guide/case/terrania-1/persephazon/cycle-160/' | relative_url }}) | 시작 행성 | 염수 수조, 전해조 3대 SPOM, 터빈 전 전력 |
 | [1-3 개인 침실 8칸 배치]({{ '/guide/case/terrania-1/persephazon/bedrooms/' | relative_url }}) | 시작 행성 | 텔레포터를 피해 큰 회관 위에 6×4 침실 6칸 + 기존 침대 2, 병원 |
 | [2장 Oozato]({{ '/guide/case/terrania-1/oozato/' | relative_url }}) | 기름 늪 | 전력 0에서 자립까지 (사이클 108) |
 | [2-1 사이클 142 점검]({{ '/guide/case/terrania-1/oozato/check-142/' | relative_url }}) | 기름 늪 | 다섯 질문, 닫힌 고리 |

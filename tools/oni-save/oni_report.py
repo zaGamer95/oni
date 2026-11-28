@@ -74,11 +74,26 @@ MoltenCopper MoltenIron MoltenGold MoltenLead MoltenSteel MoltenCarbon MoltenSal
 NaturalResinLiquid Resin MoltenNickel""".split())
 
 KO = {  # 게임 공식 한글 명칭은 확인된 것만. 나머지는 영문 ID 그대로.
-    "Katairite": "단열석", "Oxygen": "산소", "ContaminatedOxygen": "오염된 산소", "CarbonDioxide": "이산화탄소",
+    "Katairite": "심성석", "Oxygen": "산소", "ContaminatedOxygen": "오염된 산소", "CarbonDioxide": "이산화탄소",
     "Hydrogen": "수소", "Methane": "천연가스", "Water": "물", "DirtyWater": "오염된 물", "Vacuum": "진공",
     "Unobtanium": "중성자물질", "CrudeOil": "원유", "Petroleum": "석유", "Steam": "증기", "Ice": "얼음",
-    "SaltWater": "소금물", "Brine": "염수", "SlimeMold": "슬라임", "Algae": "조류",
+    "SaltWater": "소금물", "Brine": "염수", "SlimeMold": "는지렁이", "Algae": "조류",
 }
+
+def _load_glossary():  # 게임 공식 한국어 원소 이름 (_data/glossary_ko.yml, Klei 번역 파일에서 생성)
+    import re as _re
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "_data", "glossary_ko.yml")
+    out = {}
+    try:
+        for line in open(path, encoding="utf-8"):
+            m = _re.search(r'ko: "([^"]+)".*key: ELEMENTS\.([A-Z0-9_]+)\.NAME', line)
+            if m: out[m.group(2)] = m.group(1)
+    except OSError:
+        pass
+    return out
+_GL = _load_glossary()
+for _eid in set(ELEM.values()) | set(KO):
+    if _eid.upper() in _GL: KO[_eid] = _GL[_eid.upper()]
 ZONE = ["FrozenWastes", "CrystalCaverns", "BoggyMarsh", "Sandstone", "ToxicJungle", "MagmaCore", "OilField", "Space",
         "Ocean", "Rust", "Forest", "Radioactive", "Swamp", "Wasteland", "RocketInterior", "Metallic", "Barren", "Moo",
         "IceCaves", "CarrotQuarry", "SugarWoods", "PrehistoricGarden", "PrehistoricRaptor", "PrehistoricWetlands"]
@@ -320,7 +335,7 @@ def render_map(path, E, M, B, wb, wd, ox, oy, title, cs=6):
     d.line([xd, mt, xd, mt + sy * cs], fill=(200, 0, 0), width=2)
     d.text((ml, 6), f"{title}  ·  세로 {sy} 타일  ·  1칸 = 1타일, 굵은 선 10타일, 좌표 원점 = 월드 왼쪽 아래 "
                     f"(전체 격자 기준 +{ox},+{oy})", fill=(0, 0, 0), font=f)
-    d.text((ml, mt + sy * cs + 28), "분홍 = 단열석(Abyssalite) · 노란 선 = 바이옴 경계 · 흰 칸 = 건물 · 빨간 점 = 복제체",
+    d.text((ml, mt + sy * cs + 28), "분홍 = 심성석(Abyssalite) · 노란 선 = 바이옴 경계 · 흰 칸 = 건물 · 빨간 점 = 복제체",
            fill=(0, 0, 0), font=f)
     img.save(path)
 
@@ -423,7 +438,7 @@ def main(path, out):
         zc = collections.Counter(ZONE[z] if 0 <= z < len(ZONE) else str(z) for z in B.flatten() if z >= 0)
         lines.append("- 바이옴(셀 수): " + ", ".join(f"{k} {v}" for k, v in zc.most_common()))
         kat = int((E == "Katairite").sum())
-        lines.append(f"- 단열석(Abyssalite) 셀: {kat}")
+        lines.append(f"- 심성석(Abyssalite) 셀: {kat}")
         lines.append(f"- 복제체 {len(wd)}명: " + ", ".join(d["name"] for d in wd))
         # base area = cells within 3 of any building
         mask = np.zeros(E.shape, bool)
