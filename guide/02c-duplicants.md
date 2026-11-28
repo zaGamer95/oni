@@ -7,25 +7,24 @@ permalink: /guide/duplicants/
 description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(Interests), 특성(Traits), 스트레스 반응, 기쁨 반응을 수치와 함께 정리하고, 스킬·사기까지 계산해 추천합니다.
 ---
 
-* 목차
-{:toc}
-
 ## 30초 요약
 
-> **이 조합이 나올 때까지 리롤하세요.**
-> 1. **관심 분야가 겹치지 않는 3명.** 연구(Researching) 1명, 굴착(Digging) 1명, 나머지 1명은 농사·건설·목축 중 하나.
-> 2. **작업 불가 특성(Yokel, Trypophobia, Unconstructive)이 그 사람 담당 일과 겹치면 리롤.**
-> 3. **Mouth Breather(산소 2배), Bottomless Stomach(칼로리 +50%)는 리롤.**
-> 4. **스트레스 반응이 Binge Eater, Destructive, Banshee면 가급적 리롤.** Ugly Crier가 가장 무난합니다.
-> 5. 바이오닉 팩을 켰어도 **첫 3명은 일반 복제체**로.
+> **이 조합이 나올 때까지 리롤.**
+> 1. **관심이 겹치지 않는 3명:** 연구 (Researching) / 굴착 (Digging) / 농사·건설·목축 중 하나.
+> 2. **작업 불가 특성**(시골뜨기 (Yokel)·환공포증 (Trypophobia)·비건설적 (Unconstructive))이 담당 일과 겹치면 리롤.
+> 3. **입으로 숨쉼 (Mouth Breather)**, **밑바닥 없는 배 (Bottomless Stomach)** 리롤.
+> 4. 스트레스 반응 **폭식가 (Binge Eater)·파괴적 (Destructive)·밴시 (Banshee)** 는 가급적 리롤.
+> 5. 바이오닉 팩을 켰어도 **첫 3명은 일반 복제체.**
 {: .tip}
-
-> 이 페이지의 수치는 [ONI 공식 위키](https://oxygennotincluded.wiki.gg/wiki/Duplicant)(2026년 11월 기준)와 인게임 툴팁으로 확인했습니다.
-{: .warn}
 
 ## 화면 보는 법
 
-{% include shot.html src="dupe-select-example.jpg" caption="시작 화면 예시. 왼쪽 Devon은 연구 9, 가운데 Stinky는 굴착 9, 오른쪽 Marie는 농사·연구·기계 2/2/1." %}
+{% include shot.html src="dupe-select-example.jpg" caption="왼쪽 Devon 연구 9, 가운데 Stinky 굴착 9, 오른쪽 Marie 농사·연구·기계 2/2/1." %}
+
+**REROLL 왼쪽 아이콘으로 원하는 관심을 고정하고 리롤**하면 훨씬 빠릅니다.
+
+<details class="nums" markdown="1">
+<summary>화면 각 칸의 뜻</summary>
 
 | 위치 | 뜻 |
 |---|---|
@@ -36,28 +35,20 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **Stress Reaction** | 스트레스가 100%가 되면 하는 행동 |
 | **Overjoyed Response** | 사기(Morale)가 기대치보다 한참 높을 때 가끔 나오는 좋은 행동 |
 | 맨 아래 이탤릭 글 | 설정 문구. 게임에 영향 없음 |
+</details>
 
-## 관심(Interests)과 능력치 보너스
+## 관심과 능력치
 
-관심 분야는 1~3개가 붙고, **개수가 적을수록 한 분야에 몰아서** 보너스를 받습니다.
+| 관심 개수 | 분야마다 보너스 |
+|---|---|
+| 1개 | **+7** (전문가, 초반 연구·굴착에 최고) |
+| 2개 | +3 |
+| 3개 | +1 (대신 세 분야 1단계 스킬이 사기 0) |
 
-| 관심 개수 | 기본 보너스 (분야마다) | 이런 복제체 |
-|---|---|---|
-| 1개 | **+7** | 한 분야 전문가. 초반 연구·굴착 담당으로 최고 |
-| 2개 | +3 | 무난 |
-| 3개 | +1 | 능력치는 낮지만 여러 분야 스킬을 싸게 배움 (아래 스킬 참고) |
+여기에 나쁜 특성의 **추가 포인트**가 관심 분야로 더해집니다. 관심 분야 스킬은 **사기 요구치 −1**, 경험치도 빠름.
 
-여기에 나쁜 특성마다 정해진 **추가 포인트(Interest Attribute Modifier)**가 더해집니다. 관심이 여러 개면 추가 포인트는 **무작위로 나뉘어** 들어가요. 각 특성의 추가 포인트는 아래 특성 표의 "추가 포인트" 칸에 적었습니다. 좋은 특성은 추가 포인트가 없습니다.
-
-> **스크린샷으로 계산해 보기.** 세 명 모두 나쁜 특성이 +2짜리 하나씩입니다 (Unempathetic +2, Kitchen Menace +2).
-> - Devon (관심 1개): 기본 7 + Unempathetic 2 = **+9 Science**
-> - Stinky (관심 1개): 기본 7 + Kitchen Menace 2 = **+9 Excavation**
-> - Marie (관심 3개): 기본 1씩 + Kitchen Menace 2를 무작위로 나눠서 = **+2 Agriculture / +2 Science / +1 Machinery**
-{: .tip}
-
-관심은 능력치만 주는 게 아닙니다. 관심 분야 스킬은 **사기 요구치가 1 싸고**, 관심 분야 일을 하면 **경험치(스킬 포인트)가 더 빨리** 쌓입니다. 자세한 건 [스킬과 사기](#스킬과-사기morale)에서 다뤄요.
-
-### 관심 분야 목록
+<details class="nums" markdown="1">
+<summary>관심 분야 목록과 Devon·Stinky·Marie 계산 예</summary>
 
 | 관심 (화면 표기) | 오르는 능력치 | 하는 일 |
 |---|---|---|
@@ -74,153 +65,154 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | Suit Wearing | Athletics (운동) | 환경 특수복·로켓 관련 스킬 |
 | Rocketry (우주 탐사) | Piloting | 로켓 조종 |
 
-> Supplying과 Tidying은 둘 다 Strength를 올립니다. 둘 다 있으면 각각 +3씩 합쳐서 6인데, 화면에는 양쪽에 "+6"으로 잘못 표시돼요.
-{: .warn}
-
-## 능력치가 실제로 하는 일
-
-**관심 보너스와 특성 보너스는 그냥 더해집니다.** Marie는 관심(Farming) +2에 Green Thumb +3이 붙어서 **Agriculture 5**로 일합니다. 화면의 INTERESTS 칸에는 관심 몫(+2)만 보이고, 특성 몫(+3)은 특성에 마우스를 올려야 보여요.
+- Devon (관심 1개): 7 + 무관심 (Unempathetic) 2 = **과학 +9**
+- Stinky (관심 1개): 7 + 주방 위협 (Kitchen Menace) 2 = **굴착 +9**
+- Marie (관심 3개): 1씩 + 주방 위협 2 무작위 분배 = 농업 +2 / 과학 +2 / 기계 +1
+- 공급 (Supplying)·정리 (Tidying)은 둘 다 근력을 올림. 둘 다 있으면 +3씩 합 6인데 화면엔 양쪽 "+6"으로 잘못 표시.
+</details>
 
 <div class="shot-grid" markdown="0">
-{% include shot.html src="tooltip-agri-interest.png" caption="관심(Farming)에서 오는 Agriculture +2" %}
-{% include shot.html src="tooltip-agri-greenthumb.png" caption="Green Thumb에서 오는 Agriculture +3" %}
+{% include shot.html src="tooltip-agri-interest.png" caption="관심(농사)에서 오는 농업 +2" %}
+{% include shot.html src="tooltip-agri-greenthumb.png" caption="녹색 엄지 (Green Thumb)에서 오는 농업 +3" %}
 </div>
 
-능력치 1점마다 오르는 효과입니다 (위키 표 + 툴팁으로 확인).
+관심 보너스와 특성 보너스는 **그냥 더해집니다** (Marie 농업 = 2 + 3 = 5). 일할수록 **최대 +20** 더 자람.
+
+> **과학 (Science)** 은 모든 능력치의 성장 속도를 올리고, **운동 (Athletics)** 은 이동 속도라 모두에게 이득. **기계류 (Machinery)** 는 농사에 도움이 안 됩니다 (조작 기계·튠업 전용).
+{: .tip}
+
+<details class="nums" markdown="1">
+<summary>능력치 1점당 효과</summary>
 
 | 능력치 | 1점당 효과 |
 |---|---|
-| **Construction** | 건설·수리 속도 +25% |
-| **Excavation** | 굴착 속도 +25%, 공격력 +5% |
-| **Science** | 연구 속도 **+40%**, **능력치 성장 속도 +10%**, 지열 조정 속도 +5% |
-| **Agriculture** | 수확 속도 +5%, 돌보기 속도 +2.5%, 씨앗 확률 +3.3%, 농부의 손길 지속시간 +10% |
-| **Husbandry** | 포획 속도 +5%, 손질(Groom) 효과 지속시간 +10% |
-| **Machinery** | 기계 조작 속도 +10%, 튠업 지속시간 +2.5%, 수리량 ↑ |
-| **Athletics** | 이동 속도 +10% |
-| **Strength** | 청소 속도 +25%, 운반량 +40kg (기본 200kg) |
-| **Cuisine** | 요리 속도 +5% |
-| **Medicine** | 약 제작 속도 +10%, 치료 속도 +20% |
-| **Creativity** | 미술 작업 속도 +10% |
-| **Piloting** (우주 탐사) | 로켓 속도 +2.5% |
-
-능력치는 그 일을 할수록 **최대 +20까지** 저절로 자랍니다. 이 +20은 관심·특성 보너스와 **따로** 더해지기 때문에, 시작 보너스가 높은 복제체는 최종 실력도 그만큼 높아요.
-
-### 간접적으로 도움 되는 능력치
+| **건조 (Construction)** | 건설·수리 속도 +25% |
+| **굴착 (Excavation)** | 굴착 속도 +25%, 공격력 +5% |
+| **과학 (Science)** | 연구 속도 **+40%**, **능력치 성장 속도 +10%**, 지열 조정 속도 +5% |
+| **농업 (Agriculture)** | 수확 속도 +5%, 돌보기 속도 +2.5%, 씨앗 확률 +3.3%, 농부의 손길 지속시간 +10% |
+| **축산 (Husbandry)** | 포획 속도 +5%, 손질(Groom) 효과 지속시간 +10% |
+| **기계류 (Machinery)** | 기계 조작 속도 +10%, 튠업 지속시간 +2.5%, 수리량 ↑ |
+| **운동 (Athletics)** | 이동 속도 +10% |
+| **힘 (Strength)** | 청소 속도 +25%, 운반량 +40kg (기본 200kg) |
+| **요리 (Cuisine)** | 요리 속도 +5% |
+| **의약 (Medicine)** | 약 제작 속도 +10%, 치료 속도 +20% |
+| **창의성 (Creativity)** | 미술 작업 속도 +10% |
+| **조종 (Piloting)** (우주 탐사) | 로켓 속도 +2.5% |
 
 | 능력치 | 왜 모두에게 좋은가 |
 |---|---|
-| **Science** | 연구만이 아니라 **모든 능력치가 자라는 속도**를 올립니다. Marie의 Science 2는 농사 실력이 **20% 빨리** 크는 효과예요. |
-| **Athletics** | 이동 속도. 오가는 시간이 줄어서 모든 일이 빨라짐. 환경 특수복을 입으면 −6이 붙어서 외부 인력에게 특히 중요 |
-| **Strength** | 한 번에 나르는 양. 운반이 많은 초반에 은근히 큼 |
+| **과학 (Science)** | 연구만이 아니라 **모든 능력치가 자라는 속도**를 올립니다. Marie의 Science 2는 농사 실력이 **20% 빨리** 크는 효과예요. |
+| **운동 (Athletics)** | 이동 속도. 오가는 시간이 줄어서 모든 일이 빨라짐. 환경 특수복을 입으면 −6이 붙어서 외부 인력에게 특히 중요 |
+| **힘 (Strength)** | 한 번에 나르는 양. 운반이 많은 초반에 은근히 큼 |
+</details>
 
-### Machinery가 농사에 도움이 되나?
+## 특성
 
-**안 됩니다.** Machinery는 사람이 **붙어서 조작하는 기계**(금속 제련소, 바위 분쇄기 등)의 속도와 **발전기 튠업** 효과 시간, 수리량에만 들어갑니다. 화분·수경 재배기와 재배스테이션(Farm Station)의 비료 작업은 **Agriculture**가 담당해요.
+보통 **좋은 것 1 + 나쁜 것 1.** 첫 3명 기준 평가: ✅✅ 노려볼 만 · ✅ 좋음 · ➖ 그만 · ⚠️ 담당 따라 · ❌ 리롤.
 
-그래도 Marie의 Operating 관심은 쓸모가 있습니다. 튠업은 Operating 2단계 스킬 **Electrical Engineering**이 있어야 하는데, 관심 할인 덕에 **1단계(Improved Tinkering) 사기 0, 2단계 사기 1**로 배울 수 있어요.
+| 노려볼 것 ✅✅ | 리롤 ❌ |
+|---|---|
+| 빨리 배움 (Quick Learner), 두더지 손 (Mole Hands), 번개발가락 (Twinkletoes), 잠수부의 허파 (Diver's Lungs), 교양 없음 (Uncultured) | 입으로 숨쉼 (Mouth Breather), 밑바닥 없는 배 (Bottomless Stomach), 빈혈 (Anemic), 담당과 겹치는 작업 불가 특성 |
 
-## 특성(Traits) 전체
+> **빨간색인데 사실상 좋은 것:** 주방 위협 (Kitchen Menace, 음식 품질 한 단계 업), 미숙한 아티스트 (Unpracticed Artist, 장식 사기 +5), 무관심 (Unempathetic). 담당이 아닌 일만 깎고 관심 포인트를 줍니다. 반대로 미식가 (Gourmet)·실내 장식가 (Interior Decorator)는 초록색이지만 사기를 깎아요.
+{: .tip}
 
-특성은 보통 **좋은 것 1개 + 나쁜 것 1개**입니다. 게임은 특성 희귀도(Common → Legendary)의 균형을 0에 가깝게 맞추려고 해서, 희귀한 좋은 특성이 붙으면 무거운 나쁜 특성이 같이 붙는 경향이 있어요. 평가는 **첫 3명 기준**입니다.
-
-- ✅✅ 노려볼 만함 · ✅ 좋음 · ➖ 있어도 그만 · ⚠️ 담당에 따라 · ❌ 리롤 권장
-
-### 좋은 특성 (초록색)
+<details class="nums" markdown="1">
+<summary>좋은 특성 전체</summary>
 
 | 특성 | 효과 | 희귀도 | 평가 |
 |---|---|---|---|
-| **Quick Learner** | Science +3 | Rare | ✅✅ 연구 담당이면 최고 |
-| **Mole Hands** | Excavation +3 | Rare | ✅✅ 굴착 담당이면 최고 |
-| **Handy** | Construction +3 | Uncommon | ✅ 건설 담당 |
-| **Green Thumb** | Agriculture +3 | Common | ✅ 농사 담당 |
-| **Animal Lover** | Husbandry +3 | Uncommon | ✅ 목축 담당 |
-| **Grease Monkey** | Machinery +3 | Uncommon | ✅ 정제·튠업 담당 |
-| **Buff** | Strength +3 | Rare | ✅ 누구에게 붙어도 쓸모 있음 |
-| **Twinkletoes** | Athletics +3 | Epic | ✅✅ 이동 +30%. 누구에게나 좋음 |
-| **Diver's Lungs** | 산소 소비 −25 g/s (−25%) | Epic | ✅✅ 초반 산소 부족을 줄여 줌 |
-| **Early Bird** | 하루 첫 125초 동안 모든 능력치 +2 | Rare | ➖ |
-| **Night Owl** | 밤에만 모든 능력치 +3 (일정을 바꿔야 의미 있음) | Rare | ➖ |
-| **Duress to Impress** | 스트레스 60% 이상일 때 모든 능력치 +7 | Epic | ➖ 스트레스 관리 잘하면 안 켜짐 |
-| **Iron Gut** | 식중독 면역 | Common | ✅ 화장실·오염된 물 근처 일에 좋음 |
-| **Germ Resistant** | 병균 저항 +1 | Common | ✅ |
-| **Shrivelled Tastebuds** | 음식 품질을 한 단계 높게 느낌 (사기 ↑) | Uncommon | ✅ |
-| **Uncultured** | 장식 사기 보너스 **+20**, 대신 미술 불가 | Common | ✅✅ 사기 걱정이 거의 사라짐 |
-| **Innately Stylish** | 본인 주변 장식도 +25 | Uncommon | ✅ |
-| **Caregiver** | Medicine +3 | Common | ➖ 초반엔 쓸 일 적음 |
-| **Gourmet** | Cuisine +3, 대신 음식 품질을 **한 단계 낮게** 느낌 | Common | ⚠️ 요리 담당 아니면 손해 |
-| **Interior Decorator** | Creativity +3, 대신 장식 사기 보너스 **−5** | Common | ⚠️ 미술 담당 아니면 손해 |
-| **Frost Proof** (서리 행성 팩) | 추운 환경 디버프 면역 | Common | ➖ 추운 행성이면 ✅ |
-| **Rock Fan** (우주 탐사) | 유성우 중 모든 능력치 +3 | Rare | ➖ |
-| **Starry Eyed** (우주 탐사) | 우주에 있으면 사기 +10 | Rare | ➖ 나중에 로켓 승무원으로 ✅ |
-| **Loner** (우주 탐사) | 소행성에 혼자 있으면 모든 능력치 +4 | Epic | ➖ 혼자 가는 개척지 담당으로 ✅ |
-| **Glow Stick** (우주 탐사) | 빛 500 lux를 내고 방사능 저항 +33%. 대신 본인도 방사능을 냄 | Epic | ➖ |
-| **Radiation Eater** (우주 탐사) | 방사능을 흡수해 칼로리로 바꿈 (하루 최대 50 kcal) | Epic | ➖ |
+| **빨리 배움 (Quick Learner)** | Science +3 | Rare | ✅✅ 연구 담당이면 최고 |
+| **두더지 손 (Mole Hands)** | Excavation +3 | Rare | ✅✅ 굴착 담당이면 최고 |
+| **능숙함 (Handy)** | Construction +3 | Uncommon | ✅ 건설 담당 |
+| **녹색 엄지 (Green Thumb)** | Agriculture +3 | Common | ✅ 농사 담당 |
+| **동물 애호가 (Animal Lover)** | Husbandry +3 | Uncommon | ✅ 목축 담당 |
+| **수리공 (Grease Monkey)** | Machinery +3 | Uncommon | ✅ 정제·튠업 담당 |
+| **왕근육 (Buff)** | Strength +3 | Rare | ✅ 누구에게 붙어도 쓸모 있음 |
+| **번개발가락 (Twinkletoes)** | Athletics +3 | Epic | ✅✅ 이동 +30%. 누구에게나 좋음 |
+| **잠수부의 허파 (Diver's Lungs)** | 산소 소비 −25 g/s (−25%) | Epic | ✅✅ 초반 산소 부족을 줄여 줌 |
+| **아침형 복제체 (Early Bird)** | 하루 첫 125초 동안 모든 능력치 +2 | Rare | ➖ |
+| **올빼미족 (Night Owl)** | 밤에만 모든 능력치 +3 (일정을 바꿔야 의미 있음) | Rare | ➖ |
+| **강박의 인상 (Duress to Impress)** | 스트레스 60% 이상일 때 모든 능력치 +7 | Epic | ➖ 스트레스 관리 잘하면 안 켜짐 |
+| **강철 위장 (Iron Gut)** | 식중독 면역 | Common | ✅ 화장실·오염된 물 근처 일에 좋음 |
+| **세균 저항 (Germ Resistant)** | 병균 저항 +1 | Common | ✅ |
+| **줄어든 맛봉오리 (Shrivelled Tastebuds)** | 음식 품질을 한 단계 높게 느낌 (사기 ↑) | Uncommon | ✅ |
+| **교양 없음 (Uncultured)** | 장식 사기 보너스 **+20**, 대신 미술 불가 | Common | ✅✅ 사기 걱정이 거의 사라짐 |
+| **타고난 세련됨 (Innately Stylish)** | 본인 주변 장식도 +25 | Uncommon | ✅ |
+| **간병인 (Caregiver)** | Medicine +3 | Common | ➖ 초반엔 쓸 일 적음 |
+| **미식가 (Gourmet)** | Cuisine +3, 대신 음식 품질을 **한 단계 낮게** 느낌 | Common | ⚠️ 요리 담당 아니면 손해 |
+| **실내 장식가 (Interior Decorator)** | Creativity +3, 대신 장식 사기 보너스 **−5** | Common | ⚠️ 미술 담당 아니면 손해 |
+| **서리 방지 (Frost Proof)** (서리 행성 팩) | 추운 환경 디버프 면역 | Common | ➖ 추운 행성이면 ✅ |
+| **록 팬 (Rock Fan)** (우주 탐사) | 유성우 중 모든 능력치 +3 | Rare | ➖ |
+| **별이 빛나는 눈 (Starry Eyed)** (우주 탐사) | 우주에 있으면 사기 +10 | Rare | ➖ 나중에 로켓 승무원으로 ✅ |
+| **외톨이 (Loner)** (우주 탐사) | 소행성에 혼자 있으면 모든 능력치 +4 | Epic | ➖ 혼자 가는 개척지 담당으로 ✅ |
+| **글로우 스틱 (Glow Stick)** (우주 탐사) | 빛 500 lux를 내고 방사능 저항 +33%. 대신 본인도 방사능을 냄 | Epic | ➖ |
+| **방사선을 먹는 자 (Radiation Eater)** (우주 탐사) | 방사능을 흡수해 칼로리로 바꿈 (하루 최대 50 kcal) | Epic | ➖ |
 | **Skilled: ○○** | 스킬 하나를 **사기 부담 없이** 미리 배운 상태 | Epic~Legendary | ✅ 담당과 맞으면 ✅✅ |
+</details>
 
-> **Jorge 전용**: Mysterious Hermit(스토리 트레잇)으로 얻는 Jorge는 Ancient Knowledge(스킬 포인트 +3)와 Charismatic(대화한 복제체가 1% 확률로 기쁨 반응)을 가지고 나옵니다.
-{: .tip}
-
-### 나쁜 특성: 작업 불가
-
-해당 일을 **아예 못 합니다.** 그 일이 담당이면 반드시 리롤하세요. 이 계열은 추가 포인트도 거의 없습니다.
+<details class="nums" markdown="1">
+<summary>나쁜 특성: 작업 불가</summary>
 
 | 특성 | 못 하는 일 | 추가 포인트 | 평가 |
 |---|---|---|---|
-| **Trypophobia** | 굴착 | +4 | ❌ 초반엔 모두가 파야 함 |
-| **Unconstructive** | 건설 | +4 | ❌ 초반엔 모두가 지어야 함 |
-| **Yokel** | 연구 | 0 | ❌ 첫 3명 중엔 피하기 (연구 손이 모자람) |
-| **Gastrophobia** | 요리 | 0 | ⚠️ 요리 담당만 아니면 괜찮음 |
-| **Squeamish** | 치료 | 0 | ➖ 거의 상관없음 |
-| **Pacifist** | 동물 공격 | 0 | ➖ 거의 상관없음 |
+| **환공포증 (Trypophobia)** | 굴착 | +4 | ❌ 초반엔 모두가 파야 함 |
+| **비건설적 (Unconstructive)** | 건설 | +4 | ❌ 초반엔 모두가 지어야 함 |
+| **시골뜨기 (Yokel)** | 연구 | 0 | ❌ 첫 3명 중엔 피하기 (연구 손이 모자람) |
+| **요리공포증 (Gastrophobia)** | 요리 | 0 | ⚠️ 요리 담당만 아니면 괜찮음 |
+| **비위가 약함 (Squeamish)** | 치료 | 0 | ➖ 거의 상관없음 |
+| **평화주의자 (Pacifist)** | 동물 공격 | 0 | ➖ 거의 상관없음 |
+</details>
 
-### 나쁜 특성: 몸 상태
-
-| 특성 | 효과 | 추가 포인트 | 평가 |
-|---|---|---|---|
-| **Mouth Breather** | 산소 소비 **+100 g/s** (2배) | +5 | ❌ 초반 산소가 빠듯해짐 |
-| **Bottomless Stomach** | 칼로리 **+500 kcal/사이클** (1.5배) | +4 | ❌ 초반 식량이 빠듯해짐 |
-| **Narcoleptic** | 300~600초마다 15~30초 졸음 (하루 평균 30초) | **+5** | ⚠️ 손해가 생각보다 작음. 포인트 +5라 의외로 쓸 만함 |
-| **Flatulent** | 10~40초마다 천연가스 100g 방출 (평균 4 g/s) | +3 | ⚠️ 초반 기지에 가스가 쌓임 |
-| **Loud Sleeper** | 자면서 3칸 안의 복제체를 깨움 | +1 | ⚠️ 침대를 떨어뜨려 두면 해결 |
-| **Nyctophobic** | 잘 때 불이 켜져 있어야 함 | +2 | ⚠️ 침실에 조명 하나 |
-| **Allergies** | 꽃향기 병균에 닿으면 재채기(병) | +2 | ⚠️ |
-| **Biohazardous** | 병균 저항 −1 | +2 | ⚠️ |
-| **Irritable Bowel** | 화장실 속도 −50% | +1 | ➖ |
-| **Small Bladder** | 방광 차는 속도가 아주 조금 빨라짐 | +1 | ✅ 실제 영향은 거의 없음 (공짜 +1) |
-| **Shabby Dresser** | 본인 주변 장식도 −15 | +1 | ➖ |
-
-### 나쁜 특성: 능력치 감소
+<details class="nums" markdown="1">
+<summary>나쁜 특성: 몸 상태</summary>
 
 | 특성 | 효과 | 추가 포인트 | 평가 |
 |---|---|---|---|
-| **Anemic** | Athletics **−5** (이동 −50%) | +5 | ❌ 모든 일이 느려짐 |
-| **Noodle Arms** | Strength −3 | +3 | ⚠️ 운반이 느려짐 |
-| **Undigging** | Excavation −3 | +3 | ⚠️ 굴착 담당이면 ❌ |
-| **Building Impaired** | Construction −3 | +3 | ⚠️ 건설 담당이면 ❌ |
-| **Slow Learner** | Science −3 | +3 | ⚠️ 연구 담당이면 ❌ |
-| **Plant Murderer** | Agriculture −3 | +2 | ⚠️ 농사 담당이면 ❌ |
-| **Critter Aversion** | Husbandry −3 | +2 | ⚠️ 목축 담당이면 ❌ |
-| **Luddite** | Machinery −3 | +2 | ⚠️ |
-| **Unempathetic** | Medicine −3 | +2 | ✅ 아래 참고 |
-| **Kitchen Menace** | Cuisine −3, **음식 품질을 한 단계 높게 느낌** | +2 | ✅✅ 아래 참고 |
-| **Unpracticed Artist** | Creativity −3, **장식 사기 보너스 +5** | +2 | ✅✅ 아래 참고 |
+| **입으로 숨쉼 (Mouth Breather)** | 산소 소비 **+100 g/s** (2배) | +5 | ❌ 초반 산소가 빠듯해짐 |
+| **밑바닥 없는 배 (Bottomless Stomach)** | 칼로리 **+500 kcal/사이클** (1.5배) | +4 | ❌ 초반 식량이 빠듯해짐 |
+| **기면증 (Narcoleptic)** | 300~600초마다 15~30초 졸음 (하루 평균 30초) | **+5** | ⚠️ 손해가 생각보다 작음. 포인트 +5라 의외로 쓸 만함 |
+| **헛배부름 (Flatulent)** | 10~40초마다 천연가스 100g 방출 (평균 4 g/s) | +3 | ⚠️ 초반 기지에 가스가 쌓임 |
+| **시끄럽게 잠 (Loud Sleeper)** | 자면서 3칸 안의 복제체를 깨움 | +1 | ⚠️ 침대를 떨어뜨려 두면 해결 |
+| **야공포증 (Nyctophobic)** | 잘 때 불이 켜져 있어야 함 | +2 | ⚠️ 침실에 조명 하나 |
+| **알레르기 (Allergies)** | 꽃향기 병균에 닿으면 재채기(병) | +2 | ⚠️ |
+| **생물재해 (Biohazardous)** | 병균 저항 −1 | +2 | ⚠️ |
+| **과민성 대장 (Irritable Bowel)** | 화장실 속도 −50% | +1 | ➖ |
+| **작은 방광 (Small Bladder)** | 방광 차는 속도가 아주 조금 빨라짐 | +1 | ✅ 실제 영향은 거의 없음 (공짜 +1) |
+| **초라한 드레서 (Shabby Dresser)** | 본인 주변 장식도 −15 | +1 | ➖ |
+</details>
 
-## 사실상 좋은 특성 (빨간색이지만 추천)
+<details class="nums" markdown="1">
+<summary>나쁜 특성: 능력치 감소</summary>
 
-빨간색이라고 다 나쁜 건 아닙니다. **담당이 아닌 일만 깎는 나쁜 특성은 손해가 없고**, 대신 **관심 분야에 추가 포인트가** 붙습니다. 몇몇은 숨은 이득까지 있어요.
+| 특성 | 효과 | 추가 포인트 | 평가 |
+|---|---|---|---|
+| **빈혈 (Anemic)** | Athletics **−5** (이동 −50%) | +5 | ❌ 모든 일이 느려짐 |
+| **면 팔 (Noodle Arms)** | Strength −3 | +3 | ⚠️ 운반이 느려짐 |
+| **못 파 (Undigging)** | Excavation −3 | +3 | ⚠️ 굴착 담당이면 ❌ |
+| **건조물 장애 (Building Impaired)** | Construction −3 | +3 | ⚠️ 건설 담당이면 ❌ |
+| **느리게 배움 (Slow Learner)** | Science −3 | +3 | ⚠️ 연구 담당이면 ❌ |
+| **식물 살해자 (Plant Murderer)** | Agriculture −3 | +2 | ⚠️ 농사 담당이면 ❌ |
+| **크리터 혐오 (Critter Aversion)** | Husbandry −3 | +2 | ⚠️ 목축 담당이면 ❌ |
+| **러다이트 (Luddite)** | Machinery −3 | +2 | ⚠️ |
+| **무관심 (Unempathetic)** | Medicine −3 | +2 | ✅ 아래 참고 |
+| **주방 위협 (Kitchen Menace)** | Cuisine −3, **음식 품질을 한 단계 높게 느낌** | +2 | ✅✅ 아래 참고 |
+| **미숙한 아티스트 (Unpracticed Artist)** | Creativity −3, **장식 사기 보너스 +5** | +2 | ✅✅ 아래 참고 |
+</details>
+
+<details class="nums" markdown="1">
+<summary>사실상 좋은 특성과 음식 품질 사기표</summary>
 
 | 특성 | 손해 | 이득 | 이런 복제체면 추천 |
 |---|---|---|---|
-| **Kitchen Menace** | Cuisine −3 | 관심 +2, **음식 품질 한 단계 업** | 요리 담당이 아닌 **모든 복제체**. 최고의 "나쁜" 특성 |
-| **Unpracticed Artist** | Creativity −3 | 관심 +2, **장식 사기 +5** | 미술 담당이 아닌 모든 복제체 |
-| **Unempathetic** | Medicine −3 | 관심 +2 | 의사 담당이 아닌 모든 복제체 |
-| **Critter Aversion** | Husbandry −3 | 관심 +2 | 목축 담당이 아닌 복제체 |
-| **Plant Murderer** | Agriculture −3 | 관심 +2 | 연구·굴착 담당 |
-| **Slow Learner** | Science −3 | 관심 +3 | 굴착·건설 담당 (연구는 다른 사람이) |
-| **Small Bladder** | 사실상 없음 | 관심 +1 | 누구나 |
-| **Narcoleptic** | 하루 평균 30초 졸음 | 관심 **+5** | 굴착·건설처럼 잠깐 멈춰도 되는 담당 |
-
-**Kitchen Menace가 왜 좋은가:** 음식 사기는 품질 단계마다 크게 뜁니다. 한 단계 업은 생각보다 큰 차이예요.
+| **주방 위협 (Kitchen Menace)** | Cuisine −3 | 관심 +2, **음식 품질 한 단계 업** | 요리 담당이 아닌 **모든 복제체**. 최고의 "나쁜" 특성 |
+| **미숙한 아티스트 (Unpracticed Artist)** | Creativity −3 | 관심 +2, **장식 사기 +5** | 미술 담당이 아닌 모든 복제체 |
+| **무관심 (Unempathetic)** | Medicine −3 | 관심 +2 | 의사 담당이 아닌 모든 복제체 |
+| **크리터 혐오 (Critter Aversion)** | Husbandry −3 | 관심 +2 | 목축 담당이 아닌 복제체 |
+| **식물 살해자 (Plant Murderer)** | Agriculture −3 | 관심 +2 | 연구·굴착 담당 |
+| **느리게 배움 (Slow Learner)** | Science −3 | 관심 +3 | 굴착·건설 담당 (연구는 다른 사람이) |
+| **작은 방광 (Small Bladder)** | 사실상 없음 | 관심 +1 | 누구나 |
+| **기면증 (Narcoleptic)** | 하루 평균 30초 졸음 | 관심 **+5** | 굴착·건설처럼 잠깐 멈춰도 되는 담당 |
 
 | 먹는 음식 (품질) | 보통 복제체 사기 | Kitchen Menace / Shrivelled Tastebuds |
 |---|---|---|
@@ -228,38 +220,54 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **이빵 Liceloaf** (0) | 0 | **+1** |
 | 구운 버섯, 그리슬 베리 (+1) | +1 | **+4** |
 | 오믈렛, 생선 필레 (+2) | +4 | **+8** |
+</details>
 
-> **반대로 조심할 것:** Gourmet와 Interior Decorator는 초록색이지만 사기를 깎습니다. 요리·미술 담당이 아니면 Kitchen Menace나 Unpracticed Artist보다 못해요.
-{: .warn}
+## 스트레스 반응
 
-## 스트레스 반응 (Stress Reaction)
+스트레스 100%에 하는 행동. **덜 나쁜 순서:**
 
-스트레스가 **100%** 가 되면 하던 일을 멈추고 아래 행동을 한 뒤 60%로 내려옵니다. 비상 경보나 이동 명령으로 멈출 수 없어요. **덜 나쁜 순서**입니다.
+{: .ico-grid}
+1. **못생긴 울보 (Ugly Crier)** ✅ 물 흘림, 장식도 −30
+2. **구토자 (Vomiter)** ➖ 오염된 물
+3. **밴시 (Banshee)** ❌ 주변 스트레스 연쇄
+4. **파괴적 (Destructive)** ❌ 건물 파손
+5. **폭식가 (Binge Eater)** ❌ 6,000 kcal 증발
+
+> 사기를 잘 챙기면 한 번도 안 나올 수 있지만, 초반엔 침실·식당이 없어 사기가 낮습니다. 위험 반응이 셋 중 하나 이상이면 리롤.
+{: .danger}
+
+<details class="nums" markdown="1">
+<summary>스트레스 반응 상세</summary>
 
 | 순위 | 반응 | 하는 일 | 평가 |
 |---|---|---|---|
-| 1 | **Ugly Crier** | 바닥에 앉아 울면서 물 40 g/s를 흘림. 주변 3칸 장식도 −30 (끝나고 1사이클 동안 −15) | ✅ 가장 무난 |
-| 2 | **Vomiter** | 오염된 물 200 g/s를 토함. 토하는 동안 칼로리도 빨리 닳음 | ➖ 치우면 되는 수준 |
-| 3 | **Banshee** | 8칸 안의 보이는 복제체들에게 스트레스를 줌 (+10%/사이클, 반 사이클 동안) | ❌ 연쇄로 다른 복제체까지 터질 수 있음 |
-| 4 | **Destructive** | 주변 건물과 타일을 부숨 | ❌ 산소·전력 설비가 망가질 수 있음 |
-| 5 | **Binge Eater** | 음식 2,000 kcal를 **3번**(총 6,000 kcal) 먹어 치움. 주변 장식도 −30 | ❌ 복제체 6일치 식량이 한 번에 사라짐. 초반엔 가장 위험 |
+| 1 | **못생긴 울보 (Ugly Crier)** | 바닥에 앉아 울면서 물 40 g/s를 흘림. 주변 3칸 장식도 −30 (끝나고 1사이클 동안 −15) | ✅ 가장 무난 |
+| 2 | **구토자 (Vomiter)** | 오염된 물 200 g/s를 토함. 토하는 동안 칼로리도 빨리 닳음 | ➖ 치우면 되는 수준 |
+| 3 | **밴시 (Banshee)** | 8칸 안의 보이는 복제체들에게 스트레스를 줌 (+10%/사이클, 반 사이클 동안) | ❌ 연쇄로 다른 복제체까지 터질 수 있음 |
+| 4 | **파괴적 (Destructive)** | 주변 건물과 타일을 부숨 | ❌ 산소·전력 설비가 망가질 수 있음 |
+| 5 | **폭식가 (Binge Eater)** | 음식 2,000 kcal를 **3번**(총 6,000 kcal) 먹어 치움. 주변 장식도 −30 | ❌ 복제체 6일치 식량이 한 번에 사라짐. 초반엔 가장 위험 |
+</details>
 
-> **스트레스 반응은 "약점"이 아니라 "보험"을 보는 겁니다.** 사기를 잘 챙기면 한 번도 안 나올 수 있어요. 다만 초반엔 침실·식당이 없어서 사기가 낮기 쉬우니, 위험한 반응이 셋 중 하나 이상이면 리롤을 권합니다.
-{: .danger}
+**기쁨 반응 (Overjoyed Response)** 은 사기가 요구치보다 8 이상 높을 때 20~50사이클에 한 번 꼴이라 **고를 때 무시.**
 
-## 기쁨 반응 (Overjoyed Response)
-
-사기가 요구치보다 **8 이상** 높을 때만 가끔 나옵니다. +8 초과면 **평균 50사이클에 한 번**, +20 초과여도 **20사이클에 한 번** 꼴이라 **고를 때 신경 쓰지 않아도 돼요.**
+<details class="nums" markdown="1">
+<summary>기쁨 반응 상세</summary>
 
 | 순위 | 반응 | 효과 |
 |---|---|---|
-| 1 | **Super Productive** | 작업을 10% 확률로 즉시 끝냄 |
-| 2 | **Balloon Artist** | 쉬는 시간에 풍선을 나눠 줌. 받은 복제체는 2사이클 동안 Creativity·Science·Cuisine·Medicine·Agriculture·Husbandry +8 |
-| 2 | **Yodeler** | 본인 Machinery·Construction·Strength +8, 주변 복제체 +5 (1사이클) |
-| 4 | **Sparkle Streaker** | 본인 Athletics +8, 지나간 자리의 복제체 Athletics +5 (1사이클) |
-| 5 | **Sticker Bomber** | 스티커마다 반경 3칸 장식도 +20 |
+| 1 | **초생산성 (Super Productive)** | 작업을 10% 확률로 즉시 끝냄 |
+| 2 | **벌룬 아티스트 (Balloon Artist)** | 쉬는 시간에 풍선을 나눠 줌. 받은 복제체는 2사이클 동안 Creativity·Science·Cuisine·Medicine·Agriculture·Husbandry +8 |
+| 2 | **요들러 (Yodeler)** | 본인 Machinery·Construction·Strength +8, 주변 복제체 +5 (1사이클) |
+| 4 | **스파클 스트리커 (Sparkle Streaker)** | 본인 Athletics +8, 지나간 자리의 복제체 Athletics +5 (1사이클) |
+| 5 | **스티커 폭탄사 (Sticker Bomber)** | 스티커마다 반경 3칸 장식도 +20 |
+</details>
 
-## 스킬과 사기(Morale)
+## 스킬과 사기
+
+스킬 단계 숫자만큼 사기 요구치가 오르고, **관심 분야면 −1** (1단계는 공짜). 침실·식당·세척실까지 갖추면 사기 **+8~10** → 요구치 합을 **8 안쪽**으로.
+
+<details class="nums" markdown="1">
+<summary>스킬·사기 규칙과 초반 사기 출처</summary>
 
 | 규칙 | 내용 |
 |---|---|
@@ -268,11 +276,6 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | 경험치 | 관심 분야 일을 하면 경험치가 더 빨리 쌓임. 드문 일일수록 더 많이 |
 | 사기가 모자라면 | 요구치보다 1 낮을 때마다 스트레스 +2.5%/사이클 (최대 +25%) |
 | 사기가 남으면 | 요구치보다 2 이상 높으면 스트레스 −20%/사이클 |
-
-> **그래서 관심 3개짜리도 쓸모가 있습니다.** Marie처럼 관심이 3개면 **세 분야의 1단계 스킬을 전부 공짜로** 배워요. 능력치 보너스는 작아도 "농사 + 튠업 + 예비 연구"를 사기 부담 없이 겸업합니다.
-{: .tip}
-
-### 초반 사기는 얼마나 나오나
 
 | 사기 출처 | 사기 |
 |---|---|
@@ -283,25 +286,29 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | 식당(Mess Hall) | +3 |
 | 이빵(품질 0) / 구운 버섯(품질 +1) | 0 / +1 |
 | 쉬는 시간 (일정 칸 수에 따라) | 0~+5 |
+</details>
 
-침실·식당·세척실까지 갖추면 보통 **+8~10** 정도라서, 스킬 사기 요구치 합계를 **8 안쪽**으로 유지하면 스트레스가 안 쌓입니다.
+> **외부 인력 (환경 특수복 담당)은 Suit Wearing + 공급 (Supplying) 관심**이 사기 부담이 가장 적습니다 (요구치 4). 특수복이 굴착 +10을 줘서 굴착 관심은 없어도 됨. 프린팅팟에서 나오면 받기.
+{: .tip}
 
-### 외부 인력 (환경 특수복 담당)
-
-기지를 안쪽(쾌적 구역)과 바깥(뜨겁거나 산소 없는 구역)으로 나누면, 바깥 일은 **환경 특수복(Atmo Suit)** 을 입은 복제체가 합니다.
+<details class="nums" markdown="1">
+<summary>외부 인력 스킬 경로와 사기 합계</summary>
 
 | 항목 | 내용 |
 |---|---|
 | 특수복 효과 | **Excavation +10**, Athletics **−6**, 산소 탱크 75kg, 온도 보호 |
-| Athletics −6 없애기 | **Exosuit Training** 스킬 (Suit Wearing 3단계, Athletics +2도 줌) |
-| 배우는 길 | Improved Carrying I (Supplying 1단계) → (우주 탐사: Rocket Piloting, Rocketry 1단계) → Suit Sustainability Training (Suit Wearing 2단계) → **Exosuit Training** (3단계) |
+| Athletics −6 없애기 | **외부특수복 훈련 (Exosuit Training)** 스킬 (Suit Wearing 3단계, Athletics +2도 줌) |
+| 배우는 길 | Improved Carrying I (Supplying 1단계) → (우주 탐사: Rocket Piloting, Rocketry 1단계) → Suit Sustainability Training (Suit Wearing 2단계) → **외부특수복 훈련 (Exosuit Training)** (3단계) |
 | 사기 요구치 합계 | 관심 없음: 1 + 1 + 2 + 3 = **7** · Suit Wearing 관심: 1 + 1 + 1 + 2 = **5** · Suit Wearing + Supplying 관심: **4** |
+</details>
 
-**결론:** 외부 인력은 **Suit Wearing 관심이 있는 복제체**가 사기 부담이 확실히 적습니다. 특수복 자체가 Excavation +10을 주기 때문에, 굴착 관심은 없어도 되고 **Suit Wearing + Supplying** 조합이 가장 효율적이에요. 첫 3명으로 당장 할 필요는 없고, 프린팅팟에서 이런 복제체가 나오면 받으세요.
+## 일반 vs 바이오닉
 
-## 일반 복제체 vs 바이오닉 복제체
+> **첫 3명은 모두 일반 복제체.** 바이오닉은 하루 전력 뱅크 1개(초반엔 금속 광석 200 kg 일회용)를 먹어서, **땜질 스테이션 (Soldering Station) + 파워 뱅크 충전기 (Power Bank Charger)** 가 갖춰진 중반 초입(사이클 30~50)에 받으세요. 물에 젖으면 스트레스 10배, 일반 복제체와 같은 침실이면 잠을 깨움.
+{: .warn}
 
-Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바이오닉 복제체**도 고를 수 있습니다.
+<details class="nums" markdown="1">
+<summary>일반 vs 바이오닉 비교, 공급 연구, 받는 시점</summary>
 
 | | 일반 복제체 | 바이오닉 복제체 |
 |---|---|---|
@@ -313,24 +320,15 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 | 능력치 성장 | 일할수록 자람 | **안 자람**. 스킬과 부스터(마이크로칩으로 제작)로만 올림 |
 | 약점 | | 물에 젖으면 스트레스가 일반 복제체의 10배 (+200%/사이클) |
 
-> **추천: 첫 3명은 모두 일반 복제체.** 바이오닉은 전력·윤활유·마이크로칩 공급이 갖춰져야 제대로 굴러가서 시작 단계엔 손이 많이 갑니다. 전력이 안정된 뒤 프린팅팟에서 받으세요.
-{: .tip}
-
-### 바이오닉 복제체는 언제 받나
-
-**핵심은 전력 뱅크입니다.** 바이오닉은 하루에 전력 뱅크 1개(120 kJ)를 먹는데, 초반에 만들 수 있는 **금속 파워 뱅크(Metal Power Bank)는 일회용**이에요. 하나에 **금속 광석 200kg**이 들어서, 바이오닉 1명이 매일 금속 광석 200kg을 먹는 셈입니다. 충전해서 다시 쓰는 **에코 파워 뱅크(Eco Power Bank)**를 돌릴 수 있게 되면 그때부터 부담이 확 줄어요.
-
 | 필요한 것 | 무엇으로 | 연구 / 조건 |
 |---|---|---|
-| **전력 (초반)** | 금속 파워 뱅크: 금속 광석 200kg, 일회용 | 제작 스테이션(Crafting Station), **Employment** (1단계 연구) |
-| **전력 (정착)** | 에코 파워 뱅크: 어비살라이트 200kg, **충전해서 재사용** | 땜질 스테이션(Soldering Station): **Advanced Research** (2단계 연구) + **Electrical Engineering** 스킬 가진 복제체 |
-| 전력 뱅크 충전 | 파워 뱅크 충전기(Power Bank Charger): 480 W, 반 사이클에 1개 충전. **1대로 바이오닉 2명분** | **Sound Amplifiers** (3단계 연구) |
-| **윤활유** (200kg, 하루 20kg 소모) | 기어 밤(Gear Balm, 80kg분): 약제대(Apothecary)에서 물 200kg + 오물 80kg | **Pharmacology** + Medicine Compounding 스킬 |
-| 윤활유 (정착) | 윤활 스테이션(Lubrication Station): 원유나 식물성 기름으로 한 번에 가득 + 사기 버프 | **Filtration** |
-| **오물(Gunk) 빼기** (하루 25%씩 참) | 오물 추출기(Gunk Extractor). 없으면 일반 화장실을 쓰는데 **화장실이 막힘** | **Sanitation** |
-| **산소** (몸속 탱크 240kg, 4사이클분) | 주변 공기를 한꺼번에 빨아들임. 방 하나의 산소를 비울 수도 있어서 통 주입기(Canister Filler)가 편함 | Canister Filler: **Portable Gases** |
-
-뽑힐 때 **전력 뱅크 4개(장착) + 금속 파워 뱅크 5개 + 기어 밤 1개**가 같이 나옵니다. 그래서 받자마자 **약 9사이클은 그냥** 버팁니다. 그 뒤로는 위 표의 공급이 있어야 해요.
+| **전력 (초반)** | 금속 파워 뱅크: 금속 광석 200kg, 일회용 | 제작 스테이션(Crafting Station), **고용 (Employment)** (1단계 연구) |
+| **전력 (정착)** | 에코 파워 뱅크: 어비살라이트 200kg, **충전해서 재사용** | 땜질 스테이션(Soldering Station): **고급 연구 (Advanced Research)** (2단계 연구) + **전기 엔지니어링 (Electrical Engineering)** 스킬 가진 복제체 |
+| 전력 뱅크 충전 | 파워 뱅크 충전기(Power Bank Charger): 480 W, 반 사이클에 1개 충전. **1대로 바이오닉 2명분** | **음향 증폭기 (Sound Amplifiers)** (3단계 연구) |
+| **윤활유** (200kg, 하루 20kg 소모) | 기어 밤(Gear Balm, 80kg분): 약제대(Apothecary)에서 물 200kg + 오물 80kg | **약학 (Pharmacology)** + Medicine Compounding 스킬 |
+| 윤활유 (정착) | 윤활 스테이션(Lubrication Station): 원유나 식물성 기름으로 한 번에 가득 + 사기 버프 | **여과 (Filtration)** |
+| **오물(Gunk) 빼기** (하루 25%씩 참) | 오물 추출기(Gunk Extractor). 없으면 일반 화장실을 쓰는데 **화장실이 막힘** | **위생 (Sanitation)** |
+| **산소** (몸속 탱크 240kg, 4사이클분) | 주변 공기를 한꺼번에 빨아들임. 방 하나의 산소를 비울 수도 있어서 통 주입기(Canister Filler)가 편함 | Canister Filler: **휴대용 기체 (Portable Gases)** |
 
 | 시점 | 판단 |
 |---|---|
@@ -338,23 +336,25 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 | **금속 광석이 넉넉하고 부스터가 좋으면** | 받아도 됨. 첫 9사이클은 공짜고, 그 뒤엔 제작 스테이션에서 금속 파워 뱅크를 하루 1개씩 만들면 됩니다. 음식이 안 들어서 식량 부담은 오히려 줄어요. |
 | **추천 시점** | **Electrical Engineering 복제체 + 땜질 스테이션 + Sound Amplifiers(파워 뱅크 충전기)** 가 갖춰진 뒤. 이때부터 에코 파워 뱅크를 충전해 돌려서 금속을 안 먹습니다. 보통 **전력이 안정된 중반 초입(사이클 30~50 전후)** 이에요. |
 
-> **스크린샷 3명이라면:** Marie가 Operating 관심으로 **Electrical Engineering을 사기 1에** 배울 수 있어서, Marie가 이 스킬을 찍고 Sound Amplifiers 연구가 끝나면 바이오닉을 받기 좋은 시점입니다. 바이오닉이 잘 때(조각 모음) 마이크로칩을 공짜로 만들어 주는데, 이걸로 바이오닉 부스터를 만들 수 있어요.
-{: .tip}
+- 뽑힐 때 전력 뱅크 4개(장착) + 금속 파워 뱅크 5개 + 기어 밤 1개 → 약 9사이클은 그냥 버팀.
+- Marie처럼 작동 (Operating) 관심이면 전기 엔지니어링 (Electrical Engineering)을 사기 1에 배워 바이오닉 받을 준비가 됨.
+</details>
 
-> **바이오닉 주의점:** 물에 젖으면 스트레스 +200%/사이클(일반 복제체의 10배), 전력 뱅크는 물에 닿으면 터집니다. 음식 사기를 못 받아서 장식·오락 건물로 사기를 채워야 해요. 조각 모음할 때 빛을 내서 **일반 복제체와 같은 침실에 두면 잠을 깨웁니다.**
-{: .warn}
-
-## 추천 시작 3인 조합
+## 추천 시작 3인
 
 | 자리 | 관심 | 있으면 좋은 특성 | 리롤할 특성 |
 |---|---|---|---|
-| **연구 담당** | Researching (가능하면 1개만) | Quick Learner, Diver's Lungs, Kitchen Menace | Yokel, Slow Learner |
-| **굴착 담당** | Digging (가능하면 1개만) | Mole Hands, Twinkletoes, Buff | Trypophobia, Undigging |
-| **건설·농사 담당** | Building 또는 Farming | Handy, Green Thumb | Unconstructive, Plant Murderer |
+| **연구 담당** | Researching (가능하면 1개만) | 빨리 배움 (Quick Learner), 잠수부의 허파 (Diver's Lungs), 주방 위협 (Kitchen Menace) | 시골뜨기 (Yokel), 느리게 배움 (Slow Learner) |
+| **굴착 담당** | Digging (가능하면 1개만) | 두더지 손 (Mole Hands), 번개발가락 (Twinkletoes), 왕근육 (Buff) | 환공포증 (Trypophobia), 못 파 (Undigging) |
+| **건설·농사 담당** | Building 또는 Farming | 능숙함 (Handy), 녹색 엄지 (Green Thumb) | 비건설적 (Unconstructive), 식물 살해자 (Plant Murderer) |
 
-**세 명 모두 공통으로** 리롤: Mouth Breather, Bottomless Stomach, Anemic, 스트레스 반응 Binge Eater / Destructive / Banshee.
+**공통 리롤:** 입으로 숨쉼, 밑바닥 없는 배, 빈혈, 스트레스 반응 폭식가 / 파괴적 / 밴시.
 
-## 시뮬레이션: 스크린샷의 3명으로 짜 보기
+> **스크린샷 3명이면 그대로 시작 OK.** 역할이 나뉘고 작업 불가 특성이 없음. 위험은 Devon의 폭식가 하나뿐 → 식당·침실을 일찍.
+{: .tip}
+
+<details class="nums" markdown="1">
+<summary>시뮬레이션: 3명의 역할과 스킬 순서·사기 누적</summary>
 
 | | Devon | Stinky | Marie |
 |---|---|---|---|
@@ -362,10 +362,8 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 | 실제 능력치 | Science 9 (연구 +360%, 성장 +90%) | Excavation 9 (굴착 +225%) | Agriculture 5 (수확 +25%, 농부의 손길 +50%) · Science 2 · Machinery 1 |
 | 좋은 특성 | Iron Gut ✅ | Germ Resistant ✅ | Green Thumb ✅ |
 | 나쁜 특성 | Unempathetic (사실상 좋음, +2가 Science로) | Kitchen Menace (사실상 좋음, +2가 Excavation으로) | Kitchen Menace (사실상 좋음) |
-| 스트레스 반응 | **Binge Eater** ❌ | Vomiter ➖ | Ugly Crier ✅ |
+| 스트레스 반응 | **폭식가 (Binge Eater)** ❌ | Vomiter ➖ | Ugly Crier ✅ |
 | 우선순위 화면 | 연구 최우선 | 굴착 최우선, 건설·운반 중간 | 농사 최우선, 연구 중간 |
-
-**스킬 찍는 순서와 사기 요구치 누적**
 
 | 순서 | Devon | Stinky | Marie |
 |---|---|---|---|
@@ -376,20 +374,17 @@ Bionic Booster Pack을 켜면 시작 화면 오른쪽 드롭다운에서 **바�
 | 5 | | Suit Sustainability (2) → 5 | Advanced Research (연구 1단계, **0**) → 2. 예비 연구원 |
 | 6 | | Exosuit Training (3) → **8** | Improved Farming II (농사 3단계, 2) → 4 |
 
-- **Marie**는 스킬 6개를 찍어도 사기 요구치가 **4**뿐입니다. 관심 3개의 진짜 장점이에요. Agriculture는 5 + 스킬 +6 = 11에서 시작해서 농사할수록 최대 +20 더 자랍니다.
-- **Stinky**를 외부 인력으로 만들면 요구치가 **8**까지 올라가서 침실·식당·세척실이 다 있어야 버팁니다. 특수복이 Excavation +10을 주니 **Exosuit Training은 급하지 않고**, 느린 게 거슬릴 때 찍으면 됩니다.
-- **Devon**은 연구만 해서 사기 요구치가 낮습니다. 다만 스트레스 반응이 **Binge Eater**라서, 사기 관리에 실패하면 식량 6,000 kcal가 한 번에 날아가요.
+- Marie는 스킬 6개를 찍어도 사기 요구치 4 (관심 3개의 장점).
+- Stinky를 외부 인력으로 만들면 요구치 8 → 침실·식당·세척실 필요. 외부특수복 훈련 (Exosuit Training)은 급하지 않음.
+</details>
 
-> **결론:** 역할이 딱 나뉘어 있고 작업 불가 특성도 없어서 **그대로 시작해도 좋은 조합**입니다. 세 명 다 나쁜 특성이 "사실상 좋은 특성"이라 손해가 없어요. 위험 요소는 Devon의 Binge Eater 하나뿐이니 **식당·침실을 일찍** 짓고 Devon의 사기를 넉넉히 유지하세요.
+## 요리사
+
+> **요리는 하루 2~3분짜리 일.** Cooking 하나 몰빵보다 **Cooking + 다른 관심 1개**가 낫습니다. W 판(8명)엔 **Cooking + Decorating**(장식도로 모두의 사기 ↑)이 빈자리를 채움.
 {: .tip}
 
-## 요리사는 어떻게 뽑나
-
-**결론: 요리는 하루에 길어야 2~3분짜리 일이라, Cooking 하나에 몰빵한 전문가보다 Cooking + 다른 관심 1개(또는 2개)가 낫습니다.**
-
-### 요리사가 실제로 하는 일의 양
-
-Cuisine은 1점당 **요리 속도 +5%** 입니다 (전기 그릴·가스 레인지·미생물 걸죽기·달걀 깨는 기계 모두). 조리 도구는 **요리(Cook) 작업**이라 Cuisine만 쓰고 **Machinery는 쓰지 않아요.** 그래서 **Luddite(Machinery −3)도 요리 속도와는 상관없습니다.** 전기 그릴과 가스 레인지는 한 번 요리에 **기본 50초**가 걸려요. **복제체 8명**(하루 8,000 kcal)을 먹이려면 하루에 이만큼 요리합니다.
+<details class="nums" markdown="1">
+<summary>요리 시간, 요리 스킬, 두 번째 관심, 8명 추천</summary>
 
 | 메뉴 (1번에 kcal) | 하루 횟수 | Cuisine 0 | **Cuisine 7** | **Cuisine 11** | Cuisine 31 |
 |---|---|---|---|---|---|
@@ -398,24 +393,11 @@ Cuisine은 1점당 **요리 속도 +5%** 입니다 (전기 그릴·가스 레인
 | 그리슬 베리 Gristle Berry (2,000) | 4번 | 200초 | 148초 | 129초 | 78초 |
 | 서리 빵 Frost Bun (1,200) | 약 7번 | 333초 | 247초 | 215초 | 131초 |
 
-- 한 사이클은 600초입니다. 요리는 **하루의 1/6~1/2** 정도이고, 나머지 시간엔 요리사도 다른 일을 해요.
-- **Cuisine 7(관심 2개짜리 +3 + 스킬 +4) vs 11(관심 1개짜리 +7 + 스킬 +4)의 차이는 하루 10~30초**입니다. 가스 레인지처럼 두 번 굽는 요리라도 1분 안쪽이에요.
-- 능력치는 요리할수록 **둘 다 최대 +20까지** 자라서, 나중엔 차이가 더 줄어듭니다 (Cuisine 27 vs 31이면 하루 몇 초).
-- 그래서 **Cuisine을 몇 점 더 받는 것보다, 나머지 시간에 할 일의 실력과 스킬을 받는 게** 이득입니다.
-
-### 요리 스킬과 사기
-
 | 스킬 | 단계 | 열리는 것 | 사기 (Cooking 관심 있을 때) |
 |---|---|---|---|
-| **Grilling** | 1 | 전기 그릴 사용, Cuisine +2 | 1 → **0** |
-| **Enhanced Seasoning** (Grilling II) | 2 | **가스 레인지**, 향신료 분쇄기 (DLC: 훈연기, 튀김기, 초밥 바), Cuisine +2 | 2 → **1** |
-| **Fine Dining** | 3 | Cuisine +2 | 3 → 2 |
-
-Cooking 관심이 있으면 **그릴과 가스 레인지까지 사기 1**로 열립니다. 요리사가 꼭 필요한 건 Grilling까지라서, 관심 없는 복제체도 사기 1이면 그릴을 쓸 수 있어요. Fine Dining은 Cuisine +2뿐이라 급하지 않습니다.
-
-### 두 번째 관심은 무엇으로
-
-요리사는 **기지 안쪽 작업대 근처**에서 일하니까, 같은 동선의 일이 좋습니다.
+| **그릴 (Grilling)** | 1 | 전기 그릴 사용, Cuisine +2 | 1 → **0** |
+| **강화된 조미료 (Enhanced Seasoning)** (Grilling II) | 2 | **가스 레인지**, 향신료 분쇄기 (DLC: 훈연기, 튀김기, 초밥 바), Cuisine +2 | 2 → **1** |
+| **파인 다이닝 (Fine Dining)** | 3 | Cuisine +2 | 3 → 2 |
 
 | 조합 | 장점 | 추천 |
 |---|---|---|
@@ -426,13 +408,6 @@ Cooking 관심이 있으면 **그릴과 가스 레인지까지 사기 1**로 열
 | **Cooking + Doctoring** | 아플 때만 바쁨. 둘 다 짬나는 일 | ➖ |
 | Cooking 하나만 | Cuisine +7 | ➖ 하루 몇십 초 빨라질 뿐 |
 
-> **특성 팁:** Cooking 관심이 있는 복제체에게는 Gourmet이 붙지 않습니다. 요리사에게 좋은 특성은 Cuisine과 상관없는 **Twinkletoes**(재료·완성품 오가는 시간 단축) 같은 것들이에요. 두 번째 관심이 미술이 아니라면 **Uncultured / Unpracticed Artist**(사기 ↑)도 좋습니다. **Gastrophobia**(요리 불가)만 피하면 돼요.
-{: .tip}
-
-### W님 콜로니(8명) 기준 추천
-
-지금 5명이 **연구 / 굴착 / 농사(+연구·기계) / 건설·목축 / 운반·특수복**을 맡고 있으니, 기계(Marie)와 목축은 이미 있습니다. 요리사는 **Cooking + Decorating**이 가장 빈 곳을 채워요.
-
 | 항목 | 추천 |
 |---|---|
 | 관심 | **Cooking + Decorating** (Cuisine +3, Creativity +3) |
@@ -442,12 +417,15 @@ Cooking 관심이 있으면 **그릴과 가스 레인지까지 사기 1**로 열
 | 있으면 좋은 특성 | Twinkletoes, Buff, Diver's Lungs |
 | 피할 특성 | Gastrophobia (요리 불가), Uncultured (미술 불가), Unpracticed Artist (Creativity −3) |
 
-> 나머지 두 자리는 **Operating 또는 Tidying(배관) 전문가 1명**과, 바이오닉을 받을 생각이면 그 자리로 남겨 두세요. 굴착·건설은 이미 두 명이 맡고 있어서 더 겹치지 않는 게 좋습니다.
-{: .tip}
+- 요리는 Cuisine만 쓰고 기계류 (Machinery)는 안 씀 → 러다이트 (Luddite)는 요리와 무관.
+- Cuisine 7 vs 11 차이는 하루 10~30초.
+- 피할 특성: 요리공포증 (Gastrophobia, 요리 불가).
+</details>
 
 다음 단계: [첫 5사이클 체크리스트]({{ '/guide/first-cycles/' | relative_url }})
 
-## 출처
+<details class="nums" markdown="1">
+<summary>출처</summary>
 
 - [Duplicant – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Duplicant) (관심 보너스, 특성 전체 수치, 능력치 1점당 효과)
 - [Skills – ONI Wiki](https://oxygennotincluded.wiki.gg/wiki/Skills) (스킬 단계, 관심 할인, 선행 스킬)
@@ -456,3 +434,4 @@ Cooking 관심이 있으면 **그릴과 가스 레인지까지 사기 1**로 열
 - [Power Bank Charger](https://oxygennotincluded.wiki.gg/wiki/Power_Bank_Charger), [Metal Power Bank](https://oxygennotincluded.wiki.gg/wiki/Metal_Power_Bank), [Eco Power Bank](https://oxygennotincluded.wiki.gg/wiki/Eco_Power_Bank), [Soldering Station](https://oxygennotincluded.wiki.gg/wiki/Soldering_Station), [Gear Balm](https://oxygennotincluded.wiki.gg/wiki/Gear_Balm) (바이오닉 공급 수치)
 - [Electric Grill](https://oxygennotincluded.wiki.gg/wiki/Electric_Grill), [Gas Range](https://oxygennotincluded.wiki.gg/wiki/Gas_Range), [Cuisine](https://oxygennotincluded.wiki.gg/wiki/Cuisine) (요리 시간, 레시피 kcal)
 - 직접 찍은 시작 화면과 능력치 툴팁 스크린샷
+</details>
