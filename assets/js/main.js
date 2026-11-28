@@ -167,3 +167,31 @@ document.querySelectorAll('img[data-fallback]').forEach(function (img) {
     show(total);
   } else show(1);
 })();
+
+// 한영 병행 표기: 본문 "한글 (English)"의 "(English)"를 <span class="en">으로 감싸 눈에 잘 띄게
+(function () {
+  var re = /\(([A-Z][A-Za-z0-9'’.\-&!]*(?: [A-Za-z0-9'’.\-&!]+)*)\)/g;
+  var root = document.querySelector('.prose');
+  if (!root) return;
+  var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: function (n) {
+      if (!n.nodeValue || n.nodeValue.indexOf('(') < 0) return NodeFilter.FILTER_REJECT;
+      if (n.parentNode.closest('code, pre, svg, script, style, a.btn')) return NodeFilter.FILTER_REJECT;
+      re.lastIndex = 0;
+      return re.test(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    }
+  });
+  var nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(function (n) {
+    var s = n.nodeValue, frag = document.createDocumentFragment(), last = 0, m;
+    re.lastIndex = 0;
+    while ((m = re.exec(s))) {
+      frag.appendChild(document.createTextNode(s.slice(last, m.index)));
+      var sp = document.createElement('span'); sp.className = 'en'; sp.lang = 'en'; sp.textContent = '(' + m[1] + ')';
+      frag.appendChild(sp); last = re.lastIndex;
+    }
+    frag.appendChild(document.createTextNode(s.slice(last)));
+    n.parentNode.replaceChild(frag, n);
+  });
+})();
