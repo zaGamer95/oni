@@ -11,18 +11,34 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 * 목차
 {:toc}
 
-## 한 줄 요약
+## 한눈에
 
-이 가이드는 **재료 과학 연구 (Materials Science Research) 를 누르기 전까지를 초반**으로 봅니다. 생존 → SPOM → 단열 → 냉방 → 특수복 → 첫 로켓까지, 전부 흙과 물(초급·고급 연구)만으로 열려요. 증기 터빈(재생 가능 에너지)은 5단계라, 초반은 **냉방실 오염된 물 20톤을 열 저장통으로 쓰면서** 버티는 게 목표입니다.
+{: .ico-grid}
+1. {% include i.html n="Research_Station" %} **1구간 · 사이클 1~8**<br>생존 기본
+2. {% include i.html n="Lavatory" %} **2구간 · 8~20**<br>화장실·산소·파이프
+3. {% include i.html n="Electrolyzer" %} **3구간 · 20~45**<br>SPOM·단열·물
+4. {% include i.html n="Thermo_Aquatuner" %} **4구간 · 45~80**<br>냉방·특수복·첫 로켓
 
-> 연구 포인트 종류, 연구 속도, 연구원 스킬은 [20 연구 순서와 타이밍]({{ '/guide/research/' | relative_url }})에 있어요. 재료 과학 연구부터는 [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}).
+**재료 과학 연구 (Materials Science Research)** 를 누르기 전까지가 초반. 전부 흙·물(초급·고급 연구)만으로 열립니다. 증기 터빈은 5단계라 초반은 **냉방실 오염된 물 20톤을 열 저장통으로** 버팁니다.
+
+> 연구 포인트·속도·연구원 스킬은 [연구 순서와 타이밍]({{ '/guide/research/' | relative_url }}), 다음은 [중반 테크]({{ '/guide/research/mid/' | relative_url }}). 예약은 Shift+클릭.
 {: .tip}
 
-## 구간별 연구 순서 (1~4단계)
+## 1구간: 생존 기본 (사이클 1~8)
 
-### 1구간: 사이클 1~8, 생존 기본 (1~2단계)
+{: .ico-grid}
+1. {% include i.html n="Planter_Box" %} **기본 재배 (Basic Farming)**
+2. {% include i.html n="Farm_Tile" %} **식사 준비 (Meal Preparation)**<br>재배 타일·식탁
+3. {% include i.html n="Jumbo_Battery" %} **전력 제어 (Power Regulation)**
+4. {% include i.html n="Coal_Generator" %} **내연 기관 (Internal Combustion)**<br>석탄 발전기
+5. {% include i.html n="Water_Cooler" %} **고용 (Employment)**
+6. {% include i.html n="Super_Computer" %} **고급 연구 (Advanced Research)**<br>슈퍼 컴퓨터
 
-연구소는 금속 광석 400 kg이 필요해서 보통 사이클 1~2에 짓습니다. 지을 때까지는 **수동 발전기 (Manual Generator)** 로 버팁니다. 아래 순서대로 예약(Shift+클릭)해 두세요.
+> 5~6 고용 → 고급 연구는 **3단계로 가는 관문** (3단계부터 고급 연구 포인트 필요). **사이클 10 전에.**
+{: .tip}
+
+<details class="nums" markdown="1">
+<summary>1구간 상세 표</summary>
 
 | 순서 | 기술 | 단계 | 이걸로 짓는 것 |
 |---|---|---|---|
@@ -33,10 +49,25 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 5 | **고용** (Employment) | 1 | 워터 쿨러 (Water Cooler), 제작 스테이션. 다음 두 기술의 선행 |
 | 6 | **고급 연구** (Advanced Research) | 2 | **슈퍼컴퓨터**, **망원경 (Telescope)**, 미니팟 (Mini-Pod), 스킬 초기화기 |
 
-> 5~6번 고용 → 고급 연구는 **3단계로 가는 관문**입니다. 3단계부터는 전부 고급 연구 포인트가 필요해서, 슈퍼컴퓨터 없이는 아무것도 못 엽니다. 늦어도 사이클 10 전에 끝내세요.
-{: .tip}
+</details>
 
-### 2구간: 사이클 8~20, 화장실·산소·파이프 (1~2단계)
+## 2구간: 화장실·산소·파이프 (8~20)
+
+{: .ico-grid}
+1. {% include i.html n="Liquid_Pump" %} **배관 (Plumbing)**
+2. {% include i.html n="Lavatory" %} **위생 (Sanitation)**<br>수세식 화장실
+3. {% include i.html n="Gas_Pump" %} **환기 (Ventilation)**
+4. {% include i.html n="Electrolyzer" %} **공기 시스템 (Air Systems)**<br>전해조
+5. {% include i.html n="Gas_Vent" %} **압력 관리 (Pressure Management)**
+6. {% include i.html n="Rock_Crusher" %} **무차별 정제 (Brute-Force Refinement)**
+7. {% include i.html n="Gas_Filter" %} **여과 (Filtration)**
+8. {% include i.html n="Ceiling_Light" %} **실내 장식 (Interior Decor)**
+9. {% include i.html n="Pneumatic_Door" %} **스마트 홈 (Smart Home)**
+
+미루기: 약학, 의료 장비, 예술적 표현, 휴대용 기체 (필요할 때).
+
+<details class="nums" markdown="1">
+<summary>2구간 상세 표</summary>
 
 | 순서 | 기술 | 단계 | 이걸로 짓는 것 |
 |---|---|---|---|
@@ -50,11 +81,31 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 14 | **실내 장식** (Interior Decor) | 1 | 천정등, 화분. 연구소 조명·사기용 |
 | 15 | **스마트 홈** (Smart Home) | 2 | 자동화 와이어, 복제체 감지기. 화장실·문 자동화의 시작 |
 
-미루는 것: 약학 (Pharmacology), 의료 장비 (Medical Equipment), 예술적 표현 (Artistic Expression), 휴대용 기체 (Portable Gases). 병이 돌거나 사기가 모자랄 때 그때 엽니다.
+</details>
 
-### 3구간: 사이클 20~45, SPOM·단열·물 (3단계)
+## 3구간: SPOM·단열·물 (20~45)
 
-여기부터 **연구소 + 슈퍼컴퓨터를 같이** 돌립니다. 기술 하나에 초급 30 + 고급 20.
+연구스테이션 + 슈퍼 컴퓨터 같이 가동 (기술당 초급 30 + 고급 20).
+
+{: .ico-grid}
+1. {% include i.html n="Hydrogen_Generator" %} **고급 전력 제어**<br>수소 발전기·헤비와트
+2. {% include i.html n="Insulated_Tile" %} **온도 조절**<br>절연 타일
+3. {% include i.html n="Liquid_Reservoir" %} **개선된 배관**<br>액체 저장소
+4. {% include i.html n="Water_Sieve" %} **증류**<br>물 체
+5. {% include i.html n="Fire_Pole" %} **정제된 혁신**<br>소방서 폴
+6. {% include i.html n="Farm_Station" %} **농업**<br>재배스테이션·냉장고
+7. {% include i.html n="Gas_Shutoff" %} **개선된 환기**
+8. {% include i.html n="Natural_Gas_Generator" %} **화석 연료**
+9. {% include i.html n="Carbon_Skimmer" %} **오염 제거**<br>탄소 스키머
+10. {% include i.html n="Desalinator" %} **액체 기반 정제 공정**
+11. {% include i.html n="Critter_Feeder" %} **사육**
+12. **일반 센서**
+
+> **SPOM은 3단계에서 완성:** 전해조 + 기체 펌프 + 기체 필터 + 수소 발전기. **3구간이 끝나면 텔레포터로 두 번째 행성**에 1~2명 ([두 번째 행성]({{ '/guide/second-planet/' | relative_url }})).
+{: .heat}
+
+<details class="nums" markdown="1">
+<summary>3구간 상세 표</summary>
 
 | 순서 | 기술 | 이걸로 짓는 것 | 연결되는 목표 |
 |---|---|---|---|
@@ -71,13 +122,21 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 26 | **사육** (Ranching) | 목장 작업대, 크리터 사료 공급기 | 번질한 기끌이(Glossy Drecko)로 플라스틱 |
 | 27 | **일반 센서** (Generic Sensors) | 시간 센서, 원소 센서, NOT 게이트 | 자동화 |
 
-> **SPOM은 3단계에서 완성됩니다.** 전해조 (공기 시스템) + 기체 펌프 (환기) + 기체 필터 (여과) + 수소 발전기 (고급 전력 제어)이면 됩니다. 소형 기체 펌프가 들어간 깔끔한 SPOM은 5단계 밸브 소형화 (Valve Miniaturization)에서 플라스틱이 생긴 뒤에 바꿔도 돼요.
-{: .tip}
+</details>
 
-> **3구간이 끝나면 두 번째 행성.** SPOM·식량·화장실이 안정되면 연구와 상관없이 **텔레포터로 기름 늪 소행성에 1~2명을 보내 두 기지를 같이 키웁니다.** 텔레포트는 연구가 필요 없어요. 자세한 건 [16 두 번째 행성 병행 개발]({{ '/guide/second-planet/' | relative_url }}).
-{: .heat}
+## 4구간: 냉방·특수복·첫 로켓 (45~80)
 
-### 4구간: 사이클 45~80, 냉방·특수복·첫 로켓 (3~4단계)
+{: .ico-grid}
+1. {% include i.html n="Thermo_Aquatuner" %} **액체 튜닝**<br>열액체조화기
+2. {% include i.html n="Thermo_Regulator" %} **HVAC**<br>온도 조절기
+3. **직물 생산**
+4. {% include i.html n="Atmo_Suit" %} **위험 방지**<br>환경 특수복
+5. {% include i.html n="Metal_Refinery" %} **제련**<br>금속 제련소
+6. **우주 프로그램**<br>발사대
+7. {% include i.html n="Sugar_Engine" %} **고급 연소 / 고급 기체 흐름**<br>첫 로켓 엔진
+
+<details class="nums" markdown="1">
+<summary>4구간 상세 표</summary>
 
 | 순서 | 기술 | 단계 | 이걸로 짓는 것 | 목표 |
 |---|---|---|---|---|
@@ -89,37 +148,39 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 33 | **우주 프로그램** (Space Program) | 3 | **발사대**, 1인 우주선 노즈콘, 로켓 조종석 | 첫 로켓 |
 | 34 | **고급 연소** (Advanced Combustion) 또는 **고급 기체 흐름** (Advanced Gas Flow) | 3 | **설탕 엔진** / **이산화탄소 엔진** | 첫 로켓 엔진 |
 
-> **여기까지가 초반입니다.** 4구간을 마치고 **재료 과학 연구 (Materials Science Research)** 를 누르면 중반이에요. 그다음 순서는 [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}).
-{: .tip}
+</details>
 
-> **우라늄은 어디서?** 시작 소행성에도 **우라늄 광석 (Uranium Ore)** 이 조금 나올 수 있습니다. W 판(Terrania)은 **왼쪽 위**에 있었어요. 있으면 첫 로켓 없이 [수동 래드볼트 생성기]({{ '/guide/research/mid/#시작-소행성-우라늄으로-래드볼트-만들기' | relative_url }})로 5단계를 열 수 있습니다. 없거나 모자라면 **가까운 방사능 가득한 숲 소행성 (Irradiated Forest Asteroid)** 이 본산지라, 첫 로켓을 거기로 보내세요. 석유는 시작 소행성에 없고 **텔레포터로 이어진 기름진 늪 소행성 (Oily Swamp Asteroid)** 에 있어요.
+> **우라늄:** 시작 소행성에 조금 있을 수 있음 (W 판은 왼쪽 위) → [수동 래드볼트 생성기]({{ '/guide/research/mid/#시작-소행성-우라늄으로-래드볼트-만들기' | relative_url }}). 없으면 방사능 가득한 숲 소행성 (Irradiated Forest Asteroid)으로 첫 로켓. 석유는 텔레포터 쪽 기름진 늪 소행성 (Oily Swamp Asteroid).
 {: .heat}
 
----
+## 증기 터빈 없이 버티기
 
-## 증기 터빈 없이 어디까지: 발전 단계
+재생 가능 에너지 (Renewable Energy)는 래드볼트 200개가 필요. 그 전엔:
 
-재료 과학 연구 (Materials Science Research) 자체는 초급 30 + 고급 20이라 래드볼트가 안 듭니다. 래드볼트가 필요한 건 그다음 **재생 가능 에너지 (Renewable Energy)** 예요. 초급 40 + 고급 50 + **응용 과학 20(= 래드볼트 200개)**. 우라늄을 준비 없이 열고 싶지 않다면, 아래 순서로 터빈 없이 꽤 오래 갑니다.
+{: .ico-grid}
+1. {% include i.html n="Thermo_Aquatuner" %} **1. 터빈 없는 에어컨**<br>열을 냉방실 물에 저장
+2. {% include i.html n="Wheezewort" %} **씨근풀 (Wheezewort)**<br>통로에 심기
+3. {% include i.html n="Metal_Refinery" %} **2. 제련은 조건부**<br>냉방실이 차가울 때 몰아서
+4. {% include i.html n="Steam_Turbine" %} **3. 냉방실 100°C**<br>증기 터빈 지을 차례
 
-### 1단계: 터빈 없는 에어컨 (지금 바로)
+> **냉방실 온도를 사이클마다 한 번** 보세요. 이 숫자가 터빈·래드볼트 일정표입니다. 70°C 넘으면 래드볼트 준비, 100°C 근처면 터빈 ([에어컨 7단계]({{ '/guide/core-base/aircon/' | relative_url }})).
+{: .warn}
 
-- [15 에어컨 설치]({{ '/guide/core-base/aircon/' | relative_url }})의 1~6단계는 그대로, **7단계(증기 터빈)만 뺍니다.** 열액체조화기는 터빈이 없어도 열을 냉방실 오염된 물에 버리면서 잘 돌아요.
-- 냉방실 물은 열을 받아 두기만 하므로 **얼마나 버티나**가 일정표입니다.
+<details class="nums" markdown="1">
+<summary>냉방실이 버티는 기간 (오염된 물 20톤)</summary>
 
 | 조절기 가동률 | **냉방실 25 → 100°C (계획 기준)** | 25 → 165°C (이론상 한계, 비추천) |
 |---|---|---|
 | 100% (단열 전) | **약 18사이클** | 약 33사이클 |
 | **25% (단열 후 보통)** | **약 70~85사이클** | 약 130사이클 |
 
-(오염된 물 20톤 × 비열 4.179 = 1°C당 83,580 kDTU. 조절기는 켜져 있으면 약 585 kDTU/s, 하루 351,000 kDTU. 오염된 물을 **40톤으로 늘리면 두 배**)
+- 계산: 20톤 × 비열 4.179 = 1°C당 83,580 kDTU. 조절기 켜짐 ≈ 585 kDTU/s (하루 351,000 kDTU). 40톤이면 두 배.
+- **100°C 기준으로 계획.** 오염된 물은 약 119°C에서 끓어 조절기 주변이 증기가 되면 열이 잘 안 빠짐.
+- 전력: 조절기 1.2 kW, 25% 가동이면 평균 약 300 W → 석탄 발전기 + SPOM 남는 수소면 충분.
+</details>
 
-- **일정은 100°C 기준으로 잡으세요.** 오염된 물은 약 119°C에서 끓는데, 물이 증기가 되면 조절기가 물 대신 증기에 둘러싸여 열이 잘 안 빠지고 조절기 자체 온도가 더 빨리 오릅니다. 165°C 칸은 금 아말감 조절기(175°C 과열)의 이론상 한계일 뿐, 터빈 없이 거기까지 버티는 걸 믿지 마세요.
-- 전력: 조절기는 1.2 kW지만 25% 가동이면 평균 약 300 W. **석탄 발전기 (주둥가리 석탄) + SPOM 남는 수소의 수소 발전기**면 충분합니다. 헤비와트 와이어는 [10 발전소]({{ '/guide/core-base/power/' | relative_url }}).
-
-> **씨근풀 (Wheezewort)** 씨앗이 있으면 실내 통로에 심으세요. 터빈 말고 초반에 열을 진짜로 지우는 몇 안 되는 방법입니다.
-{: .tip}
-
-### 2단계: 터빈 없이 열 수 있는 주요 기술 (3~4단계)
+<details class="nums" markdown="1">
+<summary>터빈 없이 여는 주요 기술</summary>
 
 | 분야 | 기술 → 짓는 것 |
 |---|---|
@@ -130,7 +191,12 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 편의 | 고체 운송 (컨베이어), 로봇 도구 (로보광부), 인공 친구 (청소봇), 스마트 저장 |
 | 준비 (여기서부터 중반) | 재료 과학 연구 → **재료 연구 터미널**, 수동 래드볼트 생성기 (지어 두기만). [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}) |
 
-**금속 제련소는 터빈 전에도 됩니다 (조건부).** 정제 1회 열을 냉방실 오염된 물 20톤에 버리면 **구리 약 +0.4°C, 철 +0.65°C, 강철 +1.1°C**예요. 구리 1톤(10회)이 조절기 4일치 정도라 적당히 쓰면 괜찮습니다. 조건은 정제기 과열 75°C:
+</details>
+
+<details class="nums" markdown="1">
+<summary>금속 제련소 정제 조건 (냉방실 온도)</summary>
+
+정제 1회 열을 냉방실 물 20톤에 버리면 구리 +0.4°C, 철 +0.65°C, 강철 +1.1°C. 정제기 과열 75°C.
 
 | 정제 | 냉각수 1회 상승 (400 kg) | 냉방실이 이 온도 아래일 때만 |
 |---|---|---|
@@ -138,9 +204,11 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 철 | +32°C | 약 **40°C** |
 | 강철 | +56°C | 사실상 불가 → 터빈 + 두 번째 조절기 단계 |
 
-정제기 냉각수 줄은 방사형 액체 파이프로 냉방실 물속을 지나가게 하세요. 정제는 **냉방실이 차가운 초반에 몰아서** 하는 게 이득입니다. 자세한 건 [12 정제 금속]({{ '/guide/core-base/refining/' | relative_url }}).
+정제기 냉각수 줄은 방사형 액체 파이프로 냉방실 물속을 지나게. 상세는 [정제 금속]({{ '/guide/core-base/refining/' | relative_url }}).
+</details>
 
-### 3단계: 터빈·래드볼트가 꼭 필요해지는 시점
+<details class="nums" markdown="1">
+<summary>터빈·래드볼트가 꼭 필요해지는 신호</summary>
 
 | 신호 | 할 일 |
 |---|---|
@@ -149,7 +217,6 @@ description: 재료 과학 연구(Materials Science Research) 전까지의 초�
 | 강철, 증기 분출구 길들이기 | 터빈이 생길 때까지 미루기 |
 | 5단계 기술을 원할 때 | 초과열 제조(지오튜너, 유리), 밸브 소형화, 내구성 뛰어난 생명 유지 장치, 방사선 보호(납 특수복), 촉매, 수송 튜브는 **전부 래드볼트**. [17 중반 테크]({{ '/guide/research/mid/' | relative_url }}) |
 
-> 냉방실 온도를 **사이클마다 한 번** 보세요. 이 숫자가 터빈과 래드볼트 일정표입니다.
-{: .warn}
+</details>
 
-다음: [17 중반 테크 (재료 과학 연구부터)]({{ '/guide/research/mid/' | relative_url }})
+다음: [중반 테크 (재료 과학 연구부터)]({{ '/guide/research/mid/' | relative_url }})
