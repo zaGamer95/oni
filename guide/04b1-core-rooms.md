@@ -12,12 +12,30 @@ description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치,
 * 목차
 {:toc}
 
-> 전체 도면은 [중앙 기지 배치도]({{ '/guide/core-base/' | relative_url }})에 있습니다. 이 페이지는 그중 일부를 자세히 푼 것이에요.
+> 전체 도면은 [중앙 기지 배치도]({{ '/guide/core-base/' | relative_url }}). 크기는 **벽 안쪽 칸 수.**
 {: .tip}
 
-## 방 크기 전체 표
+## 방 크기
 
-공식 위키(Room Overlay) 기준입니다. 크기는 **벽 안쪽 칸 수**입니다. "배치도 크기"는 [전체 도면]({{ '/guide/core-base/#후반-완성-배치도' | relative_url }})에 실제로 그린 크기예요.
+{: .ico-grid}
+- {% include i.html n="Lavatory" %} **세척실 (Washroom)** 16×3 · 사기 +2
+- {% include i.html n="Shower" %} **샤워실** 16×4 · 샤워 +3
+- {% include i.html n="Comfy_Bed" %} **개인 침실 (Private Bedroom)** 6×4 · +3
+- {% include i.html n="Comfy_Bed" %} **호화 막사 (Luxury Barracks)** 16×4 · +2
+- {% include i.html n="Mess_Table" %} **큰 회관 (Great Hall)** 24×5 복층 · +4
+- {% include i.html n="Gas_Range" %} **주방 (Kitchen)** 24×4
+- {% include i.html n="Super_Computer" %} **연구소 (Laboratory)** 24×4 · 연구 +10%
+- {% include i.html n="Farm_Station" %} **온실 (Greenhouse)** 15×7 · 성장 2배
+- {% include i.html n="Grooming_Station" %} **외양간 (Stable)** 24×4
+- {% include i.html n="Coal_Generator" %} **발전소 (Power Plant)** 24×4
+- {% include i.html n="Water_Cooler" %} **오락실 (Recreation Room)** 24×4
+- {% include i.html n="Mirth_Leaf" %} **자연보호구역 (Nature Reserve)** 통로 3×28 · +6
+
+> 발전소·온실·목장·주방 말고는 **산업 기계 금지** (발전기·전해조·물 체·펌프·제련소). 산소 확산기·배터리·냉장고·미생물 걸죽기·전기 그릴은 괜찮음.
+{: .warn}
+
+<details class="nums" markdown="1">
+<summary>방 크기 전체 표 (범위·조건·효과)</summary>
 
 | 방 | 크기 범위 | 배치도 크기 | 조건 | 효과 |
 |---|---|---|---|---|
@@ -41,12 +59,11 @@ description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치,
 | 공원 (Park) | 12~64 | 초반 사다리 통로 3×21 ≈ 59 | 공원 표지판 + 야생 식물 2 | 지나가면 사기 +3 |
 | 자연보호구역 (Nature Reserve) | 32~120 | **사다리 통로 3×28 ≈ 79** | 공원 표지판 + 야생 식물 4 | 지나가면 사기 +6 |
 
-> 발전소·온실·목장·주방 말고는 거의 다 **산업 기계 금지**입니다. 수동 발전기를 포함한 모든 발전기, 전해조, 물 체, 펌프, 금속 제련소가 산업 기계예요. 반대로 산소 확산기, 조류 배양기, 보관함, 배터리, 미생물 걸죽기, 전기 그릴, 냉장고, 퇴비는 산업 기계가 **아닙니다**.
-{: .warn}
+</details>
 
 ## 생활 구역 방 배치
 
-매일 모든 복제체가 들르는 네 곳(침실 · 샤워실 · 식당 · 화장실)을 가운데에 모으는 게 목표입니다. 코어(24칸 폭)는 W 기존 가이드 순서대로 **포드 → 샤워실 → 화장실 → 식당**을 아래에서 위로 쌓고, 서쪽에 침실 블록, 동쪽에 실내 농장·목장을 둡니다.
+코어 24칸 폭에 아래부터 **포드 → 샤워실 → 화장실 → 식당**, 서쪽 침실 블록, 동쪽 실내 농장·목장.
 
 | 층 (위 → 아래) | 서쪽 (바깥 ← 통로) | 코어 24칸 | 동쪽 (통로 → 바깥) |
 |---|---|---|---|
@@ -57,15 +74,20 @@ description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치,
 | 5 | 마사지 클리닉 16 · 호화 막사 16 | **포드층 연구실** (포드 + 연구소 + 슈퍼컴퓨터) | 실내 목장: 주둥가리 24 |
 | 6 | 실내 목장: 기끌이 24 | 예비 (병원 등) | 깨끗한 물 수조 30 |
 
-- **침실은 한 블록**에 모았습니다 (W 기존 가이드 방식). 개인 침실 12개 + 호화 막사 4명 = 16명분이고, 각 침실 줄 끝(통로 쪽) 5칸은 **현관**(꽃병·장식)입니다. **환경 특수복 거치대는 침실 앞에 두지 않고** 위험 지역으로 나가는 출구(텔레포터·격벽 에어락 앞)에 체크포인트와 같이 둡니다. 실내만 다니면 특수복이 필요 없으니까요.
-- 서쪽 3칸 통로가 자연보호구역이라 침실에서 나오면 **바로 보호구역을 지나** 코어로 들어갑니다.
-- 코어의 식당(높이 5)과 화장실(높이 3)은 합쳐서 9칸이라, 양옆의 보통 두 층(4 + 바닥 + 4)과 높이가 같습니다. 그래서 양옆 격자는 그대로예요.
-- 화장실 옆 기계실(물 체·갈대)과 바로 아래 샤워실을 한 루프로 묶어요. 배관은 [화장실·샤워실 폐쇄 루프]({{ '/guide/core-base/envelope/' | relative_url }}#화장실샤워실-폐쇄-루프)에 있어요.
-- **샤워실은 포드 바로 위, 화장실 바로 아래**입니다. 바닥 한 줄 사이라 샤워실·화장실·물 체를 **한 폐쇄 루프**로 짧게 묶을 수 있어요. 화장실과 식당은 높이를 맞춘 짝이라 붙여 둡니다.
+<details class="nums" markdown="1">
+<summary>배치 이유</summary>
 
-## 한 방에 같이 두면 안 되는 것 (중첩 불가)
+- 침실은 한 블록 (개인 12 + 호화 막사 4 = 16명분). 침실 줄 끝 5칸은 현관(장식).
+- 환경 특수복 거치대는 침실 앞이 아니라 **위험 지역 출구**(텔레포터·격벽 에어락).
+- 서쪽 3칸 통로가 자연보호구역 → 침실에서 나오면 바로 버프.
+- 식당(높이 5) + 화장실(높이 3) = 9칸 = 보통 두 층, 양옆 격자 유지.
+- 샤워실·화장실·기계실(물 체·갈대)은 한 폐쇄 루프 ([배관]({{ '/guide/core-base/envelope/' | relative_url }}#화장실샤워실-폐쇄-루프)).
 
-방 조건끼리 부딪혀서, 업그레이드하려면 **초반 건물을 꼭 철거해야** 하는 조합입니다.
+</details>
+
+## 같이 두면 안 되는 것
+
+업그레이드하려면 초반 건물을 **철거**해야 하는 조합.
 
 | 같이 두면 | 결과 |
 |---|---|
@@ -78,41 +100,52 @@ description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치,
 | 수동 발전기·펌프·전해조 등 + 생활 방 | 산업 기계라 방 보너스 사라짐 |
 | 공원 + 자연보호구역 | 겹쳐서 받지 않음, +6이 +3을 덮어씀 |
 
-## 작업 속도 올리는 지원 건물 (2026년 11월 패치 U60)
+## 지원 건물 (U60, 2026-11-19)
 
-2026-11-19 **11월 QoL 업데이트 (U60-763796)** 에서 새로 생긴 **지원 건물 (Support Buildings)** 4종입니다. 연구실에 책장, 주방에 냄비 걸이, 작업장에 공구 선반을 두면 **근처 호환 건물의 작업(레시피) 속도가 올라갑니다.** 모드가 아니라 공식 무료 업데이트이고 기본 게임·Spaced Out! 모두 들어 있습니다. 짓고 나면 **복제체가 따로 일할 필요가 없고 전력도 안 씁니다.** W 세이브(빌드 764025)는 이미 이 패치 이후 버전이에요.
+근처 호환 건물의 작업 속도를 올림. **일꾼·전력 불필요.**
+
+{: .ico-grid}
+- {% include i.html n="Study_Tools" %} **연구 도구 (Study Tools)** 연구 +5%, **최대 4개 겹침**
+- {% include i.html n="Cooking_Tools" %} **조리 도구 (Cooking Tools)** 요리 +15%
+- {% include i.html n="Workshop_Tools" %} **워크숍 도구 (Workshop Tools)** 제작 +15%, 뒷벽
+- {% include i.html n="Forge_Tools" %} **단조 도구 (Forge Tools)** 제련 +15%
+
+<details class="nums" markdown="1">
+<summary>크기·연구·재료·범위·호환 건물</summary>
 
 | 지원 건물 | 크기 | 연구 | 재료 | 효과 | 겹침 | 범위 | 호환 건물 |
 |---|---|---|---|---|---|---|---|
 | **연구 도구** (Study Tools) 책장 | 1×4 | High Culture | 원석 400 kg + 섬유 2 | 연구 속도 **+5%** | **겹침** (최대 4개 = +20%) | 좌우 2칸, 아래 2줄 | 연구소, 슈퍼컴퓨터, 가상 플라네타륨 (Virtual Planetarium), 재료 연구 터미널 (Materials Study Terminal) `SO` |
-| **조리 도구** (Cooking Tools) 냄비 걸이 | 3×1 | Home Luxuries | 정제 금속 200 kg | 요리 속도 **+15%** | 안 겹침 | 좌우 2칸, 자기 줄 + 아래 2줄 | 전기 그릴, 가스 레인지, 향신료 분쇄기, 미생물 걸죽기, 튀김기 (Deep Fryer), 스모커 (Smoker), 탈수기 (Dehydrator), 알 크래커 (Egg Cracker), 스시 바 (Sushi Bar) |
+| **조리 도구** (Cooking Tools) 냄비 걸이 | 3×1 | Home Luxuries | 정제 금속 200 kg | 요리 속도 **+15%** | 안 겹침 | 좌우 2칸, 자기 줄 + 아래 2줄 | 전기 그릴, 가스 레인지, 향신료 분쇄기, 미생물 걸죽기, 튀김기 (Deep Fryer), 스모커 (Smoker), 탈수기 (Dehydrator), 알 크래커 (Egg Cracker), 스시바 (Sushi Bar) |
 | **워크숍 도구** (Workshop Tools) 공구 선반 | 3×1, **뒷벽 필요** | Plastic Manufacturing | 금속 광석 400 kg + 목재 100 kg | 제작 속도 **+15%** | 안 겹침 | 좌우 4칸, 자기 줄 + 아래 2줄 | 제작 스테이션 (Crafting Station), 쇄석기, 합판 프레스 (Plywood Press), 분자 제조소 (Molecular Forge), 땜질 스테이션 (Soldering Station) `생체공학`, 가황기 (Vulcanizer) `수중` |
 | **단조 도구** (Forge Tools) | 1×2 | Solid Control | 세라믹 600 kg + 정제 금속 200 kg | 제작 속도 **+15%** | 안 겹침 | 좌우 4칸, 자기 2줄 | 금속 제련소, 가마 (Kiln), 유리 제조소 (Glass Forge), 산소석 제련소 (Oxylite Refinery), 우라늄 원심분리기 `SO` |
 
-- **조건:** 호환 건물의 칸이 범위 안에 **한 칸이라도** 들어가면 됩니다. 건설할 때 범위가 미리보기로 보이고, 보너스가 붙으면 효과음과 상태 표시가 뜹니다.
-- **겹침:** 책장(연구 도구)만 여러 개가 더해집니다. 연구 건물 양옆 2칸씩 = **4개가 최대**(위키 팁). 나머지 셋은 하나만 있으면 끝이라 두 개 둘 필요가 없어요.
-- **범위:** 위 "좌우 몇 칸, 몇 줄"은 위키 범위 그림(Cell of Interest)을 읽은 값입니다. 위키 문서가 아직 미완성(stub)이라, 실제 자리는 **건설 미리보기의 범위 표시**로 한 번 확인하세요.
-- **한글 이름:** 위 한글 이름은 뜻으로 옮긴 임시 표기입니다. 게임 한글판 이름이 다르면 영어 이름이 기준이에요.
+- 호환 건물 칸이 범위에 **한 칸이라도** 들어가면 적용. 건설 미리보기로 범위 확인 (위키 문서가 아직 stub).
+- 연구소는 과학 보너스가 1/3로 계산되니 실제 값은 툴팁으로.
 
-> **왜 지금까지 가이드에 없었나:** 이 건물들은 10월 29일 공개 테스트(U60-761015, 당시 이름 Cuisine Tools)로 처음 나왔고 **정식 출시가 2026-11-19**, 일주일 전입니다. 부록 기준표에는 한 줄로만 적고 방 설계에 반영을 안 했던 게 빠진 부분이에요.
-{: .tip}
+</details>
 
 ### 연구실: 연구 건물 양옆에 책장 2칸씩
 
 <div class="bp-wrap" markdown="0">{% include bp/support-lab.svg %}</div>
 
-책장은 4칸 높이라 4칸 천장 방에 딱 맞습니다. 연구소·슈퍼컴퓨터 양옆 2칸씩 8개면 둘 다 **+20%**. 연구소는 Science 보너스가 다른 건물의 1/3로 계산되니 이 +5%도 줄어들 수 있어요. 실제 값은 연구소 툴팁으로 확인하세요. 연구소와 슈퍼컴퓨터 사이를 **2칸만** 띄우고 그 자리에 책장 2개를 세우면, 가운데 책장이 양쪽에 다 걸려서 **6개로 둘 다 +20%** 가 됩니다.
+연구 건물 사이를 **2칸만** 띄우고 책장을 세우면 가운데 책장이 양쪽에 걸려 **6개로 둘 다 +20%.**
 
 ### 주방: 조리대 묶음 위에 냄비 걸이 1개
 
 <div class="bp-wrap" markdown="0">{% include bp/support-kitchen.svg %}</div>
 
-향신료 분쇄기 · 전기 그릴 · 가스 레인지를 붙여 놓고 그 위 천장 줄에 걸면 셋 다 +15%. 냉장고는 호환 건물이 아니니 범위 밖에 둬도 됩니다.
+조리대 셋을 붙이고 천장 줄에 1개 → 셋 다 +15%.
 
 ### 정제·제련: 공구 선반 + 단조 도구
 
 <div class="bp-wrap" markdown="0">{% include bp/support-refining.svg %}</div>
 
-[정제 금속 페이지]({{ '/guide/core-base/refining/' | relative_url }})의 14×4 칸 그대로입니다. 워크숍 도구는 뒷벽이 있어야 하니 **이 방은 건식벽체(Drywall)를 칩니다.** 금속 제련소는 냉방실이 생긴 뒤에 짓는 건물이라 점선으로 그렸고, 단조 도구 자리 때문에 배치도보다 2칸 오른쪽(9~11번)으로 옮겼어요.
+[정제 금속]({{ '/guide/core-base/refining/' | relative_url }})의 14×4 칸. 워크숍 도구는 **뒷벽(건식벽체) 필요.** 금속 제련소(점선)는 냉방실 뒤에.
 
-출처: [위키 Versions/U60-763796 (11월 QoL 업데이트 패치 노트)](https://oxygennotincluded.wiki.gg/wiki/Versions/U60-763796), [Study Tools](https://oxygennotincluded.wiki.gg/wiki/Study_Tools), [Cooking Tools](https://oxygennotincluded.wiki.gg/wiki/Cooking_Tools), [Workshop Tools](https://oxygennotincluded.wiki.gg/wiki/Workshop_Tools), [Forge Tools](https://oxygennotincluded.wiki.gg/wiki/Forge_Tools). 건물 아이콘 © Klei Entertainment.
+<details class="nums" markdown="1">
+<summary>출처</summary>
+
+[위키 Versions/U60-763796 (11월 QoL 업데이트 패치 노트)](https://oxygennotincluded.wiki.gg/wiki/Versions/U60-763796), [Study Tools](https://oxygennotincluded.wiki.gg/wiki/Study_Tools), [Cooking Tools](https://oxygennotincluded.wiki.gg/wiki/Cooking_Tools), [Workshop Tools](https://oxygennotincluded.wiki.gg/wiki/Workshop_Tools), [Forge Tools](https://oxygennotincluded.wiki.gg/wiki/Forge_Tools). 건물 아이콘 © Klei Entertainment.
+
+</details>

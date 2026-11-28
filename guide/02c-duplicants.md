@@ -35,6 +35,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **Stress Reaction** | 스트레스가 100%가 되면 하는 행동 |
 | **Overjoyed Response** | 사기(Morale)가 기대치보다 한참 높을 때 가끔 나오는 좋은 행동 |
 | 맨 아래 이탤릭 글 | 설정 문구. 게임에 영향 없음 |
+
 </details>
 
 ## 관심과 능력치
@@ -104,6 +105,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **과학 (Science)** | 연구만이 아니라 **모든 능력치가 자라는 속도**를 올립니다. Marie의 Science 2는 농사 실력이 **20% 빨리** 크는 효과예요. |
 | **운동 (Athletics)** | 이동 속도. 오가는 시간이 줄어서 모든 일이 빨라짐. 환경 특수복을 입으면 −6이 붙어서 외부 인력에게 특히 중요 |
 | **힘 (Strength)** | 한 번에 나르는 양. 운반이 많은 초반에 은근히 큼 |
+
 </details>
 
 ## 특성
@@ -149,6 +151,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **글로우 스틱 (Glow Stick)** (우주 탐사) | 빛 500 lux를 내고 방사능 저항 +33%. 대신 본인도 방사능을 냄 | Epic | ➖ |
 | **방사선을 먹는 자 (Radiation Eater)** (우주 탐사) | 방사능을 흡수해 칼로리로 바꿈 (하루 최대 50 kcal) | Epic | ➖ |
 | **Skilled: ○○** | 스킬 하나를 **사기 부담 없이** 미리 배운 상태 | Epic~Legendary | ✅ 담당과 맞으면 ✅✅ |
+
 </details>
 
 <details class="nums" markdown="1">
@@ -162,6 +165,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **요리공포증 (Gastrophobia)** | 요리 | 0 | ⚠️ 요리 담당만 아니면 괜찮음 |
 | **비위가 약함 (Squeamish)** | 치료 | 0 | ➖ 거의 상관없음 |
 | **평화주의자 (Pacifist)** | 동물 공격 | 0 | ➖ 거의 상관없음 |
+
 </details>
 
 <details class="nums" markdown="1">
@@ -180,6 +184,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **과민성 대장 (Irritable Bowel)** | 화장실 속도 −50% | +1 | ➖ |
 | **작은 방광 (Small Bladder)** | 방광 차는 속도가 아주 조금 빨라짐 | +1 | ✅ 실제 영향은 거의 없음 (공짜 +1) |
 | **초라한 드레서 (Shabby Dresser)** | 본인 주변 장식도 −15 | +1 | ➖ |
+
 </details>
 
 <details class="nums" markdown="1">
@@ -198,6 +203,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **무관심 (Unempathetic)** | Medicine −3 | +2 | ✅ 아래 참고 |
 | **주방 위협 (Kitchen Menace)** | Cuisine −3, **음식 품질을 한 단계 높게 느낌** | +2 | ✅✅ 아래 참고 |
 | **미숙한 아티스트 (Unpracticed Artist)** | Creativity −3, **장식 사기 보너스 +5** | +2 | ✅✅ 아래 참고 |
+
 </details>
 
 <details class="nums" markdown="1">
@@ -220,6 +226,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | **이빵 Liceloaf** (0) | 0 | **+1** |
 | 구운 버섯, 그리슬 베리 (+1) | +1 | **+4** |
 | 오믈렛, 생선 필레 (+2) | +4 | **+8** |
+
 </details>
 
 ## 스트레스 반응
@@ -246,6 +253,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | 3 | **밴시 (Banshee)** | 8칸 안의 보이는 복제체들에게 스트레스를 줌 (+10%/사이클, 반 사이클 동안) | ❌ 연쇄로 다른 복제체까지 터질 수 있음 |
 | 4 | **파괴적 (Destructive)** | 주변 건물과 타일을 부숨 | ❌ 산소·전력 설비가 망가질 수 있음 |
 | 5 | **폭식가 (Binge Eater)** | 음식 2,000 kcal를 **3번**(총 6,000 kcal) 먹어 치움. 주변 장식도 −30 | ❌ 복제체 6일치 식량이 한 번에 사라짐. 초반엔 가장 위험 |
+
 </details>
 
 **기쁨 반응 (Overjoyed Response)** 은 사기가 요구치보다 8 이상 높을 때 20~50사이클에 한 번 꼴이라 **고를 때 무시.**
@@ -260,6 +268,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | 2 | **요들러 (Yodeler)** | 본인 Machinery·Construction·Strength +8, 주변 복제체 +5 (1사이클) |
 | 4 | **스파클 스트리커 (Sparkle Streaker)** | 본인 Athletics +8, 지나간 자리의 복제체 Athletics +5 (1사이클) |
 | 5 | **스티커 폭탄사 (Sticker Bomber)** | 스티커마다 반경 3칸 장식도 +20 |
+
 </details>
 
 ## 스킬과 사기
@@ -286,6 +295,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | 식당(Mess Hall) | +3 |
 | 이빵(품질 0) / 구운 버섯(품질 +1) | 0 / +1 |
 | 쉬는 시간 (일정 칸 수에 따라) | 0~+5 |
+
 </details>
 
 > **외부 인력 (환경 특수복 담당)은 Suit Wearing + 공급 (Supplying) 관심**이 사기 부담이 가장 적습니다 (요구치 4). 특수복이 굴착 +10을 줘서 굴착 관심은 없어도 됨. 프린팅팟에서 나오면 받기.
@@ -300,6 +310,7 @@ description: 시작 화면에서 첫 복제체 3명을 고를 때 보는 관심(
 | Athletics −6 없애기 | **외부특수복 훈련 (Exosuit Training)** 스킬 (Suit Wearing 3단계, Athletics +2도 줌) |
 | 배우는 길 | Improved Carrying I (Supplying 1단계) → (우주 탐사: Rocket Piloting, Rocketry 1단계) → Suit Sustainability Training (Suit Wearing 2단계) → **외부특수복 훈련 (Exosuit Training)** (3단계) |
 | 사기 요구치 합계 | 관심 없음: 1 + 1 + 2 + 3 = **7** · Suit Wearing 관심: 1 + 1 + 1 + 2 = **5** · Suit Wearing + Supplying 관심: **4** |
+
 </details>
 
 ## 일반 vs 바이오닉
