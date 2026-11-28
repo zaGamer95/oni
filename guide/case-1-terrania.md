@@ -14,10 +14,13 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 * 목차
 {:toc}
 
-> 일반 가이드는 "대부분의 판에 맞는 순서"이고, 이 페이지는 **한 판에 완전히 맞춘 기록**입니다. 이 판에서 더 나은 순서가 나오면 일반 가이드도 고칩니다. 반영한 내용은 [아래](#이-판에서-가이드로-옮긴-것)에 모았어요.
+> 일반 가이드는 "대부분의 판에 맞는 순서", 이 페이지는 **한 판의 기록**. 여기서 더 나은 순서가 나오면 가이드도 고칩니다 ([반영한 것](#이-판에서-가이드로-옮긴-것)).
 {: .tip}
 
 ## 챕터
+
+<details class="nums" markdown="1">
+<summary>챕터 목록 (11개)</summary>
 
 | 장 | 행성 | 내용 |
 |---|---|---|
@@ -32,38 +35,54 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 | [3장 두 기지 교환 구조]({{ '/guide/case/terrania-1/link/' | relative_url }}) | 두 행성 | Oozato·본진이 주고받는 것, 사이클당 양, 여는 순서 |
 | [4장 세 번째 행성과 그다음]({{ '/guide/case/terrania-1/next/' | relative_url }}) | 방사능 숲 외 | 첫 로켓, 이후 행성 순서 |
 
-## 시작 설정: 행성 트레잇
+</details>
 
-{% include shot.html src="case1-traits.jpg" caption="이 판의 시작 화면. Terrania 클러스터, 생존 확률 Ideal, 스토리 트레잇 5개." %}
+## 시드: 가까운 두 행성이 둘 다 금속
+
+{% include shot.html src="case1-traits.jpg" caption="시작 화면. Terrania 클러스터, 생존 확률 Ideal, 스토리 트레잇 5개." %}
+
+{: .ico-grid}
+- {% include i.html n="Terrania_Asteroid" %} **Terrania (시작)** 나쁜 트레잇 없음
+- {% include i.html n="Oily_Swamp_Asteroid" %} **기름진 늪 소행성 (Oily Swamp Asteroid)** 텔레포터, 금속 동굴 (Metallic Caves)
+- {% include i.html n="Irradiated_Forest_Asteroid" %} **방사능 가득한 숲 소행성 (Irradiated Forest Asteroid)** 첫 로켓, 금속 풍족 (Metal Rich) + 금속 동굴
+- {% include i.html n="Cryotank_3000" %} **표토 소행성** 언 친구 (Frozen Friend), 결원 충원용
+
+<details class="nums" markdown="1">
+<summary>좌표와 소행성별 트레잇 전체</summary>
 
 | 항목 | 값 |
 |---|---|
 | 게임 | Spaced Out! + 모든 DLC |
-| 클러스터 | **Terrania 클러스터** (시작: Terrania 소행성, 사암 시작) |
+| 클러스터 | **Terrania 클러스터** (사암 시작) |
 | 좌표 | `SNDST-C-933086379-HIJYM31-V9-CKZRH…` (스크린샷에서 잘린 부분까지) |
 | 생존 확률 | Ideal |
 
-### 소행성별 트레잇
-
-| 소행성 | 거리 | 트레잇 | 이 판에서의 의미 |
+| 소행성 | 거리 | 트레잇 | 의미 |
 |---|---|---|---|
-| **Terrania** (시작) | | 없음 | 나쁜 트레잇 없음 → 합격 |
-| **방사능 숲** (Irradiated Forest) | 근처 | **Metal Rich + Metallic Caves** ✅✅ | 세 번째 행성. 우라늄에 금속까지 많은 곳 |
-| **기름 늪** (Oily Swamp) | 근처, **텔레포터** | **Metallic Caves** ✅ | 두 번째 행성. 원유·황에 금속 광석 동굴까지 |
-| 툰드라 (Tundra) | 먼 곳 | Metal Poor | 늦게 가니 상관없음 |
-| 습지 (Marshy) | 먼 곳 | **Metal Rich** ✅ | 네 번째 후보 |
-| 레골리스 (Regolith) | 먼 곳 | **Frozen Friend** ✅ | 냉동 탱크 1명 더. 결원 충원용 |
-| 무 (Moo), 물 (Water) | 먼 곳 | 없음 | |
+| **Terrania** (시작) | | 없음 | 합격 |
+| **방사능 숲** | 근처 | 금속 풍족 + 금속 동굴 ✅✅ | 세 번째 행성. 우라늄 + 금속 |
+| **기름 늪** | 근처, 텔레포터 | 금속 동굴 ✅ | 두 번째 행성. 원유·황 + 금속 광석 |
+| 툰드라 | 먼 곳 | 금속 부족 (Metal Poor) | 늦게 가니 무관 |
+| 습지 | 먼 곳 | 금속 풍족 ✅ | 네 번째 후보 |
+| 표토 | 먼 곳 | 언 친구 ✅ | 냉동 탱크 1명 더 |
+| 무, 물 | 먼 곳 | 없음 | |
 
-**스토리 트레잇 5개:** Somnium Synthesizer, Mysterious Hermit, Printerceptor, Critter Flux-O-Matic, Biobot Builder. 각각 무엇인지는 [3 트레잇과 시드 리롤]({{ '/guide/traits/#스토리-트레잇-전체-6개' | relative_url }}).
+스토리 트레잇 5개: 솜늄 합성기 (Somnium Synthesizer), 신비한 은둔자 (Mysterious Hermit), 프린터셉터 (Printerceptor), 크리터 플럭스-오-매틱 (Critter Flux-O-Matic), 바이오봇 빌더 (Biobot Builder). 자세히는 [3 트레잇과 시드 리롤]({{ '/guide/traits/#스토리-트레잇-전체-6개' | relative_url }}).
 
-**왜 이 시드로 시작했나:** 시작 행성에 ❌가 없고, **가까운 두 행성(텔레포터로 가는 기름 늪, 첫 로켓으로 가는 방사능 숲)이 둘 다 금속 트레잇**이에요. 시작 행성을 안정시킨 뒤 옆 행성을 같이 키우는 이 판의 흐름에 딱 맞는 시드였습니다.
+</details>
 
-## 복제체 (사이클 108 기준)
+## 복제체 8명 (사이클 108)
 
-{% include shot.html src="case1-duplicants.jpg" caption="사이클 108 복제체 목록. 시작 행성(Persephazon) 6명, 두 번째 행성(Oozato) 2명. 사기는 '지금/요구치'." %}
+{% include shot.html src="case1-duplicants.jpg" caption="시작 행성 Persephazon(=Terrania) 6명, 두 번째 행성 Oozato(=기름 늪) 2명. 사기는 '지금/요구치'." %}
 
-이 판에서는 행성 이름을 바꿔 부릅니다: 시작 행성 Terrania = **Persephazon**, 두 번째 행성 기름 늪 = **Oozato**.
+{: .ico-grid}
+- {% include i.html n="Printing_Pod" %} **8명 달성** 프린팅팟 7 + 냉동 탱크 1
+- **말랑 사기 여유 0** 굴착 스킬 요구치. 스킬 아껴 두기
+- {% include i.html n="Teleporter_Transmitter" %} **Oozato 2명** 청소+특수복, 굴착+건설
+- **첫 로켓** 본진 1명이 로켓 공학 (Rocketry) 찍고 왕복
+
+<details class="nums" markdown="1">
+<summary>복제체별 역할·위치·사기, 배치 계획</summary>
 
 | 복제체 | 역할 | 있는 곳 | 사기 (지금/요구) | 여유 |
 |---|---|---|---|---|
@@ -76,22 +95,20 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 | 노먼 | **청소 + 특수복** (냉동 탱크에서 해동) | Oozato | 12 / 6 | +6 |
 | 배시시 | **굴착 + 건설** (뽑아서 보냄) | Oozato | 11 / 1 | +10 |
 
-- 목표였던 **8명을 사이클 108에 채웠습니다.** 프린팅팟 7명 + 냉동 탱크 1명.
-- **말랑은 사기 여유가 0**입니다. 굴착 스킬을 많이 찍어서 요구치가 높아요. 스킬을 더 찍기 전에 사기를 올리거나 스킬 포인트를 아껴 두세요. ([18 8명 중반 설계의 사기 예산]({{ '/guide/midgame-8/#사기-예산-행복도-높게-유지' | relative_url }}))
-- 두 번째 행성은 **청소+특수복 1명, 굴착+건설 1명**. 굴착과 건설을 둘이서 다 하는 조합이에요.
-
-행복도(사기)는 높게, 시작 행성은 4교대입니다.
-
-## 8명 배치 (이 판)
-
-| 구간 | Persephazon (시작) | Oozato (기름 늪) | 로켓 |
+| 구간 | Persephazon | Oozato | 로켓 |
 |---|---|---|---|
-| 사이클 108 (지금) | 양자역학싫어요, 감자, 마이메, 말랑, 안성재, 젠슨황 (6) | 노먼, 배시시 (2) | |
-| 첫 로켓 | 5명 | 2명 | 1명 (조종, 방사능 숲 왕복) |
+| 사이클 108 | 6 | 노먼, 배시시 (2) | |
+| 첫 로켓 | 5 | 2 | 1 (방사능 숲 왕복) |
 
-- 로켓 조종 전담은 따로 안 뽑았습니다. 첫 로켓 때 시작 행성 6명 중 한 명이 Rocketry 스킬을 찍고 다녀오거나, 결원이 생기면 레골리스 냉동 탱크로 채웁니다.
+- 4교대, 사기 높게. 사기 예산은 [18 8명 중반 설계]({{ '/guide/midgame-8/#사기-예산-행복도-높게-유지' | relative_url }}).
+- 결원이 생기면 표토 소행성 냉동 탱크로 충원.
+
+</details>
 
 ## 이 판에서 가이드로 옮긴 것
+
+<details class="nums" markdown="1">
+<summary>본 것 → 반영한 페이지</summary>
 
 | 이 판에서 본 것 | 가이드에 반영 |
 |---|---|
@@ -99,3 +116,5 @@ description: W의 실제 Spaced Out! 판(Terrania 클러스터)을 처음 시드
 | 두 번째 행성은 "자원 공장"이 아니라 같이 크는 기지 | [18 8명 중반 설계]({{ '/guide/midgame-8/' | relative_url }})의 기름 늪 부분을 병행 개발 기준으로 수정 |
 | 텔레포트는 연구가 필요 없음 | [7 초반 테크]({{ '/guide/research/early/' | relative_url }}) 3구간 끝에 "여기서 두 번째 행성" 표시 |
 | 가까운 행성 트레잇이 시작 행성만큼 중요 | [3 트레잇과 시드 리롤]({{ '/guide/traits/' | relative_url }})의 합격 예시가 이 판의 시드 |
+
+</details>
