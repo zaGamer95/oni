@@ -38,7 +38,7 @@ description: 재료 과학 연구(Materials Science Research)를 누르는 순�
 | 우선 | 기술 | 이걸로 짓는 것 |
 |---|---|---|
 | ★ | **재생 가능 에너지** (Renewable Energy) | **증기 터빈 (Steam Turbine)**, 솔라 패널, 증기 엔진 (로켓). 열액체조화기 열을 전기로 회수 |
-| ★ | **초과열 제조** (Superheated Forging) | 유리 용광로, **지오튜너 (Geotuner)**, 벙커 타일 |
+| ★ | **초과열 제조** (Superheated Forging) | 유리 제조소, **지오튜너 (Geotuner)**, 벙커 타일 |
 | ★ | **밸브 소형화** (Valve Miniaturization) | 소형 기체·액체 펌프 |
 | ★ | **내구성 뛰어난 생명 유지 장치** (Durable Life Support) | 기본 노즈콘, **우주여행자 모듈 (Spacefarer Module)**, 유물 분석기 |
 | ★ | **방사선 보호** (Radiation Protection) | **납 특수복 (Lead Suit)**. 우라늄 캐기 전에 |

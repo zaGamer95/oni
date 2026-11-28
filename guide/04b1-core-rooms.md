@@ -84,13 +84,13 @@ description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치,
 
 | 지원 건물 | 크기 | 연구 | 재료 | 효과 | 겹침 | 범위 | 호환 건물 |
 |---|---|---|---|---|---|---|---|
-| **학습 도구** (Study Tools) 책장 | 1×4 | High Culture | 원석 400 kg + 섬유 2 | 연구 속도 **+5%** | **겹침** (최대 4개 = +20%) | 좌우 2칸, 아래 2줄 | 연구소, 슈퍼컴퓨터, 가상 천체관 (Virtual Planetarium), 재료 연구 단말 (Materials Study Terminal) `SO` |
-| **요리 도구** (Cooking Tools) 냄비 걸이 | 3×1 | Home Luxuries | 정제 금속 200 kg | 요리 속도 **+15%** | 안 겹침 | 좌우 2칸, 자기 줄 + 아래 2줄 | 전기 그릴, 가스 레인지, 향신료 분쇄기, 미생물 분쇄기, 튀김기 (Deep Fryer), 훈제기 (Smoker), 탈수기 (Dehydrator), 알 깨는 기계 (Egg Cracker), 스시 바 (Sushi Bar) |
-| **작업장 도구** (Workshop Tools) 공구 선반 | 3×1, **뒷벽 필요** | Plastic Manufacturing | 금속 광석 400 kg + 목재 100 kg | 제작 속도 **+15%** | 안 겹침 | 좌우 4칸, 자기 줄 + 아래 2줄 | 제작대 (Crafting Station), 암석 분쇄기, 합판 압착기 (Plywood Press), 분자 단조기 (Molecular Forge), 납땜 작업대 (Soldering Station) `생체공학`, 가황기 (Vulcanizer) `수중` |
-| **제련 도구** (Forge Tools) | 1×2 | Solid Control | 세라믹 600 kg + 정제 금속 200 kg | 제작 속도 **+15%** | 안 겹침 | 좌우 4칸, 자기 2줄 | 금속 정제기, 가마 (Kiln), 유리 용광로 (Glass Forge), 산소석 정제기 (Oxylite Refinery), 우라늄 원심분리기 `SO` |
+| **연구 도구** (Study Tools) 책장 | 1×4 | High Culture | 원석 400 kg + 섬유 2 | 연구 속도 **+5%** | **겹침** (최대 4개 = +20%) | 좌우 2칸, 아래 2줄 | 연구소, 슈퍼컴퓨터, 가상 플라네타륨 (Virtual Planetarium), 재료 연구 터미널 (Materials Study Terminal) `SO` |
+| **조리 도구** (Cooking Tools) 냄비 걸이 | 3×1 | Home Luxuries | 정제 금속 200 kg | 요리 속도 **+15%** | 안 겹침 | 좌우 2칸, 자기 줄 + 아래 2줄 | 전기 그릴, 가스 레인지, 향신료 분쇄기, 미생물 걸죽기, 튀김기 (Deep Fryer), 스모커 (Smoker), 탈수기 (Dehydrator), 알 크래커 (Egg Cracker), 스시 바 (Sushi Bar) |
+| **워크숍 도구** (Workshop Tools) 공구 선반 | 3×1, **뒷벽 필요** | Plastic Manufacturing | 금속 광석 400 kg + 목재 100 kg | 제작 속도 **+15%** | 안 겹침 | 좌우 4칸, 자기 줄 + 아래 2줄 | 제작 스테이션 (Crafting Station), 쇄석기, 합판 프레스 (Plywood Press), 분자 제조소 (Molecular Forge), 땜질 스테이션 (Soldering Station) `생체공학`, 가황기 (Vulcanizer) `수중` |
+| **단조 도구** (Forge Tools) | 1×2 | Solid Control | 세라믹 600 kg + 정제 금속 200 kg | 제작 속도 **+15%** | 안 겹침 | 좌우 4칸, 자기 2줄 | 금속 제련소, 가마 (Kiln), 유리 제조소 (Glass Forge), 산소석 제련소 (Oxylite Refinery), 우라늄 원심분리기 `SO` |
 
 - **조건:** 호환 건물의 칸이 범위 안에 **한 칸이라도** 들어가면 됩니다. 건설할 때 범위가 미리보기로 보이고, 보너스가 붙으면 효과음과 상태 표시가 뜹니다.
-- **겹침:** 책장(학습 도구)만 여러 개가 더해집니다. 연구 건물 양옆 2칸씩 = **4개가 최대**(위키 팁). 나머지 셋은 하나만 있으면 끝이라 두 개 둘 필요가 없어요.
+- **겹침:** 책장(연구 도구)만 여러 개가 더해집니다. 연구 건물 양옆 2칸씩 = **4개가 최대**(위키 팁). 나머지 셋은 하나만 있으면 끝이라 두 개 둘 필요가 없어요.
 - **범위:** 위 "좌우 몇 칸, 몇 줄"은 위키 범위 그림(Cell of Interest)을 읽은 값입니다. 위키 문서가 아직 미완성(stub)이라, 실제 자리는 **건설 미리보기의 범위 표시**로 한 번 확인하세요.
 - **한글 이름:** 위 한글 이름은 뜻으로 옮긴 임시 표기입니다. 게임 한글판 이름이 다르면 영어 이름이 기준이에요.
 
@@ -109,10 +109,10 @@ description: 방 종류별 크기 범위와 배치도 크기, 층별 방 배치,
 
 향신료 분쇄기 · 전기 그릴 · 가스 레인지를 붙여 놓고 그 위 천장 줄에 걸면 셋 다 +15%. 냉장고는 호환 건물이 아니니 범위 밖에 둬도 됩니다.
 
-### 정제·제련: 공구 선반 + 제련 도구
+### 정제·제련: 공구 선반 + 단조 도구
 
 <div class="bp-wrap" markdown="0">{% include bp/support-refining.svg %}</div>
 
-[정제 금속 페이지]({{ '/guide/core-base/refining/' | relative_url }})의 14×4 칸 그대로입니다. 작업장 도구는 뒷벽이 있어야 하니 **이 방은 뒷벽(Drywall)을 칩니다.** 금속 정제기는 냉방실이 생긴 뒤에 짓는 건물이라 점선으로 그렸고, 제련 도구 자리 때문에 배치도보다 2칸 오른쪽(9~11번)으로 옮겼어요.
+[정제 금속 페이지]({{ '/guide/core-base/refining/' | relative_url }})의 14×4 칸 그대로입니다. 워크숍 도구는 뒷벽이 있어야 하니 **이 방은 건식벽체(Drywall)를 칩니다.** 금속 제련소는 냉방실이 생긴 뒤에 짓는 건물이라 점선으로 그렸고, 단조 도구 자리 때문에 배치도보다 2칸 오른쪽(9~11번)으로 옮겼어요.
 
 출처: [위키 Versions/U60-763796 (11월 QoL 업데이트 패치 노트)](https://oxygennotincluded.wiki.gg/wiki/Versions/U60-763796), [Study Tools](https://oxygennotincluded.wiki.gg/wiki/Study_Tools), [Cooking Tools](https://oxygennotincluded.wiki.gg/wiki/Cooking_Tools), [Workshop Tools](https://oxygennotincluded.wiki.gg/wiki/Workshop_Tools), [Forge Tools](https://oxygennotincluded.wiki.gg/wiki/Forge_Tools). 건물 아이콘 © Klei Entertainment.
